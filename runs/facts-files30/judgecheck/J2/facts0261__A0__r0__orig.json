@@ -1,0 +1,246 @@
+{
+ "run": "facts0261__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt` (a GDAE teaching module by Brian Roach, \"Taxes in the United States: History, Fairness, and Current Political Issues\"), here is the history of U.S. taxation as presented in the document:",
+   "label": "supported",
+   "rationale": "The title page confirms the title, author, and series, and the document contains a section on U.S. tax history."
+  },
+  {
+   "sentence": "The U.S. Constitution restricted \"direct\" federal taxation (taxes directly on individuals), so the federal government relied on indirect taxes: tariffs on imports and excise taxes.",
+   "label": "supported",
+   "rationale": "The context explicitly identifies the constitutional restriction and the indirect taxes used instead."
+  },
+  {
+   "sentence": "Tariffs were the major source of government receipts from the founding of the nation into the early 1900s — in 1800, customs duties were about 84% of government receipts.",
+   "label": "supported",
+   "rationale": "The context gives both the period when tariffs were dominant and the 84% figure for 1800."
+  },
+  {
+   "sentence": "As late as 1900, over 60% of internal revenue collections came from alcohol excise taxes and another 20% from tobacco.",
+   "label": "supported",
+   "rationale": "The context gives both percentages for internal revenue collections in 1900."
+  },
+  {
+   "sentence": "The framers, wary of the power to tax (taxation of the colonies by England had driven the Revolution), favored decentralized taxation, delegating most revenue collection to localities that relied primarily on property taxes.",
+   "label": "supported",
+   "rationale": "The context connects the framers’ wariness to colonial taxation and describes their reliance on local revenue collection and property taxes."
+  },
+  {
+   "sentence": "In peacetime, modest excise taxes and tariffs sufficed; in wartime (e.g., the War of 1812), taxes were temporarily raised and then cut after public opposition.",
+   "label": "supported",
+   "rationale": "The context describes modest peacetime taxes, temporary wartime increases, and subsequent reductions in response to public opposition."
+  },
+  {
+   "sentence": "Government was small relative to the economy: in the late 1800s government expenditures were only about 2% of national output, versus about 20% in 2010.",
+   "label": "supported",
+   "rationale": "The context gives the same comparison, describing the 2010 figure as expenditures and investment at all levels of government."
+  },
+  {
+   "sentence": "The Civil War raised excise and tariff rates (revenue collections rose sevenfold between 1863 and 1866) and produced the first national income tax.",
+   "label": "supported",
+   "rationale": "The context attributes the higher rates and the first national income tax to the Civil War and gives the sevenfold revenue increase."
+  },
+  {
+   "sentence": "With a maximum rate of 10% and generous exemptions, only about 10% of households paid it, yet it generated over 20% of federal revenues in 1865.",
+   "label": "supported",
+   "rationale": "The context gives the maximum rate, the exemptions, the share of households subject to the tax, and its contribution to federal revenue."
+  },
+  {
+   "sentence": "Few politicians favored keeping it, and it expired in 1872.",
+   "label": "supported",
+   "rationale": "The context states that few politicians wanted to retain the tax and that it was allowed to expire in 1872."
+  },
+  {
+   "sentence": "The Populist movement of the late 1800s revived the income tax as a progressive, ability-to-pay vehicle of social justice (a response to monopoly profits and concentrated wealth), not mainly as a revenue source.",
+   "label": "supported",
+   "rationale": "The context identifies the Populists’ reasons for reviving interest in the tax and explicitly distinguishes their social goals from revenue raising."
+  },
+  {
+   "sentence": "A federal income tax with a $4,000 exemption was instituted in 1894, but the Supreme Court ruled it unconstitutional in 1895.",
+   "label": "supported",
+   "rationale": "The context gives the same exemption, enactment year, and date of the Supreme Court ruling."
+  },
+  {
+   "sentence": "After failed amendment attempts, the 16th Amendment was ratified in 1913, creating the legal basis for the federal income tax.",
+   "label": "supported",
+   "rationale": "The context describes the earlier defeats and states what the 1913 ratification accomplished."
+  },
+  {
+   "sentence": "The initial tax was progressive but mild — only about 2% of households paid it, at rates of just 1%–7%.",
+   "label": "supported",
+   "rationale": "The context describes the initial tax as progressive and gives both the early share of households paying it and the rate range."
+  },
+  {
+   "sentence": "World War I transformed the income tax: the top marginal rate jumped from 7% in 1915 to 67% in 1917; corporate taxes became a major revenue source (over a quarter of internal revenue in 1917); and the estate tax was created in 1916 as an instrument of progressive taxation.",
+   "label": "supported",
+   "rationale": "The context describes the wartime transformation and gives all three policy and revenue details."
+  },
+  {
+   "sentence": "Unlike after earlier wars, much of the WWI tax system remained.",
+   "label": "supported",
+   "rationale": "The context explicitly contrasts the persistence of the World War I tax system with what happened after previous wars."
+  },
+  {
+   "sentence": "Tariffs fell from about half of government receipts in 1910 to under 15% by 1925, while corporate and individual income taxes made up nearly half of receipts in the mid-1920s.",
+   "label": "supported",
+   "rationale": "The context gives the same dates and shares for tariffs and for the two income taxes combined."
+  },
+  {
+   "sentence": "Excise collections dropped sharply, especially during Prohibition.",
+   "label": "supported",
+   "rationale": "The context explicitly describes a significant decline, particularly during Prohibition."
+  },
+  {
+   "sentence": "The Great Depression cut federal receipts; rates were raised in 1932.",
+   "label": "supported",
+   "rationale": "The context attributes the decline in receipts to the Depression and dates the rate increase to 1932."
+  },
+  {
+   "sentence": "FDR made progressive taxation a key element of the New Deal, but the most significant measure was old-age insurance (Social Security), funded by a separate tax split equally between employers and employees (initially 2%, 1% each) — a design that protected it from political attack.",
+   "label": "supported",
+   "rationale": "The context identifies Roosevelt’s New Deal priority, calls old-age insurance the most significant measure, and gives the funding split, initial rate, and political rationale."
+  },
+  {
+   "sentence": "World War II produced the most dramatic shift.",
+   "label": "unsupported",
+   "rationale": "The context calls the wartime shift the most dramatic since 1916, not the most dramatic without qualification."
+  },
+  {
+   "sentence": "FDR sought to tax corporations and high incomes heavily (he proposed capping net income after taxes at $25,000, but lacked Congressional support).",
+   "label": "supported",
+   "rationale": "The context identifies the groups Roosevelt sought to tax, quotes his proposed after-tax ceiling, and says he could not secure enough congressional support."
+  },
+  {
+   "sentence": "The compromise halved personal exemptions between 1939 and 1942, so the income tax reached the middle class for the first time; the top rate applied to income as low as $200,000 by 1942 (down from $5 million in 1941), and the top marginal rate hit a record 94% in 1944.",
+   "label": "supported",
+   "rationale": "The context links the halved exemptions to the tax reaching well into the middle class and gives the same top-bracket thresholds and record rate."
+  },
+  {
+   "sentence": "Payroll withholding was introduced.",
+   "label": "supported",
+   "rationale": "The context identifies withholding federal taxes from employee paychecks as a wartime change."
+  },
+  {
+   "sentence": "Individual taxpayers grew from 3.9 million in 1939 to 42.6 million in 1945, and federal income tax collections leaped from $2.2 billion to $35.1 billion.",
+   "label": "supported",
+   "rationale": "The context gives the same taxpayer counts, dates, and collection amounts."
+  },
+  {
+   "sentence": "By the end of the war, nearly 90% of the labor force filed returns and about 60% paid income taxes; federal income tax's share of all taxes collected rose from 16% in 1940 to over 51% by 1950.",
+   "label": "supported",
+   "rationale": "The context gives both labor-force percentages and the change in federal income tax’s share of all collections."
+  },
+  {
+   "sentence": "After WWII, much of this structure remained, with both parties supporting a progressive but broad income tax, relatively flat corporate rates, and regressive social insurance taxes.",
+   "label": "supported",
+   "rationale": "The context states that much of the wartime structure persisted and lists the same three elements of bipartisan support."
+  },
+  {
+   "sentence": "Changes between the end of WWII and the 1980s were generally minor: the Social Security tax rose from 2% to 6.13% by 1979; Medicare and Medicaid were established in the 1960s; and the 1964 across-the-board tax cut lowered the top marginal rate from 91% (1963) to 70% (1965).",
+   "label": "supported",
+   "rationale": "The context characterizes the period the same way and gives each program date and rate change."
+  },
+  {
+   "sentence": "Government spending grew from under 18% of GDP in 1946 to over 22% by the mid-1970s.",
+   "label": "supported",
+   "rationale": "The context gives these same figures for total government expenditure and investment."
+  },
+  {
+   "sentence": "The 1980s ended this stasis.",
+   "label": "supported",
+   "rationale": "The context explicitly dates the end of the period of relative stability to the 1980s."
+  },
+  {
+   "sentence": "Reagan's Economic Recovery Tax Act of 1981 (ERTA) enacted the largest tax cut in American history (in constant dollars), on supply-side reasoning; it phased the top rate down from 70% to 50%, cut corporate taxes, and indexed many parameters to inflation.",
+   "label": "supported",
+   "rationale": "The context identifies the act’s size in inflation-adjusted terms, its supply-side rationale, and the listed provisions."
+  },
+  {
+   "sentence": "In practice, ERTA produced the largest revenue reduction of any tax bill since WWII, and the 1982 act imposed the largest peacetime tax increase.",
+   "label": "supported",
+   "rationale": "The context reports both comparisons, attributing the estimate of ERTA’s revenue effect to an analysis."
+  },
+  {
+   "sentence": "Social Security reforms in 1983 raised its tax rates and began taxing some benefits.",
+   "label": "supported",
+   "rationale": "The context explicitly identifies both changes and dates them to 1983."
+  },
+  {
+   "sentence": "The Tax Reform Act of 1986 — the most comprehensive revision since the 1950s — cut the top individual rate from 50% to 28% (by 1988) and the top corporate rate from 46% to 34%.",
+   "label": "supported",
+   "rationale": "The context characterizes the act as the most comprehensive revision since the 1950s and gives both rate reductions."
+  },
+  {
+   "sentence": "Despite the cuts, federal revenues grew nearly in line with GDP (revenues +76% vs. GDP +83% from 1980–1988); the mix shifted toward regressive social insurance taxes (up 38% of revenues), reducing overall progressivity.",
+   "label": "unsupported",
+   "rationale": "The growth figures, shift toward social insurance taxes, and decline in progressivity are supported, but the context says the social insurance share increased by 38% relative to its prior share, not by an amount equal to 38% of federal revenues."
+  },
+  {
+   "sentence": "Deficits tripled during the 1980s.",
+   "label": "supported",
+   "rationale": "The document reports that annual federal deficits tripled on an on-budget basis."
+  },
+  {
+   "sentence": "The first President Bush broke his \"no new taxes\" pledge in 1990, raising the top bracket to 31%.",
+   "label": "supported",
+   "rationale": "The context says Bush broke the pledge by agreeing to the 1990 compromise that raised the top marginal bracket to 31%."
+  },
+  {
+   "sentence": "Clinton restored progressivity in 1993 with 36% and 39.6% brackets and a slight corporate rate increase to 35%.",
+   "label": "supported",
+   "rationale": "The context identifies the same 1993 rate changes and states that they increased federal tax progressivity."
+  },
+  {
+   "sentence": "The $1.35 trillion Bush tax cut of 2001 lowered individual rates across the board (top bracket from 39.6% in 2001 to 35% by 2006), scheduled repeal of the estate tax in 2010, and expanded retirement contributions; it reduced progressivity.",
+   "label": "supported",
+   "rationale": "The context gives the size and year of the cut, the listed provisions, the top-rate change, and the reduction in federal income tax progressivity."
+  },
+  {
+   "sentence": "A 2003 cut accelerated rate decreases and lowered the top capital gains/dividends rate.",
+   "label": "supported",
+   "rationale": "The context attributes both changes to the 2003 tax cut."
+  },
+  {
+   "sentence": "The 2009 American Recovery and Reinvestment Act instituted or expanded tax credits, including a $400 payroll tax credit per worker and an expanded college tuition credit.",
+   "label": "supported",
+   "rationale": "The context names the 2009 act and gives both examples, including the $400 amount."
+  },
+  {
+   "sentence": "Federal tax revenues grew considerably through the 20th century (even in inflation-adjusted terms), with the largest leap during WWII and relatively consistent growth after about 1960, punctuated by occasional declines from recessions or major tax-code changes.",
+   "label": "unsupported",
+   "rationale": "The context describes a large wartime increase in inflation-adjusted federal collections, but it identifies the wartime leap as the largest only when discussing total tax collections as a share of GDP."
+  },
+  {
+   "sentence": "State and local collections grew more steadily, since they rely mainly on property and sales taxes.",
+   "label": "supported",
+   "rationale": "The context explains that reliance on property and sales taxes made state and local collections less volatile."
+  },
+  {
+   "sentence": "Total tax collections generally rose as a share of GDP over the 20th century; federal revenues now substantially exceed state and local revenues (a trend that began before WWII but was solidified by it).",
+   "label": "supported",
+   "rationale": "The context states both trends and identifies World War II as solidifying federal dominance rather than starting it."
+  },
+  {
+   "sentence": "Since 2000, federal taxes as a share of GDP have declined due to recessions and rate cuts — in 2009 they were lower than in any year since the 1940s.",
+   "label": "supported",
+   "rationale": "The context identifies both causes of the decline and gives the same historical comparison for 2009."
+  },
+  {
+   "sentence": "The composition of federal taxation changed markedly: excise taxes dominated at the start of the century (with a Depression-era revival), corporate taxes were the most significant source from 1918–1932, and personal income taxation has since become central.",
+   "label": "supported",
+   "rationale": "The context gives the same progression and identifies personal income taxes as the largest federal revenue source from 1944 onward."
+  },
+  {
+   "sentence": "The document notes that this history is primarily derived from Brownlee (1996).",
+   "label": "supported",
+   "rationale": "The tax history section explicitly identifies Brownlee (1996) as its primary source."
+  }
+ ],
+ "unsup": 3,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

@@ -1,0 +1,41 @@
+{
+ "run": "facts0456__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "The document requires closure at Saturday midnight:",
+   "label": "supported",
+   "rationale": "Section 3-5 requires the bottle clubs identified in the next bullet to close at midnight on Saturday."
+  },
+  {
+   "sentence": "- Closing hours: \"All bottle clubs located in the unincorporated areas of the county, shall remain closed from the hours of 3:00 a.m. to 7:00 a.m. on each day of the week except that all such bottle clubs shall remain closed from midnight on each Saturday until 7:00 a.m. on the following Monday.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The quotation reproduces both the regular closing hours and the weekend exception."
+  },
+  {
+   "sentence": "- Scope: \"the unincorporated areas of the county and any municipality which has not adopted an ordinance\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The quotation identifies the chapter's two jurisdictional categories. The full clause specifies that the municipal ordinance must cover the subject regulated by the chapter."
+  },
+  {
+   "sentence": "- Bottle club: a place where products are sold \"with the knowledge... that same will be... mixed... with... an alcoholic beverage\" (doc.txt).",
+   "label": "unsupported",
+   "rationale": "As a definition, this is incomplete: a knowing sale alone does not establish that the product is for on-premises consumption, and the text also covers products dispensed, served, or provided for consideration."
+  },
+  {
+   "sentence": "- General on-premises hours: \"between the hours of 7:00 a.m. and 2:00 a.m. on all days of the week except Sunday\"; Sunday \"between the hours of 11:00 a.m. Sunday and 2:00 a.m. of the following day\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The quoted times match the general on-premises hours, including the default Sunday schedule."
+  },
+  {
+   "sentence": "- Violation: \"a misdemeanor of the second degree\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The chapter expressly classifies violations as second-degree misdemeanors."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

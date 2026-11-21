@@ -1,0 +1,61 @@
+{
+ "run": "facts0821__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Based on the document, AWIA Section 2015 makes the most substantial revisions to the Drinking Water State Revolving Fund (DWSRF) provisions of the Safe Drinking Water Act (SDWA) since 1996.",
+   "label": "unsupported",
+   "rationale": "The context attributes the most substantial revisions to AWIA as a whole and discusses Sections 2002, 2015, and 2022 together. It does not make that comparative claim about Section 2015 alone."
+  },
+  {
+   "sentence": "Its water-related parts are:",
+   "label": "no_rad",
+   "rationale": "This is a lead-in to the list, not a standalone factual claim."
+  },
+  {
+   "sentence": "- **Section 2015(a)** — Amends SDWA to expressly state that DWSRF funds can be used for projects to replace or rehabilitate aging drinking water treatment, storage, or distribution systems.",
+   "label": "supported",
+   "rationale": "The context explicitly identifies those projects as eligible uses of DWSRF funds under Section 2015(a)."
+  },
+  {
+   "sentence": "These projects had been eligible under EPA guidance if needed to protect public health (they account for 66.1% of the estimated drinking water infrastructure need), but were not previously explicitly identified in statute.",
+   "label": "supported",
+   "rationale": "The context confirms the prior eligibility under EPA guidance, the 66.1% estimate, and the absence of explicit statutory language before AWIA."
+  },
+  {
+   "sentence": "- **Section 2015(c)** — Revises DWSRF financial assistance for disadvantaged communities: it increases the portion of a state's capitalization grant that may be dedicated to additional subsidization from 30% to 35% (while conditionally requiring at least 6% be used for these subsidies) and extends the amortization period for loans to disadvantaged communities from 30 to 40 years.",
+   "label": "supported",
+   "rationale": "The context gives the same subsidy percentages, conditional minimum, and change in the loan amortization period."
+  },
+  {
+   "sentence": "- **Section 2015(d)** — Extends repayment and amortization periods for all DWSRF-financed projects: the initial principal and interest payment deadline moves from one year to 18 months after project completion, and the amortization period may be extended from 20 to 30 years.",
+   "label": "supported",
+   "rationale": "The context confirms that the provision applies to all DWSRF-financed projects and specifies both timing changes."
+  },
+  {
+   "sentence": "- **Section 2015(e)** — Requires EPA to evaluate and include the cost to replace lead service lines in the drinking water infrastructure needs survey (conducted every four years), which EPA uses to allot DWSRF appropriations among states; this may affect some states' allotments.",
+   "label": "supported",
+   "rationale": "The context confirms the inclusion requirement, which applies to the extent practicable, as well as the survey frequency, its use in allocating funds, and the possible effect on state allotments."
+  },
+  {
+   "sentence": "- **Section 2015(f)** — Removes the fiscal year limitation on source water assessments, authorizing states to use a portion of their DWSRF capitalization grant to fund source water assessments or update existing ones (previously limited to FY1996–FY1997).",
+   "label": "supported",
+   "rationale": "The context identifies FY1996 and FY1997 as the prior limits on using these grants for assessments and says Section 2015(f) removes the limit and allows funding for assessments or updates."
+  },
+  {
+   "sentence": "- **Section 2015(g)** — Requires EPA to gather specified information on DWSRF administration from state drinking water administrators and report to Congress on best practices for implementing the DWSRF to facilitate the application process and improve DWSRF financial management and sustainability.",
+   "label": "supported",
+   "rationale": "The context explicitly states both EPA duties and the purposes of the best-practices report."
+  },
+  {
+   "sentence": "Overall, these provisions expand eligible uses of DWSRF assistance, give states more administrative flexibility, and make DWSRF assistance more accessible to public water systems.",
+   "label": "unsupported",
+   "rationale": "The context gives this summary for revisions across multiple AWIA sections and describes improved accessibility as an intended benefit, not an established effect of Section 2015."
+  }
+ ],
+ "unsup": 2,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

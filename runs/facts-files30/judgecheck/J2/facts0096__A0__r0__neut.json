@@ -1,0 +1,26 @@
+{
+ "run": "facts0096__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Based on the document, the only cloud gaming subscription service explicitly named is:\n\n- **Xbox Cloud Gaming (Beta)** — Microsoft's cloud gaming service (lines 52–53), also referred to as \"Xbox Cloud Gaming\" (line 58).",
+   "label": "unsupported",
+   "rationale": "The document uses both names for Microsoft's cloud gaming service, but it does not say that the service is a subscription service."
+  },
+  {
+   "sentence": "Note: The document also mentions Microsoft's **Game Pass** subscription service, but it is described only as a \"subscription service,\" not as a cloud gaming service.",
+   "label": "supported",
+   "rationale": "The document identifies Game Pass as Microsoft's subscription service and separately identifies Xbox Cloud Gaming (Beta) as its cloud gaming service."
+  },
+  {
+   "sentence": "No other cloud gaming services are named in the text.",
+   "label": "supported",
+   "rationale": "The document discusses cloud gaming in general and names only Microsoft's service. The shorter name refers to the same service."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

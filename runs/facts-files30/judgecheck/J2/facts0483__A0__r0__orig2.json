@@ -1,0 +1,111 @@
+{
+ "run": "facts0483__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based only on `doc.txt`, here's what the document actually says—and I should flag up front that it does **not** specifically mention browsing history, financial transactions, or health issues.",
+   "label": "supported",
+   "rationale": "The article discusses local-network privacy risks but does not identify any of those three categories of data."
+  },
+  {
+   "sentence": "The document covers a related but somewhat narrower set of privacy concerns, described in a summary of the paper \"In the Room Where It Happens: Characterizing Local Communication and Threats in Smart Homes,\" which studied 93 consumer IoT devices and their companion apps.",
+   "label": "supported",
+   "rationale": "The article names the paper, focuses on local smart-home communications, and gives the device count and inclusion of companion apps."
+  },
+  {
+   "sentence": "**Standard local-network protocols are the weak point.**",
+   "label": "supported",
+   "rationale": "The article identifies insufficiently protected local-network protocols as the weakness behind the exposure being discussed."
+  },
+  {
+   "sentence": "The researchers focused on how IoT devices in a smart home communicate over the local network using standard protocols such as **UPnP and mDNS**.",
+   "label": "supported",
+   "rationale": "The context explicitly identifies the local-network focus and names both protocols."
+  },
+  {
+   "sentence": "These protocols are \"not sufficiently protected\" and expose sensitive information about the home and its occupants (per Juan Tapiador of Universidad Carlos III de Madrid).",
+   "label": "supported",
+   "rationale": "Tapiador is identified with that university and says the protocols expose information about the home and how its homeowners use their devices."
+  },
+  {
+   "sentence": "**They act as side-channels around app permissions.**",
+   "label": "supported",
+   "rationale": "The article says the protocols can be used to reach data that app permissions are supposed to protect."
+  },
+  {
+   "sentence": "The document says these local network protocols \"can be employed as side-channels to access data that is supposedly protected by several mobile app permissions such as household locations.\"",
+   "label": "supported",
+   "rationale": "The article directly states this and gives household location as an example."
+  },
+  {
+   "sentence": "Co-author Narseo Vallina-Rodriguez explains that while Android app developers are supposed to request user consent to access data like geolocation, \"certain spyware apps and advertising companies do abuse local network protocols to silently access such sensitive information without any user awareness.",
+   "label": "unsupported",
+   "rationale": "The context attributes the explanation and quotation to Vallina-Rodriguez but does not explicitly establish that he co-authored the paper."
+  },
+  {
+   "sentence": "All they have to do is kindly ask for it to other IoT devices deployed in the local network using standard protocols like UPnP.\"",
+   "label": "supported",
+   "rationale": "The context directly quotes Vallina-Rodriguez describing requests made to other IoT devices on the local network."
+  },
+  {
+   "sentence": "In other words, the app doesn't need to break in directly—it just asks the other devices on the same network for the information, and the devices answer.",
+   "label": "supported",
+   "rationale": "For the example described, the context says the app obtains sensitive information indirectly by requesting it from another local device."
+  },
+  {
+   "sentence": "**What gets exposed.**",
+   "label": "no_rad",
+   "rationale": "This is a section heading rather than a factual claim."
+  },
+  {
+   "sentence": "The paper found exposure of unique device names, UUIDs, unique hardware addresses, and even household geolocation data in \"thousands of existing smart homes,\" all harvestable \"without user awareness\" by companies involved in surveillance capitalism.",
+   "label": "unsupported",
+   "rationale": "The article reports exposure of at least one identifier in thousands of homes. It does not establish that geolocation was among those findings at that scale or explicitly include hardware addresses in the list of data those companies can harvest."
+  },
+  {
+   "sentence": "Researchers say this data can be pieced together to make a house highly identifiable, and that it \"makes it easier to create profiles of our habits or socioeconomic level\" (Tapiador).",
+   "label": "supported",
+   "rationale": "The context directly backs both the home-identification claim and Tapiador's statement about profiling."
+  },
+  {
+   "sentence": "The document does support that premise, via Dr. Joel Reardon of the University of Calgary: \"If a new phone connects to a network, then all the apps on it can have direct access to everything else on that network.\"",
+   "label": "unsupported",
+   "rationale": "Reardon's quotation supports direct network access, not the premise that a connected device can control every other device without consent."
+  },
+  {
+   "sentence": "He also notes that \"the spyware I found in apps with tens of millions of installs was in fact scanning networks and talking to routers,\" and that the research shows \"the home network is not as secure as once thought.\"",
+   "label": "supported",
+   "rationale": "The article attributes both the spyware observation and the assessment of home-network security to Reardon."
+  },
+  {
+   "sentence": "**My take, grounded in the document:** The document's own framing is clearly concerned.",
+   "label": "supported",
+   "rationale": "The article frames the findings as widespread challenges and a litany of previously undisclosed threats."
+  },
+  {
+   "sentence": "The authors describe a \"litany of previously undisclosed security and privacy threats,\" and the quoted researchers emphasize that the exposure is silent, opaque, and happens without consent—essentially letting any app on the network bypass the permission model that mobile platforms are supposed to enforce.",
+   "label": "unsupported",
+   "rationale": "The article describes opaque collection and specific permission bypasses, but it does not establish that any app on the network can bypass the mobile permission model."
+  },
+  {
+   "sentence": "The document doesn't offer remedies or a balanced counterpoint; it presents the local network as a significant, underappreciated attack surface.",
+   "label": "supported",
+   "rationale": "The article presents previously undisclosed local-network risks without offering a remedy or a counterpoint for those findings. The suggested FTC action concerns a separate threat."
+  },
+  {
+   "sentence": "(It also notes related IoT threats uncovered around the same time, such as potentially botnet-infected Android TV boxes and ultrasonic commands that could activate voice assistants.)",
+   "label": "supported",
+   "rationale": "The context explicitly reports both separate threats and places them around the same time."
+  },
+  {
+   "sentence": "One caveat: since the document never mentions browsing history, financial transactions, or health data, I can't confirm from this source that smart devices can specifically access those categories—only that the same side-channel mechanism is shown to bypass protections for data like geolocation and to expose identifying information about homes and their users.",
+   "label": "supported",
+   "rationale": "The source describes permission bypasses involving geolocation and exposure of identifying information, but it does not document access to the three other data categories."
+  }
+ ],
+ "unsup": 4,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

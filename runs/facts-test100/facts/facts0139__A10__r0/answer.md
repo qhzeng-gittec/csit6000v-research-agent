@@ -1,0 +1,5 @@
+Based on `doc.txt`:
+
+**Hunger:** You may feel hungry at first, but the document says hunger generally decreases: "Fasting decreases hunger hormones and increases fullness. So although you may feel hungry when you first try fasting, many people actually report reduced hunger once they are used to it." It also notes that initial struggle "could be down to habit" — when your body doesn't get the food it expects at certain times, "this can trigger feelings of hunger" — but "Most people adapt quite quickly though, so find it increasingly easy to fast."
+
+**Thirst:** The document does not say you will get thirstier. What it does say is that during a fast "you are missing out on some of the fluids you normally get" from food, and "This can lead to you becoming dehydrated, causing side effects such as tiredness and headaches." It adds that "Dehydration can also be mistaken for hunger, which can make it more difficult to stick to your planned fast," and recommends water (or flavoured water, coffee, tea, or broth) as the best option for staying hydrated.

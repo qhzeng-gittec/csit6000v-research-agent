@@ -1,0 +1,131 @@
+{
+ "run": "facts0785__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based on the article in `doc.txt`, the medication your friend is referring to is **tirzepatide**, sold under the brand names Mounjaro (for type 2 diabetes) and Zepbound (for obesity).",
+   "label": "supported",
+   "rationale": "The article identifies tirzepatide and gives both brand names and their respective indications."
+  },
+  {
+   "sentence": "The article reports on two new studies, the SURMOUNT-OSA trials, showing that tirzepatide \"significantly reduces sleep disruptions\" in patients with obesity and obstructive sleep apnea (OSA).",
+   "label": "supported",
+   "rationale": "The article identifies the SURMOUNT-OSA studies and reports that tirzepatide reduced sleep disruptions in patients with obesity and OSA."
+  },
+  {
+   "sentence": "Tirzepatide is described as a long-acting glucose-dependent insulinotropic polypeptide (GIP) receptor agonist and glucagon-like peptide-1 (GLP-1) receptor agonist.",
+   "label": "supported",
+   "rationale": "The article explicitly describes tirzepatide as a long-acting agonist of both receptors."
+  },
+  {
+   "sentence": "In the studies, participants received the maximum tolerated dose (10 or 15 mg) by once-weekly injection for one year.",
+   "label": "contradictory",
+   "rationale": "The sentence presents the active-drug regimen as what participants received without limiting it to the treatment groups. The article explicitly says that some participants received placebo instead."
+  },
+  {
+   "sentence": "The connection runs through obesity.",
+   "label": "unsupported",
+   "rationale": "The article establishes obesity as a risk factor for OSA but leaves open whether tirzepatide's effect on OSA was mediated by weight loss or was independent of it."
+  },
+  {
+   "sentence": "The article notes that OSA affects 1 billion people worldwide and 30 million American adults, many undiagnosed, and that obesity is a common risk factor: 40% of people with obesity have OSA, and 70% of people with OSA have obesity.",
+   "label": "supported",
+   "rationale": "The article gives both prevalence figures, notes that many cases are undiagnosed, and states the risk factor and both percentages."
+  },
+  {
+   "sentence": "The trials enrolled patients with obesity (BMI of 30 kg/m² or greater) and moderate-to-severe OSA (more than 15 events per hour on the apnea–hypopnea index, or AHI).",
+   "label": "supported",
+   "rationale": "The article specifies both the BMI threshold and the AHI threshold for enrollment."
+  },
+  {
+   "sentence": "At baseline, 65% to 70% of participants had severe OSA, with more than 30 events per hour and a mean of 51.5.",
+   "label": "supported",
+   "rationale": "The article gives the same baseline percentage, severity threshold, and mean event rate."
+  },
+  {
+   "sentence": "Because clinical guidelines already recommend weight-loss strategies as part of OSA treatment — even though, as one editorial noted, \"the integration of obesity management into the approaches to care for obstructive sleep apnea has lagged\" — an effective obesity medication is an \"obvious avenue to pursue.\"",
+   "label": "supported",
+   "rationale": "The editorial describes the guideline recommendation and the lag in integrating obesity care, and calls an effective obesity medication an obvious avenue to pursue."
+  },
+  {
+   "sentence": "In the two double-blind randomized controlled trials (conducted at 60 sites in nine countries, presented at the ADA 84th Scientific Sessions and published in the New England Journal of Medicine), by one year patients taking tirzepatide had 27 to 30 fewer AHI events per hour, compared with only 4 to 6 fewer for placebo.",
+   "label": "supported",
+   "rationale": "The article states the trial design, geographic scope, presentation and publication venues, and one-year reductions for both groups."
+  },
+  {
+   "sentence": "Up to half of those receiving tirzepatide in both trials reached an AHI of less than 5 or 5 to 14 events per hour and an Epworth Sleepiness Scale score of 10 or less — thresholds the authors say \"represent a level at which CPAP therapy may not be recommended.\"",
+   "label": "supported",
+   "rationale": "The article reports the same proportion, thresholds, and interpretation by the study authors."
+  },
+  {
+   "sentence": "Consequently, 40% to 50% of patients no longer needed to use a CPAP device.",
+   "label": "supported",
+   "rationale": "The article explicitly links the reduction in sleep disruptions to the claim that 40% to 50% no longer needed CPAP."
+  },
+  {
+   "sentence": "Patients lost 18% to 20% of their body weight.",
+   "label": "supported",
+   "rationale": "The article reports this range of weight loss for patients taking tirzepatide."
+  },
+  {
+   "sentence": "Tirzepatide also lowered C-reactive protein levels and systolic blood pressure (by 9.7 mm Hg in study 1 and 7.6 mm Hg in study 2 at Week 48).",
+   "label": "supported",
+   "rationale": "The article reports reductions in both measures and gives the stated blood-pressure changes at Week 48."
+  },
+  {
+   "sentence": "The accompanying editorial noted this blood-pressure improvement \"was substantially larger than effects seen with CPAP therapy alone,\" suggesting tirzepatide \"may be an attractive option for those patients who seek to reduce their cardiovascular risk.\"",
+   "label": "supported",
+   "rationale": "The article attributes both the blood-pressure comparison and the potential cardiovascular appeal to the accompanying editorial."
+  },
+  {
+   "sentence": "Patients also reported fewer daytime and nighttime disturbances, measured using the Patient-Reported Outcomes Measurement Information System Short Form scale for Sleep-Related Impairment and Sleep Disturbance.",
+   "label": "supported",
+   "rationale": "The article explicitly reports fewer daytime and nighttime disturbances and names the same measurement scale."
+  },
+  {
+   "sentence": "CPAP is the most-used and effective intervention for OSA, but many patients refuse it, stop using it, or cannot use it, and as many as half abandon CPAP within 3 years.",
+   "label": "supported",
+   "rationale": "The article describes CPAP's effectiveness and widespread use, lists barriers to use, and reports the three-year abandonment estimate."
+  },
+  {
+   "sentence": "If tirzepatide eventually gains FDA approval for OSA, it would be the first drug approved for the condition, offering \"a more accessible alternative\" for people who cannot tolerate or adhere to existing therapies.",
+   "label": "supported",
+   "rationale": "The article explicitly makes the conditional first-approval claim and quotes the lead author describing the drug as a more accessible alternative for those patients."
+  },
+  {
+   "sentence": "However, the article includes cautions.",
+   "label": "supported",
+   "rationale": "The article includes cautions about adverse events and continuing treatment outside a trial."
+  },
+  {
+   "sentence": "The most common adverse events were diarrhea, nausea, and vomiting, occurring in about a quarter of patients, and there were two adjudicated-confirmed cases of acute pancreatitis in study 2.",
+   "label": "supported",
+   "rationale": "The article gives the same adverse events, approximate frequency among patients taking tirzepatide, and number of confirmed pancreatitis cases in study 2."
+  },
+  {
+   "sentence": "The editorial also raised concerns about whether patients outside a trial would stick with therapy (citing high discontinuation rates for GLP-1 receptor agonists) and about racial disparities in access to these drugs.",
+   "label": "unsupported",
+   "rationale": "The adherence concern is explicit, but the editorial cites racial disparities in use among patients with diabetes and warns about coverage policies. It does not establish that the observed disparities were specifically in access."
+  },
+  {
+   "sentence": "Finally, experts noted it is still unclear whether tirzepatide had an independent effect on OSA or whether the results were primarily due to weight loss; one expert said, \"I believe that over time we'll see that this particular effect in sleep apnea is related to weight.\"",
+   "label": "unsupported",
+   "rationale": "The article supports the uncertainty and the quotation, but attributes both to Louis Aronne alone. It does not show that multiple experts noted that uncertainty."
+  },
+  {
+   "sentence": "Another expert commented that \"the treatment of obesity with tirzepatide plus CPAP is really the optimal treatment for obstructive sleep apnea and obesity-related cardiometabolic risks.\"",
+   "label": "unsupported",
+   "rationale": "The quotation itself is accurate, but the article attributes it to Louis Aronne, the same expert quoted in the immediately preceding sentence, not another expert."
+  },
+  {
+   "sentence": "In short, the article presents tirzepatide as a promising option that attacks the obesity underlying OSA, with large reductions in apnea events, daytime sleepiness, and cardiovascular risk markers — and the possible elimination of CPAP for some patients — while noting it is not yet FDA-approved for OSA and carries side effects and long-term adherence questions.",
+   "label": "unsupported",
+   "rationale": "The article leaves open whether weight loss drove the OSA improvement. It also reports fewer daytime disturbances and a sleepiness-score threshold, but does not establish a large reduction in daytime sleepiness itself."
+  }
+ ],
+ "unsup": 6,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

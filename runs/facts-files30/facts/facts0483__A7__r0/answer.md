@@ -1,0 +1,15 @@
+
+
+Based only on `doc.txt`, here is what the document says, and where it does not address your specific points:
+
+**How the spying works (local network protocols as side-channels):**
+The document describes research on "local network interactions between 93 different IoT devices and mobile apps" (doc.txt) that found "a litany of previously undisclosed security and privacy threats" (doc.txt). The core mechanism: "Researchers narrow in on the local network and how IoT devices can inadvertently compromise consumer privacy through the exposure of sensitive data within those local networks using standard protocols such as UPnP or mDNS" (doc.txt). These protocols "can be employed as side-channels to access data that is supposedly protected by several mobile app permissions such as household locations" (doc.txt). As one researcher put it: "we have shown that certain spyware apps and advertising companies do abuse local network protocols to silently access such sensitive information without any user awareness. All they have to do is kindly ask for it to other IoT devices deployed in the local network using standard protocols like UPnP" (doc.txt).
+
+**Browsing history, financial transactions, and health issues:**
+The document does not specifically mention browsing history, financial transactions, or health issues (I verified with a search that none of those words appear). What it does say is that the exposed data includes "unique device names, UUIDs, and even household geolocation data" (doc.txt), and that researchers found "at least one personally identifiable information, such as unique hardware addresses, UUID, or unique device names, in thousands of existing smart homes" (doc.txt). It also notes that "This information is being collected in an opaque way and makes it easier to create profiles of our habits or socioeconomic level" (doc.txt). So the document supports profiling of habits and socioeconomic level, but not the specific categories you named.
+
+**How connecting to the Wi-Fi bypasses security:**
+The document says "local network protocols used by IoT devices are not sufficiently protected and expose sensitive information about the home and the homeowners' use of the devices" (doc.txt). On the control question you raised: "If a new phone connects to a network, then all the apps on it can have direct access to everything else on that network" (doc.txt), and "The spyware I found in apps with tens of millions of installs was in fact scanning networks and talking to routers" (doc.txt).
+
+**Your question about what I think:**
+The document does not contain an opinion on whether this is acceptable or how it should be addressed; it only reports the researchers' findings and quotes (e.g., that "the home network is not as secure as once thought" (doc.txt)). I can't add my own view, and the document does not address that part of your question.

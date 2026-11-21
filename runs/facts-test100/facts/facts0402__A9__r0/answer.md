@@ -1,0 +1,13 @@
+
+
+According to `doc.txt`, the correlation between puppy socialization classes and adult dog behavior is described as follows:
+
+**Positive correlations found in studies:**
+- In one study, social and environmental exposure administered to puppies was positively correlated with measures of sociability and negatively correlated with measures of fear and aggression. Dogs that attended puppy preschool were found to be less fearful, less aggressive, and more social.
+- Another study showed that attendance at puppy classes reduced the risk of aggression toward unfamiliar people. Other factors that also predicted less aggressive behavior included being a desexed female, having a female owner, attending ring-craft classes, and positive reinforcement training methods.
+- A further study showed a similar result: attendance at puppy socialization classes was associated with improved positive social behaviors and fewer behavioral problems as adults. Other factors predicting these outcomes were being a male dog, a higher level of environmental and social interactions overall, and remaining in the litter longer.
+
+**Caveats the document notes:**
+- Much of this evidence comes from epidemiological studies that correlate adult dog behavior with various demographic, owner, and environmental factors. These are useful for identifying which factors have stronger predictive value, but there is debate about whether they can truly determine causal relationships, which limits their utility in evaluating whether a single factor like puppy class attendance has a clear effect.
+- Taken together, the results suggest socialization classes are "one piece of the puzzle" in developing adult dog behavior. The studies sometimes show contradictory results (e.g., male dogs showed fewer behavioral problems in one study while desexed females showed less aggression in another), possibly because samples or unaccounted-for variables affected the results.
+- Puppy socialization classes do not always appear to singularly affect adult dog behavior, possibly because of how some classes are run: in most countries there are no accreditation procedures, classes may be run by people lacking the necessary skills or experience, and puppies may find the experience too stressful to receive a noticeable benefit. Although mild stress is a component of socialization, stressing puppies too much means the benefits will not be conferred.

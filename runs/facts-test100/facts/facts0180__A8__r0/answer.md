@@ -1,0 +1,22 @@
+
+
+Based on `doc.txt`, the two evaluations differ in their nature, setting, content, and role in the process:
+
+**Sideline evaluation — "NFL Sideline Concussion Assessment (Sideline Survey)" (Section 2.c):**
+- It is triggered when "a player exhibits or reports a sign or symptom of concussion (defined above), spinal cord neuropraxia or a concern is raised" by gameday medical personnel; the player "must be immediately removed to the sideline or stabilized on the field, as needed, the player's helmet must be taken away from him."
+- It "at a minimum, must consist of the following": a review of the "No-Go" criteria (Loss of Consciousness, Ataxia, Confusion, and Amnesia); "Inquiry regarding the history of the event, including before, during and after the suspected mechanism of injury"; "Review of concussion signs and symptoms"; "All Maddocks' questions"; "Complete Video Review of the injury... including discussion with the Booth UNC"; and a "Focused Neurological Exam" (cervical spine examination, evaluation of speech, testing of gait/coordination/balance, and eye movements and pupillary exam).
+- It is "conducted inside the medical evaluation tent on the Sideline (or in the Locker Room if the Club medical staff elects to conduct it in the Locker Room)" and "performed using the tablet or other technology assigned by the NFL."
+- Its outcome: "If, upon completing the Sideline Survey, the Club physician, after consultation with the sideline UNC, concludes that the player did not sustain a concussion, then the player may return to play."
+
+**Locker room evaluation — "NFL Locker Room Comprehensive Concussion Assessment (Locker Room Exam)" (Section 2.d):**
+- It is "the standardized acute evaluation tool that has been developed by the NFL's Head, Neck and Spine Committee to be used by Clubs' medical staffs and designated UNCs to evaluate potential concussions during practices and on game day."
+- It is "based on the Standardized Concussion Assessment Tool (SCAT 5) published by the International Concussion in Sport Group (McCrory, et al., 2017), modified for use in the NFL."
+- It "can be used to aid in the diagnosis of concussion even if there is a delayed onset of symptoms," and "the ongoing use of the Locker Room Comprehensive Concussion Assessment in conjunction with the preseason baseline and post-injury testing provides detailed data regarding each athlete's injury and recovery course."
+- "Being able to compare the results from the NFL Locker Room Comprehensive Concussion Assessment to the baseline information obtained in the preseason improves the value of this instrument."
+- "Clubs shall maintain and upload to the EMR all NFL Locker Room Comprehensive Concussion Assessment exams and a copy of the same shall be given to both the player and the team medical staff."
+- "The Club physician shall be responsible for determining whether the player is diagnosed as having a concussion."
+- It includes the "modified Balance Error Scoring System (mBESS)," which "has been validated as a useful adjunct in assessing concussive injury," and its "neurocognitive assessment... is brief and does not replace a more comprehensive neurological evaluation or more formal neurocognitive testing."
+
+**How they relate:** The Sideline Survey is the immediate on-the-spot check, while the Locker Room Exam is the more complete, standardized follow-up. "If any elements of the sideline assessment are positive, inconclusive, or suspicious for the presence of a concussion, the player must be escorted to the locker room immediately for the complete NFL Locker Room Comprehensive Concussion Assessment," and likewise if "the player demonstrates worsening or progressing symptoms at any point." Also, if the Club physician determines the player shall not return to play and "there is no need to complete the Sideline Concussion Assessment, the Club physician and the sideline UNC shall accompany the player to the locker room to evaluate the player using the NFL Locker Room Comprehensive Concussion Evaluation."
+
+The document does not otherwise contrast the two beyond these descriptions (e.g., it does not state which is longer or more detailed in time, only that the locker room assessment is the "complete" and "standardized" tool).

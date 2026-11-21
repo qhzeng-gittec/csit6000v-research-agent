@@ -1,0 +1,166 @@
+{
+ "run": "facts0582__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based only on `doc.txt`, here is what the document says.",
+   "label": "no_rad",
+   "rationale": "This is an introductory framing statement."
+  },
+  {
+   "sentence": "**Can anything permanently help?**",
+   "label": "no_rad",
+   "rationale": "This is a question, not a factual claim."
+  },
+  {
+   "sentence": "The document does not describe any treatment as permanent.",
+   "label": "supported",
+   "rationale": "The document describes treatments in terms of symptom relief, without claiming a permanent result, and explicitly notes uncertainty and recurrence after surgery."
+  },
+  {
+   "sentence": "It states that \"surgeons cannot guarantee that symptoms will disappear after surgery\" (doc.txt), and that \"In around 5% of people, the problematic disc may rupture again, causing symptoms to recur\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly states both the lack of a guarantee and the approximate recurrence rate."
+  },
+  {
+   "sentence": "It also notes that \"Some people may continue to experience herniated disc pain after the recovery period.",
+   "label": "supported",
+   "rationale": "The context explicitly says that pain can persist beyond recovery."
+  },
+  {
+   "sentence": "In some cases, the pain may worsen over time\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly says that pain can worsen over time in some cases."
+  },
+  {
+   "sentence": "The stated goal of surgery is only to \"ease pressure on the nerve, thereby alleviating pain and other symptoms\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context identifies easing nerve pressure to relieve symptoms as the purpose of surgery."
+  },
+  {
+   "sentence": "1. **Open discectomy** — \"The surgeon performs open surgery to remove the herniated section of the disc\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly describes open discectomy as open surgery to remove the herniated section."
+  },
+  {
+   "sentence": "The document lists no specific pros or cons for this technique beyond the general risks below.",
+   "label": "supported",
+   "rationale": "The open-discectomy entry describes how it is performed without listing technique-specific trade-offs; the risks section addresses discectomies as a group."
+  },
+  {
+   "sentence": "2. **Endoscopic spine surgery** — \"The surgeon uses a long thin tube, or endoscope, to remove the herniated section of the disc.\"",
+   "label": "supported",
+   "rationale": "The context gives this exact description of the endoscopic technique."
+  },
+  {
+   "sentence": "Pros: \"The procedure is minimally invasive, requiring a tiny incision.",
+   "label": "supported",
+   "rationale": "The context explicitly describes endoscopic surgery as minimally invasive and requiring a tiny incision."
+  },
+  {
+   "sentence": "Only a small scar will form, resulting in a quicker recovery\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly links a small scar with quicker recovery after endoscopic surgery."
+  },
+  {
+   "sentence": "No specific cons are listed.",
+   "label": "supported",
+   "rationale": "The endoscopic entry lists benefits but no disadvantages specific to that technique."
+  },
+  {
+   "sentence": "3. **Surgery on the core of the spinal disc** — \"The surgeon uses instruments to access the core of the spinal disc then uses a vacuum to remove the core.",
+   "label": "supported",
+   "rationale": "The context explicitly describes instrument access followed by vacuum removal of the disc core."
+  },
+  {
+   "sentence": "This makes the spinal disc smaller, which reduces pressure on the nerve.\"",
+   "label": "supported",
+   "rationale": "The context explicitly says that removing the core shrinks the disc and reduces nerve pressure."
+  },
+  {
+   "sentence": "Con/limitation: \"The surgery is only possible if the outer layer of the disc is not damaged\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly limits this procedure to discs with an undamaged outer layer."
+  },
+  {
+   "sentence": "4. **Laminotomy or laminectomy** — \"A laminotomy involves the removal of part of the lamina, while a laminectomy is removal of the entire lamina,\" after which \"the surgeon performs a discectomy to remove the herniated disc\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context distinguishes partial from complete lamina removal and says that discectomy follows either procedure."
+  },
+  {
+   "sentence": "Pros: \"Lumbar procedures: These help to relieve leg pain or sciatic pain that a herniated disc causes in the lower back region.",
+   "label": "supported",
+   "rationale": "The context explicitly identifies relief of leg or sciatic pain as a benefit of lumbar procedures."
+  },
+  {
+   "sentence": "Cervical procedures: These help to relieve pain in the neck and upper limbs that a herniated disc causes in the neck region\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly identifies relief of neck and upper-limb pain as a benefit of cervical procedures."
+  },
+  {
+   "sentence": "Con: it may require a spinal fusion — \"Typically, lumbar laminotomies require an SF,\" and \"Cervical laminotomies require an SF if the surgeon operates from the front of the neck.",
+   "label": "supported",
+   "rationale": "The context says fusion may follow lamina removal and specifies when it is typically required for lumbar and front-of-neck cervical laminotomies."
+  },
+  {
+   "sentence": "The same procedures rarely require an SF if the surgeon operates from the back of the neck\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly says cervical laminotomies rarely require fusion when approached from the back of the neck."
+  },
+  {
+   "sentence": "5. **Spinal fusion (SF)** — \"An SF involves joining two bones together with screws\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly says that spinal fusion joins two bones with screws."
+  },
+  {
+   "sentence": "Con: \"People who have undergone an SF may experience pain and feel as if the treatment is restricting certain movements\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly lists possible pain and a feeling of restricted movement after fusion."
+  },
+  {
+   "sentence": "6. **Artificial disc surgery (ADS)** — \"In ADS, the surgeon replaces the damaged disc with an artificial one.\"",
+   "label": "supported",
+   "rationale": "The context defines artificial disc surgery as replacement of the damaged disc with an artificial one."
+  },
+  {
+   "sentence": "It is \"an alternative to spinal fusion\" and \"Some people who undergo laminotomy may be candidates for artificial disc surgery instead of an SF\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly describes artificial disc surgery as an alternative to fusion for some people undergoing laminotomy."
+  },
+  {
+   "sentence": "Pro: \"A surgeon will usually associate this method with less pain and less restricted movement in comparison to SF procedures\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly gives less pain and less restricted movement as comparative benefits of artificial disc surgery."
+  },
+  {
+   "sentence": "No cons are listed.",
+   "label": "supported",
+   "rationale": "The artificial-disc section describes the procedure and its comparative benefits without listing disadvantages."
+  },
+  {
+   "sentence": "\"Discectomies hardly ever result in complications.",
+   "label": "supported",
+   "rationale": "The context explicitly states that complications from discectomies are uncommon."
+  },
+  {
+   "sentence": "However, in rare cases, people may experience the following: bleeding, infections, tears in the spine's protective lining, injury to the nerve\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context lists all four complications and identifies them as rare."
+  },
+  {
+   "sentence": "The document does not compare the options against each other in a single pros/cons table, and it does not state which option is best for any particular person; it only says the choice \"depends on several factors.",
+   "label": "supported",
+   "rationale": "The document presents the procedures in separate prose entries rather than a single comparison table and describes the choice in terms of general factors rather than giving an individualized recommendation."
+  },
+  {
+   "sentence": "These include the location of the herniated disc, the severity of the pain, and the disability it causes\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly lists all three factors as relevant to the choice of surgery."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

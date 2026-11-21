@@ -1,0 +1,9 @@
+
+
+Based solely on the document in `doc.txt`, here is the information about Amlodipine:
+
+**Purpose of Amlodipine:**
+Amlodipine is used alone or in combination with other medications to treat high blood pressure in adults and children 6 years and older. It is also used to treat certain types of angina (chest pain) and coronary artery disease, which is described as the narrowing of the blood vessels that supply blood to the heart. Amlodipine belongs to a class of medications called calcium channel blockers. It works by lowering blood pressure through relaxing the blood vessels, so the heart does not have to pump as hard. It controls chest pain by increasing the supply of blood to the heart. The document notes that if taken regularly, amlodipine controls chest pain, but it does not stop chest pain once it starts, and a doctor may prescribe a different medication for that purpose. Importantly, amlodipine helps to control high blood pressure, angina, and coronary artery disease, but it does not cure these conditions, so patients should continue taking it even if they feel well and should not stop without talking to their doctor.
+
+**Potential side effects:**
+The document lists the following side effects, advising patients to tell their doctor if any are severe or do not go away: swelling of the hands, feet, ankles, or lower legs; nausea; stomach pain; dizziness or lightheadedness; and muscle stiffness or tremors. It also identifies some side effects as serious, requiring an immediate call to the doctor or emergency medical treatment: more frequent or more severe chest pain, and a rapid, pounding, or irregular heartbeat. Serious side effects may also be reported to the FDA's MedWatch Adverse Event Reporting program.

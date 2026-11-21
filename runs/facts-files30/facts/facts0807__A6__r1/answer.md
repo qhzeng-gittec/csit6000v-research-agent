@@ -1,0 +1,7 @@
+
+
+When faces are "quickly presented in our peripheral vision," they "start to appear deformed, cartoonish, and even grotesque," though "upon closer inspection, one can tell the faces are perfectly normal and have not been altered" (doc.txt).
+
+Peripheral vision is intrinsically blurry: "peripheral stimuli are processed by retinal rod cells that have poor spatial acuity" (doc.txt). Bowden et al. (2019) tested whether this blur explains the illusion by comparing peripheral faces to blurred central faces. "Although they found some evidence of face distortion in central vision using blurred faces, the effect was much larger when using un-blurred peripheral faces" (doc.txt). Balas and Pearson (2019) "found that peripheral presentation makes a big difference, as does the presentation speed," while face orientation did not matter (doc.txt).
+
+Peripheral distortions are individual: Afraz and Cavanagh (2009) found that "peripheral distortion effects are quite idiosyncratic"—the same face can appear male in one corner of the periphery and female in another—and that these differences are "stable over time for a particular observer but vary substantially between observers" (doc.txt). Thus, "the particularities of the visual distortions we experience in peripheral vision may be responsible for the particular ways flashed faces appear distorted" (doc.txt).

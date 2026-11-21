@@ -1,0 +1,3 @@
+
+
+According to `doc.txt`, the only mention of high-quality staff is in the context of financial intermediaries, which "train high-quality staff to assist in the process of finding and monitoring suitable units in deficit (borrowers)." The document notes that it "would be very difficult, time-consuming and costly for an individual to do so." No other benefits of high-quality staff are stated in the document.

@@ -1,0 +1,51 @@
+{
+ "run": "facts0780__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "According to the document, the section \"Examples of ISPs Becoming Edge Providers\" describes the following actions:",
+   "label": "no_rad",
+   "rationale": "This is a lead-in to the list; it does not itself assert any specific action by an ISP."
+  },
+  {
+   "sentence": "\"In 2018, AT&T acquired Time Warner, a content creator that owns HBO and its affiliated edge provider HBO NOW, as well as other cable channels.\"",
+   "label": "supported",
+   "rationale": "The context gives the acquisition date and identifies Time Warner's relevant holdings."
+  },
+  {
+   "sentence": "\"AT&T has announced plans to introduce a new edge provider—HBO Max—to stream video programming for no extra charge to AT&T customers who are also HBO subscribers; other customers will reportedly be charged a subscription fee.\"",
+   "label": "supported",
+   "rationale": "The context states the launch plan, who would receive the service at no extra charge, and the reported fee for other customers."
+  },
+  {
+   "sentence": "\"In 2011, Comcast became the majority owner of NBCUniversal, which owns television networks and broadcast stations, and thus obtained minority ownership of Hulu, an edge provider that streams video programming to subscribers.\"",
+   "label": "supported",
+   "rationale": "The context explicitly links Comcast's majority ownership of NBCUniversal to its minority stake in Hulu and describes Hulu's service."
+  },
+  {
+   "sentence": "\"Comcast also announced plans to launch its own video streaming service, Peacock,\" with three planned subscription options: \"a free option supported by ads, a premium version with more programming for a fee, and the premium version with no ads for a higher fee,\" with \"The premium version is to be offered for free to subscribers of Comcast and Cox Communications.\"",
+   "label": "supported",
+   "rationale": "The context describes the planned Peacock launch, all three subscription options, and free premium access for Comcast and Cox subscribers."
+  },
+  {
+   "sentence": "\"In 2015, Verizon acquired AOL, an ISP and edge provider, and in 2016, it acquired the core business of Yahoo, an edge provider.\"",
+   "label": "supported",
+   "rationale": "The context states both acquisitions and their dates and identifies the businesses as edge providers."
+  },
+  {
+   "sentence": "\"It combined the edge provider products from these acquisitions—such as Yahoo Finance, Huffington Post, TechCrunch, and Engadget—in 2017 to create Oath.\"",
+   "label": "supported",
+   "rationale": "The context names the same products and states that Verizon combined them in 2017 to create Oath."
+  },
+  {
+   "sentence": "In short, the document presents three approaches: acquiring existing content/edge businesses (AT&T's acquisition of Time Warner; Comcast's majority ownership of NBCUniversal; Verizon's acquisitions of AOL and Yahoo), and launching or combining their own edge products (HBO Max, Peacock, and Oath).",
+   "label": "supported",
+   "rationale": "The examples illustrate three distinct actions: buying businesses or stakes, planning new services, and combining acquired products. HBO Max and Peacock are described as planned launches, while Oath was created by combining products."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

@@ -1,0 +1,9 @@
+
+
+Based solely on `doc.txt`, the relationship is as follows:
+
+- **The framework**: The article proposes a novel framework for integrating Adverse Drug Reaction (ADR) detection into clinical workflows. It combines (1) Electronic Medical Record (EMR) systems, (2) crowdsourced reporting from patients and healthcare professionals, and (3) graph theory to generate automated ADR signals and reports for local or national pharmacovigilance agencies. Specifically, the system performs automated data collection from EMRs (drug prescriptions, clinical notes) via EMR data scraping, integrates ADR dictionaries and drug databases to automate the generation of ranked ADR signals, and applies graph theory to filter and uprank connections between drugs and ADRs while considering the temporal relationship between drug administration and ADR occurrence.
+
+- **The python code snippets**: The document states that "Methodologies, framework visualizations and python code snippets are included to aid implementation." In other words, the python code snippets are not part of the framework's conceptual design itself, but are provided as accompanying artifacts of the article—alongside the methodologies and framework visualizations—specifically to help readers implement the proposed framework.
+
+So, in short: the framework is the ADR-detection system built on EMR data scraping, ADR dictionaries/drug databases, and graph theory, and the python code snippets are included in the article to aid in implementing that framework. The document does not describe the code snippets in any further detail (e.g., which components they cover or what they do).

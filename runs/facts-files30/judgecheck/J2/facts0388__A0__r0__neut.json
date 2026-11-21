@@ -1,0 +1,56 @@
+{
+ "run": "facts0388__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Based on the document (Section 4.14, \"Fraud\"), if a meter seal has been broken by someone other than SRP's personnel and SRP has disconnected service, the customer must do the following before service can be restored:",
+   "label": "supported",
+   "rationale": "Section 4.14 addresses broken meter seals and sets conditions for restoring service after a disconnection for a rules violation."
+  },
+  {
+   "sentence": "1. **Pay all amounts due to SRP.**",
+   "label": "supported",
+   "rationale": "Section 4.14.4 requires payment of all amounts due before service is restored."
+  },
+  {
+   "sentence": "Under Section 4.14.4, SRP will not restore service to a customer disconnected for a violation of the Rules and Regulations until all amounts due have been paid.",
+   "label": "supported",
+   "rationale": "This directly restates the payment condition in Section 4.14.4."
+  },
+  {
+   "sentence": "This includes:\n   - The full cost or expense incurred by SRP for the removal and reinstallation of the meter(s), apparatus, wires, and Service Lateral (4.14.4).",
+   "label": "supported",
+   "rationale": "Section 4.14.4 explicitly includes the full removal and reinstallation costs incurred by SRP for the listed equipment."
+  },
+  {
+   "sentence": "- Charges for periods of unmetered service, estimated from available records, and, if meters or Service Equipment were damaged, the estimated energy usage not previously billed plus SRP's costs of restoring proper metering or service (4.14.3).",
+   "label": "supported",
+   "rationale": "Section 4.14.3 provides for estimated charges for periods of unmetered service and specifies what the customer pays if equipment was damaged."
+  },
+  {
+   "sentence": "- A reconnection fee that SRP may assess to the customer's billing (4.14.1), along with any other charges SRP deems appropriate for the violation.",
+   "label": "supported",
+   "rationale": "Section 4.14.1 permits both a reconnection fee for a broken seal and additional charges for a violation of that section."
+  },
+  {
+   "sentence": "2. **Bring the service entrance into compliance.**",
+   "label": "supported",
+   "rationale": "The document requires the service entrance to meet SRP’s specifications before it can be re-energized."
+  },
+  {
+   "sentence": "The customer's service entrance must comply with SRP's then-current Electric Service Specifications before it can be re-energized (4.14.4).",
+   "label": "supported",
+   "rationale": "This directly restates the service-entrance requirement in Section 4.14.4."
+  },
+  {
+   "sentence": "In short: the customer must pay all outstanding amounts (including removal/reinstallation costs, estimated unmetered usage, and any reconnection or violation charges) and ensure the service entrance meets SRP's current Electric Service Specifications before service can be reconnected.",
+   "label": "unsupported",
+   "rationale": "The payment and service-entrance requirements are supported, but the summary lists estimated unmetered usage as an amount due without qualification. The document provides for that charge when there were periods of unmetered service; a broken seal alone does not establish that there were."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

@@ -1,0 +1,26 @@
+{
+ "run": "facts0443__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt`, the allegations affect one club: Newcastle United.",
+   "label": "supported",
+   "rationale": "Both allegations concern the same club, identified by its Newcastle United replica kit."
+  },
+  {
+   "sentence": "The document describes \"The Club\" as having \"abused its dominant position in the market for the wholesale supply of Newcastle United replica kit in the UK\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The document uses the quoted wording to summarize the Claimant’s allegation, not to state a finding."
+  },
+  {
+   "sentence": "No other clubs are mentioned in the document.",
+   "label": "supported",
+   "rationale": "Newcastle United is the only specific club mentioned. The reference to “a football club” in the replica-kit definition is generic."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

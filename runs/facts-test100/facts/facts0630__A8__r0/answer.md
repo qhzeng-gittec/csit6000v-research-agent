@@ -1,0 +1,11 @@
+According to `doc.txt`, the benefits of working in the tech industry include:
+
+- **Flexibility**: "Many tech companies offer their employees flexible hours and working conditions, which can appeal to a variety of individuals." Mobile and remote tasks let employees "work anywhere," and these "nontraditional workspaces can empower you to innovate new solutions and contribute to an overall increase in productivity by exercising your time management and technical skills" (doc.txt).
+
+- **Work-life balance**: "Another advantage of working in the tech industry is the ability to achieve and maintain an effective balance between work and other life activities." Because many technical jobs require remote or mobile tasks, you "may be able to manage your time more efficiently by building a schedule that accommodates your personal and professional responsibilities," which "could encourage you to lead a successful and productive life" (doc.txt).
+
+- **Positive work environment**: "Many tech companies offer substantial perks in their work environments, like complimentary food, a casual dress code and compatible residence areas." Companies "might also provide paid time off, volunteer days and insurance," and these perks "contribute to an optimistic work environment, which can promote creativity, encourage innovation and support your career development in the tech industry" (doc.txt).
+
+- **Career growth and development**: "Working in tech also offers several opportunities for career growth and skill development." You can "refine your skills and improve your workflow with every task by applying your knowledge to practical experiences," and the skills learned "are transferrable, and they can increase your marketability and advance your career by appealing to potential employers." You can also "apply them independently to create your own startup business" (doc.txt).
+
+The document also notes more generally that the tech industry "offers a variety of unique benefits to its employees" and that getting a tech job "can be a rewarding opportunity and provide you with substantial earning potential" (doc.txt).

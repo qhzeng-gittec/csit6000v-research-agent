@@ -1,0 +1,42 @@
+{
+  "model": "qwen/qwen3.8-27b",
+  "base_url": "https://openrouter.ai/api/v1",
+  "temperature": 0.0,
+  "benches": [
+    "facts"
+  ],
+  "n": 100,
+  "seed": 2,
+  "exclude": [
+    "facts-files30"
+  ],
+  "reps": 1,
+  "arms": {
+    "A0": {
+      "mode": "files",
+      "cite": "none",
+      "gate": true
+    },
+    "A8": {
+      "mode": "files",
+      "cite": "quote",
+      "gate": false,
+      "style": "inline_strict_plus"
+    },
+    "A9": {
+      "mode": "files",
+      "cite": "none",
+      "gate": false,
+      "style": "plain_strict_plus"
+    },
+    "A10": {
+      "mode": "files",
+      "cite": "quote",
+      "gate": true,
+      "style": "inline_strict_plus"
+    }
+  },
+  "max_steps": 30,
+  "max_revisions": 2,
+  "started": "2026-11-21 13:01:19"
+}

@@ -1,0 +1,3 @@
+
+
+According to `doc.txt`, because all European coffee plants came from the same Arabian mother plant, the biodiversity within their coffee plantations was almost zero, which "had devastating consequences." Specifically, in the last decades of the nineteenth century, the fungal pathogen *Haemilia vestatrix* severely infected coffee plantations in Sri Lanka, India, Java, Sumatra, and Malaysia, and as a result, rust disease destroyed the coffee plantations one by one.

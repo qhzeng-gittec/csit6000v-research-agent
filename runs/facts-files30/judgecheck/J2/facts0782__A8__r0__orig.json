@@ -1,0 +1,121 @@
+{
+ "run": "facts0782__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "According to `doc.txt`, \"The Glass-Steagall Act was passed under FDR as a response to the stock market crash of 1929.",
+   "label": "supported",
+   "rationale": "The context explicitly identifies when the Act was passed and the event it responded to."
+  },
+  {
+   "sentence": "It effected a wall between commercial banking and investment banking, only to be partially repealed in 1999.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context explicitly states both the separation and the date of the partial repeal."
+  },
+  {
+   "sentence": "Its origins: after the 1929 crash, \"the Pecora Commission was tasked with investigating its causes,\" identifying problems \"including risky securities investments that endangered bank deposits, unsound loans made to companies in which banks were invested, and conflicts of interest,\" as well as \"a blurring of the distinction between uninsured and insured practices, or an abusive practice of requiring joint purchases of multiple products.\"",
+   "label": "supported",
+   "rationale": "The context identifies the commission's post-crash mandate and lists each of the problems cited."
+  },
+  {
+   "sentence": "Congress addressed these with the Banking Act of 1933 (doc.txt).",
+   "label": "unsupported",
+   "rationale": "The context says Congress attempted to address the issues through the Banking Act and other legislation, not that the Banking Act definitively addressed all the listed issues."
+  },
+  {
+   "sentence": "What it did and did not do: \"Beyond limiting the scope of activities for commercial and investment banks, the Act was not intended to limit the size or volume of such activities.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context explicitly distinguishes limits on the scope of activities from limits on their size or volume."
+  },
+  {
+   "sentence": "For example, while it \"prohibited the bank from conducting all the same activities within a single organization, it did not prohibit the same activities (type and volume) if carried out separately through JPMorgan and Morgan Stanley.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context gives this example to show that the activities could still be conducted separately."
+  },
+  {
+   "sentence": "The repeal: \"In November 1999, then-President Bill Clinton signed the Gramm-Leach-Bliley Act (GLBA) into effect.",
+   "label": "supported",
+   "rationale": "The context explicitly gives the date, the president, and the name of the legislation."
+  },
+  {
+   "sentence": "GLBA repealed Sections 20 and 32 of the Glass-Steagall Act, which had prohibited the interlocking of commercial and investment activities.",
+   "label": "supported",
+   "rationale": "The context identifies the repealed sections and describes what they prohibited."
+  },
+  {
+   "sentence": "The partial repeal allowed for universal banking, which combines commercial and investment banking services under one roof.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context explicitly states that the partial repeal allowed universal banking and defines it in these terms."
+  },
+  {
+   "sentence": "Many experts view GLBA as \"ratifying, rather than revolutionizing,\" and Sections 16 and 21 \"are still in place today.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context reports that expert characterization and confirms that the two sections remained in force."
+  },
+  {
+   "sentence": "**Enabled crisis rescues:** \"Glass-Steagall's repeal actually allowed for the rescue of many large institutions after the crisis: After all, JPMorgan Chase rescued Bear Stearns and Bank of America rescued Merrill Lynch, which would have been impermissible prior to the 1999 repeal.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context expressly connects the repeal to both rescues and says they would not have been permitted before it."
+  },
+  {
+   "sentence": "**Not a cause of the 2008 crisis:** those who believe its absence did not cause the crisis \"highlight that offering mortgages has always been a core business for commercial banks,\" and \"Glass-Steagall was never intended to address or regulate loan qualification standards.\" (doc.txt)",
+   "label": "unsupported",
+   "rationale": "The context supports the arguments attributed to this side of the debate, but does not establish the categorical claim in the lead-in that the repeal played no causal role."
+  },
+  {
+   "sentence": "It \"did not prevent non-depositories from extending mortgages...",
+   "label": "supported",
+   "rationale": "The context explicitly says the Act did not bar non-depositories from extending mortgages."
+  },
+  {
+   "sentence": "Nor did it address the incentives of the institutions that originated mortgages or sold mortgage-related securities.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context explicitly says the Act did not address those institutions' incentives."
+  },
+  {
+   "sentence": "The document concludes: \"On balance, therefore, the evidence does not seem to support the view that Glass-Steagall's absence was a cause of the financial crisis.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The sentence accurately attributes the document's qualified assessment of the evidence."
+  },
+  {
+   "sentence": "**Created \"too big to fail\" institutions:** \"the repeal of Glass-Steagall in 1999 set in motion the wave of mega-mergers that created huge financial conglomerates, many of which fall firmly within the TBTF camp.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context links the repeal to the mergers that created many institutions it describes as too big to fail."
+  },
+  {
+   "sentence": "TBTF institutions are \"so large, interconnected, and important that their failure would be disastrous to the greater economic system,\" with costs \"absorbed by government and taxpayers.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context describes the systemic harm of a failure and identifies who would absorb its costs."
+  },
+  {
+   "sentence": "**Worsened underwriting standards:** after the repeal, \"it is feasible that universal banks aimed to establish an initial market share in the securities market by lowering underwriting standards,\" and \"universal banks might also self-deal and favor their own interests over those of their customers.",
+   "label": "unsupported",
+   "rationale": "The context supports both quoted possibilities, but does not establish the lead-in's categorical claim that the repeal worsened underwriting standards."
+  },
+  {
+   "sentence": "Both of these incentives could have led to or exacerbated the decline in underwriting standards.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context explicitly presents both incentives as possible contributors to the decline."
+  },
+  {
+   "sentence": "**Universal banks would not have existed:** \"Had Glass-Steagall been in place, these universal banking institutions would not have been created.\" (doc.txt)",
+   "label": "unsupported",
+   "rationale": "The quotation concerns the particular universal banking institutions discussed; it does not establish the broader claim that no universal banks would have existed."
+  },
+  {
+   "sentence": "The document's overall assessment: \"its absence could have aggravated the situation,\" even though the Act \"never directly addressed loan qualification standards.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context says the Act did not directly regulate loan qualifications but that its absence could still have worsened the decline in underwriting standards."
+  },
+  {
+   "sentence": "The document notes there is \"disagreement around its influence on the financial markets,\" with the debate centering \"around the repeal's effects on the 2008 financial crisis and whether it was a principal cause of the crisis,\" and ends by observing that \"the general consensus is that Glass-Steagall's absence was not a principal cause of the crisis, the underlying culture of excessive risk-taking and short-term profit was real.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The opening identifies the disagreement and its focus, and the closing states the consensus while acknowledging the culture of excessive risk-taking."
+  }
+ ],
+ "unsup": 4,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

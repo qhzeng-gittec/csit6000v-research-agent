@@ -1,0 +1,9 @@
+
+
+Based on the "Forward-Looking Statements" section of `doc.txt`:
+
+**Meaning:** The press release contains forward-looking statements "within the meaning of the Private Securities Litigation Reform Act of 1995," and the Company intends them to be covered by the safe harbor provisions for forward-looking statements in Section 27A of the Securities Act of 1933 (as amended) and Section 21E of the Securities Exchange Act of 1934 (as amended). The Company has based these statements on its current expectations, assumptions, estimates, and projections, and they are "only predictions" that involve known and unknown risks and uncertainties.
+
+**Example terms:** Readers can generally identify forward-looking statements by terminology such as "anticipate," "believe," "continue," "could," "estimate," "expect," "intend," "may," "might," "plan," "potential," "predict," "seek," "vision," "should," or the negative thereof, or other variations or comparable terminology. The text also notes that forward-looking statements include those regarding the Company's ability to continue operating its business and implement the restructuring pursuant to the Chapter 11 cases, including the timetable of completing such transactions, if at all.
+
+**Why readers should be aware:** Because these statements are only predictions and involve known and unknown risks and uncertainties, many of which are beyond the Company's control, "readers are cautioned not to place undue reliance on such forward-looking statements." The text adds that they are not guarantees, that any such statement speaks only as of its date, and that—except as required by law—the Company does not undertake any obligation to update or revise, or to publicly announce any update or revision to, them.

@@ -1,0 +1,21 @@
+{
+ "run": "facts0214__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "According to `doc.txt`, the $1 billion is distributed by **FHWA** (the Federal Highway Administration).",
+   "label": "unsupported",
+   "rationale": "The document identifies FHWA as the distributor but does not spell out the acronym, so it does not fully support the sentence."
+  },
+  {
+   "sentence": "The document states that the NEVI Formula Program \"is to provide $5 billion in grants, with $1 billion distributed by FHWA in each of FY2022-FY2026.\"",
+   "label": "supported",
+   "rationale": "The document explicitly gives the program's total funding, the annual distribution amount, the distributing agency, and the fiscal years."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

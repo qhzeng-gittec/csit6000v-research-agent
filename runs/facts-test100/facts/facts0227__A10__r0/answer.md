@@ -1,0 +1,3 @@
+
+
+The **multistage model** showed debt underutilization in this study. The document states: "In comparison to the single-stage model, firms underutilize debt in the multistage model when financing investment the first time to retain financial flexibility" (doc.txt). It further notes that "underutilization of debt persists when firms mature (i.e., exercise their last investment options), and underutilization is more (less) severe for more backloaded (front-loaded) investment opportunities" (doc.txt).

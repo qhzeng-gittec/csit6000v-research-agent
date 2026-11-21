@@ -1,0 +1,13 @@
+# only the runs behind the reported results are versioned
+runs/*
+!runs/facts-test100/
+!runs/facts-files30/
+data/
+__pycache__/
+.pytest_cache/
+.env
+# superseded score files kept locally only
+score_official_J0.json
+score_noquote.json
+runs/facts-test100/**/score.json
+runs/facts-test100/**/score_first.json

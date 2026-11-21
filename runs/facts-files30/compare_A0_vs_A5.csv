@@ -1,0 +1,5 @@
+bench,metric,a,b,items,mean_a,mean_b,diff_b_minus_a,ci95_lo,ci95_hi,items_b_higher,items_b_lower
+facts,correct,A0,A5,30,0.783,0.783,0.0,-0.117,0.133,3,5
+facts,unsup_rate,A0,A5,28,0.192,0.153,-0.039,-0.113,0.027,11,17
+facts,all_supported,A0,A5,28,0.089,0.25,0.161,0.018,0.321,8,3
+facts,answer_chars,A0,A5,30,2769.783,2227.883,-541.9,-963.853,-163.243,3,26

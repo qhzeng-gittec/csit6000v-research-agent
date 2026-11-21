@@ -1,0 +1,13 @@
+
+
+<evidence>
+[E1] "Expanding on earlier models of quantitative analysis, AI/ML has often been adopted in finance to solve discrete challenges, such as maximizing profit and minimizing risk." (doc.txt)
+[E2] "Some uses of AI/ML include powering chatbots in customer service functions, identifying investment opportunities and/or executing trades, augmenting lending models or (more sparingly) making lending decisions, and identifying and preventing fraud." (doc.txt)
+[E3] "Unlike older algorithms that automated human-coded rules, new AI models can "learn" by themselves and make inferences and recommendations not identified by modelers in advance." (doc.txt)
+[E4] "including alternative data (i.e., data that the consumer credit bureaus do not traditionally use), unstructured data (images or social media posts, etc.), and unlabeled information data" (doc.txt)
+[E5] "to save time and money and promote accessibility, accuracy, and regulatory compliance" (doc.txt)
+[E6] "challenges and risks in the form of bias, potential for systemic risk and manipulation, affordability, and consequences for employment remain." (doc.txt)
+</evidence>
+<answer>
+According to doc.txt, artificial intelligence and machine learning have been adopted in finance "to solve discrete challenges, such as maximizing profit and minimizing risk," expanding on earlier models of quantitative analysis [E1]. Their purposes across the industry include "powering chatbots in customer service functions, identifying investment opportunities and/or executing trades, augmenting lending models or (more sparingly) making lending decisions, and identifying and preventing fraud" [E2]. A key purpose is to go beyond older algorithms that automated human-coded rules: new AI models can "learn" by themselves and make inferences and recommendations not identified by modelers in advance [E3]. The article also notes new types of data now used, "including alternative data (i.e., data that the consumer credit bureaus do not traditionally use), unstructured data (images or social media posts, etc.), and unlabeled information data" [E4]. Overall, providers are likely to keep adopting AI/ML "to save time and money and promote accessibility, accuracy, and regulatory compliance" [E5], even as policymakers weigh these benefits against "challenges and risks in the form of bias, potential for systemic risk and manipulation, affordability, and consequences for employment" [E6].
+</answer>

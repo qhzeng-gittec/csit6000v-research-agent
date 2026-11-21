@@ -1,0 +1,121 @@
+{
+ "run": "facts0738__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "I've read the full the document (164 lines).",
+   "label": "no_rad",
+   "rationale": "This is a statement about the assistant's reading process, not a claim about the document's subject matter."
+  },
+  {
+   "sentence": "Here is my answer, based solely on that document:",
+   "label": "no_rad",
+   "rationale": "This introduces the answer and states its sourcing approach without making a substantive claim about multi-cloud strategies."
+  },
+  {
+   "sentence": "**Enhanced data security:** With data spread across multiple cloud environments, businesses can implement robust security measures tailored to each platform.",
+   "label": "supported",
+   "rationale": "The context explicitly connects distributing data across clouds with the ability to tailor security measures to each platform."
+  },
+  {
+   "sentence": "This multi-layered approach reduces the risk of data breaches and protects sensitive information (lines 68–71).",
+   "label": "supported",
+   "rationale": "The context attributes both lower breach risk and protection of sensitive information to the multi-layered approach."
+  },
+  {
+   "sentence": "**Cost minimization:** Companies can optimize spending by selecting the most cost-effective services from various providers, avoid vendor lock-in, and negotiate better deals, ultimately reducing overall IT costs (lines 44–47, 63–65).",
+   "label": "supported",
+   "rationale": "The context identifies cost-effective service selection, avoiding lock-in, and negotiating better deals as ways to reduce costs."
+  },
+  {
+   "sentence": "**Improved data management and resilience:** Distributing data and workloads across multiple platforms ensures better performance, availability, storage efficiency, and disaster recovery/backup options, while minimizing the risk of downtime and data loss if one provider has an outage (lines 24–27, 38–41, 57–60).",
+   "label": "supported",
+   "rationale": "The context links data distribution to the stated performance, availability, storage, and recovery benefits, and workload distribution to reduced outage impact."
+  },
+  {
+   "sentence": "**Management complexity:** Managing multiple cloud environments is complex; businesses must invest in tools and expertise to ensure seamless integration and operation, which can increase operational costs and require specialized skills (lines 75–79).",
+   "label": "supported",
+   "rationale": "The context explicitly identifies the required investments and the possible increases in operating costs and skill requirements."
+  },
+  {
+   "sentence": "**Interoperability issues:** Cloud providers use various technologies and standards, making it difficult to integrate and manage workloads across platforms.",
+   "label": "supported",
+   "rationale": "The context identifies differences in provider technologies and standards as a source of integration and workload-management difficulty."
+  },
+  {
+   "sentence": "The document's answer is that businesses need to **carefully plan their multi-cloud architecture** to ensure compatibility and avoid potential conflicts (lines 82–85).",
+   "label": "supported",
+   "rationale": "The context explicitly recommends careful architectural planning for compatibility and conflict prevention."
+  },
+  {
+   "sentence": "**Data governance and compliance:** These become harder in a multi-cloud environment, so companies must follow rules and keep control of their data, often by implementing robust monitoring and auditing processes (lines 88–91).",
+   "label": "supported",
+   "rationale": "The context describes the governance and compliance challenges and identifies monitoring and auditing as common responses."
+  },
+  {
+   "sentence": "So the balance is struck by deliberately choosing the best services from multiple vendors (for security, cost, and resilience) while offsetting the downsides through careful architecture planning, investment in management tools and specialized expertise, and strong monitoring/auditing for governance.",
+   "label": "supported",
+   "rationale": "This synthesizes the stated benefits of selecting and distributing services across providers with the document's recommendations for managing complexity, compatibility, and governance."
+  },
+  {
+   "sentence": "**Avoiding vendor lock-in:** Companies can switch services and providers easily, adapt to changing needs, and take advantage of the best services available, which lets them adapt quickly to market changes and new technologies (lines 95–100).",
+   "label": "supported",
+   "rationale": "The context connects easier switching with access to better services, adaptation to changing markets, and uptake of new technologies."
+  },
+  {
+   "sentence": "**Performance optimization:** Multi-cloud lets businesses choose the best services for specific workloads, meeting performance goals and delivering better customer experiences (lines 103–106).",
+   "label": "supported",
+   "rationale": "The context explicitly links workload-specific service selection to performance goals and better customer experiences."
+  },
+  {
+   "sentence": "**Innovation:** Multi-cloud provides access to a wide range of technologies and services, so businesses can experiment with new tools and solutions without being constrained by a single vendor's offerings — fostering creativity, competitiveness, and growth (lines 109–112).",
+   "label": "supported",
+   "rationale": "The context describes access to diverse offerings as enabling experimentation, creativity, competitiveness, and growth."
+  },
+  {
+   "sentence": "**Future enablers:** The development of advanced management tools will give better visibility, control, and automation for multi-cloud environments (lines 137–139).",
+   "label": "supported",
+   "rationale": "The context forecasts the same three improvements from advanced management tools."
+  },
+  {
+   "sentence": "The document states that the focus on sustainability is itself driving multi-cloud adoption: businesses seek to reduce their environmental impact by optimizing cloud usage, and multi-cloud strategies allow organizations to choose eco-friendly cloud providers and implement energy-efficient practices, contributing to sustainability goals (lines 148–151).",
+   "label": "supported",
+   "rationale": "The context identifies sustainability as a driver of adoption and explicitly describes cloud optimization, provider choice, and energy-efficient practices."
+  },
+  {
+   "sentence": "**Cloud-native applications:** Designed to run on multiple cloud environments, they improve scalability, performance, and resilience, making them ideal for multi-cloud (lines 117–120).",
+   "label": "unsupported",
+   "rationale": "The context says the applications are suited to multi-cloud because they are designed to run in multiple environments. It presents improved scalability, performance, and resilience as goals of adoption, not as established outcomes."
+  },
+  {
+   "sentence": "**Edge computing:** As data is generated closer to the source, businesses must process and analyze it at the edge of the network; multi-cloud strategies let organizations leverage edge computing capabilities from different providers to meet real-time data processing demands (lines 123–126).",
+   "label": "supported",
+   "rationale": "The context explicitly links data generation near the source to edge processing and explains how using multiple providers helps meet real-time demands."
+  },
+  {
+   "sentence": "**AI and machine learning:** These require significant computing power and data storage, which can be efficiently managed using multiple cloud environments; businesses use AI/ML to gain insights, automate processes, and improve decision-making (lines 129–132).",
+   "label": "supported",
+   "rationale": "The context states the resource requirements, how multiple clouds can help manage them, and the listed business uses of AI and ML."
+  },
+  {
+   "sentence": "**IoT and 5G:** These technologies will generate vast amounts of data needing real-time processing and analysis, and multi-cloud strategies enable businesses to leverage the capabilities of different cloud providers to meet these demands (lines 142–145).",
+   "label": "supported",
+   "rationale": "The context explicitly describes the expected data volumes and real-time requirements, and says businesses can draw on different providers to meet them."
+  },
+  {
+   "sentence": "**In summary (per the document's conclusion):** multi-cloud is a significant shift in how businesses approach IT infrastructure — it improves data management, optimizes costs, and enhances flexibility, while bringing challenges of increased complexity and interoperability.",
+   "label": "supported",
+   "rationale": "The conclusion describes multi-cloud as a significant shift and lists the same benefits and challenges."
+  },
+  {
+   "sentence": "By carefully planning and managing their multi-cloud environments, organizations can unlock new opportunities for innovation, growth, and sustainability (lines 154–162).",
+   "label": "supported",
+   "rationale": "The context explicitly connects careful planning and management to all three opportunities."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

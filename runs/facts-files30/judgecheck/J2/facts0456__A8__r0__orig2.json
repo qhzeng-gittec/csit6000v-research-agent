@@ -1,0 +1,41 @@
+{
+ "run": "facts0456__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "The document requires closure at Saturday midnight:",
+   "label": "supported",
+   "rationale": "The document expressly requires bottle clubs in unincorporated areas to close at midnight Saturday."
+  },
+  {
+   "sentence": "- Closing hours: \"All bottle clubs located in the unincorporated areas of the county, shall remain closed from the hours of 3:00 a.m. to 7:00 a.m. on each day of the week except that all such bottle clubs shall remain closed from midnight on each Saturday until 7:00 a.m. on the following Monday.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The quoted rule states both the usual daily closure and the longer weekend closure."
+  },
+  {
+   "sentence": "- Scope: \"the unincorporated areas of the county and any municipality which has not adopted an ordinance\" (doc.txt).",
+   "label": "unsupported",
+   "rationale": "As a statement of scope, the truncated quote omits that only an ordinance covering the regulated subject matter, activity, or conduct affects whether the chapter applies in a municipality."
+  },
+  {
+   "sentence": "- Bottle club: a place where products are sold \"with the knowledge... that same will be... mixed... with... an alcoholic beverage\" (doc.txt).",
+   "label": "unsupported",
+   "rationale": "The abbreviated definition omits the requirements of consideration and on-premises consumption, and the document includes products dispensed, served, or provided, not just sold."
+  },
+  {
+   "sentence": "- General on-premises hours: \"between the hours of 7:00 a.m. and 2:00 a.m. on all days of the week except Sunday\"; Sunday \"between the hours of 11:00 a.m. Sunday and 2:00 a.m. of the following day\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The quoted times match the general on-premises schedule for licensed establishments. The sentence does not claim there are no exceptions."
+  },
+  {
+   "sentence": "- Violation: \"a misdemeanor of the second degree\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The document explicitly classifies a violation of the chapter as a second-degree misdemeanor."
+  }
+ ],
+ "unsup": 2,
+ "blame_file": 0,
+ "verbatim_only": 1
+}

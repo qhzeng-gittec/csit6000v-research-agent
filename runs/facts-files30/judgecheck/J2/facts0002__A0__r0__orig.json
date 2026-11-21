@@ -1,0 +1,296 @@
+{
+ "run": "facts0002__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt` (\"Money Management Tips: 55 Ways to Save Money\"), here are some tips on saving money, grouped by category:",
+   "label": "no_rad",
+   "rationale": "This introduces the list and describes how the answer is organized."
+  },
+  {
+   "sentence": "Instead of paying for a fitness club membership, buy some weights or go to the ARC.",
+   "label": "supported",
+   "rationale": "The document recommends both alternatives to a fitness club membership."
+  },
+  {
+   "sentence": "Don't smoke — cigarettes are expensive, the money adds up quickly, and you'll be fined if you smoke near school facilities.",
+   "label": "supported",
+   "rationale": "The document advises against smoking and gives both the accumulating cost and the fine as reasons."
+  },
+  {
+   "sentence": "Wait until after half-time at sport events and get in for free.",
+   "label": "supported",
+   "rationale": "The document explicitly recommends waiting until after half-time for free admission."
+  },
+  {
+   "sentence": "When eating out, look for coupons or special deals, and order water instead of overpriced drinks.",
+   "label": "supported",
+   "rationale": "The document recommends looking for restaurant deals and ordering water to avoid overpriced drinks."
+  },
+  {
+   "sentence": "Grab coupon books that local businesses give out at the beginning of the semester.",
+   "label": "supported",
+   "rationale": "The document identifies local businesses as a source of coupon books at the start of the semester."
+  },
+  {
+   "sentence": "Take advantage of hundreds of free campus activities (clubs, student concerts, church-sponsored events — often with food included).",
+   "label": "supported",
+   "rationale": "The document says there are hundreds of free campus activities, lists these examples, and says food is usually involved."
+  },
+  {
+   "sentence": "Attend free \"Illinites\" student activities at the Illini Union every Friday night.",
+   "label": "supported",
+   "rationale": "The document gives the same location, schedule, and admission cost for Illinites."
+  },
+  {
+   "sentence": "Attend shows at Krannert — student tickets are $10 or less, sometimes free.",
+   "label": "supported",
+   "rationale": "The document recommends Krannert shows and states both the student ticket price and the possibility of free admission."
+  },
+  {
+   "sentence": "If you're throwing a party, have guests pay a little or bring things to offset your cost.",
+   "label": "supported",
+   "rationale": "The document recommends both ways for guests to help cover party costs."
+  },
+  {
+   "sentence": "Don't buy a book unless you really want to keep it — you can check books out free at libraries.",
+   "label": "supported",
+   "rationale": "The document advises buying only books you want to keep and identifies free library borrowing as an alternative."
+  },
+  {
+   "sentence": "Rent movies with a group of friends, or go to second-run theaters for $1–$2 a ticket.",
+   "label": "supported",
+   "rationale": "The document gives both moviegoing tips and the stated ticket prices."
+  },
+  {
+   "sentence": "Bring your student ID to movies — most theaters give student discounts.",
+   "label": "supported",
+   "rationale": "The document recommends bringing a student ID and says most theaters offer a student discount."
+  },
+  {
+   "sentence": "Be a savvy consumer: research product quality (e.g., through Consumer Reports) before major purchases.",
+   "label": "supported",
+   "rationale": "The document recommends researching product quality through Consumer Reports before major purchases."
+  },
+  {
+   "sentence": "Sometimes the cheaper product works just as well as the expensive one.",
+   "label": "supported",
+   "rationale": "The document states this comparison directly."
+  },
+  {
+   "sentence": "Ask for generic medications at the pharmacy.",
+   "label": "supported",
+   "rationale": "This is the document's explicit recommendation."
+  },
+  {
+   "sentence": "Get your hair done at a cosmetology school instead of a salon.",
+   "label": "supported",
+   "rationale": "The document recommends a cosmetology school as an alternative to a salon."
+  },
+  {
+   "sentence": "Buying in bulk is usually good, but shop by per-unit price — the biggest option isn't always the best value.",
+   "label": "supported",
+   "rationale": "The document generally favors bulk buying but recommends comparing unit prices because the largest option may not offer the best value."
+  },
+  {
+   "sentence": "Scout garage/yard sales for housewares and furniture; the YMCA holds a \"dump and run\" at the start of each semester.",
+   "label": "supported",
+   "rationale": "The document recommends garage and yard sales for these items and gives the same timing for the YMCA event."
+  },
+  {
+   "sentence": "Make things for gifts — cheaper, and the time invested shows you care.",
+   "label": "supported",
+   "rationale": "The document gives both lower cost and the time invested as reasons to make gifts."
+  },
+  {
+   "sentence": "Buy holiday and birthday gifts throughout the year to take advantage of sales.",
+   "label": "supported",
+   "rationale": "The document makes this recommendation for both kinds of gifts."
+  },
+  {
+   "sentence": "Get a job at a place where you already spend a lot of money to get employee discounts.",
+   "label": "supported",
+   "rationale": "The document suggests working where you already spend money so you can get employee discounts."
+  },
+  {
+   "sentence": "Use mail-in rebates or coupons for groceries and health/beauty items.",
+   "label": "supported",
+   "rationale": "The document recommends rebates or coupons for both categories of purchases."
+  },
+  {
+   "sentence": "Don't buy bottled water — buy a water filtration pitcher.",
+   "label": "supported",
+   "rationale": "The document explicitly recommends a filtration pitcher instead of bottled water."
+  },
+  {
+   "sentence": "Don't buy something just because it's on sale — consider whether you really need it.",
+   "label": "supported",
+   "rationale": "The document advises checking whether an item is needed rather than buying it just because it is on sale."
+  },
+  {
+   "sentence": "Apply for your favorite store's discount card if they have one.",
+   "label": "supported",
+   "rationale": "The document recommends applying for a favorite store's discount card if available."
+  },
+  {
+   "sentence": "Make home-cooked meals — often cheaper than a fast food binge.",
+   "label": "supported",
+   "rationale": "The document recommends cooking at home and says a home-cooked dinner is often cheaper than a fast food binge."
+  },
+  {
+   "sentence": "Pack a lunch instead of eating out.",
+   "label": "supported",
+   "rationale": "The document makes this recommendation verbatim."
+  },
+  {
+   "sentence": "Buy clothes at the end of the season when they're on sale.",
+   "label": "supported",
+   "rationale": "The document recommends buying clothes during end-of-season sales."
+  },
+  {
+   "sentence": "Take clothes you no longer wear to a consignment shop or sell them online.",
+   "label": "supported",
+   "rationale": "The document gives both options for clothes you no longer wear."
+  },
+  {
+   "sentence": "Share dresses and tuxes with friends for special occasions.",
+   "label": "supported",
+   "rationale": "The document makes this recommendation verbatim."
+  },
+  {
+   "sentence": "If you buy more than one of something (e.g., 2–3 shirts), always ask for a discount.",
+   "label": "supported",
+   "rationale": "The document advises asking for a discount when buying multiples and gives the same shirt example."
+  },
+  {
+   "sentence": "Invest in durable clothes and shoes rather than many cheap pairs.",
+   "label": "supported",
+   "rationale": "The document recommends durable clothing and shoes over buying many cheap pairs."
+  },
+  {
+   "sentence": "Set goals for your spending and saving.",
+   "label": "supported",
+   "rationale": "The document makes this recommendation verbatim."
+  },
+  {
+   "sentence": "Keep track of your spending to avoid overspending (there are apps for that).",
+   "label": "supported",
+   "rationale": "The document recommends tracking spending to avoid overspending and mentions apps for doing so."
+  },
+  {
+   "sentence": "Don't use a credit card if it leads you to make more purchases — on average, people with credit cards spend 34% more.",
+   "label": "supported",
+   "rationale": "The document gives the same conditional advice and the same 34% figure."
+  },
+  {
+   "sentence": "Before going out to spend, set a limit for yourself and stick to it.",
+   "label": "supported",
+   "rationale": "The document recommends setting and sticking to a spending limit before going out."
+  },
+  {
+   "sentence": "Wait at least two hours before making a big purchase to be sure it's something you really need.",
+   "label": "supported",
+   "rationale": "The document gives the same minimum waiting time and reason."
+  },
+  {
+   "sentence": "Obey traffic laws — speeding tickets cost more than the ticket itself by raising insurance premiums.",
+   "label": "supported",
+   "rationale": "The document recommends obeying traffic laws and says speeding tickets raise insurance premiums."
+  },
+  {
+   "sentence": "Keep your tires inflated properly for better gas mileage.",
+   "label": "supported",
+   "rationale": "The document explicitly links proper tire inflation to better gas mileage."
+  },
+  {
+   "sentence": "Get good grades — insurance companies offer lower rates to students with a 3.0+ GPA.",
+   "label": "supported",
+   "rationale": "The document recommends getting good grades to qualify for low insurance rates and gives the same GPA threshold."
+  },
+  {
+   "sentence": "Carpool with friends.",
+   "label": "supported",
+   "rationale": "The document explicitly recommends carpooling with a friend."
+  },
+  {
+   "sentence": "Search for dependable cars that offer good gas mileage.",
+   "label": "supported",
+   "rationale": "The transportation tip recommends looking for dependable vehicles with good gas mileage; 'cards' is an evident typo for 'cars.'"
+  },
+  {
+   "sentence": "Drive an older car — insurance payments and taxes will be less.",
+   "label": "supported",
+   "rationale": "The document recommends an older car and states both savings."
+  },
+  {
+   "sentence": "Walk, bike, or ride to school — good for you and saves on gas.",
+   "label": "supported",
+   "rationale": "The document lists all three options and gives both benefits."
+  },
+  {
+   "sentence": "Look around for the cheapest gas price before filling up (there are apps for that).",
+   "label": "supported",
+   "rationale": "The document recommends comparing gas prices before filling up and mentions apps for doing so."
+  },
+  {
+   "sentence": "Only use ATMs of your own bank — other banks' ATM fees add up.",
+   "label": "supported",
+   "rationale": "The document gives the same advice and cites the accumulating fees from other banks' ATMs."
+  },
+  {
+   "sentence": "Always put part of your paycheck into a savings account.",
+   "label": "supported",
+   "rationale": "The document recommends putting part of each paycheck into a savings account."
+  },
+  {
+   "sentence": "Spare change adds up — use a piggy bank or change jar.",
+   "label": "supported",
+   "rationale": "The document says spare change adds up and recommends both containers."
+  },
+  {
+   "sentence": "Volunteer — if you're busy, you can't spend money (and it boosts your resume).",
+   "label": "supported",
+   "rationale": "The document recommends volunteering to stay busy instead of spending and to boost a resume; 'month' is an evident typo for 'money.'"
+  },
+  {
+   "sentence": "Use plastic grocery bags as trash can liners.",
+   "label": "supported",
+   "rationale": "The document recommends reusing plastic grocery bags as trash can liners."
+  },
+  {
+   "sentence": "Turn off the water while brushing your teeth.",
+   "label": "supported",
+   "rationale": "The document makes this recommendation verbatim."
+  },
+  {
+   "sentence": "Unplug electronics when not in use — even turned off, they still use costly energy.",
+   "label": "supported",
+   "rationale": "The document advises unplugging unused electronics because they still draw energy when turned off."
+  },
+  {
+   "sentence": "Use items like shampoo, toothpaste, and paper towels sparingly — enough to do the job without waste.",
+   "label": "supported",
+   "rationale": "The document names the same items and recommends using only enough to do the job."
+  },
+  {
+   "sentence": "Pay your bills online to save paper and money on stamps.",
+   "label": "supported",
+   "rationale": "The document recommends paying bills online for both of these savings."
+  },
+  {
+   "sentence": "Ask your landlord to seal gaps between doors and windows to prevent heat leaks over winter.",
+   "label": "supported",
+   "rationale": "The document recommends asking the landlord to seal these gaps to prevent winter heat loss."
+  },
+  {
+   "sentence": "The document notes it was modified by Joe Pleshar, Yuanhang Fan, and Maggie Benson (Peer Educators, Spring 2015) for the University of Illinois Extension Financial Wellness for College Students Program, and is sourced from the National Student Loan Program's Budget Handout #6 (2002).",
+   "label": "supported",
+   "rationale": "The document credits the same three peer educators and program and identifies the same source handout and year."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

@@ -1,0 +1,136 @@
+{
+ "run": "facts0667__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Based on the document, here is what the document says:",
+   "label": "no_rad",
+   "rationale": "This introduces the answer without making a substantive claim about mpox."
+  },
+  {
+   "sentence": "## What is monkeypox?",
+   "label": "no_rad",
+   "rationale": "This heading asks a question rather than making a factual claim."
+  },
+  {
+   "sentence": "Mpox (formerly known as monkeypox) is a disease caused by infection with the Monkeypox virus, which is part of the same family as the virus that causes smallpox.",
+   "label": "supported",
+   "rationale": "The context confirms the former name, the cause of the disease, and the relationship between the viruses."
+  },
+  {
+   "sentence": "It is a zoonotic disease, meaning it can be spread between animals and people, and it is endemic (found regularly) in parts of Central and West Africa.",
+   "label": "supported",
+   "rationale": "The context explicitly defines zoonotic transmission and identifies where mpox is endemic."
+  },
+  {
+   "sentence": "The virus has been found in small rodents, monkeys, and other mammals in these areas.",
+   "label": "supported",
+   "rationale": "The context names all three groups and places them in the areas just described."
+  },
+  {
+   "sentence": "It is not related to chickenpox.",
+   "label": "supported",
+   "rationale": "The context directly states that mpox is unrelated to chickenpox."
+  },
+  {
+   "sentence": "## Is it currently spreading?",
+   "label": "no_rad",
+   "rationale": "This heading asks a question rather than asserting that mpox is spreading."
+  },
+  {
+   "sentence": "Yes, according to the document:",
+   "label": "supported",
+   "rationale": "As an answer to the preceding question, this is supported by the document's report of a current rise in cases in Central and Eastern Africa."
+  },
+  {
+   "sentence": "- **Clade I** is responsible for the **current rise of cases in Central and Eastern Africa**.",
+   "label": "supported",
+   "rationale": "The context attributes the current rise in cases in those regions to clade I."
+  },
+  {
+   "sentence": "- **Clade II** is the type that caused the **global outbreak that began in 2022**, and it is endemic to West Africa.",
+   "label": "supported",
+   "rationale": "The context identifies clade II as the cause of that outbreak and states that it is endemic to West Africa."
+  },
+  {
+   "sentence": "- Before 2022, cases outside endemic regions were rare and usually linked to travel or imported animals.",
+   "label": "supported",
+   "rationale": "The context describes cases elsewhere before the 2022 global spread as rare and usually associated with travel or animal imports."
+  },
+  {
+   "sentence": "## Direct effects and how dangerous is it?",
+   "label": "no_rad",
+   "rationale": "This heading introduces the topics of symptoms and severity without making a factual claim."
+  },
+  {
+   "sentence": "- **Direct effects:** People with mpox often get a **rash, along with other symptoms**.",
+   "label": "supported",
+   "rationale": "The context explicitly says that people with mpox often get a rash along with other symptoms."
+  },
+  {
+   "sentence": "The rash goes through several stages, including **scabs**, before healing.",
+   "label": "supported",
+   "rationale": "The context describes the rash as progressing through several stages, including scabs, before it heals."
+  },
+  {
+   "sentence": "- **Danger level:** The document states that cases of mpox are **not life-threatening**, but some people are more likely to get severely ill, including:\n  - People with severely weakened immune systems\n  - Children younger than 1\n  - People with a history of eczema\n  - People who are pregnant",
+   "label": "unsupported",
+   "rationale": "The document uses the phrase 'not life-threatening' and lists all four groups, but says they may be more likely to get severely ill. The response presents that higher risk without the qualification."
+  },
+  {
+   "sentence": "- **By virus type:**",
+   "label": "no_rad",
+   "rationale": "This subheading organizes the following claims without making one itself."
+  },
+  {
+   "sentence": "  - **Clade I** historically caused higher numbers of severe illnesses, with **up to 10% of people dying** from it; recent outbreaks have seen much lower death rates of **about 1–3.3%**.",
+   "label": "supported",
+   "rationale": "The context confirms the historical severity and both the historical and recent death rates."
+  },
+  {
+   "sentence": "  - **Clade II** infections are generally less severe, with **more than 99.9% of people surviving**.",
+   "label": "supported",
+   "rationale": "The context explicitly gives both the severity comparison and the survival figure."
+  },
+  {
+   "sentence": "## Ways to prevent mpox",
+   "label": "no_rad",
+   "rationale": "This is a topic heading, not a factual assertion about a prevention measure."
+  },
+  {
+   "sentence": "The document lists several ways to protect yourself and others:",
+   "label": "supported",
+   "rationale": "The context explicitly introduces several measures for protecting oneself and others from mpox."
+  },
+  {
+   "sentence": "1. **Getting vaccinated** — check with your healthcare provider to find out if the mpox vaccine is recommended for you.",
+   "label": "supported",
+   "rationale": "The context lists vaccination and advises checking with a healthcare provider about whether it is recommended."
+  },
+  {
+   "sentence": "2. **Avoiding close, skin-to-skin contact** with people who have a rash that looks like mpox.",
+   "label": "supported",
+   "rationale": "The context directly recommends avoiding this kind of contact."
+  },
+  {
+   "sentence": "3. **Avoiding contact with materials** a person with mpox has used, including sharing eating utensils and cups, and handling their bedding or clothing.",
+   "label": "supported",
+   "rationale": "The context recommends avoiding used materials and gives the same examples of contact to avoid."
+  },
+  {
+   "sentence": "4. **If you do get mpox:** isolate at home, and cover lesions and wear a mask if you must be around others.",
+   "label": "supported",
+   "rationale": "The context gives the same advice about isolation, covering lesions, and wearing a mask around others."
+  },
+  {
+   "sentence": "5. **If you are in an area of Western or Central Africa where mpox occurs regularly:** avoid contact with live or dead wild animals.",
+   "label": "supported",
+   "rationale": "The context gives the same geographic condition and recommends avoiding both live and dead wild animals."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

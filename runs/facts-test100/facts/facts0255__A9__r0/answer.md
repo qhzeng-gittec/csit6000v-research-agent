@@ -1,0 +1,7 @@
+
+
+According to `doc.txt`, if you can't qualify for a regular (unsecured) credit card, the article offers two alternatives:
+
+1. **Open a secured credit card.** The article says secured cards "can be pretty easy to get, even if your credit is damaged," because they rely on a cash security deposit to minimize risk to the issuer. If you pay off your balance in full, you get the security deposit back when you close the account, and some issuers will even automatically upgrade you to an unsecured account and return your deposit. The article also notes that banks where you already have a good reputation and your local credit union are often the best places to find a secured card, and to look for one that might allow you to graduate easily to an unsecured card (and avoid annual fees, if possible).
+
+2. **Become an authorized user on someone else's card** (such as a trusted family member). You receive your own credit card with your name on it, but the account remains the responsibility of the primary account holder, and the card company typically reports the account to the credit bureaus for both the primary holder and the authorized user. As long as the account is in good standing, this can help raise your credit score. The article cautions that this isn't without risks: if the cardholder or the authorized user runs up a high balance, both users could see credit score damage, so you should only tie your credit score to individuals you trust.

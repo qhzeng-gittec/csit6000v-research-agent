@@ -1,0 +1,3 @@
+
+
+The document does not explicitly list "benefits" of high-quality staff. It only states that financial intermediaries "train high-quality staff to assist in the process of finding and monitoring suitable units in deficit (borrowers)" (doc.txt), and notes that "It would be very difficult, time-consuming and costly for an individual to do so" (doc.txt). No further advantages of high-quality staff are described in the file.

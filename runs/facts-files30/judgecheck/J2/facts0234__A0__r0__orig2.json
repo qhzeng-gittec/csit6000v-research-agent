@@ -1,0 +1,81 @@
+{
+ "run": "facts0234__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt` (NIST SP 800-215, \"Guide to a Secure Enterprise Network Landscape\"), the enhanced firewall capabilities described in the \"Enhanced Firewall Capabilities\" section benefit network security in the following ways:",
+   "label": "supported",
+   "rationale": "The named section describes firewall capabilities that improve security, including detecting threats and enforcing access policies."
+  },
+  {
+   "sentence": "- **Packet filtering and NAT**: Monitor and control packets crossing a network interface, apply predetermined security rules, and obscure the internal network from the public internet.",
+   "label": "supported",
+   "rationale": "The context explicitly lists all three functions for packet filtering and NAT."
+  },
+  {
+   "sentence": "- **Stateful inspection**: Monitor the state of connections so only packets belonging to known active connections are allowed through.",
+   "label": "unsupported",
+   "rationale": "The context says stateful inspection identifies packets that belong to known active connections and can pass. It does not say that only packets belonging to such connections can pass."
+  },
+  {
+   "sentence": "- **Deep packet inspection (DPI)**: Examine both packet headers and payloads (unlike stateful inspection, which checks headers only), enabling detection of hidden threats in the data stream such as data exfiltration attempts, content policy violations, and malware.",
+   "label": "supported",
+   "rationale": "The context makes the same comparison with stateful inspection and lists all three examples of hidden threats."
+  },
+  {
+   "sentence": "- **Threat detection and response**: Gather and analyze data across multiple packets and sessions to detect threats and security incidents targeting a particular system or family of systems.",
+   "label": "supported",
+   "rationale": "The context explicitly describes analyzing data across packets and sessions to detect threats and incidents targeting one system or a family of systems."
+  },
+  {
+   "sentence": "Data from multiple firewalls can be fed to SIEM tools and correlated with other security tools to detect enterprise-wide attacks spanning multiple systems and network layers, and to understand evolving threats and define new access rules, attack patterns, and defensive strategies.",
+   "label": "unsupported",
+   "rationale": "The context links SIEM correlation to detecting enterprise-wide attacks. It separately lists understanding threats and defining rules, patterns, and strategies as uses of the firewall data, without specifically attributing those uses to SIEM correlation."
+  },
+  {
+   "sentence": "- **Logging and auditing**: Build a record of network events used to identify patterns of performance and security issues.",
+   "label": "supported",
+   "rationale": "The context states that logging and auditing produce network events that can reveal patterns in performance and security issues."
+  },
+  {
+   "sentence": "- **Access control functions**: Enforce granular, sophisticated access control policies.",
+   "label": "supported",
+   "rationale": "The context explicitly describes this enforcement capability."
+  },
+  {
+   "sentence": "- **Deployment at multiple locations**: Edge firewalls protect the network perimeter by filtering disallowed sources/destinations and blocking packets of potential threats; data-center firewalls segment the internal network to prevent lateral movement of traffic and isolate sensitive resources (e.g., services and data stores); device-based firewalls block malicious traffic in and out of endpoints.",
+   "label": "supported",
+   "rationale": "The context describes the stated security role for each of the three firewall locations."
+  },
+  {
+   "sentence": "- **Open APIs**: Enable integration with other networking products that add security capabilities.",
+   "label": "supported",
+   "rationale": "The context explicitly says open APIs allow integration with networking products that provide additional security capabilities."
+  },
+  {
+   "sentence": "- **Policy composition**: Merge policies at enforcement time so consistent policies are applied across different user classes (e.g., on-premises, private and public clouds).",
+   "label": "supported",
+   "rationale": "The context describes enforcement-time policy merging as a firewall capability and gives the same examples of user classes."
+  },
+  {
+   "sentence": "- **Web application firewalls (WAF)**: Detect traffic from malicious URLs and prevent web-based threats using real-time machine-learning-analyzed data; inspect threat vectors such as SQL injection, OS command injection, and cross-site scripting; prevent inbound attacks; and are used in CDNs to prevent DDoS attacks.",
+   "label": "unsupported",
+   "rationale": "The context supports the listed detection and prevention capabilities, but states CDN use and DDoS prevention separately. It does not say that WAFs are used in CDNs specifically to prevent DDoS attacks."
+  },
+  {
+   "sentence": "Additional features include specifying allowable service lists (application-level control), matching traffic to the intent of allowed ports, and filtering unwanted protocols.",
+   "label": "supported",
+   "rationale": "The context lists each of these as an additional WAF feature."
+  },
+  {
+   "sentence": "In short, per the document, the evolution of firewall functions—from simple perimeter packet filtering to DPI, threat detection, granular access control, segmentation, and web application protection—broadens an enterprise's ability to detect, prevent, and respond to threats across the entire network, including enterprise-wide and web-based attacks.",
+   "label": "supported",
+   "rationale": "The context contrasts early perimeter protection with newer capabilities that detect hidden and enterprise-wide threats, inform defensive responses, enforce access rules, segment internal networks, and prevent web attacks."
+  }
+ ],
+ "unsup": 3,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

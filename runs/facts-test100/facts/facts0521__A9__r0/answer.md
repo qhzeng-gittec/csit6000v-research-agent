@@ -1,0 +1,9 @@
+
+
+Based on `doc.txt`, the two are related but distinct things:
+
+**The Internet** is the underlying network infrastructure. It began in 1969 as ARPANET, a U.S. Department of Defense project, and is defined by most people as a collection of computer networks — a network being a group of two or more computers connected together with cables that allow them to share information. Computers "on the Internet" all use the same protocols to send information back and forth, so they can communicate regardless of their hardware or software. Today it is decentralized, made up of independently owned and managed networks of all sizes, with larger high-speed networks called backbone providers and Internet Service Providers (ISPs) selling connections to consumers. The document lists several services the Internet provides: e-mail, Telnet, File Transfer Protocol (FTP), Usenet, Internet Relay Chat (IRC), and the World Wide Web.
+
+**The World Wide Web** is one of those services, not the network itself. It was invented in 1989 by Tim Berners-Lee at CERN to make research information on the Internet more organized and accessible. It is based on hypertext — a method of linking documents using embedded hyperlinks — and its documents (Web pages) are written in HTML, stored on computers called servers, and retrieved by a Web browser using the Hypertext Transfer Protocol (HTTP). Web pages are organized into Web sites, and each page has its own address, a URL.
+
+So the difference, as the document presents it: the Internet is the collection of interconnected computer networks and their shared communication protocols, while the World Wide Web is a hypertext-based system of linked documents that runs on top of the Internet and is accessed through browsers. The document also notes that the Web's ease of use and graphical, "point-and-click" interface is one reason for the Internet's growth explosion.

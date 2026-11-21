@@ -1,0 +1,15 @@
+All parts of AWIA Section 2015 described in `doc.txt` relate to water, because the section amends the Safe Drinking Water Act (SDWA) provisions governing the Drinking Water State Revolving Fund (DWSRF) program. The document describes the following parts:
+
+- **Section 2015(a)** — "amends SDWA to expressly state that DWSRF funds can be used for projects to replace or rehabilitate aging treatment, storage, or distribution systems" (doc.txt). Under EPA guidance, these projects had been eligible for DWSRF assistance "if needed to protect public health," and "Prior to AWIA, these activities were not previously explicitly identified in statute" (doc.txt).
+
+- **Section 2015(c)** — Revises DWSRF provisions for disadvantaged communities: it "increases that proportion to 35%" (from 30%) of a state's annual capitalization grant that may be used to subsidize loans for disadvantaged communities, "while conditionally requiring states to use at least 6% of their capitalization grant for these subsidies," and amends SDWA "to extend the amortization period for loans made to disadvantaged communities from 30 to 40 years" (doc.txt).
+
+- **Section 2015(d)** — "extends the repayment and amortization period for all projects financed by the DWSRF" (doc.txt): the initial principal and interest payment is extended from one year to "18 months after project completion," and the section "authorizes the extension of the amortization period for projects that receive DWSRF assistance from 20 to 30 years" (doc.txt).
+
+- **Section 2015(e)** — "requires EPA to evaluate and include the cost to replace lead service lines in the drinking water infrastructure needs survey, which EPA completes every four years" (doc.txt). Because EPA uses the needs survey "to allot the DWSRF appropriation among the states," this "may potentially affect some states' allotments of DWSRF capitalization grants" (doc.txt).
+
+- **Section 2015(f)** — "removes this fiscal year limitation and accordingly authorizes states to use a portion of their capitalization grant to fund these source water assessments or update an existing source water assessment" (doc.txt); the limitation had previously restricted states to funding source water assessment activities from 10% of their DWSRF capitalization grant only for FY1996 and FY1997 (doc.txt).
+
+- **Section 2015(g)** — "requires EPA to gather specified information on DWSRF administration from state drinking water administrators and report to Congress on best practices for implementing the DWSRF to facilitate the application process and to improve DWSRF financial management and sustainability" (doc.txt).
+
+In short, every part of Section 2015 in the document concerns drinking water: expanding eligible DWSRF uses (aging water systems), increasing subsidies and extending loan terms for disadvantaged communities, extending repayment/amortization periods, counting lead service line replacement costs in the needs survey, funding source water assessments, and improving DWSRF administration.

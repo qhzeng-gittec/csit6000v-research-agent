@@ -1,0 +1,39 @@
+Based on `doc.txt` (a GDAE teaching module by Brian Roach, "Taxes in the United States: History, Fairness, and Current Political Issues"), here is the history of taxes in the United States as presented in the document:
+
+**Before the federal income tax (founding to early 1900s)**
+- The U.S. Constitution restricted "direct" federal taxation of individuals, so the federal government relied on indirect taxes: tariffs on imports and excise taxes. Tariffs were the major source of government receipts from the nation's founding until the early 1900s (in 1800, customs duties were about 84% of government receipts). Internal revenue in the early 20th century came mainly from excise taxes on alcohol (over 60% of internal revenue in 1900) and tobacco (about 20%).
+- The framers, wary of taxation power after the American Revolution, decentralized taxation, delegating most revenue collection to localities, which relied primarily on property taxes. In peacetime the federal government met expenses with modest excise taxes and tariffs; during wars (e.g., the War of 1812) taxes were temporarily raised and then cut after public opposition.
+- Government was small relative to the economy: in the late 1800s government expenditures were only about 2% of national output, versus about 20% in 2010.
+
+**Civil War (1860s)**
+- The Civil War raised excise and tariff rates; revenue collections increased sevenfold between 1863 and 1866. The first national income tax was instituted, with a maximum rate of 10% and generous exemptions, so only about 10% of households paid it. It generated over 20% of federal revenues in 1865, but few politicians favored keeping it, and it expired in 1872.
+
+**Populist movement and the 16th Amendment (1890s–1913)**
+- The late-1800s Populist movement, reacting to the regressive excise-tax system, monopoly profits, and wealth concentration, revived the income tax as a vehicle of social justice rather than major revenue. A federal income tax with a $4,000 exemption was enacted in 1894, but the Supreme Court ruled it unconstitutional in 1895. After failed amendment attempts, the 16th Amendment was ratified in 1913, creating the legal basis for the federal income tax. Initially only about 2% of households paid it, at rates of just 1%–7%.
+
+**World War I and the growth of direct taxation (1910s–1920s)**
+- Woodrow Wilson's administration transformed the income tax: the top marginal rate rose from 7% in 1915 to 67% in 1917. Corporate taxes became a major revenue source (over a quarter of internal revenue in 1917), and the estate tax was created in 1916 as an instrument of progressive taxation.
+- Unlike after earlier wars, much of this system remained: tariffs fell from about half of government receipts in 1910 to under 15% by 1925, while corporate and individual income taxes made up nearly half of receipts in the mid-1920s. Excise collections dropped, especially during Prohibition.
+
+**Great Depression and New Deal (1930s)**
+- The Depression caused a sharp decline in federal receipts; tax rates were raised in 1932. Roosevelt presented progressive taxation as a key New Deal element, but the most significant measure was old-age insurance (Social Security), funded by a separate tax split equally between employers and employees (initially 1% each, 2% total) rather than by income taxes.
+
+**World War II (1939–1945)**
+- Roosevelt sought to raise revenue mainly from corporations and high-income households (he argued no citizen should have a post-tax net income above $25,000, though he lacked Congressional support for his most progressive proposals). The compromise produced a more progressive tax reaching the middle class: personal exemptions were halved between 1939 and 1942, the top rate's threshold fell from $5 million (1941) to $200,000 (1942), and the top marginal rate hit a record 94% in 1944. Payroll withholding was introduced.
+- The result was dramatic: individual taxpayers grew from 3.9 million in 1939 to 42.6 million in 1945; federal income tax collections leapt from $2.2 billion to $35.1 billion; by war's end nearly 90% of the labor force filed returns and about 60% paid income taxes. Federal income tax's share of all government-level tax collections rose from 16% in 1940 to over 51% by 1950 — the most dramatic shift in U.S. tax policy since 1916.
+
+**Postwar period to the 1980s**
+- Much of the WWII structure remained; both parties supported a broad progressive income tax, relatively flat corporate rates, and regressive social insurance taxes. Changes were generally minor: the Social Security tax rose from 2% to 6.13% by 1979; Medicare and Medicaid were established in the 1960s; the 1964 tax cut lowered marginal rates (top rate fell from 91% in 1963 to 70% in 1965). Government's share of the economy grew from under 18% of GDP in 1946 to over 22% by the mid-1970s.
+
+**Reagan era (1980s)**
+- The Economic Recovery Tax Act of 1981 (ERTA) enacted the largest tax cut in American history (in constant dollars), based on supply-side theory; it phased the top rate down from 70% to 50%, cut corporate taxes, and indexed many parameters to inflation. In practice it produced the largest federal revenue reduction of any post-WWII tax bill, and deficits grew. The 1982 act was the largest peacetime tax increase, repealing some ERTA provisions; 1983 Social Security reforms raised rates and taxed some benefits. The Tax Reform Act of 1986 cut the top individual rate from 50% to 28% (by 1988) and the top corporate rate from 46% to 34%. Despite the cuts, total federal revenues grew nearly in line with GDP (up ~76% from 1980–1988 vs. 83% GDP growth), but the revenue mix shifted: individual and corporate shares fell while social insurance taxes rose 38%, reducing overall progressivity. Federal deficits tripled during the 1980s.
+
+**1990s–2000s**
+- First President Bush broke his "no new taxes" pledge in 1990, raising the top marginal bracket to 31%. Clinton in 1993 added 36% and 39.6% brackets and raised the corporate rate to 35%, increasing progressivity. The 2001 Bush tax cut ($1.35 trillion) lowered individual rates across the board (top rate fell from 39.6% to 38.6% in 2002 and to 35% by 2006), scheduled repeal of the estate tax in 2010, and expanded retirement contributions; it reduced progressivity. A 2003 tax cut accelerated rate decreases and lowered the top capital gains/dividends rate. The 2009 American Recovery and Reinvestment Act instituted or expanded credits, including a $400 payroll tax credit per worker and an expanded college tuition credit.
+
+**Summary data trends (1913–2009)**
+- Federal tax revenues grew considerably over the 20th century even in inflation-adjusted terms, with the largest leap during WWII and steady growth after about 1960, with occasional declines from recessions or major tax changes. Total tax collections generally rose as a share of GDP; federal taxes now far exceed state and local collections (a trend that began before WWII but was solidified by it). Federal taxes as a share of GDP fell since 2000, and in 2009 were lower than in any year since the 1940s.
+- Composition shifted: early federal taxation was dominated by excise taxes (which declined over time, with a Depression-era revival); corporate taxes were the top federal source from 1918–1932; personal income taxes became the largest source in 1944 and have remained so, consistently supplying 40–50% of federal revenues since WWII. Social insurance taxes grew from about 10% of federal revenues around 1950 to nearly 40%, and may soon exceed personal income taxes.
+- At the state and local level, property taxes dominated until the 1970s, sales taxes became the major source until 2008, and property taxes again became the major source in 2008.
+
+The document notes that this history is primarily derived from Brownlee (1996).

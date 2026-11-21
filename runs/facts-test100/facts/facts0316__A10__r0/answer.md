@@ -1,0 +1,3 @@
+
+
+The document in `doc.txt` does not contain any statement about how the change in scheduling (moving marijuana from Schedule I to Schedule III) would impact low-income people. The text discusses legal consequences such as reduced criminal penalties, tax deduction eligibility for marijuana businesses, and the continued illegality of recreational marijuana under federal law, but it does not address low-income people specifically.

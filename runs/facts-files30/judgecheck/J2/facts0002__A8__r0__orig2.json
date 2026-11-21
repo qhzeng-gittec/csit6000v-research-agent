@@ -1,0 +1,161 @@
+{
+ "run": "facts0002__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Here are tips from `doc.txt` (\"Money Management Tips: 55 Ways to Save Money\"), grouped by the document's categories:",
+   "label": "supported",
+   "rationale": "The document has the stated title and uses the categories shown in the response."
+  },
+  {
+   "sentence": "Instead of paying for a fitness club membership fee, buy some weights or go to the ARC.",
+   "label": "supported",
+   "rationale": "The document recommends both alternatives to paying for a fitness club membership."
+  },
+  {
+   "sentence": "When eating out, look for coupons or special deals- many restaurants offer them!",
+   "label": "supported",
+   "rationale": "The document recommends looking for restaurant coupons or deals and says many restaurants offer them."
+  },
+  {
+   "sentence": "Bring your student ID when you go out for a movie.",
+   "label": "supported",
+   "rationale": "The document explicitly recommends bringing a student ID to the movies."
+  },
+  {
+   "sentence": "Most theaters will give discount for students.",
+   "label": "supported",
+   "rationale": "The document explicitly says most theaters give student discounts."
+  },
+  {
+   "sentence": "Ask for generic medications at the pharmacy.",
+   "label": "supported",
+   "rationale": "The document gives this exact recommendation."
+  },
+  {
+   "sentence": "Don't buy bottled water.",
+   "label": "supported",
+   "rationale": "The document advises against buying bottled water."
+  },
+  {
+   "sentence": "Buy a water filtration pitcher.",
+   "label": "supported",
+   "rationale": "The document recommends buying a water filtration pitcher."
+  },
+  {
+   "sentence": "Make home cooked meals.",
+   "label": "supported",
+   "rationale": "The document explicitly recommends cooking meals at home."
+  },
+  {
+   "sentence": "A home cooked stead dinner is often cheaper than a fast food binge.",
+   "label": "supported",
+   "rationale": "The document makes the same cost comparison, including the word “stead.”"
+  },
+  {
+   "sentence": "Pack a lunch instead of eating out.",
+   "label": "supported",
+   "rationale": "The document explicitly recommends packing a lunch rather than eating out."
+  },
+  {
+   "sentence": "Buy clothes at the end of the season when they're on sales.",
+   "label": "supported",
+   "rationale": "The document recommends buying clothes during end-of-season sales."
+  },
+  {
+   "sentence": "Invest in durable clothes, shoes, etc. rather than buying many cheap pairs.",
+   "label": "supported",
+   "rationale": "The document explicitly favors durable clothing and shoes over buying many cheap pairs."
+  },
+  {
+   "sentence": "Set goals for your spending and saving.",
+   "label": "supported",
+   "rationale": "The document explicitly advises setting both spending and saving goals."
+  },
+  {
+   "sentence": "Keep track of your spending to avoid overspent.",
+   "label": "supported",
+   "rationale": "The document gives the same advice to track spending to avoid overspending."
+  },
+  {
+   "sentence": "There are apps for that!",
+   "label": "supported",
+   "rationale": "The document says there are apps for tracking spending."
+  },
+  {
+   "sentence": "Wait at least two hours before making a big purchase to be sure it's something you really need.",
+   "label": "supported",
+   "rationale": "The document gives the same minimum waiting period and the same reason for waiting."
+  },
+  {
+   "sentence": "Keep your tires inflated properly- you'll get better gas mileage.",
+   "label": "supported",
+   "rationale": "The document links proper tire inflation to better gas mileage."
+  },
+  {
+   "sentence": "Carpool with friend!",
+   "label": "supported",
+   "rationale": "The document explicitly recommends carpooling with a friend."
+  },
+  {
+   "sentence": "Look around for cheapest gas price before filling up.",
+   "label": "supported",
+   "rationale": "The document advises looking for the lowest gas price before filling up."
+  },
+  {
+   "sentence": "There are apps for that!",
+   "label": "supported",
+   "rationale": "The document says there are apps for finding the cheapest gas price."
+  },
+  {
+   "sentence": "Only use ATM's of your bank.",
+   "label": "supported",
+   "rationale": "The document explicitly advises using only your own bank's ATMs."
+  },
+  {
+   "sentence": "Other bank's ATM fees add up!",
+   "label": "supported",
+   "rationale": "The document explicitly says that other banks' ATM fees add up."
+  },
+  {
+   "sentence": "Always put part of our paycheck into a savings account.",
+   "label": "supported",
+   "rationale": "The document gives the same advice about putting part of each paycheck into savings."
+  },
+  {
+   "sentence": "Spare change adds up!",
+   "label": "supported",
+   "rationale": "The document makes this exact claim about spare change."
+  },
+  {
+   "sentence": "Get a piggy bank or change jar and don't underestimate the value of your spare changes.",
+   "label": "supported",
+   "rationale": "The document recommends a piggy bank or change jar and advises against underestimating the value of spare change."
+  },
+  {
+   "sentence": "Unplug electronics when you aren't using them.",
+   "label": "supported",
+   "rationale": "The document explicitly recommends unplugging electronics when they are not in use."
+  },
+  {
+   "sentence": "Even while turned off, they still use up costly energy.",
+   "label": "supported",
+   "rationale": "The document states that electronics use costly energy even when turned off."
+  },
+  {
+   "sentence": "Pay your bills online.",
+   "label": "supported",
+   "rationale": "The document explicitly recommends paying bills online."
+  },
+  {
+   "sentence": "Save paper and money on stamps.",
+   "label": "supported",
+   "rationale": "The document identifies saving paper and stamp costs as benefits of paying bills online."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

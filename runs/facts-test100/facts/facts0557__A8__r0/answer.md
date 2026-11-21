@@ -1,0 +1,15 @@
+Based on `doc.txt`, informal financial services fall into two broad categories: user-owned services and services offered for profit. Examples given in the document:
+
+**User-owned informal financial services** (section 2.2):
+- "simple reciprocal arrangements between neighbours, savings clubs and rotating savings and credit associations (ROSCAS), to forms of insurance, building societies, and systems of co-operative business finance" (doc.txt)
+- ROSCAs, which "exist in almost every country (for example, 'partners' in Jamaica and Britain, bui in Vietnam, and njangi in Cameroon)" (doc.txt); a specific example is "Rickshaw ROSCAS in Bangladesh," where "a group of drivers forms, and each driver saves a set amount from his daily takings. When the fund is large enough (this usually takes about 15 days) a rickshaw is bought and distributed by lottery to one of the members" (doc.txt)
+- "An accumulating savings club in Mexico," where "neighbours place frequent but irregular savings with trusted shopkeepers. Just before Christmas, the cash is returned to the saver" (doc.txt)
+- "Building societies for the middle classes in Bangladesh," where "Each saves 200 taka ($5) a month out of his wages. As the cash accumulates it is lent out to members, who buy land and building materials" (doc.txt)
+- "Popular insurance: funeral funds (iddir) in Ethiopia," which "usually pays out for funeral expenses or financial assistance to families of the deceased, and sometimes to cover other costs, such as medical expenses and losses due to fire or theft" (doc.txt)
+- Neighbourhood reciprocity, e.g. "kuri kalyanam" in Kerala, southern India, where "the guest is expected to bring a cash gift" and the host later "is expected to return double the amount" (doc.txt)
+
+**Informal financial services for profit** (section 2.3), which "fall into two groups: deposit takers (often also called money-guards) and lenders" (doc.txt):
+- Deposit takers: "a mobile alajo in Nigeria," a peripatetic deposit taker who "uses a bicycle to go door-to-door" and holds customers' savings, charging a fee deducted from withdrawals (doc.txt)
+- Money-lenders: "Professional money-lenders in Cochin, India," where "'Tamilians' provide a money-lending service to poor slum dwellers on a daily basis" (doc.txt)
+- Pawnbrokers: "Lending against collateral: pawnbrokers in Western India," where the broker "charges 3 per cent a month for loans pledged against gold, 5 per cent for silver and 9 per cent for brass" (doc.txt)
+- Trade credit and hire purchase: "Advance crop sales in Indonesia," known as "ijon," where farmers "make an advance sale of the crop, usually to a grain buyer or his agent" (doc.txt); and "Two examples of trade credit," including people who "obtain the fertiliser on credit from a nearby shop" and "The dadon credit system used to finance prawn cultivation in Bangladesh" (doc.txt)

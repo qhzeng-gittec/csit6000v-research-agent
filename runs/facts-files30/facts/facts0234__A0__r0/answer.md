@@ -1,0 +1,16 @@
+
+
+Based on `doc.txt` (NIST SP 800-215, "Guide to a Secure Enterprise Network Landscape"), the enhanced firewall capabilities described in the "Enhanced Firewall Capabilities" section benefit network security in the following ways:
+
+- **Packet filtering and NAT**: Monitor and control packets crossing a network interface, apply predetermined security rules, and obscure the internal network from the public internet.
+- **Stateful inspection**: Monitor the state of connections so only packets belonging to known active connections are allowed through.
+- **Deep packet inspection (DPI)**: Examine both packet headers and payloads (unlike stateful inspection, which checks headers only), enabling detection of hidden threats in the data stream such as data exfiltration attempts, content policy violations, and malware.
+- **Threat detection and response**: Gather and analyze data across multiple packets and sessions to detect threats and security incidents targeting a particular system or family of systems. Data from multiple firewalls can be fed to SIEM tools and correlated with other security tools to detect enterprise-wide attacks spanning multiple systems and network layers, and to understand evolving threats and define new access rules, attack patterns, and defensive strategies.
+- **Logging and auditing**: Build a record of network events used to identify patterns of performance and security issues.
+- **Access control functions**: Enforce granular, sophisticated access control policies.
+- **Deployment at multiple locations**: Edge firewalls protect the network perimeter by filtering disallowed sources/destinations and blocking packets of potential threats; data-center firewalls segment the internal network to prevent lateral movement of traffic and isolate sensitive resources (e.g., services and data stores); device-based firewalls block malicious traffic in and out of endpoints.
+- **Open APIs**: Enable integration with other networking products that add security capabilities.
+- **Policy composition**: Merge policies at enforcement time so consistent policies are applied across different user classes (e.g., on-premises, private and public clouds).
+- **Web application firewalls (WAF)**: Detect traffic from malicious URLs and prevent web-based threats using real-time machine-learning-analyzed data; inspect threat vectors such as SQL injection, OS command injection, and cross-site scripting; prevent inbound attacks; and are used in CDNs to prevent DDoS attacks. Additional features include specifying allowable service lists (application-level control), matching traffic to the intent of allowed ports, and filtering unwanted protocols.
+
+In short, per the document, the evolution of firewall functions—from simple perimeter packet filtering to DPI, threat detection, granular access control, segmentation, and web application protection—broadens an enterprise's ability to detect, prevent, and respond to threats across the entire network, including enterprise-wide and web-based attacks.

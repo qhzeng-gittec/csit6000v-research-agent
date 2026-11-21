@@ -1,0 +1,116 @@
+{
+ "run": "facts0460__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt`, changing marijuana from Schedule I to Schedule III would have the following effects:",
+   "label": "no_rad",
+   "rationale": "This is an introduction to the list rather than a claim about a specific effect."
+  },
+  {
+   "sentence": "It would open the door for the medical marijuana industry to market products consistent with federal law.",
+   "label": "supported",
+   "rationale": "The context explicitly identifies this as a potential effect of rescheduling."
+  },
+  {
+   "sentence": "Aside from Schedule I substances, controlled substances have accepted medical uses and may be lawfully dispensed by prescription under the Controlled Substances Act (CSA), subject to various restrictions.",
+   "label": "supported",
+   "rationale": "The context states both that these substances have accepted medical uses and that they may be dispensed by prescription subject to restrictions."
+  },
+  {
+   "sentence": "Rescheduling marijuana to Schedule III would therefore allow the medical marijuana industry to market its products consistent with federal law.",
+   "label": "supported",
+   "rationale": "The context says rescheduling would open a path to lawful marketing, provided the products also meet other federal requirements."
+  },
+  {
+   "sentence": "It would NOT automatically legalize medical marijuana in the United States.",
+   "label": "supported",
+   "rationale": "The context explicitly says rescheduling would not automatically legalize medical marijuana."
+  },
+  {
+   "sentence": "Any such products must still comply with other federal legal requirements, such as the FD&C Act, before they could be legally marketed.",
+   "label": "supported",
+   "rationale": "The context explicitly says that other federal requirements would continue to apply before legal marketing."
+  },
+  {
+   "sentence": "The FD&C Act requires new drugs — including small-molecule drugs synthesized in a laboratory and biologics derived from living organisms — to be approved by the FDA before they can be marketed and sold.",
+   "label": "supported",
+   "rationale": "The context expressly applies the FDA approval requirement to both types of new drugs before marketing and sale."
+  },
+  {
+   "sentence": "A sponsor must submit a new drug application (NDA) with \"substantial evidence\" that the drug is safe and effective for its proposed use, or a biologics license application (BLA) demonstrating the product is safe, potent, and pure.",
+   "label": "supported",
+   "rationale": "The context specifies the application and evidentiary requirements for each product type."
+  },
+  {
+   "sentence": "Certain chemicals related to or derived from marijuana may be considered small-molecule drugs, while other components of the cannabis plant — including marijuana itself — may be considered a biologic.",
+   "label": "supported",
+   "rationale": "The context makes the same distinction and qualifies both classifications as possibilities."
+  },
+  {
+   "sentence": "Marijuana itself is not an approved drug.",
+   "label": "supported",
+   "rationale": "The context directly states that marijuana itself is not an approved drug."
+  },
+  {
+   "sentence": "(FDA has approved four cannabis-derived/related drugs — Epidiolex, Marinol, Syndros, and Cesamet — but these could not be marketed until the DOJ rescheduled their active ingredients away from Schedule I.)",
+   "label": "unsupported",
+   "rationale": "The context confirms the four approvals and the marketing delay, but says DOJ rescheduled the specific drugs or approved products, not their active ingredients as such."
+  },
+  {
+   "sentence": "It would generally loosen the controls on medical research involving marijuana — but with an important caveat.",
+   "label": "contradictory",
+   "rationale": "The general rule applies to Schedule III substances, but the context explicitly says that rescheduling alone would not loosen the separate requirements for marijuana research."
+  },
+  {
+   "sentence": "Researchers and manufacturers of Schedule III substances are subject to less-onerous registration requirements than those for Schedule I substances, so rescheduling would generally loosen the controls on medical research involving marijuana.",
+   "label": "contradictory",
+   "rationale": "The comparison between schedules is accurate, but the conclusion about marijuana research conflicts with the explicit exception for marijuana and CBD."
+  },
+  {
+   "sentence": "However, medical researchers and drug sponsors of marijuana- or CBD-containing drugs would not benefit from these looser restrictions without congressional action.",
+   "label": "supported",
+   "rationale": "The context expressly states that these researchers and sponsors would not benefit without congressional action."
+  },
+  {
+   "sentence": "The 2022 Medical Marijuana and Cannabidiol Research Expansion Act (P.L. 117-215) created separate requirements for marijuana researchers and manufacturers to expedite registration with the DEA, and these separate requirements would not be affected by rescheduling without additional congressional action.",
+   "label": "supported",
+   "rationale": "The context identifies the 2022 law, explains why it created the separate requirements, and says that rescheduling alone would not affect them."
+  },
+  {
+   "sentence": "What would NOT change:",
+   "label": "no_rad",
+   "rationale": "This is a section heading that introduces the following claims without stating a specific fact itself."
+  },
+  {
+   "sentence": "Other tetrahydrocannabinols remain Schedule I substances; because they are scheduled separately from marijuana, they are not included in the DOJ's proposed rule rescheduling marijuana.",
+   "label": "supported",
+   "rationale": "The context explicitly confirms their Schedule I status and explains why the proposed rule excludes them."
+  },
+  {
+   "sentence": "Products marketed without FDA approval still cannot legally be marketed in interstate commerce under the FD&C Act.",
+   "label": "unsupported",
+   "rationale": "The context states this prohibition for unapproved new drugs, not for all products marketed without FDA approval."
+  },
+  {
+   "sentence": "FDA categorizes products based on how they are marketed, so products marketed as foods, dietary supplements, tobacco products, or cosmetics could still be deemed illegal drugs if their labeling makes claims that they are intended to cure, mitigate, or treat a disease or health-related condition (as FDA has done in warning letters to companies marketing cannabis products such as CBD tea and hemp-infused body butter).",
+   "label": "supported",
+   "rationale": "The context explains how treatment claims can make an unapproved product an illegal drug and gives both warning-letter examples."
+  },
+  {
+   "sentence": "Such a manufacturer or seller could remedy the issue by submitting an NDA and obtaining FDA approval, or by removing the claims.",
+   "label": "supported",
+   "rationale": "The context lists both options for remedying the issue."
+  },
+  {
+   "sentence": "In short: rescheduling to Schedule III would permit prescription dispensing and open the door for the medical marijuana industry to market products, and would generally loosen research controls — but it would not by itself legalize medical marijuana (FDA approval under the FD&C Act would still be required), and the looser research registration requirements would not apply to marijuana/CBD researchers without additional congressional action.",
+   "label": "supported",
+   "rationale": "The context supports a path to prescription dispensing and lawful marketing subject to FDA approval, and the sentence distinguishes the general research rule from the exception for marijuana and CBD."
+  }
+ ],
+ "unsup": 4,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

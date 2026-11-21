@@ -1,0 +1,46 @@
+{
+ "run": "facts0807__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "When a sequence of faces is \"quickly presented in our peripheral vision,\" they \"start to appear deformed, cartoonish, and even grotesque,\" though \"upon closer inspection, one can tell the faces are perfectly normal and have not been altered\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context describes this apparent distortion during rapid peripheral presentation and confirms that the faces themselves are unaltered."
+  },
+  {
+   "sentence": "Peripheral vision is intrinsically blurry: \"peripheral stimuli are processed by retinal rod cells that have poor spatial acuity\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly attributes the blur of peripheral vision to the poor spatial acuity of retinal rod cells."
+  },
+  {
+   "sentence": "Bowden et al. (2019) compared peripherally presented faces to centrally presented faces manipulated by blur.",
+   "label": "supported",
+   "rationale": "The context identifies the study and explicitly describes this comparison."
+  },
+  {
+   "sentence": "\"Although they found some evidence of face distortion in central vision using blurred faces, the effect was much larger when using un-blurred peripheral faces\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context directly reports some distortion for blurred central faces and a much larger effect for unblurred peripheral faces."
+  },
+  {
+   "sentence": "Balas and Pearson (2019) found that \"peripheral presentation makes a big difference, as does the presentation speed,\" and \"the orientation of the faces presented did not seem to matter\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context attributes all three findings to Balas and Pearson: peripheral placement and speed mattered, while orientation did not seem to matter."
+  },
+  {
+   "sentence": "Afraz and Cavanagh (2009) found that \"peripheral distortion effects are quite idiosyncratic\": the same face might appear male in one corner of peripheral vision and female in another, and these differences are \"stable over time for a particular observer but vary substantially between observers\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context attributes the finding to Afraz and Cavanagh, gives the same example, and describes the differences as stable within observers but variable between them."
+  },
+  {
+   "sentence": "Thus, \"the particularities of the visual distortions we experience in peripheral vision may be responsible for the particular ways flashed faces appear distorted\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly proposes this explanation as a possibility, not a proven cause."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

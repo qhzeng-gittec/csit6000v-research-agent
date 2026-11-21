@@ -1,0 +1,81 @@
+{
+ "run": "facts0234__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt`, the \"Enhanced Firewall Capabilities\" section describes how firewall security functions have \"enlarged alongside the changing network landscape\" (doc.txt), and the benefits of the various enhanced capabilities on network security include:",
+   "label": "supported",
+   "rationale": "The section explicitly says that firewall security functions have expanded and introduces the feature sets that follow."
+  },
+  {
+   "sentence": "- **Packet filtering and NAT**: used to \"monitor and control packets moving across a network interface, apply predetermined security rules, and obscure the internal network from the public internet\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context assigns all three functions to packet filtering and NAT."
+  },
+  {
+   "sentence": "- **Stateful inspection**: \"monitors the state of connections and makes determinations as to what types of data packets belong to a known active connection and can be allowed to pass through the firewall\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context says that stateful inspection tracks connections and uses that information to decide which packets may pass."
+  },
+  {
+   "sentence": "- **Deep packet inspection (DPI)**: examines both header and payload and has \"capabilities related to finding hidden threats within the data stream, such as attempts at data exfiltration, violations of content policies, malware, and more\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context identifies both parts of the packet that DPI examines and gives the same examples of hidden threats."
+  },
+  {
+   "sentence": "- **Threat detection and response**: modern firewalls can \"detect threats and security incidents targeted at a particular system or a family of systems,\" and data from multiple firewalls can be correlated via SIEM \"to detect enterprise-wide attacks that span multiple systems and network layers,\" and \"used to understand evolving threats and define new access rules, attack patterns, and defensive strategies\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context describes targeted threat detection, SIEM correlation for enterprise-wide detection, and the use of firewall data to inform defensive strategies."
+  },
+  {
+   "sentence": "- **Logging and auditing**: \"result in the construction of network events that can be used to identify patterns of performance and security issues\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly links logging and auditing to network events that help identify performance and security patterns."
+  },
+  {
+   "sentence": "- **Access control functions**: \"enforce granular sophisticated access control policies\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly identifies granular policy enforcement as an access control function."
+  },
+  {
+   "sentence": "- **Multiple locations and functions**: edge firewalls provide \"network perimeter protection function by filtering disallowed sources and destinations and blocking the packets of potential threats\"; data-center firewalls \"segment the internal network to prevent the lateral movement of traffic and isolate sensitive resources (e.g., services and data stores)\"; device-based firewalls \"prevent malicious traffic in and out of endpoints\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context assigns the stated perimeter, segmentation, and endpoint protections to the respective firewall locations."
+  },
+  {
+   "sentence": "- **Open APIs**: \"enable integration with many networking products that provide additional security capabilities\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context explicitly says that open APIs allow integration with networking products that add security capabilities."
+  },
+  {
+   "sentence": "- **Policy composition**: \"merge policies at enforcement time so as to ensure that consistent policies are applied to different classes of users\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context describes policy composition as a capability some firewalls have to merge policies when enforcing them, ensuring consistency across user classes."
+  },
+  {
+   "sentence": "- **Web application firewalls (WAF)**: can \"detect traffic from malicious URLs and prevent web-based threats and attacks,\" \"inspect threat vectors for SQL Injection, operating system (OS) command injections, and cross-site scripting attacks, as well as prevent inbound attacks,\" and are used \"to prevent distributed denial-of-service (DDoS) attacks\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context attributes malicious URL detection, inspection for the listed threats, inbound attack prevention, and DDoS prevention to WAFs."
+  },
+  {
+   "sentence": "- **Next-generation firewalls (NGFW)**: provide \"application data awareness,\" looking at data \"not only at layers 3 and 4 of an Open Systems Interconnection (OSI) stack but also at layer 7 – the application level,\" with capabilities including DPI, \"TLS decryption and inspection of packet payload,\" and an \"Intrusion prevention system (IPS) feature\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context identifies application data awareness as the distinguishing feature, specifies the OSI layers, and lists all three capabilities."
+  },
+  {
+   "sentence": "- **Web application and API protection (WAAP)**: described as \"a comprehensive security approach and an enhancement over WAF,\" with WAF as \"an integral component for API security, BOT (abbreviation for Robot) defense, and DDOS protection\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context describes WAAP as an enhancement over WAF and explicitly states WAF's role in the three listed protections."
+  },
+  {
+   "sentence": "- **Secure web gateways (SWGs)**: \"protects outbound user traffic through HTTP or Hypertext Transfer Protocol Secure (HTTPS) inspection\" and \"protects user endpoints from web-based threats that can occur when users click on links to malicious websites or to websites infected with malware\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The context states that SWGs inspect outbound HTTP or HTTPS traffic and protect endpoints from threats associated with malicious or infected websites."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

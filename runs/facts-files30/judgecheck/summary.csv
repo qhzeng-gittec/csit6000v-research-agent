@@ -1,0 +1,4 @@
+judge,arm,answers,unsup/ans orig,unsup/ans neut,neut-orig,noise orig2-orig,accurate flips neut,accurate flips noise,blame_file,verbatim_only
+J2,A0,29,1.97,1.93,-0.03,0.1,2,2,0,0
+J2,A8,29,0.86,0.9,0.03,-0.03,2,2,0,3
+J2,all,58,1.41,1.41,0.0,0.03,4,4,0,3

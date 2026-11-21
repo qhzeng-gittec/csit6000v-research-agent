@@ -1,0 +1,111 @@
+{
+ "run": "facts0483__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Based only on the document, here's what the document actually says—and I should flag up front that it does **not** specifically mention browsing history, financial transactions, or health issues.",
+   "label": "supported",
+   "rationale": "The document describes exposures involving device identifiers, location, and device use. It does not specifically mention any of the three categories named in the sentence."
+  },
+  {
+   "sentence": "The document covers a related but somewhat narrower set of privacy concerns, described in a summary of the paper \"In the Room Where It Happens: Characterizing Local Communication and Threats in Smart Homes,\" which studied 93 consumer IoT devices and their companion apps.",
+   "label": "supported",
+   "rationale": "The document gives the paper's title, confirms the study included 93 devices and their companion apps, and describes privacy risks involving smart-home local networks."
+  },
+  {
+   "sentence": "**Standard local-network protocols are the weak point.**",
+   "label": "supported",
+   "rationale": "The document identifies insufficiently protected local-network protocols as the source of the information exposure being discussed."
+  },
+  {
+   "sentence": "The researchers focused on how IoT devices in a smart home communicate over the local network using standard protocols such as **UPnP and mDNS**.",
+   "label": "supported",
+   "rationale": "The document explicitly describes the local-network focus and names both protocols."
+  },
+  {
+   "sentence": "These protocols are \"not sufficiently protected\" and expose sensitive information about the home and its occupants (per Juan Tapiador of Universidad Carlos III de Madrid).",
+   "label": "supported",
+   "rationale": "The document attributes the finding to Tapiador and specifies that the exposed information includes how the homeowners use their devices."
+  },
+  {
+   "sentence": "**They act as side-channels around app permissions.**",
+   "label": "supported",
+   "rationale": "The document explicitly says the protocols can provide indirect access to data otherwise protected by app permissions."
+  },
+  {
+   "sentence": "The document says these local network protocols \"can be employed as side-channels to access data that is supposedly protected by several mobile app permissions such as household locations.\"",
+   "label": "supported",
+   "rationale": "The quoted wording appears in the document."
+  },
+  {
+   "sentence": "Co-author Narseo Vallina-Rodriguez explains that while Android app developers are supposed to request user consent to access data like geolocation, \"certain spyware apps and advertising companies do abuse local network protocols to silently access such sensitive information without any user awareness.",
+   "label": "supported",
+   "rationale": "Vallina-Rodriguez directly contrasts the Android consent requirement with the observed abuse by certain spyware apps and advertising companies."
+  },
+  {
+   "sentence": "All they have to do is kindly ask for it to other IoT devices deployed in the local network using standard protocols like UPnP.\"",
+   "label": "supported",
+   "rationale": "This reproduces the document's explanation of how the information is requested from other devices."
+  },
+  {
+   "sentence": "In other words, the app doesn't need to break in directly—it just asks the other devices on the same network for the information, and the devices answer.",
+   "label": "supported",
+   "rationale": "The document says apps obtain the information by requesting it from other devices over ordinary local-network protocols, rather than by directly breaking into them."
+  },
+  {
+   "sentence": "**What gets exposed.**",
+   "label": "no_rad",
+   "rationale": "This is a section heading, not a factual assertion."
+  },
+  {
+   "sentence": "The paper found exposure of unique device names, UUIDs, unique hardware addresses, and even household geolocation data in \"thousands of existing smart homes,\" all harvestable \"without user awareness\" by companies involved in surveillance capitalism.",
+   "label": "unsupported",
+   "rationale": "The document reports that thousands of homes exposed at least one piece of identifying information. It does not establish that household geolocation was part of that finding, and its statement about harvesting does not explicitly include hardware addresses."
+  },
+  {
+   "sentence": "Researchers say this data can be pieced together to make a house highly identifiable, and that it \"makes it easier to create profiles of our habits or socioeconomic level\" (Tapiador).",
+   "label": "supported",
+   "rationale": "The document reports both that the information can identify a house and that it can help profile habits or socioeconomic level."
+  },
+  {
+   "sentence": "The document does support that premise, via Dr. Joel Reardon of the University of Calgary: \"If a new phone connects to a network, then all the apps on it can have direct access to everything else on that network.\"",
+   "label": "unsupported",
+   "rationale": "Reardon's quotation is accurate, but it describes direct access, not the ability to control every other device without consent. It therefore does not establish the premise as stated."
+  },
+  {
+   "sentence": "He also notes that \"the spyware I found in apps with tens of millions of installs was in fact scanning networks and talking to routers,\" and that the research shows \"the home network is not as secure as once thought.\"",
+   "label": "supported",
+   "rationale": "The document attributes both the observation about spyware and the assessment of home-network security to Reardon."
+  },
+  {
+   "sentence": "**My take, grounded in the document:** The document's own framing is clearly concerned.",
+   "label": "supported",
+   "rationale": "The article frames the findings as widespread security and privacy problems and emphasizes the number of previously undisclosed threats."
+  },
+  {
+   "sentence": "The authors describe a \"litany of previously undisclosed security and privacy threats,\" and the quoted researchers emphasize that the exposure is silent, opaque, and happens without consent—essentially letting any app on the network bypass the permission model that mobile platforms are supposed to enforce.",
+   "label": "unsupported",
+   "rationale": "The document describes silent and opaque data collection, but it reports permission bypass by certain spyware apps and advertising companies. It does not establish that any app on the network can bypass the mobile permission model."
+  },
+  {
+   "sentence": "The document doesn't offer remedies or a balanced counterpoint; it presents the local network as a significant, underappreciated attack surface.",
+   "label": "supported",
+   "rationale": "The discussion of the local-network findings presents previously undisclosed risks and says home networks are less secure than previously thought. It offers no remedy or counterargument for those findings."
+  },
+  {
+   "sentence": "(It also notes related IoT threats uncovered around the same time, such as potentially botnet-infected Android TV boxes and ultrasonic commands that could activate voice assistants.)",
+   "label": "supported",
+   "rationale": "The document reports both examples as separate IoT threats raised around the same time."
+  },
+  {
+   "sentence": "One caveat: since the document never mentions browsing history, financial transactions, or health data, I can't confirm from this source that smart devices can specifically access those categories—only that the same side-channel mechanism is shown to bypass protections for data like geolocation and to expose identifying information about homes and their users.",
+   "label": "supported",
+   "rationale": "The document establishes side-channel access to protected location data and exposure of identifying information. It does not discuss or establish access to browsing, financial, or health data."
+  }
+ ],
+ "unsup": 3,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

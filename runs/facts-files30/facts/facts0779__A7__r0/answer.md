@@ -1,0 +1,7 @@
+
+
+Similarities: Both are loans where "the amount that will be paid by the borrower will include the original amount plus interest" (doc.txt). Both are repaid via "regular (installment) payments until the loan is paid off" (doc.txt). Both can be amortized: "Amortization is the process of spreading out a loan into a series of fixed payments" (doc.txt), and "amortizing a mortgage is similar to amortizing other loans" (doc.txt).
+
+Differences: A mortgage is "A long term loan that is used for the purchase of a house" (doc.txt), while installment loans serve "major purchases such as vehicles or furniture" (doc.txt). A mortgage uses the house as collateral: "if the mortgage holder is unable to make the payments the lender can take possession of the house" (doc.txt). Mortgages "generally tend to be for longer time periods than an installment loan" (doc.txt), and "the terms of the mortgage will often change over the course of the mortgage" (doc.txt); at the end of a term, "a new agreement will be required and the conditions of the mortgage usually change" (doc.txt). Mortgage amortization "generally involves many more payment periods" (doc.txt).
+
+When to choose: A mortgage is the loan used to purchase a house, and it offers longer terms. An installment loan suits major purchases such as vehicles or furniture, where "The average consumer cannot afford to pay $25000 or more for a new vehicle" (doc.txt). Note that mortgage terms often change, while installment loan payments are fixed.

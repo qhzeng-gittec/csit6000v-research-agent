@@ -1,0 +1,56 @@
+{
+ "run": "facts0779__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "**Similarities:** Both are loans in which \"the amount that will be paid by the borrower will include the original amount plus interest\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The document identifies both as loans and states that borrowers repay the original amount plus interest."
+  },
+  {
+   "sentence": "Neither requires full repayment on a specific date: \"the borrower is required to make regular (installment) payments until the loan is paid off.\"",
+   "label": "supported",
+   "rationale": "The document explicitly contrasts installment payments with repayment in one lump sum and describes mortgage repayment as spread over many payment periods as well."
+  },
+  {
+   "sentence": "Both are amortized: \"amortizing a mortgage is similar to amortizing other loans.\"",
+   "label": "supported",
+   "rationale": "The document gives an amortization example for an installment loan and explicitly discusses mortgage amortization."
+  },
+  {
+   "sentence": "**Differences:** A mortgage is \"a long term loan that is used for the purchase of a house,\" and the lender \"requires that the house be used as collateral for the loan,\" so if the borrower is unable to make payments, \"the lender can take possession of the house.\"",
+   "label": "supported",
+   "rationale": "The document states the purpose of a mortgage, the collateral requirement, and what the lender can do if the borrower cannot make payments."
+  },
+  {
+   "sentence": "Installment loans are described for \"major purchases such as vehicles or furniture.\"",
+   "label": "supported",
+   "rationale": "The document explicitly gives vehicles and furniture as examples of major purchases financed by installment loans."
+  },
+  {
+   "sentence": "Mortgages \"generally tend to be for longer time periods than an installment loan,\" and their terms \"will often change over the course of the mortgage\": for example, a twenty-year mortgage may be signed for a five-year term, after which \"a new agreement will be required and the conditions of the mortgage usually change.\"",
+   "label": "supported",
+   "rationale": "The document makes both general comparisons and gives the twenty-year mortgage with a five-year agreement as its example."
+  },
+  {
+   "sentence": "Installment loans \"can vary in length from a few years to perhaps twenty years or more (in the case of real estate).\"",
+   "label": "supported",
+   "rationale": "The document explicitly gives this range and identifies real estate as a case where the duration can reach twenty years or more."
+  },
+  {
+   "sentence": "**Choosing one over the other:** The document ties each loan to its purpose: an installment loan is the option for a qualifying consumer who cannot afford to pay the full price of a vehicle or furniture, and a mortgage is used for the purchase of a house.",
+   "label": "supported",
+   "rationale": "The document presents installment financing as an option for qualifying consumers making major purchases they cannot pay for upfront and defines a mortgage as a loan for buying a house."
+  },
+  {
+   "sentence": "It states no other criteria for choosing one over the other.",
+   "label": "unsupported",
+   "rationale": "The document describes typical uses and loan requirements, but it does not establish that the preceding list of selection criteria is exhaustive."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

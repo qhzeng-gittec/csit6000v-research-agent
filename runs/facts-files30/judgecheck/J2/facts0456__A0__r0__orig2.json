@@ -1,0 +1,46 @@
+{
+ "run": "facts0456__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Your neighbor is half right: Sec. 3-5 requires bottle clubs in unincorporated areas to close from midnight Saturday until 7:00 a.m. Monday — you must close at midnight on Saturday.",
+   "label": "unsupported",
+   "rationale": "The closure rule is stated correctly for unincorporated areas, but the context does not establish that the proposed club will be in one."
+  },
+  {
+   "sentence": "On Sunday there is no midnight closing: you may serve until 2:00 a.m. (Sec. 3-3); the club must be closed 3:00–7:00 a.m.",
+   "label": "contradictory",
+   "rationale": "The club is already required to be closed throughout Sunday, so it cannot serve until 2:00 a.m. Monday."
+  },
+  {
+   "sentence": "Sec. 3-1: applies to unincorporated county areas and municipalities without their own ordinances; violations are a second-degree misdemeanor.",
+   "label": "supported",
+   "rationale": "The section establishes both the geographic scope, with municipal ordinances referring to those covering the regulated subject, and the misdemeanor classification."
+  },
+  {
+   "sentence": "Sec. 3-2: a bottle club sells products known to be mixed with alcoholic beverages for on-premises consumption.",
+   "label": "unsupported",
+   "rationale": "The definition does not require a sale or actual mixing. It also covers items dispensed, served, or provided for consideration when they are known or understood to be intended for use in connection with alcohol."
+  },
+  {
+   "sentence": "Sec. 3-3 (on-premises): 7:00 a.m.–2:00 a.m. daily; Sunday 11:00 a.m.–2:00 a.m. next day (golf courses, large banquet halls, hotel guest rooms may start 7:00 a.m. Sunday).",
+   "label": "unsupported",
+   "rationale": "The general hours match, but the 7:00 a.m. exceptions require licensed premises, and the banquet-hall exception applies only to qualifying private functions, not to large banquet halls generally."
+  },
+  {
+   "sentence": "Sec. 3-4 (off-premises): 7:00 a.m.–2:00 a.m.; Sunday 9:00 a.m.–2:00 a.m.",
+   "label": "supported",
+   "rationale": "These are the stated off-premises sales hours, including the later Sunday start."
+  },
+  {
+   "sentence": "Sec. 3-5: bottle clubs closed 3:00–7:00 a.m. daily; closed midnight Saturday to 7:00 a.m. Monday.",
+   "label": "supported",
+   "rationale": "For bottle clubs in the unincorporated areas already identified in the response, the section gives both the regular closure hours and the extended weekend closure."
+  }
+ ],
+ "unsup": 4,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

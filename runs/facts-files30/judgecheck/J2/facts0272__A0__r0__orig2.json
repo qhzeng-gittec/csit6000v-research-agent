@@ -1,0 +1,46 @@
+{
+ "run": "facts0272__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "According to doc.txt, AI and machine learning in the financial industry serve several purposes.",
+   "label": "supported",
+   "rationale": "The document explicitly says that different parts of the financial industry use AI and machine learning for various purposes."
+  },
+  {
+   "sentence": "Building on earlier quantitative analysis models, AI/ML has been adopted to solve discrete challenges such as maximizing profit and minimizing risk.",
+   "label": "supported",
+   "rationale": "The document directly connects earlier quantitative analysis models to AI/ML adoption and gives both examples."
+  },
+  {
+   "sentence": "Unlike older algorithms that automated human-coded rules, new AI models can \"learn\" by themselves and make inferences and recommendations not identified by modelers in advance.",
+   "label": "supported",
+   "rationale": "The document explicitly makes this comparison and describes the same capabilities."
+  },
+  {
+   "sentence": "This shift has also enabled the use of new data types—alternative data, unstructured data (such as images or social media posts), and unlabeled data—extending AI/ML to new financial services and products.",
+   "label": "supported",
+   "rationale": "The document names all three data types, gives the same examples of unstructured data, and links their combined use to new financial offerings."
+  },
+  {
+   "sentence": "Specific purposes include: powering chatbots in customer service; identifying investment opportunities and executing trades; augmenting lending models or, more sparingly, making lending decisions; and identifying and preventing fraud.",
+   "label": "supported",
+   "rationale": "The document lists each of these uses and notes that making lending decisions is a less common use."
+  },
+  {
+   "sentence": "More broadly, financial service providers adopt AI/ML to save time and money and to promote accessibility, accuracy, and regulatory compliance.",
+   "label": "supported",
+   "rationale": "In discussing why providers are likely to continue adopting AI/ML, the document identifies all five goals."
+  },
+  {
+   "sentence": "The extent of adoption varies by sector and firm, reflecting factors such as a firm's ability to fund internal development and regulatory requirements.",
+   "label": "supported",
+   "rationale": "The document describes variation in adoption and explicitly identifies internal funding capacity and regulatory requirements as factors."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

@@ -1,0 +1,3 @@
+
+
+Based on `doc.txt`, the allegations affect **one club** — Newcastle United. The document states that "The Claimant alleges that: 1. The Club has abused its dominant position in the market for the wholesale supply of Newcastle United replica kit in the UK" (doc.txt). No other club is named in the document; the only other reference to a club is the generic definition of replica kit as merchandise "to which a football club's trademark is applied" (doc.txt).

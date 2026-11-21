@@ -1,0 +1,116 @@
+{
+ "run": "facts0782__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based solely on `doc.txt`, here's what the document says:",
+   "label": "no_rad",
+   "rationale": "This introduces the summary without making a substantive claim about the Act."
+  },
+  {
+   "sentence": "- **Origin:** It was passed under FDR as a response to the 1929 stock market crash (via the Banking Act of 1933 and related legislation).",
+   "label": "unsupported",
+   "rationale": "The context confirms that the Act was passed under FDR in response to the crash, but it says Congress used the Banking Act of 1933 and other legislation to address the problems, not that Glass-Steagall itself was passed through both."
+  },
+  {
+   "sentence": "The Pecora Commission, which investigated the crash's causes, had identified problems such as risky securities investments that endangered bank deposits, unsound loans to companies in which banks were invested, conflicts of interest, a blurring of insured and uninsured practices, and abusive \"joint purchase\" requirements.",
+   "label": "supported",
+   "rationale": "The context identifies the Commission's investigative role and lists each of these problems."
+  },
+  {
+   "sentence": "- **Core effect:** It \"effected a wall between commercial banking and investment banking\" — specifically, Sections 20 and 32 prohibited the interlocking of commercial and investment activities.",
+   "label": "supported",
+   "rationale": "The context explicitly describes the separation and identifies Sections 20 and 32 as prohibiting the interlocking of those activities."
+  },
+  {
+   "sentence": "- **What it did *not* do:** It was not intended to limit the size or volume of banking activities.",
+   "label": "supported",
+   "rationale": "The context distinguishes limits on the scope of banking activities from limits on their size or volume."
+  },
+  {
+   "sentence": "For example, while it stopped J.P. Morgan & Co. from doing everything in one organization, the same activities could continue separately through JPMorgan and Morgan Stanley.",
+   "label": "supported",
+   "rationale": "The context gives this exact example of activities that were prohibited within one organization but permitted when conducted separately."
+  },
+  {
+   "sentence": "- **Repeal:** By the late 1990s the Act had \"essentially become ineffective.\"",
+   "label": "supported",
+   "rationale": "The context explicitly states that the Act had essentially become ineffective by the late 1990s."
+  },
+  {
+   "sentence": "In November 1999, President Clinton signed the Gramm-Leach-Bliley Act (GLBA), which repealed Sections 20 and 32, allowing \"universal banking\" (commercial and investment services under one roof).",
+   "label": "supported",
+   "rationale": "The context confirms the date, who signed the law, which sections it repealed, and what universal banking combines."
+  },
+  {
+   "sentence": "Many experts view GLBA as \"ratifying, rather than revolutionizing\" — it formalized a change already underway.",
+   "label": "supported",
+   "rationale": "The context explicitly attributes this characterization and explanation to many experts."
+  },
+  {
+   "sentence": "Sections 16 and 21 remain in place today (e.g., limiting investment firms like Bridgewater from offering checking accounts, and prohibiting commercial banks like Wells Fargo from dealing in risky securities such as cattle futures).",
+   "label": "supported",
+   "rationale": "The context says both sections remain in place and gives the same examples of their effects."
+  },
+  {
+   "sentence": "The 2010 Dodd-Frank Act did not reinstate the repealed provisions.",
+   "label": "supported",
+   "rationale": "The context dates Dodd-Frank to 2010 and explicitly says it did not restore the repealed Glass-Steagall provisions."
+  },
+  {
+   "sentence": "- **Not a cause of the 2008 crisis:** Offering mortgages was always a core commercial-bank business, and Glass-Steagall was never meant to regulate loan qualification standards.",
+   "label": "supported",
+   "rationale": "The context presents both points as part of the argument that Glass-Steagall's absence did not cause the crisis."
+  },
+  {
+   "sentence": "It also didn't stop non-depositories from extending or selling mortgages, stop investment banks from securitizing them, or address originators' incentives — so it's unlikely the Act could have prevented the decline in underwriting standards.",
+   "label": "supported",
+   "rationale": "The context lists these limits and draws the same conclusion about the decline in underwriting standards."
+  },
+  {
+   "sentence": "- **Enabled crisis rescues:** Ironically, the repeal allowed large institutions to rescue others after the crisis — JPMorgan Chase rescued Bear Stearns and Bank of America rescued Merrill Lynch, which would have been impermissible before 1999.",
+   "label": "supported",
+   "rationale": "The context names both rescues and says they would not have been permitted before the 1999 repeal."
+  },
+  {
+   "sentence": "- **On balance,** the document concludes the evidence \"does not seem to support the view that Glass-Steagall's absence was a cause of the financial crisis,\" and notes the general consensus is that its absence was not a *principal* cause.",
+   "label": "supported",
+   "rationale": "The context explicitly states both its assessment of the evidence and the general consensus about whether the repeal was a principal cause."
+  },
+  {
+   "sentence": "- **Universal-bank incentives:** After repeal, universal banks may have lowered underwriting standards to gain market share in securities, and may have self-dealt, favoring their own interests over customers' — incentives that \"could have led to or exacerbated\" the decline in underwriting standards.",
+   "label": "supported",
+   "rationale": "The context presents both behaviors as possibilities and says their incentives could have caused or worsened the decline in underwriting standards."
+  },
+  {
+   "sentence": "- **\"Too big to fail\" (TBTF):** The 1999 repeal \"set in motion the wave of mega-mergers that created huge financial conglomerates, many of which fall firmly within the TBTF camp.\"",
+   "label": "supported",
+   "rationale": "The context explicitly links the 1999 repeal to the wave of mergers and describes many of the resulting conglomerates as too big to fail."
+  },
+  {
+   "sentence": "TBTF institutions are so large and interconnected that their failure would be disastrous to the economy, with costs absorbed by government and taxpayers.",
+   "label": "supported",
+   "rationale": "The context describes the economic consequences of such a failure and identifies who absorbs the costs."
+  },
+  {
+   "sentence": "- **Loss of conflict-of-interest protections:** Glass-Steagall's provisions had addressed conflicts of interest and other potential abuses of universal banks; had the Act been in place, those universal banking institutions would not have been created.",
+   "label": "supported",
+   "rationale": "The context explicitly describes the protections and states that those universal banking institutions would not have been created had the Act remained in place."
+  },
+  {
+   "sentence": "- **Culture of risk:** The document notes that \"the underlying culture of excessive risk-taking and short-term profit was real,\" and that Glass-Steagall's absence \"could have aggravated\" the situation even if it didn't prevent it.",
+   "label": "unsupported",
+   "rationale": "The context confirms that the risk-taking culture was real, but its statement about possible aggravation refers specifically to declining mortgage underwriting standards. It says the Act likely could not have prevented that decline, not that the repeal may have aggravated the broader culture."
+  },
+  {
+   "sentence": "In short, the document frames the debate as: the repeal likely didn't *cause* the 2008 crisis and even enabled some rescues, but it did create universal banks and TBTF conglomerates whose incentives and size posed real systemic risks.",
+   "label": "unsupported",
+   "rationale": "The context supports the points about causation, rescues, and the growth of universal banks and TBTF conglomerates. It links systemic risk to the potential failure of TBTF institutions, but presents universal-bank incentives only as a possible factor in declining underwriting standards, not as an established source of systemic risk."
+  }
+ ],
+ "unsup": 3,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

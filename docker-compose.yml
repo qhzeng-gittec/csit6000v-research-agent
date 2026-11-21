@@ -1,0 +1,20 @@
+services:
+  agent:
+    build: .
+    environment:
+      # Forwarded from your shell; never baked into the image.
+      - DEEPSEEK_API_KEY
+      - LLM_API_KEY
+      - LLM_BASE_URL
+      - LLM_MODEL
+      - LLM_TEMPERATURE
+      - JUDGE_API_KEY
+      - JUDGE_BASE_URL
+      - JUDGE_MODEL
+      - GROUND_API_KEY
+      - GROUND_BASE_URL
+      - GROUND_MODEL
+      - LLM_MAX_TOKENS
+    volumes:
+      - ./runs:/app/runs      # traces and answers land here
+      - ./data:/app/data      # downloaded benchmarks

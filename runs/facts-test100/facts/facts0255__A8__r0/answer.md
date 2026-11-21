@@ -1,0 +1,7 @@
+
+
+According to `doc.txt`, if you can't qualify for a normal (unsecured) credit card, the article offers two main alternatives:
+
+1. **Open a secured credit card.** The article says: "if your credit is heavily damaged, you may have trouble qualifying for a credit card with which to build that payment history. This is where a secured credit card can help." It adds that "Secured credit cards can be pretty easy to get, even if your credit is damaged. That's because secured cards rely on a cash security deposit to minimize risk to the issuer." The FAQ section repeats this: "If you can't qualify for an unsecured card without an annual fee, consider a secured credit card instead." It also notes that "Banks where you already have a good reputation and your local credit union are often the best places to find a secured card."
+
+2. **Become an authorized user on someone else's card.** The article states: "Another way to rebuild credit is to be added as an authorized user on another person's card (such as a trusted family member)." You "receive your own credit card with your name," while "the credit account is still the responsibility of the primary account holder," and "As long as the account is in good standing, being added as an authorized user can help raise your credit score." The article cautions that "if the cardholder or the authorized user runs up a high balance, both users could see credit score damage. Only tie your credit score to individuals you trust."

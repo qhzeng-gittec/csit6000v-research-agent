@@ -1,0 +1,17 @@
+<evidence>
+[E1] "With an installment loan the borrower is required to make regular (installment) payments until the loan is paid off. Each installment payment will include an interest charge." (doc.txt)
+[E2] "Amortization is the process of spreading out a loan into a series of fixed payments. A portion of each payment will be applied to the interest charge and a portion will be applied to the principal amount of the loan." (doc.txt)
+[E3] "Example 8 will illustrate that amortizing a mortgage is similar to amortizing other loans except that the mortgage amortization generally involves many more payment periods." (doc.txt)
+[E4] "A long term loan that is used for the purchase of a house is called a mortgage. It is called a mortgage because the lending agency requires that the house be used as collateral for the loan. This means that if the mortgage holder is unable to make the payments the lender can take possession of the house." (doc.txt)
+[E5] "For major purchases such as vehicles or furniture there is a different type of loan, called the installment loan. The average consumer cannot afford to pay $25000 or more for a new vehicle and they may not want to wait three or four years until they have saved enough money to do so. The qualifying consumer has the option of paying for the item with an installment loan." (doc.txt)
+[E6] "Mortgages generally tend to be for longer time periods than an installment loan and the terms of the mortgage will often change over the course of the mortgage." (doc.txt)
+[E7] "At the end of the five year term a new agreement will be required and the conditions of the mortgage usually change." (doc.txt)
+[E8] "As one can see, the finance charges are a hidden but added cost. This cost will become more pronounced with more expensive purchases such as with real estate." (doc.txt)
+</evidence>
+<answer>
+Similarities: Both are loans repaid through regular installment payments that include an interest charge [E1]. Both are amortized, meaning the loan is spread into a series of fixed payments, with each payment covering a portion of interest and a portion of principal [E2]. Amortizing a mortgage is similar to amortizing other loans [E3].
+
+Differences: A mortgage is a long-term loan used for the purchase of a house, and the lender requires the house as collateral, so if the borrower cannot make payments the lender can take possession of the house [E4]. An installment loan is for major purchases such as vehicles or furniture [E5]. Mortgages generally tend to be for longer time periods than an installment loan, and their terms often change over the course of the mortgage [E6]; for example, at the end of a five-year term on a twenty-year mortgage, a new agreement is required and the conditions usually change [E7]. Mortgage amortization generally involves many more payment periods [E3].
+
+When to choose which: A consumer who cannot afford to pay the full price of a major purchase such as a new vehicle ($25,000 or more) and does not want to wait three or four years to save should use an installment loan [E5]. For the purchase of a house, a mortgage is the appropriate loan [E4]. The document also notes that finance charges become more pronounced with more expensive purchases such as real estate [E8].
+</answer>

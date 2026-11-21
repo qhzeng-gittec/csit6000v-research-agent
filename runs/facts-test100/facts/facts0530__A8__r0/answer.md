@@ -1,0 +1,3 @@
+
+
+According to `doc.txt`, the near-zero biodiversity of the European coffee plantations (all descended from the same Arabian mother plant) "had devastating consequences." Specifically, in the last decades of the nineteenth century, the fungal pathogen *Haemilia vestatrix* "severely infected coffee plantations in Sri Lanka, India, Java, Sumatra, and Malaysia," and "rust disease destroyed the coffee plantations one by one." As a result, some plantations were converted into tea plantations (as in Sri Lanka), while in others *Coffea canephora* (syn. *Coffea robusta*), which has a natural resistance to rust, was planted.

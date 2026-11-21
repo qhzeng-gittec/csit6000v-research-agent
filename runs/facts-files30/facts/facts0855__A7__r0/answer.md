@@ -1,0 +1,12 @@
+
+
+Based on `doc.txt`, here is what the text says:
+
+**Meaning of "forward-looking statements":**
+The document states that the press release "contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995" (doc.txt), and that the Company "intends such forward-looking statements to be covered by the safe harbor provisions for forward-looking statements contained in Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended" (doc.txt).
+
+**Terms listed as examples:**
+"Readers can generally identify forward-looking statements by the use of forward-looking terminology such as 'anticipate,' 'believe,' 'continue,' 'could,' 'estimate,' 'expect,' 'intend,' 'may,' 'might,' 'plan,' 'potential,' 'predict,' 'seek,' 'vision,' 'should,' or the negative thereof or other variations thereon or comparable terminology" (doc.txt). The text adds that "Forward-looking statements include those we make regarding the Company's ability to continuing operating its business and implement the restructuring pursuant to the Chapter 11 cases, including the timetable of completing such transactions, if at all" (doc.txt), while noting "The preceding list is not intended to be an exhaustive list of all of the Company's forward-looking statements" (doc.txt).
+
+**Why readers should be made aware:**
+The text explains that the Company has based these statements on "its current expectations, assumptions, estimates and projections" (doc.txt), and that "such forward-looking statements are only predictions and involve known and unknown risks and uncertainties, many of which are beyond the Company's control" (doc.txt). Therefore, "readers are cautioned not to place undue reliance on such forward-looking statements" (doc.txt), and "The forward-looking statements included elsewhere in this press release are not guarantees" (doc.txt). Additionally, "Any forward-looking statement that the Company makes in this press release speaks only as of the date of such statement" (doc.txt), and "Except as required by law, the Company does not undertake any obligation to update or revise, or to publicly announce any update or revision to, any of the forward-looking statements, whether as a result of new information, future events or otherwise after the date of this press release" (doc.txt).

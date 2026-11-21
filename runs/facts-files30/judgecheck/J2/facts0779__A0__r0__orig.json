@@ -1,0 +1,61 @@
+{
+ "run": "facts0779__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Per doc.txt, installment loans and mortgages share core features: both are loans repaid with principal plus interest, and both are amortized, spread out into a series of fixed payments, each covering interest and principal.",
+   "label": "supported",
+   "rationale": "The document explains that monetary loans are repaid with principal and interest, defines amortization as fixed payments covering both, and applies amortization to installment loans and mortgages."
+  },
+  {
+   "sentence": "Mortgage amortization is similar to amortizing other loans, and installment loans can also last \"a few years to perhaps twenty years or more (in the case of real estate).\"",
+   "label": "supported",
+   "rationale": "The context explicitly states both the similarity in amortization and the possible range of installment-loan lengths."
+  },
+  {
+   "sentence": "**Purpose and collateral**: A mortgage is a long-term loan used for the purchase of a house, and the house itself serves as collateral — if the borrower fails to make payments, the lender can take possession of the house.",
+   "label": "supported",
+   "rationale": "The mortgage definition states its purpose, identifies the house as collateral, and explains that the lender can take possession if the borrower cannot make payments."
+  },
+  {
+   "sentence": "An installment loan is for major purchases such as vehicles or furniture.",
+   "label": "supported",
+   "rationale": "The document identifies vehicles and furniture as examples of major purchases financed with installment loans."
+  },
+  {
+   "sentence": "**Term and conditions**: Mortgages generally tend to be for longer time periods than installment loans, and their terms often change over the course of the mortgage.",
+   "label": "supported",
+   "rationale": "The context explicitly makes both comparisons."
+  },
+  {
+   "sentence": "For example, a twenty-year mortgage may be signed for a five-year term, after which a new agreement is required and the conditions usually change.",
+   "label": "supported",
+   "rationale": "The document gives this example and states what happens at the end of the five-year term."
+  },
+  {
+   "sentence": "The agreement may allow lump-sum payments or changing the payment amount.",
+   "label": "supported",
+   "rationale": "The document explicitly identifies both options as possible terms of the mortgage agreement."
+  },
+  {
+   "sentence": "**Payment count**: Mortgage amortization generally involves many more payment periods.",
+   "label": "supported",
+   "rationale": "The context explicitly says that mortgage amortization generally has more payment periods than amortization of other loans."
+  },
+  {
+   "sentence": "**Choosing which**: Choose a mortgage when buying a house, since it is designed for home purchases and is secured by the house.",
+   "label": "supported",
+   "rationale": "The recommendation follows from the document's definition of a mortgage as a loan for purchasing a house that uses the house as collateral."
+  },
+  {
+   "sentence": "Choose an installment loan for major purchases like vehicles or furniture when the buyer cannot pay in full, since it allows regular payments until the loan is paid off rather than full repayment on a single maturity date.",
+   "label": "supported",
+   "rationale": "The context presents installment loans as an option for qualifying buyers who cannot pay upfront for major purchases and explains that repayment is spread across regular installments."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

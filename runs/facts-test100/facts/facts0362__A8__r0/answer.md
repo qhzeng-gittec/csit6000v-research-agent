@@ -1,0 +1,9 @@
+
+
+The Study Panel offers three general policy recommendations to help address concerns about "the individual and societal implications of rapidly evolving AI technologies" (doc.txt):
+
+1. **"Define a path toward accruing technical expertise in AI at all levels of government."** The Panel argues that "Effective governance requires more experts who understand and can analyze the interactions between AI technologies, programmatic objectives, and overall societal values." It warns that without such expertise, officials "may refuse to permit a potentially promising application" or, if insufficiently trained, "may simply take the word of industry technologists and green light a sensitive application that has not been adequately vetted" (doc.txt).
+
+2. **"Remove the perceived and actual impediments to research on the fairness, security, privacy, and social impacts of AI systems."** The Panel notes that some interpretations of federal laws such as the Computer Fraud and Abuse Act and the anti-circumvention provision of the Digital Millennium Copyright Act are "ambiguous regarding whether and how proprietary AI systems may be reverse engineered and evaluated by academics, journalists, and other researchers," and that "Such research is critical if AI systems with physical and other material consequences are to be properly vetted and held accountable" (doc.txt).
+
+3. **"Increase public and private funding for interdisciplinary studies of the societal impacts of AI."** The Panel states that "As a society, we are underinvesting resources in research on the societal implications of AI technologies" and that "Private and public dollars should be directed toward interdisciplinary teams capable of analyzing AI from multiple angles," with research questions ranging from "basic research into intelligence to methods to assess and affect the safety, privacy, fairness, and other impacts of AI" (doc.txt).

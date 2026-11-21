@@ -1,0 +1,5 @@
+
+
+According to `doc.txt`, the proposed framework is a novel system for integrating Adverse Drug Reaction (ADR) detection into clinical workflows, using Electronic Medical Record (EMR) systems, crowdsourced reporting from patients and healthcare professionals, and graph theory to generate automated ADR signals and reports for pharmacovigilance agencies.
+
+The document's only statement about python code snippets is in its final line: "Methodologies, framework visualizations and python code snippets are included to aid implementation." In other words, the python code snippets are provided as part of the article's materials to help implement the proposed framework. The document does not describe what the snippets contain, which parts of the framework they cover, or how they are used beyond this.

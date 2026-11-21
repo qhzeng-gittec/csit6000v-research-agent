@@ -1,0 +1,91 @@
+{
+ "run": "facts0399__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Here are the executable steps from the document (a Heroes III \"Week 1, Day 1\" tutorial):",
+   "label": "supported",
+   "rationale": "The document is headed \"Week 1, Day 1\" and gives step-by-step instructions for playing Heroes III."
+  },
+  {
+   "sentence": "Note the layout: the main window gives a close view around your hero/cities; the world map (upper-right) shows the whole world, with black areas still unexplored until a hero explores them.",
+   "label": "supported",
+   "rationale": "The context confirms both views, the world map's position, and what its black areas mean."
+  },
+  {
+   "sentence": "Confirm your first hero, Lord Haart, is selected.",
+   "label": "supported",
+   "rationale": "The context identifies Lord Haart as the first hero and says he should already be selected."
+  },
+  {
+   "sentence": "Hover the cursor over the town entrance (between the two flag poles); the horse icon rears up, indicating the hero will interact with that location, and the Rollover Bar at the bottom shows the location's name/description.",
+   "label": "supported",
+   "rationale": "The context gives the entrance location and describes both cursor feedback and the information in the Rollover Bar."
+  },
+  {
+   "sentence": "Click the location to see the green-arrow path to the green X (destination); click the same location again (or simply double-click) to send the hero.",
+   "label": "supported",
+   "rationale": "The first click displays the path to the green X, and the second click sends the hero; the context also describes double-clicking as a shortcut."
+  },
+  {
+   "sentence": "When the hero arrives, the view switches to the Town Screen.",
+   "label": "supported",
+   "rationale": "The context explicitly says that arrival at the town entrance changes the view to the Town Screen."
+  },
+  {
+   "sentence": "Check the town info in the bottom-left (income per day, troop production per week); the two rows of boxes show the town garrison (top) and any visiting hero's troops (bottom).",
+   "label": "supported",
+   "rationale": "The context confirms the position and contents of the town information and the purpose of both troop rows."
+  },
+  {
+   "sentence": "Click the Town Hall (the larger of the two buildings on the left) to open the Hall Screen, where all construction is done.",
+   "label": "supported",
+   "rationale": "The context identifies the Town Hall by size and position and says it opens the screen used for all construction decisions."
+  },
+  {
+   "sentence": "Bar colors: green = buildable now, red = buildable later, gray = disabled/never buildable, gold = fully built/upgraded.",
+   "label": "supported",
+   "rationale": "The context explicitly defines all four colors for building names."
+  },
+  {
+   "sentence": "Click the Fort picture, review its description and required resources, then click the Build button (lower-left of the popup).",
+   "label": "supported",
+   "rationale": "The context gives the same sequence and specifies the Build button's location."
+  },
+  {
+   "sentence": "Click the Fort to open the Castle Window, which lists all seven units the town can produce and shows \"Available\" units from built Creature Generators (currently Guardhouse, Archers' Tower, Barracks); click Exit (lower-right) to return to the Town Screen.",
+   "label": "supported",
+   "rationale": "The context confirms how to open and exit the Castle Window, what it displays, and which three buildings currently have available units."
+  },
+  {
+   "sentence": "Click the Mage Guild (round tower on the right) and purchase a spell book — required before any hero can learn or cast spells (Lord Haart, a Knight, starts without one).",
+   "label": "supported",
+   "rationale": "The context identifies the Mage Guild, directs the player to buy a spell book, and explains both the requirement and why Lord Haart lacks one."
+  },
+  {
+   "sentence": "On the Mage Guild Screen, left- or right-click any spell scroll on the shelves to see its description; click Exit (lower-right) when done.",
+   "label": "supported",
+   "rationale": "The context confirms that either mouse button opens a scroll's description and that Exit is in the lower right."
+  },
+  {
+   "sentence": "Your starting troops are only a token force, so buy available troops: click the large central tower along the hill at the back of town to open the Recruit Pikemen window.",
+   "label": "supported",
+   "rationale": "The context describes the starting force as token, recommends buying troops, and identifies the tower that opens the recruitment window."
+  },
+  {
+   "sentence": "Either use the scroll bar to pick a quantity (total cost shown on the right) or click the Maximum button (four up arrows) to buy the most you can afford.",
+   "label": "supported",
+   "rationale": "The context gives both ways to select a purchase quantity: use the scroll bar and check the cost, or use Maximum to select the largest affordable quantity available."
+  },
+  {
+   "sentence": "Click the Recruit button (bottom center); the new Pikemen will appear in the garrison row.",
+   "label": "supported",
+   "rationale": "The context gives the Recruit button's location and confirms that the recruited Pikemen appear in the garrison row."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

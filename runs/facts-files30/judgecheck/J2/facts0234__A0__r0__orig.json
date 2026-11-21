@@ -1,0 +1,81 @@
+{
+ "run": "facts0234__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt` (NIST SP 800-215, \"Guide to a Secure Enterprise Network Landscape\"), the enhanced firewall capabilities described in the \"Enhanced Firewall Capabilities\" section benefit network security in the following ways:",
+   "label": "no_rad",
+   "rationale": "This is a lead-in that attributes and introduces the list rather than stating a specific security benefit."
+  },
+  {
+   "sentence": "**Packet filtering and NAT**: Monitor and control packets crossing a network interface, apply predetermined security rules, and obscure the internal network from the public internet.",
+   "label": "supported",
+   "rationale": "The context explicitly attributes all three functions to packet filtering and NAT."
+  },
+  {
+   "sentence": "**Stateful inspection**: Monitor the state of connections so only packets belonging to known active connections are allowed through.",
+   "label": "unsupported",
+   "rationale": "The context says stateful inspection identifies packets that belong to known active connections and can be allowed through, but it does not say that only such packets can pass."
+  },
+  {
+   "sentence": "**Deep packet inspection (DPI)**: Examine both packet headers and payloads (unlike stateful inspection, which checks headers only), enabling detection of hidden threats in the data stream such as data exfiltration attempts, content policy violations, and malware.",
+   "label": "supported",
+   "rationale": "The context makes the same comparison with stateful inspection and lists all three examples of hidden threats."
+  },
+  {
+   "sentence": "**Threat detection and response**: Gather and analyze data across multiple packets and sessions to detect threats and security incidents targeting a particular system or family of systems.",
+   "label": "supported",
+   "rationale": "The context directly describes this data collection and analysis capability and the scope of the threats it can detect."
+  },
+  {
+   "sentence": "Data from multiple firewalls can be fed to SIEM tools and correlated with other security tools to detect enterprise-wide attacks spanning multiple systems and network layers, and to understand evolving threats and define new access rules, attack patterns, and defensive strategies.",
+   "label": "supported",
+   "rationale": "The context describes sending firewall data to SIEM, correlating it with data from other tools to detect enterprise-wide attacks, and using it to understand threats and develop defenses."
+  },
+  {
+   "sentence": "**Logging and auditing**: Build a record of network events used to identify patterns of performance and security issues.",
+   "label": "supported",
+   "rationale": "The context says logging and auditing produce network events that can be used to identify both types of patterns."
+  },
+  {
+   "sentence": "**Access control functions**: Enforce granular, sophisticated access control policies.",
+   "label": "supported",
+   "rationale": "The context explicitly states that access control functions enforce these policies."
+  },
+  {
+   "sentence": "**Deployment at multiple locations**: Edge firewalls protect the network perimeter by filtering disallowed sources/destinations and blocking packets of potential threats; data-center firewalls segment the internal network to prevent lateral movement of traffic and isolate sensitive resources (e.g., services and data stores); device-based firewalls block malicious traffic in and out of endpoints.",
+   "label": "supported",
+   "rationale": "The context describes the stated security role for each of the three firewall locations."
+  },
+  {
+   "sentence": "**Open APIs**: Enable integration with other networking products that add security capabilities.",
+   "label": "supported",
+   "rationale": "The context explicitly links open APIs to integration with networking products that provide additional security capabilities."
+  },
+  {
+   "sentence": "**Policy composition**: Merge policies at enforcement time so consistent policies are applied across different user classes (e.g., on-premises, private and public clouds).",
+   "label": "supported",
+   "rationale": "The context identifies enforcement-time policy merging as a capability for applying consistent policies across the specified user groups."
+  },
+  {
+   "sentence": "**Web application firewalls (WAF)**: Detect traffic from malicious URLs and prevent web-based threats using real-time machine-learning-analyzed data; inspect threat vectors such as SQL injection, OS command injection, and cross-site scripting; prevent inbound attacks; and are used in CDNs to prevent DDoS attacks.",
+   "label": "unsupported",
+   "rationale": "The context supports the other capabilities but lists CDN use and DDoS prevention separately. It does not establish that WAFs are used in CDNs specifically to prevent DDoS attacks."
+  },
+  {
+   "sentence": "Additional features include specifying allowable service lists (application-level control), matching traffic to the intent of allowed ports, and filtering unwanted protocols.",
+   "label": "supported",
+   "rationale": "The context lists all three as additional WAF features."
+  },
+  {
+   "sentence": "In short, per the document, the evolution of firewall functions—from simple perimeter packet filtering to DPI, threat detection, granular access control, segmentation, and web application protection—broadens an enterprise's ability to detect, prevent, and respond to threats across the entire network, including enterprise-wide and web-based attacks.",
+   "label": "supported",
+   "rationale": "The context describes the shift from perimeter protection to the listed capabilities and explains how they support detection, prevention, and response at multiple locations and across systems and layers."
+  }
+ ],
+ "unsup": 2,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

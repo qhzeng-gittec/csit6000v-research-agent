@@ -1,0 +1,25 @@
+<evidence>
+[E1] "The Apgar score is based on five components (skin color, heart rate, reflex irritability, muscle tone, and respiration). Each item is scored from 0 to 2 with a total score of 7–10 as normal and the highest score of 10 representing the optimal condition. The Apgar score has been used worldwide as a vitality index for almost every newborn immediately after birth." (doc.txt)
+[E2] "In this large population-based cohort study, during childhood, we found individuals with even clinically “normal” Apgar score range of 7–9 still had higher risks of overall mental disorders and some specific diagnoses: organic disorders and a series of neurodevelopmental disorders (intellectual disability, pervasive developmental disorders, childhood autism, and ADHD). It is also interesting to observe that compromised Apgar scores were at elevated risks of developing organic disorders and neurotic disorders, which were reported for the first time. During early adulthood, compromised 5-min Apgar scores were not found to be associated with mental disorders." (doc.txt)
+[E3] "Similarly, we observed 3~5-fold risks of intellectual disability in childhood (until 18 years of age), and we were able to adjust for not only the aforementioned confounders but also parental psychiatric history and socioeconomic status, indicating a more robust association." (doc.txt)
+[E4] "Current guidelines recommend Apgar scores of 7 or higher to be reassuring, hence, infants with these scores are often assumed to constitute a homogeneous group. Nevertheless, recent studies showed that even reassuring Apgar scores of 7–9 are associated with higher risks of neonatal mortality, neonatal morbidity, and adverse long-term neurological outcomes, compared with an Apgar score of 10. We found a dose-response increasing the overall risk of mental disorders with decreasing Apgar score of 9 toward 7." (doc.txt)
+[E5] "These findings support that 5-min Apgar scores routinely available in contemporary neonatal settings, even within the normal range 7–9, are not totally reassuring." (doc.txt)
+[E6] "Although Apgar scores are not clear on any causal pathway of pathogenesis, less-than-optimal Apgar scores at birth may be a potential sign of the cumulative effect of those adverse prenatal events. Especially, the clinically reassuring but suboptimal score range 7–9 may indicate subtle but still detrimental intrauterine insults which will act negatively on fetal brain development." (doc.txt)
+</evidence>
+<answer>
+What the Apgar score is:
+- The Apgar score is a measure taken immediately after birth, based on five components: skin color, heart rate, reflex irritability, muscle tone, and respiration [E1]. Each item is scored from 0 to 2, so the total ranges up to 10; a total of 7–10 is considered normal, and 10 represents the optimal condition [E1]. It has been used worldwide as a "vitality index" for almost every newborn [E1].
+
+Significance for health outcomes (from the study in doc.txt, a large Danish cohort of over 2.2 million births):
+- Even scores in the "normal" range of 7–9 are associated with higher risks of overall mental disorders in childhood, including organic disorders and neurodevelopmental disorders such as intellectual disability, pervasive developmental disorders, childhood autism, and ADHD [E2].
+- Compromised (lower) Apgar scores were associated with elevated risks of organic disorders and neurotic disorders in childhood — a finding reported for the first time in this study [E2].
+- The study observed 3–5-fold risks of intellectual disability in childhood (up to age 18) among those with compromised 5-minute Apgar scores, an association that remained robust after adjusting for parental psychiatric history and socioeconomic status [E3].
+- There is a dose-response relationship: the overall risk of mental disorders increases as the Apgar score decreases from 9 toward 7 [E4].
+- Even reassuring scores of 7–9 carry higher risks of neonatal mortality, neonatal morbidity, and adverse long-term neurological outcomes compared with a score of 10 [E4]. The authors conclude that 5-minute Apgar scores, even within the normal 7–9 range, "are not totally reassuring" [E5].
+- In early adulthood, however, compromised 5-minute Apgar scores were not found to be associated with mental disorders [E2].
+
+Possible explanation:
+- The authors suggest that less-than-optimal Apgar scores may reflect the cumulative effect of adverse prenatal events, and that the 7–9 range may indicate subtle but still detrimental intrauterine insults that negatively affect fetal brain development [E6]. They note the Apgar score is not clear on any causal pathway of pathogenesis [E6].
+
+In short, the Apgar score is a quick post-birth assessment of a newborn's physical condition, and this document's findings suggest that even scores considered "normal" (7–9) may signal a somewhat elevated risk of later mental and neurodevelopmental disorders, with risk rising as the score falls.
+</answer>

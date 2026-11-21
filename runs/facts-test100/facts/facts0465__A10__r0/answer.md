@@ -1,0 +1,12 @@
+
+
+- The report provides an overview of Big Tech's current financial offerings, how the regulatory framework applies to them, and related policy implications, while also considering potential future expansions.
+- In investment advisory services, more than 90% of wealth managers believe Big Tech companies will enter the market, with over 50% expecting significant disruption. Fintechs have already entered this area using machine learning for robo-advising and retail stock trading.
+- In insurance, **Amazon** and **Google** have partnered with insurance companies to offer various insurance products. Pushing further without a partner would invite state-level regulation, as insurance has been regulated solely by states for the past 150 years.
+- In banking, **Google**'s "Plex" project, abandoned in late 2021, was the most direct step by the industry toward becoming banks. If companies wanted to pursue more bank-like activities such as accepting deposits, their likely option would be an industrial loan company (ILC) charter.
+- U.S. law generally prohibits commercial enterprises from operating banks, a separation dating back to the Glass-Steagall Act and the Bank Holding Company Act.
+- ILCs are an exception: they can be owned by nonfinancial, commercial firms, are exempt from the definition of bank under the Bank Holding Company Act, and are eligible for FDIC deposit insurance.
+- Historically, **Walmart** and **Home Depot** made unsuccessful attempts in the mid-2000s to establish or acquire ILCs, dropping them after public opposition. The FDIC then imposed moratoria on new ILC insurance applications.
+- In March 2020, the FDIC approved two ILCs—**Nelnet** and **Square**—for deposit insurance. **Square** offers services similar to Big Techs, including mobile wallet with payment and peer-to-peer transfer functions.
+- **Rakuten**, a Japanese e-commerce company sometimes called the "Amazon of Japan," has an outstanding ILC charter application, having filed its most recent one on January 15, 2021, after two previously withdrawn applications.
+- A Big Tech with an ILC charter could theoretically benefit from access to deposits and deposit insurance without the increased regulatory burden of consolidated financial oversight by the Federal Reserve System.

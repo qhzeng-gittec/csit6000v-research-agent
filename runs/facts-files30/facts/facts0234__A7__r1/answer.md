@@ -1,0 +1,16 @@
+
+
+Based on `doc.txt`, the "Enhanced Firewall Capabilities" section describes how firewall security functions have "enlarged alongside the changing network landscape" (doc.txt), and lists the benefits of each capability:
+
+- **Packet filtering and NAT**: used to "monitor and control packets moving across a network interface, apply predetermined security rules, and obscure the internal network from the public internet" (doc.txt).
+- **Stateful inspection**: "monitors the state of connections and makes determinations as to what types of data packets belong to a known active connection and can be allowed to pass through the firewall" (doc.txt).
+- **Deep packet inspection (DPI)**: examines both packet header and payload, giving it "capabilities related to finding hidden threats within the data stream, such as attempts at data exfiltration, violations of content policies, malware, and more" (doc.txt).
+- **Threat detection and response**: modern firewalls can "detect threats and security incidents targeted at a particular system or a family of systems," and their data can be correlated via SIEM "to detect enterprise-wide attacks that span multiple systems and network layers," as well as "understand evolving threats and define new access rules, attack patterns, and defensive strategies" (doc.txt).
+- **Logging and auditing**: enable "the construction of network events that can be used to identify patterns of performance and security issues" (doc.txt).
+- **Access control functions**: "enforce granular sophisticated access control policies" (doc.txt).
+- **Multiple locations and functions**: edge firewalls provide "network perimeter protection" by "filtering disallowed sources and destinations and blocking the packets of potential threats"; data-center firewalls "segment the internal network to prevent the lateral movement of traffic and isolate sensitive resources (e.g., services and data stores)"; and device-based firewalls "prevent malicious traffic in and out of endpoints" (doc.txt).
+- **Open APIs**: "enable integration with many networking products that provide additional security capabilities" (doc.txt).
+- **Policy composition**: allow firewalls to "merge policies at enforcement time so as to ensure that consistent policies are applied to different classes of users (e.g., those on-premises and on private and public clouds)" (doc.txt).
+- **Web application firewalls (WAF)**: with advanced URL filtering, they can "detect traffic from malicious URLs and prevent web-based threats and attacks," "inspect threat vectors for SQL Injection, operating system (OS) command injections, and cross-site scripting attacks, as well as prevent inbound attacks," and are "used in content delivery networks (CDN) and to prevent distributed denial-of-service (DDoS) attacks" (doc.txt).
+
+In short, according to the document, enhanced firewall capabilities benefit network security by moving beyond simple perimeter packet blocking to inspecting packet content, detecting and responding to threats (including enterprise-wide and hidden threats), enforcing granular and consistent access policies, segmenting networks to stop lateral movement, and integrating with other security tools.

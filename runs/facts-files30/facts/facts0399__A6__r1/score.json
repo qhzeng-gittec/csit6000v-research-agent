@@ -1,0 +1,1 @@
+{"accurate": true, "eligible": true, "correct": true, "correct_loose": null, "format_ok": true, "sent_supported": 25, "sent_unsupported": 1, "sent_contradictory": 0, "sent_no_rad": 7, "sent_unsup_rate": 0.038461538461538464, "sent_bad": ["Here is the document summarized as executable bullet points, based only on `doc.txt`:"]}

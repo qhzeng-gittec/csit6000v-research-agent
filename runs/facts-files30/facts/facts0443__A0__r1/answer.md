@@ -1,0 +1,1 @@
+Based on `doc.txt`, the allegations affect **one club** — Newcastle United. The document states that "the Club has abused its dominant position in the market for the wholesale supply of Newcastle United replica kit in the UK" by refusing to supply Sports Direct and granting JD Sports exclusive third-party retail rights. No other club is named as being affected by the allegations.

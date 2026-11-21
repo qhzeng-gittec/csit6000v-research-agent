@@ -1,0 +1,9 @@
+
+
+Based on `doc.txt`, the answer is no on both counts, for the following reasons stated in the document:
+
+1. **Not a legal entity customer:** The document lists exclusions from the definition of legal entity customer under 31 CFR 1010.230(e)(2), and one of them is "An insurance company that is regulated by a state" (line 82). Since New Jersey is a state, an insurance company regulated by it is excluded from the definition of legal entity customer. The document states that a legal entity customer is a corporation, LLC, or similar entity that opens an account, but that "a number of types of business entities are excluded from the definition of legal entity customer under the Beneficial Ownership rule."
+
+2. **No beneficial owner reporting required:** Because the insurance company is excluded from the definition of legal entity customer, the bank's requirement to "identify and verify beneficial owner(s) of legal entity customers" does not apply to it. Additionally, even under the ownership prong, a beneficial owner is defined as each individual who "owns 25 percent or more of the equity interests of a legal entity customer." An ownership stake of less than 10% is below that 25% threshold, so such an individual would not be a beneficial owner under the ownership prong. The document also notes that "Identification of a beneficial owner under the ownership prong is not required if no individual owns 25 percent or more of a legal entity customer."
+
+One caveat: the document does not specifically address the situation of a *business* that owns less than 10% of an insurance company. It addresses (a) the exclusion of state-regulated insurance companies from the legal entity customer definition, and (b) the 25% threshold for individuals under the ownership prong. The document does not state how a business holding a sub-10% stake in an insurance company would be treated.

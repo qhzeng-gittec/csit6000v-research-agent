@@ -1,0 +1,21 @@
+{
+ "run": "facts0443__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Based on the document, the allegations affect **one club** — Newcastle United.",
+   "label": "supported",
+   "rationale": "Both allegations concern the same Club, identified by its replica kit as Newcastle United."
+  },
+  {
+   "sentence": "The document describes the Claimant's allegation that \"the Club\" (Newcastle United) abused its dominant position in the market for the wholesale supply of Newcastle United replica kit in the UK, and no other club is mentioned.",
+   "label": "supported",
+   "rationale": "The first allegation states the claimed abuse in that market. The second allegation refers to the same Club, and the generic definition of replica kit does not identify another club."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

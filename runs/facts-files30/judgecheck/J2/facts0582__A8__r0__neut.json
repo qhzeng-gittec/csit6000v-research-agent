@@ -1,0 +1,176 @@
+{
+ "run": "facts0582__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Based only on the document, here is what the document says.",
+   "label": "no_rad",
+   "rationale": "This is an introductory statement about the scope of the answer."
+  },
+  {
+   "sentence": "**Can anything permanently help?**",
+   "label": "no_rad",
+   "rationale": "This heading is a question, not a factual claim."
+  },
+  {
+   "sentence": "The document does not describe any treatment as permanent.",
+   "label": "supported",
+   "rationale": "The document describes nonsurgical treatments in terms of symptom relief and explicitly says surgery does not guarantee that symptoms will disappear."
+  },
+  {
+   "sentence": "It states that \"surgeons cannot guarantee that symptoms will disappear after surgery\", and that \"In around 5% of people, the problematic disc may rupture again, causing symptoms to recur\".",
+   "label": "supported",
+   "rationale": "The risks section explicitly gives both the recurrence estimate and the lack of a guarantee."
+  },
+  {
+   "sentence": "It also notes that \"Some people may continue to experience herniated disc pain after the recovery period.",
+   "label": "supported",
+   "rationale": "The document explicitly says pain may persist after recovery."
+  },
+  {
+   "sentence": "In some cases, the pain may worsen over time\".",
+   "label": "supported",
+   "rationale": "The document explicitly says the pain may worsen over time in some cases."
+  },
+  {
+   "sentence": "The stated goal of surgery is only to \"ease pressure on the nerve, thereby alleviating pain and other symptoms\".",
+   "label": "supported",
+   "rationale": "The document states this as the general purpose of herniated disc surgery, rather than promising a permanent cure."
+  },
+  {
+   "sentence": "**Surgical options and their pros and cons as described in the document**",
+   "label": "no_rad",
+   "rationale": "This heading introduces the list without making a substantive factual claim."
+  },
+  {
+   "sentence": "1. **Open discectomy** — \"The surgeon performs open surgery to remove the herniated section of the disc\".",
+   "label": "supported",
+   "rationale": "The document defines open discectomy as open surgery to remove the herniated section."
+  },
+  {
+   "sentence": "The document lists no specific pros or cons for this technique beyond the general risks below.",
+   "label": "supported",
+   "rationale": "The open discectomy entry only describes what the surgeon does, and the risks section addresses discectomies generally rather than open discectomy specifically."
+  },
+  {
+   "sentence": "2. **Endoscopic spine surgery** — \"The surgeon uses a long thin tube, or endoscope, to remove the herniated section of the disc.\"",
+   "label": "supported",
+   "rationale": "The document explicitly describes the instrument and what it is used to remove."
+  },
+  {
+   "sentence": "Pros: \"The procedure is minimally invasive, requiring a tiny incision.",
+   "label": "supported",
+   "rationale": "The document explicitly identifies minimal invasiveness and a tiny incision as features of the procedure."
+  },
+  {
+   "sentence": "Only a small scar will form, resulting in a quicker recovery\".",
+   "label": "supported",
+   "rationale": "The document explicitly links a small scar with quicker recovery for this procedure."
+  },
+  {
+   "sentence": "No specific cons are listed.",
+   "label": "supported",
+   "rationale": "The endoscopic surgery entry describes the technique and its benefits without listing a procedure-specific drawback."
+  },
+  {
+   "sentence": "3. **Surgery on the core of the spinal disc** — \"The surgeon uses instruments to access the core of the spinal disc then uses a vacuum to remove the core.",
+   "label": "supported",
+   "rationale": "The document explicitly describes accessing the core with instruments and removing it with a vacuum."
+  },
+  {
+   "sentence": "This makes the spinal disc smaller, which reduces pressure on the nerve.\"",
+   "label": "supported",
+   "rationale": "The document explicitly states that removing the core makes the disc smaller and reduces nerve pressure."
+  },
+  {
+   "sentence": "Con/limitation: \"The surgery is only possible if the outer layer of the disc is not damaged\".",
+   "label": "supported",
+   "rationale": "The document explicitly limits the procedure to discs whose outer layer is undamaged."
+  },
+  {
+   "sentence": "4. **Laminotomy or laminectomy** — \"A laminotomy involves the removal of part of the lamina, while a laminectomy is removal of the entire lamina,\" after which \"the surgeon performs a discectomy to remove the herniated disc\".",
+   "label": "supported",
+   "rationale": "The document distinguishes partial from complete lamina removal and says that a discectomy follows either procedure."
+  },
+  {
+   "sentence": "Pros: \"Lumbar procedures: These help to relieve leg pain or sciatic pain that a herniated disc causes in the lower back region.",
+   "label": "supported",
+   "rationale": "The document explicitly identifies relief of leg or sciatic pain as a benefit of the lumbar procedures."
+  },
+  {
+   "sentence": "Cervical procedures: These help to relieve pain in the neck and upper limbs that a herniated disc causes in the neck region\".",
+   "label": "supported",
+   "rationale": "The document explicitly identifies relief of neck and upper-limb pain as a benefit of the cervical procedures."
+  },
+  {
+   "sentence": "Con: it may require a spinal fusion — \"Typically, lumbar laminotomies require an SF,\" and \"Cervical laminotomies require an SF if the surgeon operates from the front of the neck.",
+   "label": "supported",
+   "rationale": "The document confirms that fusion may follow these procedures and specifies when it is required for lumbar and front-of-neck cervical laminotomies."
+  },
+  {
+   "sentence": "The same procedures rarely require an SF if the surgeon operates from the back of the neck\".",
+   "label": "supported",
+   "rationale": "The document explicitly says fusion is rarely needed with the back-of-neck approach to cervical laminotomy."
+  },
+  {
+   "sentence": "5. **Spinal fusion (SF)** — \"An SF involves joining two bones together with screws\".",
+   "label": "supported",
+   "rationale": "This matches the document's description of spinal fusion."
+  },
+  {
+   "sentence": "Con: \"People who have undergone an SF may experience pain and feel as if the treatment is restricting certain movements\".",
+   "label": "supported",
+   "rationale": "The document explicitly lists pain and a feeling of restricted movement as possible effects."
+  },
+  {
+   "sentence": "6. **Artificial disc surgery (ADS)** — \"In ADS, the surgeon replaces the damaged disc with an artificial one.\"",
+   "label": "supported",
+   "rationale": "The document explicitly describes replacing the damaged disc with an artificial disc."
+  },
+  {
+   "sentence": "It is \"an alternative to spinal fusion\" and \"Some people who undergo laminotomy may be candidates for artificial disc surgery instead of an SF\".",
+   "label": "supported",
+   "rationale": "The document states both that artificial disc surgery is an alternative to fusion and that some laminotomy patients may qualify for it."
+  },
+  {
+   "sentence": "Pro: \"A surgeon will usually associate this method with less pain and less restricted movement in comparison to SF procedures\".",
+   "label": "supported",
+   "rationale": "The document explicitly gives this comparison with spinal fusion."
+  },
+  {
+   "sentence": "No cons are listed.",
+   "label": "supported",
+   "rationale": "The artificial disc surgery section describes the procedure and its comparative benefits without listing any drawbacks."
+  },
+  {
+   "sentence": "**Risks common to discectomies**",
+   "label": "no_rad",
+   "rationale": "This heading introduces the risks section without asserting how frequently the complications occur."
+  },
+  {
+   "sentence": "\"Discectomies hardly ever result in complications.",
+   "label": "supported",
+   "rationale": "The document explicitly characterizes discectomy complications as rare."
+  },
+  {
+   "sentence": "However, in rare cases, people may experience the following: bleeding, infections, tears in the spine's protective lining, injury to the nerve\".",
+   "label": "supported",
+   "rationale": "All four complications are explicitly listed as rare possibilities."
+  },
+  {
+   "sentence": "The document does not compare the options against each other in a single pros/cons table, and it does not state which option is best for any particular person; it only says the choice \"depends on several factors.",
+   "label": "supported",
+   "rationale": "The document presents the procedures in prose rather than in a single comparison table and describes how the choice varies without selecting a best option for a particular patient."
+  },
+  {
+   "sentence": "These include the location of the herniated disc, the severity of the pain, and the disability it causes\".",
+   "label": "supported",
+   "rationale": "The document explicitly lists all three factors in choosing a type of surgery."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

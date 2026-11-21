@@ -1,0 +1,21 @@
+
+
+Based on `doc.txt`, the main findings from the industry survey (a strategic sample of more than 300 digital leaders from more than 50 countries and territories) are:
+
+- **Confidence in journalism:** Just half (47%) of editors, CEOs, and digital executives are confident about the prospects for journalism in the year ahead, with around one-tenth (12%) expressing low confidence. Concerns include rising costs, declining advertising revenue, slowing subscription growth, and increasing legal and physical harassment. A reason to be cheerful is the hope that closely fought elections in the US and elsewhere could boost consumption and interest, albeit temporarily and with potential for further damage to trust.
+
+- **Referral traffic from social media:** Almost two-thirds (63%) of respondents are worried about a sharp decline in referral traffic from social media sites. Chartbeat data shows traffic to news sites from Facebook fell 48% in 2023, and traffic from X/Twitter declined by 27%. In response, around three-quarters (77%) say they will focus more on their own direct channels in the next year, a fifth (22%) will cut costs, and a similar proportion (20%) will experiment with alternative third-party platforms.
+
+- **Platform sentiment:** Publishers say they'll put more effort into WhatsApp (+61 net score) and Instagram (+39) following Meta's decision to open up broadcast channels for publishers. Interest in video networks such as TikTok (+55) and YouTube (+44) remains strong, while Google Discover is becoming a more important but volatile referral source. Sentiment towards Facebook has worsened further this year (−38 net score), along with X/Twitter (−39 net score).
+
+- **Content plans:** The majority of publisher respondents plan to create more video (+64 net score), more newsletters (+52), and more podcasts (+47), but broadly the same number of news articles, as they lean into some of the few remaining areas of audience and advertiser growth. Around half (54%) admit their companies are mostly focused on maximising attention rather than being more respectful of their audience's time (37%).
+
+- **News avoidance and fatigue:** Selective news avoidance and news fatigue remain a major source of concern for media companies looking to sustain interest in news from Gaza and Ukraine, amongst other difficult stories. Strategies considered very important to counter these trends include better explanation of complex stories (67%), more solutions-oriented or constructive approaches to storytelling (44%), and more inspirational human stories (43%). There was less support for commissioning more positive (21%) or entertaining (18%) news.
+
+- **Business side:** Publishers continue to invest in subscription and membership, with a large majority (80%) saying this will be an important revenue stream, ahead of both display and native advertising. Most of those operating a paid model report either a slight increase or stable subscription numbers in the last year, despite the difficult economic outlook.
+
+- **AI licensing deals:** As publishers aim to do lucrative licensing deals with AI platforms this year, there is little optimism that benefits will be equally shared. A third (35%) of respondents believed most of the money would go to big publishers, and around half (48%) felt there would be very little money for any publisher.
+
+- **AI uses:** Using AI for back-end news automation (56%) is considered the most important use of the technology by publisher respondents, followed by offering better recommendations (37%) and commercial uses (28%). Publishers are ambivalent about using AI for content creation, which is considered the biggest reputational risk by over half of respondents.
+
+- **New interfaces:** Experimental interfaces to the internet such as AR and VR glasses, lapel pins, and other wearable devices will be a feature of the year ahead. But existing voice-activated devices such as headphones and smart speakers, as they get upgraded with AI technologies, are considered by respondents to be the most likely option (41%) to displace – or at least supplement – the smartphone in the medium term.

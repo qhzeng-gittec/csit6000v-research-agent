@@ -1,0 +1,76 @@
+{
+ "run": "facts0120__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Based on the document, the research on black tea and coronaviruses covers three main studies:",
+   "label": "supported",
+   "rationale": "The document discusses three studies relevant to black tea and coronaviruses: Clark et al. on bovine coronavirus, Lung et al. on SARS-CoV-2, and Chen et al. on SARS-CoV."
+  },
+  {
+   "sentence": "\"it was demonstrated that theaflavins extracted from black tea were able to neutralize bovine coronavirus and rotavirus infections\".",
+   "label": "supported",
+   "rationale": "The context explicitly reports neutralization of both viruses by theaflavins extracted from black tea."
+  },
+  {
+   "sentence": "The crude black tea extract and theaflavin fractions were tested individually and in combination; \"The combination of theaflavin fractions (TF1 + TF2a + TF2b + TF3) was more active than the sum of the activities of these four fractions individually, indicating synergism amongst the TF components\".",
+   "label": "supported",
+   "rationale": "The context describes individual and combined testing for antirotaviral activity and reports synergy among the four fractions."
+  },
+  {
+   "sentence": "\"theaflavin and theaflavin gallate derivatives have inactivation activity (in vitro) against both rotavirus and coronavirus\" and \"The crude black tea extract was also able to neutralize the coronavirus\".",
+   "label": "supported",
+   "rationale": "The document explicitly reports both the in vitro inactivation by the derivatives and the neutralization by crude black tea extract."
+  },
+  {
+   "sentence": "In the context of the \"current pandemic created by the novel corona virus COVID-19,\" 83 compounds used in Chinese medicine were screened for efficacy against SARS-CoV-2 by assessing binding to its RNA dependent RNA polymerase (RdRp).",
+   "label": "supported",
+   "rationale": "The document frames the research in the pandemic and describes screening 83 compounds for potential efficacy by assessing binding to RdRp."
+  },
+  {
+   "sentence": "\"This virtual screening in this bioinformatics study revealed that out of the 83 compounds screened, theaflavin was the best compound on the basis of idock score (prediction of binding affinity), hydrophobic interactions and additional hydrogen bonds between theaflavin and amino acid near the active site of RdRp\".",
+   "label": "supported",
+   "rationale": "The document gives the same ranking and explicitly lists all three criteria."
+  },
+  {
+   "sentence": "This was \"further confirmed by lower binding energy when it docks the catalytic pocket of SARS-CoV-2 RdRp,\" suggesting \"theaflavins could be used as a lead compound for developing a SARS-CoV-2 inhibitor that targets the RdRp\".",
+   "label": "supported",
+   "rationale": "The document reports the lower docking energy and presents theaflavins as a possible lead, not an established inhibitor."
+  },
+  {
+   "sentence": "\"Theaflavins are present in black tea and the highest theaflavin contents are present in the black teas of Assam\".",
+   "label": "supported",
+   "rationale": "The context explicitly makes both claims about theaflavin content."
+  },
+  {
+   "sentence": "The authors note that \"further in vivo, animal and clinical trials would be required to carry forward this research finding\".",
+   "label": "unsupported",
+   "rationale": "The document makes this caveat in its own narration but does not explicitly attribute it to the authors of the Lung et al. study."
+  },
+  {
+   "sentence": "\"the extracts from Puer and Black tea were more potent than the green or oolong tea extracts in their inhibitory activities against a chymotrypsin-like (3CLPro) protease\".",
+   "label": "supported",
+   "rationale": "The document explicitly reports the comparative potency of the four types of tea extract against the protease."
+  },
+  {
+   "sentence": "A docking screen of a 720-compound natural product library found \"Two compounds, tannic acid and TF2b (Theaflavin 3-gallate) were found to be active against 3CL Protease\".",
+   "label": "supported",
+   "rationale": "The context describes a 720-compound docking screen and identifies tannic acid and TF2b as active against the protease."
+  },
+  {
+   "sentence": "\"The water extracts of TF2b (theaflavin-3-gallate), TF3 (theaflavin diggallate) and tannic acid were found to be the best effective 3CLPro inhibitors with inhibitory concentration (IC50) of less than 10 μM\".",
+   "label": "supported",
+   "rationale": "The document names the same three inhibitors and gives the same IC50 threshold."
+  },
+  {
+   "sentence": "Note: the document reports only in vitro, in silico (docking), and enzyme-inhibition findings; it does not describe any clinical or human health-benefit results for black tea against coronavirus.",
+   "label": "supported",
+   "rationale": "The coronavirus findings described are limited to in vitro inactivation, computational screening, and protease inhibition. The document does not report a human health outcome and explicitly identifies clinical trials as further work."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 1
+}

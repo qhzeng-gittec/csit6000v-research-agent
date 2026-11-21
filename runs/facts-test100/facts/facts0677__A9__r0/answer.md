@@ -1,0 +1,15 @@
+Based on `doc.txt`, the text describes two mergers/acquisitions and their consequences:
+
+**Amazon's acquisition of Whole Foods Market (2017, ~$13.2 billion)**
+- Amazon obtained brick-and-mortar grocery store locations it integrated with its online services: Prime members became eligible for discounts and free pickup or delivery of Whole Foods groceries in selected zip codes, and Amazon Hub Lockers are often located in Whole Foods Markets.
+- The acquisition may have increased competition in grocery retail, and other retailers responded to competitive pressure: Walmart launched online delivery in 2017, Kroger in 2018, and Walmart launched the Walmart+ membership delivery service in 2020. Consumers may have benefited, particularly as many stores offer free delivery on orders over $35.
+- The changes may have increased pressure on other online grocery delivery services such as Instacart, which stopped delivering groceries from Whole Foods in 2019.
+- The acquisition raised concern about Amazon's growing dominance in retail, particularly e-commerce (eMarketer estimated Amazon had a 38.7% share of e-commerce sales in 2020; a House Subcommittee staff report suggested a 50%+ share when restricted to products sold on Amazon, and over 60% of U.S. online product searches begin on Amazon).
+- Through the acquisition, Amazon gained access to additional consumer data, strengthening its bargaining power with suppliers.
+- Amazon's vertical integration (private label AmazonBasics, its own delivery system, with $60 billion invested in its delivery network since 2014 and the fourth-largest U.S. package delivery share in 2019) may further strengthen its e-commerce position; consumers could benefit from faster delivery even if it becomes more difficult for other companies to compete.
+
+**Facebook's acquisition of Instagram (2012, $1 billion)**
+- Although the FTC closed its investigation without action in 2012, in December 2020 the FTC sued Facebook, alleging it maintained its monopoly position by buying up companies that present competitive threats, specifically mentioning the acquisitions of Instagram and WhatsApp; a coalition of 46 state attorneys general filed a parallel lawsuit on similar grounds.
+- Mark Zuckerberg's internal email describing Instagram as "a large and viable competitor to us on mobile photos" has been used to support the claim that Facebook acquired Instagram to eliminate a potential competitor.
+- Instagram grew rapidly after the acquisition, from about 100 million monthly active users in February 2013 to 500 million in June 2016 and 1 billion in June 2018, and used Facebook's resources—its advertising services and its infrastructure for hosting and processing consumer data—which have been key to Instagram's profitability.
+- It is unclear how successful Instagram would have been without the acquisition; the text notes it is possible Instagram would have struggled due to resource constraints, as happened with Friendster, which turned down a Google buyout offer and eventually closed down.

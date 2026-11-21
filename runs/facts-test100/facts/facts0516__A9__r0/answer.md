@@ -1,0 +1,11 @@
+
+
+Based on `doc.txt` (Northrop Grumman's Item 1C Cybersecurity disclosure), the document does not provide a formal enumerated list of cyber risks, but its description of the cybersecurity risk-management program identifies the following types of risk the company addresses within the cyber threat landscape:
+
+- **Cyber threats to computing environments and products** – The company works to protect its computing environments and products from cybersecurity threats through multi-layered defenses, continuous monitoring, data analytics to detect anomalies, and a 24x7 Cybersecurity Operations Center (lines 49–63).
+- **Insider threats** – The company maintains an insider threat program "designed to identify, assess, and address potential risks from within our Company," evaluated consistent with industry practices, customer requirements and applicable law (lines 64–68).
+- **Third-party risk** – The company conducts information security assessments before sharing or allowing the hosting of sensitive data in computing environments managed by third parties, with contractual provisions requiring certain security protections (lines 77–81).
+- **Supplier / supply-chain cyber-related risks** – The company requires suppliers to comply with its information security terms and to complete information security questionnaires "to review and assess any potential cyber-related risks depending on the nature of the services being provided" (lines 89–97). It also shares threat and vulnerability mitigation information across the defense industrial base and supply chain (lines 74–76).
+- **Cybersecurity incidents** – The company notes it has experienced cybersecurity incidents in the past, though to date none have materially affected the company or its financial position, results of operations, or cash flows (lines 98–100).
+
+The document also notes that for "more information regarding the risks we face from cybersecurity threats," readers are referred to the "Risk Factors" section, which is not included in this file (lines 104–106).

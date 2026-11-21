@@ -1,0 +1,9 @@
+
+
+Based on `doc.txt`, here is what applies to Uncle Joe's situation:
+
+**Wartime Service category:** The document says you are eligible if you served any time during World War II (September 16, 1940 to July 25, 1947) and "must have served at least 90 days on active duty and been discharged or released under other than dishonorable conditions." Uncle Joe's three years in 1945 fall within the WWII period, and three years would exceed the 90-day minimum. However, the document does not state whether "active duty for training" in the Guard and Reserves counts as "active duty" for this purpose, so the document does not resolve that point.
+
+**Members of the Selected Reserve category:** The document says individuals who are not otherwise eligible may be eligible if they "have completed at least 6 years in the Reserves or National Guard, or been discharged because of a service-connected disability," and have an honorable discharge, are on the retired list, have been transferred to another element of the Ready Reserve, or continue to serve in the Selected Reserve. Uncle Joe's three years of Guard and Reserve service do not meet the 6-year requirement, and the document does not indicate he was discharged for a service-connected disability.
+
+So, based only on the document: Uncle Joe's three years of Guard/Reserve active duty for training in 1945 do not qualify him under the Selected Reserve category (which requires at least 6 years), and the document does not state whether active duty for training in the Guard and Reserves satisfies the "90 days on active duty" requirement of the Wartime Service category. The document does not give a definitive answer on his eligibility.

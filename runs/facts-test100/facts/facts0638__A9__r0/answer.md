@@ -1,0 +1,13 @@
+
+
+The document is an essay introducing a special collection of 20 PCD articles published from January 2020 through November 2022, which highlights efforts to prevent, manage, and control traditional CVD risk factors by instituting timely intervention programs, identifying social determinants of health, examining disparities in CVD risks, assessing the pandemic's impact on CVD risks, and implementing collective efforts through community-based approaches to achieve population-level improvements in cardiovascular health, using multiple data sources collected before or during the pandemic.
+
+Regarding hypertension specifically, the article states that disparities in hypertension, stroke, and stroke mortality exist, exhibiting significant sociodemographic (for example, racial) and geographic (for example, rural–urban, county, zip code) variations. Intervention programs evaluated in the collection include behavioral modifications strengthening chronic disease awareness, use of self-measured blood pressure monitoring, and sodium intake reduction.
+
+The article identifies hypertension as one of the greatest contributors to CVD-related years of life lost globally, alongside tobacco exposure, high body mass index (BMI), and high fasting plasma glucose. Hypertension affects more than 4 billion people worldwide, representing a near doubling in the absolute prevalence of hypertension since 1990. In the US, nearly half of adults (47%) have hypertension, but only about 1 in 4 (24%) have their condition under control.
+
+The article also reports a study by Goulding and colleagues that used National Health and Nutrition Examination Survey data collected from 2011 through 2018 to provide estimates of the prevalence of high blood pressure among US children aged 8 to 17 years. The authors documented that elevated blood pressure was most prevalent among children who were older, male, or non-Hispanic Black.
+
+In addition, Salahuddin and colleagues documented zip code variations in infant mortality rates associated with a high prevalence of maternal cardiometabolic high-risk conditions, which included chronic or gestational hypertension, chronic or gestational diabetes, smoking during pregnancy, and prepregnancy obesity, in 2 counties in Texas. The article suggests that findings from such studies could direct efforts to implement appropriate strategies to prevent, manage, and control CVD in populations at high risk.
+
+Finally, the article organizes these findings under 3 broad themes: examining factors contributing to CVD risk, exploring factors contributing to disparities in CVD, and using community-based approaches to decrease CVD. It also notes that disparities in CVD morbidity, mortality, and risk factors have persisted for decades in the US.

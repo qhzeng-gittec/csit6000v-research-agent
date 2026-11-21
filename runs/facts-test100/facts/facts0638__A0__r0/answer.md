@@ -1,0 +1,15 @@
+
+
+The article, part of a special collection of 20 articles published from January 2020 through November 2022, discusses hypertension as a major cardiovascular disease (CVD) risk factor with significant global and national implications. The collection highlights efforts to prevent, manage, and control traditional CVD risk factors by instituting timely intervention programs, identifying social determinants of health, examining disparities in CVD risks, and implementing community-based approaches to achieve population-level improvements in cardiovascular health.
+
+Globally, hypertension affects more than 4 billion people, representing a near doubling in the absolute prevalence of hypertension since 1990. In the United States, nearly half of adults (47%) have hypertension, but only about 1 in 4 (24%) have their condition under control. The article identifies hypertension, along with tobacco exposure, high body mass index, and high fasting plasma glucose, as one of the greatest contributors to CVD-related years of life lost worldwide.
+
+The article highlights that disparities in hypertension exist, exhibiting significant sociodemographic variations, such as racial differences, and geographic variations, including rural–urban differences, county-level differences, and zip code-level differences. These disparities are part of a broader pattern of CVD disparities that have persisted for decades in the US, with concerning stagnation and significant upward trends since the early 2000s. Disparities are largely influenced by demographic, socioeconomic, and environmental factors.
+
+Regarding intervention programs, the article notes that behavioral modifications strengthening chronic disease awareness, use of self-measured blood pressure monitoring, and sodium intake reduction are evaluated as strategies to manage and control hypertension and other CVD risk factors.
+
+The article also references a study by Goulding and colleagues that used National Health and Nutrition Examination Survey data collected from 2011 through 2018 to provide estimates of the prevalence of high blood pressure among US children aged 8 to 17 years. The authors documented that elevated blood pressure was most prevalent among children who were older, male, or non-Hispanic Black, with factors beyond inequalities in body weight likely contributing to disparities in elevated blood pressure.
+
+Additionally, the article mentions a study by Salahuddin and colleagues that documented zip code variations in infant mortality rates associated with a high prevalence of maternal cardiometabolic high-risk conditions, including chronic or gestational hypertension, in 2 counties in Texas.
+
+Overall, the article positions hypertension as a critical public health concern requiring sustained, multifaceted intervention efforts across diverse populations and settings.

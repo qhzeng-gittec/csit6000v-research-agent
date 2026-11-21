@@ -1,0 +1,51 @@
+{
+ "run": "facts0388__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "According to `doc.txt`, if SRP disconnects service because of a violation of the Rules and Regulations (such as a broken meter seal, covered under Section 4.14.1), the customer must do the following before service can be restored:",
+   "label": "supported",
+   "rationale": "Section 4.14.1 addresses broken meter seals, Section 4.14.2 permits disconnection when SRP has evidence the customer caused or allowed a condition covered by that section, and Section 4.14.4 sets the conditions for restoration after a violation."
+  },
+  {
+   "sentence": "1. **Pay all amounts due to SRP.**",
+   "label": "supported",
+   "rationale": "The document makes full payment a condition of restoring service after disconnection for a violation."
+  },
+  {
+   "sentence": "The document states: \"If SRP disconnects service to the Customer because of a violation of these Rules and Regulations, SRP will not restore service to the Customer until all amounts due SRP have been paid.",
+   "label": "supported",
+   "rationale": "The quoted sentence matches the restoration rule in Section 4.14.4."
+  },
+  {
+   "sentence": "SRP will include the full cost or expense incurred by SRP for the removal and reinstallation of the meter or meters, apparatus, wires, and Service Lateral.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "Section 4.14.4 expressly includes the full costs of removing and reinstalling the listed equipment."
+  },
+  {
+   "sentence": "2. **Ensure the service entrance complies with specifications.**",
+   "label": "supported",
+   "rationale": "The document requires the service entrance to meet SRP’s current specifications before re-energization."
+  },
+  {
+   "sentence": "\"The Customer's service entrance must comply with SRP's then-current Electric Service Specifications before it can be re-energized.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The quoted requirement is stated in Section 4.14.4."
+  },
+  {
+   "sentence": "In addition, the document notes that when a meter seal has been broken by someone other than SRP's personnel, \"SRP may assess a reconnection fee to the Customer's billing\" (doc.txt), and that \"SRP will charge the Customer for periods of unmetered service, estimated using data from available records and information\" (doc.txt).",
+   "label": "supported",
+   "rationale": "The document permits a reconnection fee when someone other than SRP personnel breaks the seal and requires charges for estimated periods of unmetered service."
+  },
+  {
+   "sentence": "If there was damage to meters or Service Equipment, \"the current Customer of record shall pay SRP based on estimated Energy usage not previously billed as well as any SRP costs associated with restoring proper metering or service\" (doc.txt).",
+   "label": "supported",
+   "rationale": "Section 4.14.3 explicitly requires the customer of record to pay for estimated unbilled usage and restoration costs when meters or service equipment are damaged."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

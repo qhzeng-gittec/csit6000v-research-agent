@@ -1,0 +1,3 @@
+
+
+According to `doc.txt`, the name comes from Greek mythology, where the Elysian Fields are a heavenly place where the heroic and the virtuous are rewarded in the afterlife. "Elysian," as an adjective, means blissful — described in the document as a fitting name for Wharfedale's new flagship loudspeakers, which were conceived to deliver blissful sonic reward to music lovers seeking heavenly respite from the rigours of daily life.

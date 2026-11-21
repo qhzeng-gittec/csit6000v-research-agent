@@ -1,0 +1,46 @@
+{
+ "run": "facts0855__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Based on the \"Forward-Looking Statements\" section of `doc.txt` (lines 25–53):",
+   "label": "no_rad",
+   "rationale": "This is a source reference introducing the answer, not a substantive claim."
+  },
+  {
+   "sentence": "**Meaning:** The press release contains forward-looking statements \"within the meaning of the Private Securities Litigation Reform Act of 1995,\" and the Company intends them to be covered by the safe harbor provisions for forward-looking statements in Section 27A of the Securities Act of 1933 (as amended) and Section 21E of the Securities Exchange Act of 1934 (as amended).",
+   "label": "supported",
+   "rationale": "The context expressly names the 1995 Act and both safe harbor provisions, and describes coverage as the Company's intent."
+  },
+  {
+   "sentence": "The Company has based these statements on its current expectations, assumptions, estimates, and projections, and the text emphasizes that such statements \"are only predictions and involve known and unknown risks and uncertainties, many of which are beyond the Company's control.\"",
+   "label": "supported",
+   "rationale": "The context states both what the predictions are based on and what risks and uncertainties they involve."
+  },
+  {
+   "sentence": "**Example terms:** Readers can generally identify forward-looking statements by the use of forward-looking terminology such as \"anticipate,\" \"believe,\" \"continue,\" \"could,\" \"estimate,\" \"expect,\" \"intend,\" \"may,\" \"might,\" \"plan,\" \"potential,\" \"predict,\" \"seek,\" \"vision,\" \"should,\" or the negative thereof, or other variations thereon or comparable terminology.",
+   "label": "supported",
+   "rationale": "The context gives the same identification guidance and lists all of these terms, including their negatives, variations, and comparable terminology."
+  },
+  {
+   "sentence": "The text also notes that forward-looking statements include those made regarding the Company's ability to continue operating its business and implement the restructuring pursuant to the Chapter 11 cases, including the timetable of completing such transactions, if at all.",
+   "label": "supported",
+   "rationale": "The context explicitly includes the Company's ability to keep operating, implement the Chapter 11 restructuring, and complete the transactions on a timetable, if at all."
+  },
+  {
+   "sentence": "**Why readers should be aware:** Because these statements are only predictions involving known and unknown risks and uncertainties—many beyond the Company's control—readers \"are cautioned not to place undue reliance on such forward-looking statements.\"",
+   "label": "supported",
+   "rationale": "The context directly links the risks and uncertainties of these predictions to the warning against undue reliance."
+  },
+  {
+   "sentence": "The text further explains that the statements \"are not guarantees,\" that any forward-looking statement \"speaks only as of the date of such statement,\" and that, except as required by law, the Company does not undertake any obligation to update or revise, or to publicly announce any update or revision to, any of them, whether as a result of new information, future events, or otherwise after the date of the press release.",
+   "label": "supported",
+   "rationale": "The context states that the statements are not guarantees, that each speaks only as of its date, and that the Company assumes no update or announcement obligation except as required by law."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

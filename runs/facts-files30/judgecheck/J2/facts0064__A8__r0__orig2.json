@@ -1,0 +1,51 @@
+{
+ "run": "facts0064__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "The document states that \"The state imposes a zero-tolerance policy for drivers under 21, meaning any detectable amount of alcohol can result in a DUI charge.\"",
+   "label": "supported",
+   "rationale": "The context explicitly gives the zero-tolerance rule, its age cutoff, and the consequence of detecting any alcohol."
+  },
+  {
+   "sentence": "It also notes that \"stricter penalties and potential long-term consequences on educational and employment opportunities\" apply, and that \"an underage DUI can be particularly damaging.\"",
+   "label": "supported",
+   "rationale": "The context expressly mentions stricter penalties, potential effects on education and employment, and the particular harm an underage DUI can cause."
+  },
+  {
+   "sentence": "The document does not give a specific BAC or other threshold that distinguishes a felony DUI from a misdemeanor DUI.",
+   "label": "supported",
+   "rationale": "The document's alcohol-detection rule concerns underage DUI charges, not felony classification, and its felony discussion gives no specific cutoff."
+  },
+  {
+   "sentence": "A first offense is a misdemeanor: \"A first offense DUI in California is a misdemeanor typically punished by\" the listed penalties (fines of $390.00+, 6–16 months license suspension, up to 6 months jail, 3 months alcohol treatment).",
+   "label": "supported",
+   "rationale": "The context identifies a first DUI offense in California as a misdemeanor and lists all four penalties as stated."
+  },
+  {
+   "sentence": "For felony DUI, the document explains the circumstances that elevate the charge: \"The enhanced penalties are direct outcomes of either prior DUI convictions, inflicting bodily harm, or other aggravating factors.\"",
+   "label": "unsupported",
+   "rationale": "The quotation is accurate, but it attributes enhanced penalties to those factors without explicitly stating that they elevate a misdemeanor charge to a felony."
+  },
+  {
+   "sentence": "It contrasts the two generally: \"Unlike misdemeanor DUI charges, a felony DUI can carry severe consequences, including significant jail time, hefty fines, and a lasting impact on one's civil liberties and future opportunities.\"",
+   "label": "supported",
+   "rationale": "The context makes this comparison verbatim."
+  },
+  {
+   "sentence": "So, per the document, the felony criteria are prior DUI convictions, inflicting bodily harm, or other aggravating factors, while a first offense is a misdemeanor.",
+   "label": "unsupported",
+   "rationale": "The first-offense classification is stated, but the document identifies the listed factors as reasons for enhanced penalties, not as explicit criteria for felony classification."
+  },
+  {
+   "sentence": "The document does not state any other explicit criteria (such as a blood-alcohol level) for distinguishing felony from misdemeanor DUI.",
+   "label": "supported",
+   "rationale": "The document gives no additional explicit classification rule, and its alcohol-detection provision does not distinguish felony from misdemeanor DUI."
+  }
+ ],
+ "unsup": 2,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

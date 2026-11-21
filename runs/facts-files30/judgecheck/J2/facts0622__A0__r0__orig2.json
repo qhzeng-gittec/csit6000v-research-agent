@@ -1,0 +1,136 @@
+{
+ "run": "facts0622__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based solely on `doc.txt`, here is an explanation of the Apgar score and what the study found about its significance for health outcomes:",
+   "label": "no_rad",
+   "rationale": "This is an introductory statement describing what the response will cover."
+  },
+  {
+   "sentence": "The Apgar score is a \"vitality index\" used worldwide for almost every newborn immediately after birth.",
+   "label": "supported",
+   "rationale": "The context explicitly describes the score's purpose, scope, and timing."
+  },
+  {
+   "sentence": "It is based on five components:\n\n1. Skin color\n2. Heart rate\n3. Reflex irritability\n4. Muscle tone\n5. Respiration",
+   "label": "supported",
+   "rationale": "The context lists all five of these components."
+  },
+  {
+   "sentence": "Each item is scored from 0 to 2, giving a total score.",
+   "label": "supported",
+   "rationale": "The context specifies the individual scoring range and the resulting total score."
+  },
+  {
+   "sentence": "A total of 7–10 is considered normal, with 10 representing the optimal condition.",
+   "label": "supported",
+   "rationale": "The context explicitly identifies both the normal range and the optimal score."
+  },
+  {
+   "sentence": "The article describes a large population-based cohort study using Danish national registers.",
+   "label": "supported",
+   "rationale": "The context specifies the study design and data source and reports a cohort exceeding two million births."
+  },
+  {
+   "sentence": "It identified 2,272,473 live singleton births from 1978–2015 in the Danish Medical Birth Registry; after exclusions (missing sex data, missing/invalid 5-minute Apgar scores, and deaths or emigration before age 1), the final cohort comprised 2,213,822 births.",
+   "label": "supported",
+   "rationale": "The context gives the same registry, dates, initial count, exclusion categories, and final count."
+  },
+  {
+   "sentence": "To the authors' knowledge, it was the first study to examine the association of the full spectrum of mental disorders with the 5-minute Apgar score.",
+   "label": "supported",
+   "rationale": "The authors explicitly make this claim with the same qualification."
+  },
+  {
+   "sentence": "**Even \"normal\" scores of 7–9 carry elevated risk.**",
+   "label": "supported",
+   "rationale": "The study reports elevated risks of childhood mental disorders even within the clinically normal range of 7–9."
+  },
+  {
+   "sentence": "Current guidelines treat Apgar scores of 7 or higher as reassuring, but the study found that individuals with scores in the clinically \"normal\" range of 7–9 still had higher risks of:\n- Overall mental disorders in childhood\n- Organic disorders\n- Neurodevelopmental disorders, including intellectual disability, pervasive developmental disorders, childhood autism, and ADHD",
+   "label": "supported",
+   "rationale": "The context gives the guideline threshold and reports all the listed childhood outcomes for scores of 7–9."
+  },
+  {
+   "sentence": "There was a dose-response relationship: the overall risk of mental disorders increased as the Apgar score decreased from 9 toward 7.",
+   "label": "supported",
+   "rationale": "The study explicitly reports this dose-response pattern and its direction."
+  },
+  {
+   "sentence": "Prior studies also found that scores of 7–9 were associated with higher risks of neonatal mortality, neonatal morbidity, and adverse long-term neurological outcomes compared with a score of 10.",
+   "label": "supported",
+   "rationale": "The context attributes these three outcomes and the comparison with a score of 10 to earlier studies."
+  },
+  {
+   "sentence": "**Compromised (low) scores carry greater risk.**",
+   "label": "supported",
+   "rationale": "The context reports elevated childhood risks for individuals with compromised scores."
+  },
+  {
+   "sentence": "Compromised 5-minute Apgar scores were associated with:\n- Intellectual disability in childhood (up to age 18), with 3–5-fold risks — corroborating a Swedish study that reported a 9-fold risk of intellectual disability in term infants with low 5-minute Apgar scores\n- Childhood autism (the typical and most severe type)\n- Organic disorders and neurotic disorders in childhood — a novel finding reported for the first time in this study",
+   "label": "supported",
+   "rationale": "The context provides both intellectual disability risk estimates, describes childhood autism as stated, and identifies the organic and neurotic disorder associations as novel."
+  },
+  {
+   "sentence": "**No association found in early adulthood.**",
+   "label": "supported",
+   "rationale": "The study explicitly reports that it did not find the association in early adulthood."
+  },
+  {
+   "sentence": "Compromised 5-minute Apgar scores were not found to be associated with mental disorders during early adulthood.",
+   "label": "supported",
+   "rationale": "The context states this finding directly."
+  },
+  {
+   "sentence": "The authors suggest this may be due to incomplete Apgar records during the early years of the Danish register, and note that follow-up (up to a maximum attained age of 39) was not long enough to detect late-onset disorders such as dementia.",
+   "label": "supported",
+   "rationale": "The authors cite incomplete early records as a possible explanation and identify the maximum age and the limitation for detecting late-onset disorders."
+  },
+  {
+   "sentence": "The authors note that the causes of mental disorders are multifactorial.",
+   "label": "supported",
+   "rationale": "The context explicitly says that mental disorders have multiple contributing causes."
+  },
+  {
+   "sentence": "Adverse prenatal events (e.g., gestational diabetes, preterm birth, restricted fetal growth) can have a \"programming effect\" on fetal brain development.",
+   "label": "supported",
+   "rationale": "The context names these prenatal factors and describes their possible programming effect."
+  },
+  {
+   "sentence": "While the Apgar score does not clarify any causal pathway, a less-than-optimal score at birth may be a potential sign of the cumulative effect of such adverse prenatal events.",
+   "label": "supported",
+   "rationale": "The authors distinguish a possible marker of cumulative prenatal adversity from evidence of a causal pathway."
+  },
+  {
+   "sentence": "In particular, the clinically reassuring but suboptimal range of 7–9 may indicate subtle but still detrimental intrauterine insults that negatively affect fetal brain development.",
+   "label": "supported",
+   "rationale": "The context offers this possibility for the same score range and describes the same potential effect."
+  },
+  {
+   "sentence": "Regarding organic disorders specifically, the increased risk with low Apgar scores implies that adverse prenatal insults (e.g., hypoxia-ischemia, white matter injury, reduced blood flow, malnutrition) exert a long-lasting impact on brain function in later life.",
+   "label": "supported",
+   "rationale": "The context draws the same inference about organic disorders and lists the same examples of prenatal insults."
+  },
+  {
+   "sentence": "For neurotic disorders, the authors note that individuals with compromised Apgar scores tended to be born into families with worse socioeconomic status (e.g., mothers living alone with low education), so socioeconomic factors may at least partially mediate that association.",
+   "label": "supported",
+   "rationale": "The context reports the socioeconomic pattern, gives those examples, and proposes partial mediation as a possibility."
+  },
+  {
+   "sentence": "The article's central message is that 5-minute Apgar scores routinely available in contemporary neonatal settings — even within the \"normal\" range of 7–9 — are not totally reassuring.",
+   "label": "supported",
+   "rationale": "The authors explicitly draw this conclusion from their findings."
+  },
+  {
+   "sentence": "A less-than-optimal Apgar score at birth may be an indicator for a broad scope of mental disorders in childhood, not merely neurodevelopmental disorders.",
+   "label": "supported",
+   "rationale": "The context explicitly presents this as a possible implication of the findings."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

@@ -1,0 +1,241 @@
+{
+ "run": "facts0499__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "Based on the document, here's what the document says about VBAC (vaginal birth after cesarean):",
+   "label": "supported",
+   "rationale": "The introduction correctly expands the abbreviation VBAC."
+  },
+  {
+   "sentence": "## Benefits of VBAC compared to a C-section",
+   "label": "no_rad",
+   "rationale": "This heading introduces the comparison without stating a specific benefit."
+  },
+  {
+   "sentence": "- **Faster recovery and shorter hospital stay** (recovering from a C-section typically takes longer)",
+   "label": "supported",
+   "rationale": "The context lists both benefits and explicitly says recovery from a C-section typically takes longer."
+  },
+  {
+   "sentence": "- **No abdominal surgery**",
+   "label": "supported",
+   "rationale": "The context explicitly lists avoiding abdominal surgery as a benefit."
+  },
+  {
+   "sentence": "- **Avoiding or lowering C-section risks** like heavy bleeding and infection",
+   "label": "supported",
+   "rationale": "The context lists this benefit and names both examples."
+  },
+  {
+   "sentence": "- **Better lung preparation for your baby** — vaginal birth helps clear amniotic fluid from your baby's lungs as it passes through the birth canal, better preparing the baby to breathe oxygen after birth",
+   "label": "supported",
+   "rationale": "The context describes both the clearing of amniotic fluid and how it helps prepare the baby to breathe after birth."
+  },
+  {
+   "sentence": "- **Immune system boost for your baby** as it travels through the birth canal",
+   "label": "supported",
+   "rationale": "The context explicitly describes this benefit during vaginal delivery."
+  },
+  {
+   "sentence": "- **Less risk of complications from repeat surgeries**, such as scarring or injuries to nearby organs",
+   "label": "supported",
+   "rationale": "The context names both complications as examples of risks reduced by avoiding repeat surgery."
+  },
+  {
+   "sentence": "- **Personal preference** — some people simply want the experience of a vaginal birth",
+   "label": "supported",
+   "rationale": "The context identifies wanting to experience vaginal birth as a personal preference."
+  },
+  {
+   "sentence": "## Risks involved",
+   "label": "no_rad",
+   "rationale": "This heading introduces the risk list without stating a specific risk."
+  },
+  {
+   "sentence": "- **Uterine rupture** — because a C-section leaves a scar on the uterus, the pressure of labor could cause the uterus to open (rupture) along the scar.",
+   "label": "supported",
+   "rationale": "The context explicitly describes labor pressure causing the uterus to rupture along a C-section scar."
+  },
+  {
+   "sentence": "Although rare, this is a serious complication that can have life-threatening results.",
+   "label": "supported",
+   "rationale": "The context describes uterine rupture as rare, serious, and potentially life-threatening."
+  },
+  {
+   "sentence": "If you're at high risk for rupture, a provider will typically not attempt a VBAC.",
+   "label": "supported",
+   "rationale": "The context states this recommendation for people at high risk of uterine rupture."
+  },
+  {
+   "sentence": "- **Blood loss**",
+   "label": "supported",
+   "rationale": "The context lists blood loss as a risk of attempting VBAC."
+  },
+  {
+   "sentence": "- **Infection**",
+   "label": "supported",
+   "rationale": "The context lists infection as a risk of attempting VBAC."
+  },
+  {
+   "sentence": "- **Emergency C-section**, which is riskier than a planned C-section",
+   "label": "supported",
+   "rationale": "The context names emergency C-section as a risk and explicitly compares it with a planned C-section."
+  },
+  {
+   "sentence": "The document notes the risk of uterine rupture with a transverse (sideways) uterine cut is about **0.9% (slightly less than 1 in 100)**.",
+   "label": "supported",
+   "rationale": "The context gives this exact estimate for the transverse cut it describes, which is sideways across the lower uterus."
+  },
+  {
+   "sentence": "The type of incision matters: a **low transverse incision** has the lowest rupture risk, a **low vertical incision** has a higher risk, and a **high vertical (\"classical\") incision** in the upper uterus has the highest risk.",
+   "label": "supported",
+   "rationale": "The context explicitly gives this risk ranking and places the classical incision in the upper uterus."
+  },
+  {
+   "sentence": "Note that the belly scar's location/direction doesn't necessarily match the uterine scar's — your medical records should have this information, and your provider should review them.",
+   "label": "supported",
+   "rationale": "The context says the incisions can differ, the uterine incision details should be in the medical records, and the provider should review those records."
+  },
+  {
+   "sentence": "## Success rate",
+   "label": "no_rad",
+   "rationale": "This heading introduces the figures without asserting a rate."
+  },
+  {
+   "sentence": "- **Up to 75%** of people who had **one** C-section went on to have a successful vaginal birth in their next pregnancy.",
+   "label": "supported",
+   "rationale": "The context gives the same figure for the next pregnancy after one C-section."
+  },
+  {
+   "sentence": "- The chance drops to **about 50%** if you've had **two or more** prior C-section deliveries.",
+   "label": "supported",
+   "rationale": "The context gives the same estimate for people with two or more prior C-sections."
+  },
+  {
+   "sentence": "## Factors that may make VBAC more likely to succeed",
+   "label": "no_rad",
+   "rationale": "This heading introduces the favorable factors without identifying one."
+  },
+  {
+   "sentence": "- Previous C-section deliveries (one or two) with **low transverse incisions**",
+   "label": "supported",
+   "rationale": "The context lists one or two prior C-sections with low transverse incisions as a favorable factor."
+  },
+  {
+   "sentence": "- A **prior vaginal birth**",
+   "label": "supported",
+   "rationale": "The context lists previous vaginal birth as a factor that may improve the chance of success."
+  },
+  {
+   "sentence": "- **No other uterine surgeries** (such as fibroid removal/myomectomy)",
+   "label": "supported",
+   "rationale": "The context lists no other uterine surgeries as a favorable factor and identifies fibroid removal as myomectomy."
+  },
+  {
+   "sentence": "- **No history of uterine rupture**",
+   "label": "supported",
+   "rationale": "The context lists no prior uterine rupture as a favorable factor."
+  },
+  {
+   "sentence": "- **No medical condition** (like fibroids or problems with placenta location) that makes vaginal delivery risky",
+   "label": "supported",
+   "rationale": "The context lists the absence of such conditions as a favorable factor and gives the same examples."
+  },
+  {
+   "sentence": "- **Going into labor on your own before your due date**",
+   "label": "supported",
+   "rationale": "The context lists spontaneous labor before the due date as a favorable factor."
+  },
+  {
+   "sentence": "- A **prior successful VBAC** without complications (like ruptured uterus) makes future successful vaginal deliveries more likely",
+   "label": "supported",
+   "rationale": "The context explicitly links a prior uncomplicated VBAC to a higher likelihood of future successful vaginal deliveries."
+  },
+  {
+   "sentence": "## Factors that may lower your chances",
+   "label": "no_rad",
+   "rationale": "This heading introduces the unfavorable factors without identifying one."
+  },
+  {
+   "sentence": "- Prior C-section due to **labor not progressing** (not dilating or effacing)",
+   "label": "supported",
+   "rationale": "The context lists failure of labor to progress as an unfavorable factor and explains it in terms of dilation and effacement."
+  },
+  {
+   "sentence": "- **Older than 35**",
+   "label": "supported",
+   "rationale": "The context lists being older than 35 as a factor that may lower the chance of success."
+  },
+  {
+   "sentence": "- **Obesity or overweight**",
+   "label": "supported",
+   "rationale": "The context lists obesity or overweight as a factor that may lower the chance of success."
+  },
+  {
+   "sentence": "- **Large fetus or multiples**",
+   "label": "supported",
+   "rationale": "The context lists both a large fetus and expecting multiples as factors that may lower the chance of success."
+  },
+  {
+   "sentence": "- **Past your due date**",
+   "label": "supported",
+   "rationale": "The context lists being past the due date as a factor that may lower the chance of success."
+  },
+  {
+   "sentence": "- **Short time between pregnancies** (a baby within the last 18 months)",
+   "label": "supported",
+   "rationale": "The context identifies having had a baby within the last 18 months as a short interval that may lower the chance of success."
+  },
+  {
+   "sentence": "- **Preeclampsia** (providers may prefer a C-section)",
+   "label": "supported",
+   "rationale": "The context lists preeclampsia as an unfavorable factor and says providers may prefer a C-section in that case."
+  },
+  {
+   "sentence": "## What to work toward / discuss with your provider",
+   "label": "no_rad",
+   "rationale": "This heading introduces discussion topics without making a specific factual claim."
+  },
+  {
+   "sentence": "The document recommends discussing early in your pregnancy and reviewing your delivery plan at prenatal visits, including:",
+   "label": "supported",
+   "rationale": "The context recommends an early discussion with the provider and subsequent reviews of the delivery plan during prenatal visits."
+  },
+  {
+   "sentence": "- Your past pregnancies and deliveries, and the reason(s) you had a C-section",
+   "label": "supported",
+   "rationale": "The context explicitly lists both topics for discussion with the provider."
+  },
+  {
+   "sentence": "- The safety of VBAC vs. a repeat C-section for you and your baby, and reasons to consider or avoid either",
+   "label": "supported",
+   "rationale": "The context lists safety for both parent and baby and reasons for or against each delivery option as discussion topics."
+  },
+  {
+   "sentence": "- A plan for **inducing labor (or not)**",
+   "label": "supported",
+   "rationale": "The context explicitly lists whether to induce labor as a planning topic."
+  },
+  {
+   "sentence": "- Whether the **healthcare facility can manage emergency deliveries**",
+   "label": "supported",
+   "rationale": "The context explicitly recommends discussing whether the facility can handle emergency deliveries."
+  },
+  {
+   "sentence": "- Your plan for more children",
+   "label": "supported",
+   "rationale": "The context explicitly lists plans for more children as a discussion topic."
+  },
+  {
+   "sentence": "Since your doctor has said it's an option, the document suggests making sure they review your medical records (especially the location/direction of your uterine incision and the reasons for your prior C-section) as part of that decision.",
+   "label": "unsupported",
+   "rationale": "The context supports reviewing the incision details and prior C-section reasons, but it does not establish that this user's doctor said VBAC was an option; that detail comes from the user query."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

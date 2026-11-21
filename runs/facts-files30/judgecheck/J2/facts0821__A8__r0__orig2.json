@@ -1,0 +1,71 @@
+{
+ "run": "facts0821__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt`, the document is entirely about the drinking water DWSRF program, and every part of AWIA Section 2015 it describes relates to water.",
+   "label": "contradictory",
+   "rationale": "The Section 2015 provisions described all relate to water, but the document also discusses broader drinking water regulations, so it is not entirely about the DWSRF program."
+  },
+  {
+   "sentence": "The parts are:",
+   "label": "no_rad",
+   "rationale": "This phrase introduces the list without making a separate factual claim."
+  },
+  {
+   "sentence": "- **Section 2015(a)** — \"amends SDWA to expressly state that DWSRF funds can be used for projects to replace or rehabilitate aging treatment, storage, or distribution systems.\"",
+   "label": "supported",
+   "rationale": "The context expressly identifies these projects as eligible uses of DWSRF funds under Section 2015(a)."
+  },
+  {
+   "sentence": "These projects \"have been eligible for financial assistance from the DWSRF if needed to protect public health,\" and \"this category of projects accounts for 66.1% of the estimated drinking water infrastructure need.\"",
+   "label": "supported",
+   "rationale": "The context confirms both prior eligibility under EPA guidance when needed to protect public health and the 66.1% estimate."
+  },
+  {
+   "sentence": "- **Section 2015 (disadvantaged communities provisions)** — \"revises existing DWSRF provisions that address financial assistance for disadvantaged communities.\"",
+   "label": "supported",
+   "rationale": "The context explicitly identifies financial assistance for disadvantaged communities as an area revised by Section 2015."
+  },
+  {
+   "sentence": "Specifically, \"Section 2015(c) of AWIA increases that proportion to 35% while conditionally requiring states to use at least 6% of their capitalization grant for these subsidies\" (up from 30% before AWIA), and \"the section also amends the SDWA DWSRF provisions to extend the amortization period for loans made to disadvantaged communities from 30 to 40 years.\"",
+   "label": "supported",
+   "rationale": "The context confirms the increase from 30% to 35%, the conditional 6% minimum, and the extension of the amortization period from 30 to 40 years."
+  },
+  {
+   "sentence": "- **Section 2015(d)** — \"extends the repayment and amortization period for all projects financed by the DWSRF\": it \"extends the date of that initial payment to 18 months after project completion\" (previously one year) and \"authorizes the extension of the amortization period for projects that receive DWSRF assistance from 20 to 30 years.\"",
+   "label": "supported",
+   "rationale": "The context confirms the provision's scope, the old and new initial payment deadlines, and the authorized extension of the amortization period."
+  },
+  {
+   "sentence": "- **Section 2015(e)** — \"requires EPA to evaluate and include the cost to replace lead service lines in the drinking water infrastructure needs survey, which EPA completes every four years.\"",
+   "label": "supported",
+   "rationale": "The context directly states the survey requirement and its four-year cycle."
+  },
+  {
+   "sentence": "EPA \"uses the needs survey to allot the DWSRF appropriation among the states,\" and including these costs \"may potentially affect some states' allotments of DWSRF capitalization grants.\"",
+   "label": "supported",
+   "rationale": "The context confirms that EPA uses the survey to allocate funds and that including lead line replacement costs could change some states' allotments."
+  },
+  {
+   "sentence": "- **Section 2015(f)** — \"removes this fiscal year limitation and accordingly authorizes states to use a portion of their capitalization grant to fund these source water assessments or update an existing source water assessment.\"",
+   "label": "supported",
+   "rationale": "The context states that Section 2015(f) removes the prior fiscal-year restriction and permits grant funds to pay for assessments or updates."
+  },
+  {
+   "sentence": "- **Section 2015(g)** — \"requires EPA to gather specified information on DWSRF administration from state drinking water administrators and report to Congress on best practices for implementing the DWSRF to facilitate the application process and to improve DWSRF financial management and sustainability.\"",
+   "label": "supported",
+   "rationale": "The context explicitly confirms both EPA duties and the purposes of the best-practices report."
+  },
+  {
+   "sentence": "In short, the water-related parts of Section 2015 cover: eligible uses of DWSRF funds for aging water systems, subsidies and longer loan terms for disadvantaged communities, extended repayment/amortization for all DWSRF projects, lead service line costs in the needs survey, funding for source water assessments, and reporting on DWSRF administration.",
+   "label": "supported",
+   "rationale": "Each item summarizes a Section 2015 provision described in the context."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

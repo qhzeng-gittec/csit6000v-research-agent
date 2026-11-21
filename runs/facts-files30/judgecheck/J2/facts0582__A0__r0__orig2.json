@@ -1,0 +1,221 @@
+{
+ "run": "facts0582__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based solely on `doc.txt`, here's what the document says about your question.",
+   "label": "no_rad",
+   "rationale": "This is an introduction that identifies the source rather than making a medical claim."
+  },
+  {
+   "sentence": "## Can anything help *permanently*?",
+   "label": "no_rad",
+   "rationale": "This heading asks a question rather than making a factual claim."
+  },
+  {
+   "sentence": "The document does **not** promise a permanent fix for any option.",
+   "label": "supported",
+   "rationale": "The document describes symptom relief rather than a permanent cure and expressly says that surgery does not guarantee that symptoms will disappear."
+  },
+  {
+   "sentence": "It states that:",
+   "label": "no_rad",
+   "rationale": "This phrase introduces the list and contains no standalone factual claim."
+  },
+  {
+   "sentence": "Surgery's purpose is to **ease pressure on the nerve**, thereby alleviating pain and other symptoms — but \"surgeons cannot guarantee that symptoms will disappear after surgery.\"",
+   "label": "supported",
+   "rationale": "The document states both the purpose of surgery and the lack of a guarantee that symptoms will disappear."
+  },
+  {
+   "sentence": "In **around 5% of people, the problematic disc may rupture again**, causing symptoms to recur.",
+   "label": "supported",
+   "rationale": "The document gives the same approximate rate and identifies recurrent symptoms as a consequence."
+  },
+  {
+   "sentence": "Some people may continue to experience pain after recovery, and in some cases the pain may **worsen over time**.",
+   "label": "supported",
+   "rationale": "The document explicitly mentions both persistent pain after the recovery period and possible worsening over time."
+  },
+  {
+   "sentence": "In many cases, **nonsurgical treatment offers effective pain relief** first: limiting activity for 2–3 days (bed rest is *not* recommended), pain medication, NSAIDs, physical therapy, and, if those fail, selective nerve root blocks (local numbing injections).",
+   "label": "supported",
+   "rationale": "The document describes these nonsurgical measures, advises against bed rest, and presents nerve root blocks as an option if NSAIDs and physical therapy are ineffective."
+  },
+  {
+   "sentence": "One potentially positive long-term note: per the North American Spine Society, people who have surgery **earlier rather than later** may have a faster recovery and improved long-term health.",
+   "label": "supported",
+   "rationale": "The document attributes both possible benefits of earlier surgery to the North American Spine Society."
+  },
+  {
+   "sentence": "So the honest answer from this document is: no option is guaranteed to be permanent, but surgery can be an effective treatment for many people with challenging pain.",
+   "label": "supported",
+   "rationale": "The document presents the options as treatments for pain, explicitly says surgery cannot guarantee symptom disappearance, and states that surgery can be effective for many people with challenging pain."
+  },
+  {
+   "sentence": "## Surgical options and their pros/cons (as described in the document)",
+   "label": "no_rad",
+   "rationale": "This is a section heading, not a factual assertion."
+  },
+  {
+   "sentence": "**1. Open discectomy**",
+   "label": "no_rad",
+   "rationale": "This is a procedure heading, not a factual assertion."
+  },
+  {
+   "sentence": "What it is: open surgery to remove the herniated section of the disc.",
+   "label": "supported",
+   "rationale": "The document defines open discectomy in these terms."
+  },
+  {
+   "sentence": "Pros: directly removes the herniated material pressing on the nerve.",
+   "label": "supported",
+   "rationale": "The document explains that herniated material can press on a nerve and lists open discectomy as a way to relieve pressure by removing the herniated section."
+  },
+  {
+   "sentence": "Cons: it's open (non-minimally-invasive) surgery; rare complications include bleeding, infection, tears in the spine's protective lining, and nerve injury.",
+   "label": "unsupported",
+   "rationale": "The document calls the procedure open and lists these rare complications for discectomies, but it does not establish the added classification of open discectomy as non-minimally-invasive."
+  },
+  {
+   "sentence": "**2. Endoscopic spine surgery**",
+   "label": "no_rad",
+   "rationale": "This is a procedure heading, not a factual assertion."
+  },
+  {
+   "sentence": "What it is: a long thin tube (endoscope) is used to remove the herniated section.",
+   "label": "supported",
+   "rationale": "The document explicitly describes using a long, thin tube to remove the herniated section."
+  },
+  {
+   "sentence": "Pros: minimally invasive, tiny incision, only a small scar, and a **quicker recovery**.",
+   "label": "supported",
+   "rationale": "The document explicitly lists all four features for endoscopic spine surgery."
+  },
+  {
+   "sentence": "Cons: same rare discectomy complications as above (bleeding, infection, lining tears, nerve injury).",
+   "label": "unsupported",
+   "rationale": "The document lists these complications for discectomies in general but does not specifically establish that endoscopic spine surgery shares the same rare complications."
+  },
+  {
+   "sentence": "**3. Surgery on the core of the spinal disc**",
+   "label": "no_rad",
+   "rationale": "This is a procedure heading, not a factual assertion."
+  },
+  {
+   "sentence": "What it is: instruments access the disc core, which is removed with a vacuum, making the disc smaller and reducing pressure on the nerve.",
+   "label": "supported",
+   "rationale": "The document describes the instruments, vacuum removal, and resulting reductions in disc size and nerve pressure."
+  },
+  {
+   "sentence": "Pros: reduces disc size/pressure.",
+   "label": "supported",
+   "rationale": "The document states that removing the core makes the disc smaller and reduces pressure on the nerve."
+  },
+  {
+   "sentence": "Cons: **only possible if the outer layer of the disc is not damaged** — a significant limitation.",
+   "label": "supported",
+   "rationale": "The document explicitly makes an undamaged outer layer a requirement; calling that requirement significant is an evaluation."
+  },
+  {
+   "sentence": "**4. Laminotomy or laminectomy**",
+   "label": "no_rad",
+   "rationale": "This is a procedure heading, not a factual assertion."
+  },
+  {
+   "sentence": "What it is: removal of part (laminotomy) or all (laminectomy) of the lamina — the bony part of the vertebra covering the spinal canal — followed by a discectomy.",
+   "label": "supported",
+   "rationale": "The document describes the lamina, distinguishes partial from complete removal, and says that a discectomy follows."
+  },
+  {
+   "sentence": "Pros: lumbar versions relieve leg/sciatic pain; cervical versions relieve neck and upper-limb pain.",
+   "label": "supported",
+   "rationale": "The document identifies the corresponding pain-relief benefits for lumbar and cervical procedures."
+  },
+  {
+   "sentence": "Cons: often requires a **spinal fusion** afterward to stabilize the spine (see below).",
+   "label": "unsupported",
+   "rationale": "The document says fusion may be necessary and gives requirements for specific locations and approaches, but it does not establish that laminotomy or laminectomy often requires fusion overall."
+  },
+  {
+   "sentence": "**5. Spinal fusion (SF)**",
+   "label": "no_rad",
+   "rationale": "This is a procedure heading, not a factual assertion."
+  },
+  {
+   "sentence": "What it is: joining two bones together with screws, typically after a laminotomy/laminectomy.",
+   "label": "unsupported",
+   "rationale": "The document describes joining two bones with screws and says fusion may follow a laminotomy or laminectomy, but it does not establish that spinal fusions are typically performed after those procedures."
+  },
+  {
+   "sentence": "Pros: stabilizes the spine.",
+   "label": "supported",
+   "rationale": "The document identifies spinal stabilization as the purpose of the fusion."
+  },
+  {
+   "sentence": "Cons: patients may experience **pain and feel that the treatment restricts certain movements**.",
+   "label": "supported",
+   "rationale": "The document explicitly names possible pain and perceived movement restrictions after spinal fusion."
+  },
+  {
+   "sentence": "Typically required after lumbar laminotomies; for cervical cases it's needed if the surgeon works from the front of the neck, but rarely if from the back.",
+   "label": "supported",
+   "rationale": "The document gives these requirements for lumbar laminotomies and for cervical laminotomies performed from the front or back of the neck."
+  },
+  {
+   "sentence": "**6. Artificial disc surgery (ADS)**",
+   "label": "no_rad",
+   "rationale": "This is a procedure heading, not a factual assertion."
+  },
+  {
+   "sentence": "What it is: the damaged disc is replaced with an artificial one; an alternative to spinal fusion for some laminotomy patients.",
+   "label": "supported",
+   "rationale": "The document describes the replacement and identifies some laminotomy patients as potential candidates for it instead of fusion."
+  },
+  {
+   "sentence": "Pros: associated with **less pain and less restricted movement** compared to spinal fusion.",
+   "label": "supported",
+   "rationale": "The document explicitly associates artificial disc surgery with both benefits compared with spinal fusion."
+  },
+  {
+   "sentence": "Cons: not everyone is a candidate (only some laminotomy patients).",
+   "label": "unsupported",
+   "rationale": "The document says some laminotomy patients may be candidates, but it does not define eligibility or establish the exclusive limit implied by “only.”"
+  },
+  {
+   "sentence": "## Recovery and risks common to surgery",
+   "label": "no_rad",
+   "rationale": "This is a section heading, not a standalone factual assertion."
+  },
+  {
+   "sentence": "Most people go home **24 hours after** the operation (some the same day).",
+   "label": "unsupported",
+   "rationale": "The document says most patients can go home after 24 hours and some may be able to go home the same day; it does not state when they actually go home."
+  },
+  {
+   "sentence": "For about **4 weeks**, avoid driving, long periods of sitting, heavy lifting, and bending over.",
+   "label": "supported",
+   "rationale": "The document gives this recovery advice for the same four activities and approximate duration."
+  },
+  {
+   "sentence": "Post-surgery rehabilitation therapy may shorten recovery and improve mobility; most people return to usual activities around 4 weeks.",
+   "label": "unsupported",
+   "rationale": "The document supports the potential benefits of rehabilitation but says most people can return to usual activities around four weeks, not that most actually do."
+  },
+  {
+   "sentence": "Discectomies \"hardly ever\" result in complications, but rare ones include bleeding, infection, tears in the spine's protective lining, and nerve injury.",
+   "label": "supported",
+   "rationale": "The document uses the same frequency description and lists all four complications."
+  },
+  {
+   "sentence": "The document notes the choice of procedure depends on the **location of the herniated disc, the severity of the pain, and the disability it causes** — so your specific options would depend on those factors, which you'd need to discuss with your doctor.",
+   "label": "supported",
+   "rationale": "The document explicitly identifies the three factors that guide procedure choice; the suggestion to discuss them with the doctor is advice, not an additional factual claim."
+  }
+ ],
+ "unsup": 7,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

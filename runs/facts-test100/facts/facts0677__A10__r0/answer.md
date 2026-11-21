@@ -1,0 +1,22 @@
+
+
+The document describes two mergers (acquisitions) and the following consequences of each:
+
+**Amazon's acquisition of Whole Foods Market** (announced August 28, 2017, for approximately $13.2 billion)
+
+- Integration with Amazon's online services: "By acquiring Whole Foods Market, Amazon obtained brick-and-mortar grocery store locations that it was able to integrate with its online services." For example, "shoppers with an Amazon Prime membership are eligible for discounts and free pickup or delivery of Whole Foods Market groceries in selected zip codes," and "Amazon Hub Lockers—where consumers can pick up products purchased on Amazon's website—are often located in Whole Foods Markets."
+- Increased competition in grocery retail: "Amazon's acquisition of Whole Foods Market may have increased competition in the grocery retail market."
+- Competitive pressure on other retailers: "Competitive pressure from Amazon may have incentivized other grocery retailers to start offering online delivery services." In 2017, "Walmart launched an online delivery service in selected cities; Kroger launched an online delivery service in selected cities in 2018," and "In 2020, Walmart launched Walmart+, a membership delivery service that does not have a minimum order requirement, similar to an Amazon Prime membership."
+- Consumer benefits: "Consumers may have benefited from food retailers offering their own online delivery services, particularly as many of these stores offer free delivery on orders over $35."
+- Pressure on third-party delivery services: "These changes may have also increased pressure on other online grocery delivery services, such as Instacart."
+- Concerns about Amazon's dominance: "Amazon's acquisition of Whole Foods Market raised concern about its growing dominance in the retail industry, particularly in e-commerce."
+- Consumer data and supplier bargaining power: "Through its acquisition of Whole Foods, Amazon gained access to additional consumer data, strengthening its bargaining power with suppliers."
+- Vertical integration: "By integrating vertically, Amazon may be able to further strengthen its position in e-commerce; if, for example, it is able to provide faster delivery, consumers could benefit even if it becomes more difficult for other companies to compete."
+
+**Facebook's acquisition of Instagram** (agreement announced April 9, 2012, for $1 billion)
+
+- Regulatory response: The FTC "closed the investigation without taking action" on August 22, 2012. Later, "On December 9, 2020, the FTC filed a lawsuit against Facebook, alleging that 'Facebook has maintained its monopoly position by buying up companies that present competitive threats,'" and "A coalition of 46 state attorneys general, led by New York Attorney General Letitia James, filed a parallel lawsuit against Facebook, also alleging that Facebook acquired companies to eliminate competitive threats." "Both lawsuits specifically mention Facebook's acquisitions of Instagram and WhatsApp, a messaging app for mobile devices."
+- Intent to eliminate a competitor: Facebook CEO Mark Zuckerberg's internal email stated that "Instagram has become a large and viable competitor to us on mobile photos, which will increasingly be the future of photos." "This statement has been used to support the claim that Facebook acquired Instagram with the intention of eliminating a potential competitor."
+- Instagram's growth: "Instagram was a relatively new company when it was acquired, and grew rapidly thereafter, from about 100 million monthly active users (MAUs) in February 2013 to 500 million MAUs in June 2016 and 1 billion MAUs in June 2018."
+- Use of Facebook's resources: "As it grew in popularity, Instagram was able to use Facebook's resources, such as its advertising services and its infrastructure, which hosts and processes large amounts of consumer data. These have been key to the profitability of Instagram."
+- Counterfactual uncertainty: "It is unclear how successful Instagram would have been had it not been acquired by Facebook," and "It is possible that without the merger, Instagram would have been among the platforms that have struggled to compete in digital markets because of resource constraints."

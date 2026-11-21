@@ -1,0 +1,41 @@
+{
+ "run": "facts0456__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "The document requires closure at Saturday midnight:",
+   "label": "supported",
+   "rationale": "Section 3-5 requires the bottle clubs identified in the next bullet to close at midnight on Saturday."
+  },
+  {
+   "sentence": "- Closing hours: \"All bottle clubs located in the unincorporated areas of the county, shall remain closed from the hours of 3:00 a.m. to 7:00 a.m. on each day of the week except that all such bottle clubs shall remain closed from midnight on each Saturday until 7:00 a.m. on the following Monday.\"",
+   "label": "supported",
+   "rationale": "The quotation reproduces both the ordinary closure hours and the weekend exception in section 3-5."
+  },
+  {
+   "sentence": "- Scope: \"the unincorporated areas of the county and any municipality which has not adopted an ordinance\".",
+   "label": "supported",
+   "rationale": "The quotation identifies areas covered by the chapter, though it stops before specifying that the municipal ordinance must cover the regulated subject matter, activity, or conduct."
+  },
+  {
+   "sentence": "- Bottle club: a place where products are sold \"with the knowledge... that same will be... mixed... with... an alcoholic beverage\".",
+   "label": "supported",
+   "rationale": "The definition includes selling a product with knowledge that it will be mixed with alcohol. The bullet gives only part of the definition."
+  },
+  {
+   "sentence": "- General on-premises hours: \"between the hours of 7:00 a.m. and 2:00 a.m. on all days of the week except Sunday\"; Sunday \"between the hours of 11:00 a.m. Sunday and 2:00 a.m. of the following day\".",
+   "label": "supported",
+   "rationale": "Section 3-3 gives both quoted time windows as the general on-premises hours for licensed establishments, subject to Sunday exceptions."
+  },
+  {
+   "sentence": "- Violation: \"a misdemeanor of the second degree\".",
+   "label": "supported",
+   "rationale": "Section 3-1 explicitly classifies a violation of the chapter as a second-degree misdemeanor."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

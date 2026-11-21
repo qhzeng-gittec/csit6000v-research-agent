@@ -1,0 +1,146 @@
+{
+ "run": "facts0137__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "EI is \"insurance-based\" and \"designed to protect individuals who have lost their job for reasons outside their control, while they look for new employment or upgrade their skills.\"",
+   "label": "supported",
+   "rationale": "The context explicitly describes EI as insurance-based and states whom it is designed to protect and while they do what."
+  },
+  {
+   "sentence": "It \"may also help unemployed individuals across the country find employment.\"",
+   "label": "supported",
+   "rationale": "The context explicitly identifies this as a possible benefit of EI."
+  },
+  {
+   "sentence": "The program \"marked its 75th year in 2015, having been implemented in 1940,\" and \"the last major reform occurred in 1996,\" when \"the program introduced changes to better reflect its primary objective of promoting employment, and to better emphasize that access to the program is linked to significant work attachment.\"",
+   "label": "supported",
+   "rationale": "The context gives the same dates and explicitly states both aims of the 1996 changes."
+  },
+  {
+   "sentence": "Several bodies share responsibility for the program:",
+   "label": "supported",
+   "rationale": "The context assigns different EI responsibilities to multiple bodies."
+  },
+  {
+   "sentence": "\"Employment and Social Development Canada (ESDC) is the department of the Government of Canada responsible for developing, managing and delivering programs and services.\"",
+   "label": "supported",
+   "rationale": "The context explicitly identifies ESDC as a federal department and assigns it these responsibilities."
+  },
+  {
+   "sentence": "The \"Minister of Employment and Social Development is responsible for the EI act, except for PART IV - Insurable Earnings and Collection of Premiums, and PART VII - Benefit Repayment.\"",
+   "label": "supported",
+   "rationale": "The context states the minister's responsibility and names both exceptions."
+  },
+  {
+   "sentence": "\"The Canada Revenue Agency is responsible for resolving any questions pertaining to the insurability of employment or earnings (Part IV), and for the collection of EI premiums (Part VII).\"",
+   "label": "supported",
+   "rationale": "The context explicitly assigns both functions to the Canada Revenue Agency with the same part references."
+  },
+  {
+   "sentence": "\"Service Canada is a federal institution that is part of ESDC,\" which \"oversees all legislative provisions of the act, including the determination of benefit eligibility and entitlement, and issues EI benefits (Part I) directly to EI claimants.\"",
+   "label": "supported",
+   "rationale": "The context identifies Service Canada as part of ESDC and attributes the listed oversight and payment duties to Service Canada, the subject of the bullet."
+  },
+  {
+   "sentence": "\"Provinces and territories deliver the majority of Employment Benefits and National Employment Services (Part II),\" delivered \"through Labour Market Development Agreements (LMDA) funded by the Government of Canada.\"",
+   "label": "supported",
+   "rationale": "The context states who delivers most of these benefits and services and identifies the federally funded agreements used to deliver them."
+  },
+  {
+   "sentence": "\"The Canada Employment Insurance Commission (CEIC) is a departmental corporation of ESDC,\" which \"plays a key role in administering the EI program, including the making of regulations, with the approval of the Governor-in-Council, and reviewing, as well as approving, policies related to the EI program administration and delivery,\" and which is also responsible for \"EI premium rate setting\" and produces \"the annual EI Monitoring and Assessment Report.\"",
+   "label": "supported",
+   "rationale": "The context identifies the CEIC as an ESDC corporation and assigns the listed administrative, rate-setting, and reporting functions to the CEIC, the subject of the bullet."
+  },
+  {
+   "sentence": "\"The Social Security Tribunal of Canada (SST) is an independent administrative body composed of a General Division and Appeal Division, that makes decisions on appeals related to the Act.\"",
+   "label": "supported",
+   "rationale": "The context states the tribunal's status, names its two divisions, and identifies its role in appeals."
+  },
+  {
+   "sentence": "On premiums and insurability: \"All workers employed in insurable employment are required to pay EI premiums,\" and \"the fact that a worker can or cannot qualify for EI benefits is not a criterion to determine whether EI premiums are payable, as it is the employment, and not the individual that is insured.\"",
+   "label": "supported",
+   "rationale": "The context states that workers in insurable employment must pay premiums regardless of whether they qualify for benefits, because the employment is what is insured."
+  },
+  {
+   "sentence": "The \"fundamental requirement for an employment to be insurable is that there is an employer-employee relationship; i.e. the person is not self-employed,\" with \"CRA\" making \"decisions as to whether an employment is insurable or not, and whether EI premiums are payable with respect to that employment.\"",
+   "label": "supported",
+   "rationale": "The context identifies the employer-employee relationship as the fundamental requirement and assigns both determinations to the CRA."
+  },
+  {
+   "sentence": "Part I \"provides temporary income support to workers who have lost their job for reasons outside their control, while they look for new employment or upgrade their skills,\" and \"also provides temporary financial assistance to workers who are sick, pregnant, caring for a newborn or newly adopted child, or caring for a family member who has a serious medical condition.\"",
+   "label": "supported",
+   "rationale": "The context explicitly describes both forms of temporary assistance under Part I and lists the same circumstances."
+  },
+  {
+   "sentence": "Part II's \"purpose ... is to provide employment assistance to eligible insured participants, through various programs and services.\"",
+   "label": "supported",
+   "rationale": "The context explicitly states this purpose for Part II."
+  },
+  {
+   "sentence": "The types of benefits available are:",
+   "label": "no_rad",
+   "rationale": "This is a lead-in to the list; the specific factual claims are in the entries that follow."
+  },
+  {
+   "sentence": "**Regular benefits:** \"available to individuals who lose their jobs for reasons outside their control and who are available for and actively seeking employment.\"",
+   "label": "supported",
+   "rationale": "The context gives the same job-loss, availability, and job-search conditions for regular benefits."
+  },
+  {
+   "sentence": "**Special benefits:** \"available to insured workers and self-employed individuals who are too sick to work, are pregnant or have recently given birth, are providing care to a newborn or newly adopted child, or who must be away from work temporarily to provide care or support to a family member with a serious medical condition.\"",
+   "label": "supported",
+   "rationale": "The context identifies the same groups and qualifying circumstances for special benefits."
+  },
+  {
+   "sentence": "These include:",
+   "label": "no_rad",
+   "rationale": "This is a transition into the list of special benefits and makes no standalone factual claim about any benefit."
+  },
+  {
+   "sentence": "**Maternity benefits:** \"for biological mothers who are pregnant or have given birth,\" covering \"the period surrounding the child's birth (up to 15 weeks).\"",
+   "label": "supported",
+   "rationale": "The context specifies the same beneficiaries, coverage period, and 15-week maximum."
+  },
+  {
+   "sentence": "**Parental benefits:** \"for any legal parent to care for their newborn or newly adopted child or children,\" which \"one parent can receive ... or they can share benefits between them (up to 40 weeks of standard parental benefits or 69 weeks of extended parental benefits when sharing),\" though \"one parent cannot receive more than 35 weeks of standard parental benefits or 61 weeks of extended parental benefits.\"",
+   "label": "supported",
+   "rationale": "The context states who can receive parental benefits, how they can be shared, and both the shared and individual limits."
+  },
+  {
+   "sentence": "**Sickness benefits:** \"for people who cannot work due to injury, illness, or the need to be isolated in quarantine because they may be carrying a disease (up to 26 weeks).\"",
+   "label": "supported",
+   "rationale": "The context lists the same reasons for being unable to work and gives a 26-week maximum, with a footnote marker after the number."
+  },
+  {
+   "sentence": "**Compassionate Care benefits:** \"for people who must be away from work temporarily to provide care or support to a family member who is gravely ill with a significant risk of death within 26 weeks,\" which \"one family member can receive ... or they can be shared between several family members (up to 26 weeks).\"",
+   "label": "supported",
+   "rationale": "The context specifies the same care and medical criteria, the option to share benefits, and the 26-week maximum."
+  },
+  {
+   "sentence": "**Family Caregiver benefits:** \"for family members who must be away from work temporarily to care for or support a critically ill or injured family member,\" which \"one family member can receive ... or they can be shared between several family members (up to 35 weeks for caring for a child; up to 15 weeks for caring for an adult).\"",
+   "label": "supported",
+   "rationale": "The context states the same caregiving circumstances, sharing option, and separate limits for caring for a child or an adult."
+  },
+  {
+   "sentence": "\"In certain circumstances various types of special benefits may be combined up to a maximum of 102 weeks of benefits within a maximum 104 week benefit period.\"",
+   "label": "supported",
+   "rationale": "The context explicitly states that special benefits can sometimes be combined and gives both limits."
+  },
+  {
+   "sentence": "**Fishing benefits:** \"for eligible self-employed fishers who do not meet the eligibility requirements for EI regular benefits in their region.\"",
+   "label": "supported",
+   "rationale": "The context explicitly identifies eligible self-employed fishers who do not qualify for regular EI benefits in their region."
+  },
+  {
+   "sentence": "**Job creation partnerships, work sharing, training benefits:** \"for clients participating in developmental programs.\"",
+   "label": "supported",
+   "rationale": "The context lists all three and identifies participants in developmental programs as the intended clients."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

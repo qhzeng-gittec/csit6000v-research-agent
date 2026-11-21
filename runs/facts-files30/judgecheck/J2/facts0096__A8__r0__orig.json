@@ -1,0 +1,36 @@
+{
+ "run": "facts0096__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt`, the only cloud gaming service named in the text is **Xbox Cloud Gaming (Beta)**, Microsoft's cloud gaming service:",
+   "label": "supported",
+   "rationale": "The document identifies Xbox Cloud Gaming (Beta) as Microsoft's cloud gaming service and names no other service in that category."
+  },
+  {
+   "sentence": "- \"Microsoft distributes video games using Microsoft Store, its subscription service Game Pass, and its cloud gaming service Xbox Cloud Gaming (Beta)\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context lists all three distribution channels and explicitly distinguishes the subscription service from the cloud gaming service."
+  },
+  {
+   "sentence": "- \"In April 2022, Microsoft reported that more than 10 million people have streamed games over Xbox Cloud Gaming\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The context explicitly gives the reporting date, the number of people, and the service they used."
+  },
+  {
+   "sentence": "The document also refers to cloud gaming in general terms — \"Some firms offer cloud gaming, which allows users to play video games using remote servers in data centers\" (doc.txt) — but it does not name any other specific cloud gaming service.",
+   "label": "supported",
+   "rationale": "The context describes cloud gaming generically, and Xbox Cloud Gaming (Beta) is the only specific service it identifies as a cloud gaming service."
+  },
+  {
+   "sentence": "(Game Pass is described as a subscription service, but the text does not label it a cloud gaming service.)",
+   "label": "supported",
+   "rationale": "The document calls Game Pass a subscription service and applies the cloud gaming label to Xbox Cloud Gaming (Beta), not to Game Pass."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

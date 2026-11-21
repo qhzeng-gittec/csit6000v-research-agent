@@ -1,0 +1,42 @@
+
+
+Based on the reviews in `doc.txt`, the pros and cons mentioned are:
+
+**Pros**
+- "works excellent just to need linking. i love it" (doc.txt)
+- "working great" (doc.txt)
+- "Easy to setup and works great" (doc.txt)
+- "Turned on and off TV, changed volume, muted, unmuted. They all worked on the first command." (doc.txt)
+- "after setup. sign out of hisense account then sign back in. it will prompt you to ebavke the tv and it works great." (doc.txt)
+- "Works, first attempt" (doc.txt)
+- "The app works 100% with Alexa, I'm able to tell Alexa pretty much a lot of commands from turning the tv on and off, control volume, etc." (doc.txt)
+- "over time commands to turn the TV on and off as well as adjust volume and change both the channel and the various inputs have come into play" (doc.txt)
+- "it's a pain to setup, but it works." (doc.txt)
+- "can Turn on/off, modify Vol. and activate apps" (doc.txt)
+
+**Cons**
+- "Don't spend your hard on money on this garbage, you will regret it when it breaks within the year." (doc.txt)
+- "The of the HDMI ports failed for no reason." (doc.txt)
+- "Hisense deemed it non-warranty because of a microscopic pinhole in the screen, which they also refused to cover." (doc.txt)
+- "The user interface if non-nonsensical, clunky, and awkward." (doc.txt)
+- "auto-volume leveling (which isn't even very good, it's still fluctuates wildly in volume compared to Visio)" (doc.txt)
+- "you will have to navigate through a maze of sub-menu'." (doc.txt)
+- "the menu's don't make sense, most of the settings don't have any detail description just a cryptic one-word setting." (doc.txt)
+- "Worst customer service ever!!" (doc.txt)
+- "Worked fine for a month or two then the sound started going out I would have to literally turn the TV off and back on to get the sound" (doc.txt)
+- "they were a no-show on one appointment" (doc.txt)
+- "the TV cannot be repaired. Still waiting for my money to be returned/refunded." (doc.txt)
+- "You cannot speak to a supervisor" (doc.txt)
+- "my TV just stopped turning on" (doc.txt)
+- "they would not honor my warranty" (doc.txt)
+- "Now I have a 70 inch wall weight." (doc.txt)
+- "The TV works fine for a year or do then it won't work like it should. The apps won't work right or not at all." (doc.txt)
+- "The apps that are permanently on the TV you can't uninstall so you can reset the app. It won't update at all." (doc.txt)
+- "Over all it's a throw away TV good just to get by for a better one." (doc.txt)
+- "There is not one thing that I liked about that TV" (doc.txt)
+- "The worst TV to try and figure out how to navigate I've ever had and you couldn't get Alexa or The voice Assistant to work on it ever." (doc.txt)
+- "Stupid it cant just work the first time." (doc.txt)
+- "Still missing commands to open up specific apps" (doc.txt)
+- "Unfortunately it doesn't start any apps. it's just on and off, change input, and control volume." (doc.txt)
+- "It a little hard to set up" (doc.txt)
+- "The Only thing I can't do is change the input with commands" (doc.txt)

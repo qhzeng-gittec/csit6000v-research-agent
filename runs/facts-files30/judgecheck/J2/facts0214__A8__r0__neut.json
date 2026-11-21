@@ -1,0 +1,16 @@
+{
+ "run": "facts0214__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "neut",
+ "rows": [
+  {
+   "sentence": "According to the document, the $1 billion is distributed by FHWA: \"The National Electric Vehicle Infrastructure (NEVI) Formula Program, which is to provide $5 billion in grants, with $1 billion distributed by FHWA in each of FY2022-FY2026.\"",
+   "label": "supported",
+   "rationale": "The context explicitly identifies FHWA as the agency distributing $1 billion each fiscal year from FY2022 through FY2026 under the program."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

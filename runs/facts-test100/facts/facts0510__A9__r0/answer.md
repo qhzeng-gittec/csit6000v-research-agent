@@ -1,0 +1,23 @@
+Based on `doc.txt`, here is what the document says:
+
+**Differences between the two routes**
+
+- *Traditional publishing* offers support from a full team of experts (editors, designers, salespeople), often leading to higher sales and a more polished product. However, it is notoriously slow and has historically excluded writers from marginalized groups. Most major publishers do not accept submissions directly from writers; instead, writers find agents who sell their work to publishers in return for around 15% of profits. Querying agents is often considered one of the most difficult parts, as writers may receive hundreds of rejections over multiple books. Traditional publishing also has multiple rounds of agent and editor revisions baked into the process.
+- *Self-publishing* (through platforms like IngramSpark, Amazon Kindle Direct, or Indie Author Project / Biblioboard) offers a quicker way to share your book with readers and freedom from industry pressure to write something "sellable." However, self-published books can suffer from the lack of professional editing and design, and self-published authors take on the hard work of sales, marketing, and distribution. Self-published writers decide for themselves how much to revise (hiring freelance editors, trusting friends and family, or skipping revisions).
+- *Workload timing:* Before publication, traditional publishing may seem to take more work, but once a book is published, the tables turn. In traditional publishing, teams handle pricing, negotiating with booksellers, and reviews; if you self-publish, you are those teams, doing all the pricing, formatting, selling, marketing, and distributing — even for e-publishing, which still requires formatting and submitting to platforms.
+- *Payment:* In traditional publishing, you are paid an advance (a lump sum the company expects to earn back through sales), ranging from as low as $1,000–$2,000 at small indie publishers to six figures or more at large publishers, depending on genre, target age group, and career stage. After the advance is earned out, you earn royalties on every additional copy. Writers pay nothing up front; if an agent or editor charges "reading fees" or asks you to pay for design or production, you are being scammed. In self-publishing, income depends entirely on how many books you sell, there are no advances, and you may have to pay up front (e.g., for a freelance editor, designer, or printing). Free e-publishing options exist, and print-on-demand models like IngramSpark can save you from paying to print and warehouse unsold copies.
+
+**How to know which route to take**
+
+The document says there's no one right answer — it depends on your personal goals for writing and publication. It suggests considering:
+- Whether you'd prefer to spend your time querying agents or becoming an expert in everything from typesetting to book distribution.
+- Why you want a writing career in the first place. Usually, the answer is not money, and that's okay; if you know up front that writing is not a financial or career goal, you can save yourself a lot of stress and rejection.
+- If you do want to make writing a financially viable career, it's important to know how and when you get paid through each route.
+
+**Which route has the potential for greater profit**
+
+The document does not declare one route more profitable. It says it can be difficult to know whether it's financially better to shop around your manuscript longer, waiting for a big advance, or to self-publish to start selling copies now, and that the answer can depend on what genre you're writing in and what age group you're writing for. A book's length and genre, and the age of your readers, can have a huge impact on whether you can make money in traditional or self-publishing, and sometimes both can be profitable. Specific examples given:
+- *Romance* is a rare genre that both tops traditional publishing sales and has recently seen significant income growth for self-published authors; many romance writers are now "hybrid," writing both ways.
+- *Memoirs* are notoriously hard to sell either way unless you're already famous.
+- *Niche topics* (like regional history) may have too small an audience for big publishers to profit, making self-publishing the only way to share the information.
+- *Children's books* tend to struggle with self-publishing, since many self-published books are e-books only, fewer children have e-readers, and most children's books are bought by adults looking for physical gifts.

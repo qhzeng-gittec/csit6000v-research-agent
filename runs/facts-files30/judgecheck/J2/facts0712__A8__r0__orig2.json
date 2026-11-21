@@ -1,0 +1,221 @@
+{
+ "run": "facts0712__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt`, here's what it says about sippy cup types and the best options (soft-spout cups excluded, as you requested).",
+   "label": "no_rad",
+   "rationale": "This introduces the answer and explains its scope."
+  },
+  {
+   "sentence": "**Hard spout:** \"Hard-spout sippy cups encourage your child to transition from sucking to tilting and sipping.",
+   "label": "supported",
+   "rationale": "The context explicitly describes this transition."
+  },
+  {
+   "sentence": "It's often best to introduce it after they've mastered the soft spout.\"",
+   "label": "supported",
+   "rationale": "The context recommends introducing a hard spout after the child has mastered a soft spout."
+  },
+  {
+   "sentence": "**Straw:** \"Straw sippy cups, as you may have guessed, employ a straw rather than a spout.",
+   "label": "supported",
+   "rationale": "The context defines straw cups by their use of a straw instead of a spout."
+  },
+  {
+   "sentence": "Some feel that a straw is preferable for speech development over a spout.",
+   "label": "supported",
+   "rationale": "The context reports this as a view some people hold, not as an established benefit."
+  },
+  {
+   "sentence": "They can also help your child get used to drinking from a straw and using a cup.\"",
+   "label": "supported",
+   "rationale": "The context explicitly identifies both benefits."
+  },
+  {
+   "sentence": "**No spout or flat lid (360 cups):** \"These sippy cups are spoutless with a flat top (sometimes referred to as 360 cups).",
+   "label": "supported",
+   "rationale": "The context gives the same design description and alternate name."
+  },
+  {
+   "sentence": "They allow for water to flow from all edges of the cup opening to resemble the action of a real cup while still using a lid.",
+   "label": "supported",
+   "rationale": "The context explicitly describes how the lid lets water flow and what that design simulates."
+  },
+  {
+   "sentence": "They typically lack any no-spill valves, and that's a good thing.\"",
+   "label": "supported",
+   "rationale": "The context states that these cups typically lack no-spill valves and presents that as a benefit."
+  },
+  {
+   "sentence": "General note for the 6–12 month stage: \"Since the cup may be too heavy for your little one to hold with just one hand, cups with handles are helpful at this stage,\" and \"Continue to supervise your baby using a cup until they are at least 1 year old.\"",
+   "label": "supported",
+   "rationale": "Both recommendations appear in the section for babies aged 6 to 12 months."
+  },
+  {
+   "sentence": "**1. ZoLi BOT Straw Sippy Cup** — \"Best straw sippy cup,\" suitable for babies 9 months old or over, Price: $$$",
+   "label": "supported",
+   "rationale": "The context gives this product the stated designation, price tier, and minimum age."
+  },
+  {
+   "sentence": "Pros: \"Weighted straw makes it easier to get the last of the liquid out; dishwasher safe\"",
+   "label": "supported",
+   "rationale": "The context lists both features as pros for the ZoLi cup."
+  },
+  {
+   "sentence": "Cons: \"One of the more expensive cup options; not the thickest of straws and can be bitten through\"",
+   "label": "supported",
+   "rationale": "The context lists the higher price and the straw's susceptibility to biting as cons."
+  },
+  {
+   "sentence": "Durability/travel: \"The plastic is BPA-free and can be hand washed or run through your dishwasher for cleaning.",
+   "label": "supported",
+   "rationale": "The context confirms the material and both cleaning methods."
+  },
+  {
+   "sentence": "You can also purchase replacement straws.\"",
+   "label": "supported",
+   "rationale": "The context explicitly says replacement straws are available for purchase."
+  },
+  {
+   "sentence": "On the downside, \"it can also be difficult to screw the top on correctly, making it prone to leaks.",
+   "label": "supported",
+   "rationale": "The context links difficulty attaching the top correctly to a risk of leaks."
+  },
+  {
+   "sentence": "The cup can also leak if the straw becomes damaged from biting or normal wear and tear.\"",
+   "label": "supported",
+   "rationale": "The context identifies both biting and ordinary wear as sources of straw damage that can cause leaks."
+  },
+  {
+   "sentence": "**2. Munchkin Miracle 360 Trainer Cup** — \"Best spoutless sippy cup,\" for babies 6 months old and over, Price: $",
+   "label": "supported",
+   "rationale": "The context provides the stated designation, age range, and price tier."
+  },
+  {
+   "sentence": "Pros: \"Budget-friendly option; dishwasher safe; comes in a variety of sizes and colors\"",
+   "label": "supported",
+   "rationale": "The context lists all three advantages for this cup."
+  },
+  {
+   "sentence": "Cons: \"The top's design can allow for big spills; the design can be hard for some children to figure out how to drink from\"",
+   "label": "supported",
+   "rationale": "The context lists both the spill risk and the difficulty some children have drinking from the cup."
+  },
+  {
+   "sentence": "Durability/travel: \"The unique spoutless construction allows babies 6 months old and over to simulate drinking from an open cup without the spills.",
+   "label": "supported",
+   "rationale": "The context directly makes this claim about the design and intended age group."
+  },
+  {
+   "sentence": "It's also streamlined with only three main pieces and top-rack dishwasher safe.\"",
+   "label": "supported",
+   "rationale": "The context confirms the number of main pieces and top-rack dishwasher compatibility."
+  },
+  {
+   "sentence": "However, \"Some parents complain that, while the cup is spill-proof, their smart babies figured out they can pour the liquid by simply pressing on the center of the top.\"",
+   "label": "supported",
+   "rationale": "The context reports this exact parent complaint."
+  },
+  {
+   "sentence": "**3. First Essentials by NUK Fun Grips Hard Spout Sippy Cup** — \"Best for toddlers,\" for ages 12 months and older, Price: $",
+   "label": "supported",
+   "rationale": "The context gives this cup the toddler designation and price tier and describes it for toddlers aged 12 months and older."
+  },
+  {
+   "sentence": "Pros: \"Made in the United States; dishwasher safe; hourglass shape is easier to hold without needing handles\"",
+   "label": "supported",
+   "rationale": "The context lists all three features as pros for this cup."
+  },
+  {
+   "sentence": "Cons: \"The cup's wide base won't fit in standard cup holders\"",
+   "label": "supported",
+   "rationale": "The context explicitly lists this drawback."
+  },
+  {
+   "sentence": "Durability/travel: \"This cup features a 100 percent spill-proof, leak-proof, break-proof guarantee.",
+   "label": "supported",
+   "rationale": "The context explicitly states the guarantee and what it covers."
+  },
+  {
+   "sentence": "You may wash this sippy cup either by hand or in the dishwasher.\"",
+   "label": "supported",
+   "rationale": "The context confirms both washing methods."
+  },
+  {
+   "sentence": "Note: \"some reviewers say the cup's base is too wide and that it doesn't fit easily into standard cup holders or diaper bag pockets.\"",
+   "label": "supported",
+   "rationale": "The context attributes both fit problems to reviewers."
+  },
+  {
+   "sentence": "Since your daughter is 11 months, this cup is listed for \"toddlers ages 12 months and older.\"",
+   "label": "unsupported",
+   "rationale": "The context supports the cup's stated age group, but the daughter's age comes from the user query, not the context."
+  },
+  {
+   "sentence": "**4. Nuby No-Spill Cup with Flex Straw** — \"Best straw sippy cup\" (listed in the 12–18 months section), Price: $",
+   "label": "supported",
+   "rationale": "The context lists the Nuby cup under that designation in the 12–18 month section and gives it a one-dollar-sign price tier."
+  },
+  {
+   "sentence": "Pros: \"Budget-friendly option; contoured design offers secure grip without handles; thicker straw\"",
+   "label": "supported",
+   "rationale": "The context lists the price, grip design, and thicker straw as pros."
+  },
+  {
+   "sentence": "Cons: \"10-ounce size might be larger than some children can easily handle; valve in the straw requires a 'squeeze and suck' action\"",
+   "label": "supported",
+   "rationale": "The context directly lists the size and valve operation as drawbacks."
+  },
+  {
+   "sentence": "Durability/travel: \"The silicone straw has a built-in valve to prevent spills and leaks, and it's sturdy enough to stand up to occasional biting.\"",
+   "label": "supported",
+   "rationale": "The context explicitly describes both the valve's purpose and the straw's resistance to occasional biting."
+  },
+  {
+   "sentence": "Also, \"The straw does require a 'squeeze and suck' action to get liquid through the valve, and some tots find this difficult to master.",
+   "label": "supported",
+   "rationale": "The context confirms the required action and says some children struggle to master it."
+  },
+  {
+   "sentence": "That said, many parents share that the protection the valve provides is worth the extra effort.\"",
+   "label": "supported",
+   "rationale": "The context explicitly reports this view from parents."
+  },
+  {
+   "sentence": "**Durability:** The NUK Fun Grips hard spout cup is the only one with an explicit durability claim — \"100 percent spill-proof, leak-proof, break-proof guarantee.\"",
+   "label": "contradictory",
+   "rationale": "The NUK has the stated guarantee, but it is not the only option with an explicit durability claim: the context also says the Nuby straw withstands occasional biting."
+  },
+  {
+   "sentence": "The Nuby straw is \"sturdy enough to stand up to occasional biting,\" and the ZoLi offers \"replacement straws,\" but its straw \"can be bitten through.\"",
+   "label": "supported",
+   "rationale": "The context explicitly supports the Nuby straw's sturdiness, the availability of ZoLi replacements, and the ZoLi straw's susceptibility to biting."
+  },
+  {
+   "sentence": "**Travel without spills:** The NUK Fun Grips cup's \"100 percent spill-proof, leak-proof, break-proof guarantee\" and the Nuby's \"built-in valve to prevent spills and leaks\" are the strongest claims in the document.",
+   "label": "unsupported",
+   "rationale": "The context states the guarantee and describes the valve, but it does not establish that these are the two strongest spill-prevention claims."
+  },
+  {
+   "sentence": "The ZoLi is explicitly \"prone to leaks\" if the top isn't screwed on correctly, and the Munchkin 360's \"top's design can allow for big spills.\"",
+   "label": "supported",
+   "rationale": "The context directly identifies both product-specific spill risks."
+  },
+  {
+   "sentence": "One caveat: the document's \"best\" picks are organized by age band, and two of the four (NUK Fun Grips, Nuby) are listed in the 12–18 months section, while your daughter is 11 months.",
+   "label": "unsupported",
+   "rationale": "The context supports the age-band organization and placement of both cups, but the daughter's age is given only in the user query."
+  },
+  {
+   "sentence": "The document does not otherwise address which of these is best suited for an 11-month-old.",
+   "label": "supported",
+   "rationale": "The context lists options by age range and cup type but does not identify an overall best choice specifically for an 11-month-old."
+  }
+ ],
+ "unsup": 4,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

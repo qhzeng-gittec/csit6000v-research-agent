@@ -1,0 +1,106 @@
+{
+ "run": "facts0483__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig2",
+ "rows": [
+  {
+   "sentence": "Based only on `doc.txt`, here is what the document says:",
+   "label": "no_rad",
+   "rationale": "This introduces the answer and identifies its source without making a substantive claim about the document."
+  },
+  {
+   "sentence": "The document does not specifically mention browsing history, financial transactions, or health issues.",
+   "label": "supported",
+   "rationale": "The document discusses device identifiers, location, presence, and device use, but does not specifically mention any of the three listed categories."
+  },
+  {
+   "sentence": "What it does describe is that IoT devices in smart homes expose sensitive data over the local network using standard protocols:",
+   "label": "supported",
+   "rationale": "The document explicitly describes sensitive data exposure on local networks through standard protocols."
+  },
+  {
+   "sentence": "\"Researchers narrow in on the local network and how IoT devices can inadvertently compromise consumer privacy through the exposure of sensitive data within those local networks using standard protocols such as UPnP or mDNS.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "This directly quotes the document's description of the research."
+  },
+  {
+   "sentence": "\"these threats include the exposure of unique device names, UUIDs, and even household geolocation data, all of which can be harvested by companies involved in surveillance capitalism without user awareness.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The document lists these data types and says they can be collected without users' awareness."
+  },
+  {
+   "sentence": "\"These local network protocols can be employed as side-channels to access data that is supposedly protected by several mobile app permissions such as household locations, researchers say.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The document explicitly identifies local protocols as side channels for accessing data that app permissions are supposed to protect."
+  },
+  {
+   "sentence": "\"side channels are a sneaky way of indirectly accessing sensitive data.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The document uses this wording to report a researcher's explanation of side channels."
+  },
+  {
+   "sentence": "\"certain spyware apps and advertising companies do abuse local network protocols to silently access such sensitive information without any user awareness.",
+   "label": "supported",
+   "rationale": "The researcher quoted in the document explicitly makes this claim."
+  },
+  {
+   "sentence": "All they have to do is kindly ask for it to other IoT devices deployed in the local network using standard protocols like UPnP.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The document explicitly says that the information can be requested from other IoT devices on the local network through standard protocols."
+  },
+  {
+   "sentence": "\"local network protocols used by IoT devices are not sufficiently protected and expose sensitive information about the home and the homeowners' use of the devices.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The document attributes this assessment to one of the researchers."
+  },
+  {
+   "sentence": "\"This information is being collected in an opaque way and makes it easier to create profiles of our habits or socioeconomic level.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The document directly quotes this assessment of the collection and profiling of the data."
+  },
+  {
+   "sentence": "So, per the document, the mechanism is that the local (Wi‑Fi) network protocols are not sufficiently protected, and apps can use them as side-channels to query other devices on the network and collect data that app permissions were supposed to keep protected.",
+   "label": "unsupported",
+   "rationale": "The document supports the side-channel explanation but does not identify the local network or the protocols in question as specifically Wi‑Fi."
+  },
+  {
+   "sentence": "The document reports, but does not offer an opinion on, this point:",
+   "label": "supported",
+   "rationale": "The document reports a researcher's claim about what apps can access after a phone connects, without offering an editorial opinion on that access."
+  },
+  {
+   "sentence": "\"If a new phone connects to a network, then all the apps on it can have direct access to everything else on that network,\" Reardon says.",
+   "label": "supported",
+   "rationale": "The document quotes Reardon making this exact claim about direct access."
+  },
+  {
+   "sentence": "\"The spyware I found in apps with tens of millions of installs was in fact scanning networks and talking to routers.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The document quotes Reardon describing both the scale of the app installations and the spyware's behavior."
+  },
+  {
+   "sentence": "\"the research shows the home network is not as secure as once thought.\" (doc.txt)",
+   "label": "supported",
+   "rationale": "The document explicitly attributes this assessment of home network security to Reardon."
+  },
+  {
+   "sentence": "Note: the document says apps can have \"direct access to everything else on that network\" — it does not use the word \"control,\" and it does not state that a device can control other devices.",
+   "label": "contradictory",
+   "rationale": "The document distinguishes network access from device control in the relevant passage, but the blanket claim that it never uses the word “control” is false: it uses the word when discussing a separate threat involving voice assistants."
+  },
+  {
+   "sentence": "It also does not express any opinion on whether this is acceptable or how it should be addressed, so I have no basis in the document to add one.",
+   "label": "supported",
+   "rationale": "The document characterizes the network access as a security concern but does not give a judgment about its acceptability or recommend a response to that specific issue."
+  },
+  {
+   "sentence": "**What the document does not cover:** it does not describe spying on browsing history, financial transactions, or health issues specifically, and it does not discuss how a connected device could *control* other devices.",
+   "label": "supported",
+   "rationale": "The document describes exposure of device and household data and direct network access, not spying on the three listed categories or a mechanism by which joining the network enables control. Its separate mention of voice assistant control concerns ultrasonic commands, not network access."
+  }
+ ],
+ "unsup": 2,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

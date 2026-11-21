@@ -1,0 +1,46 @@
+{
+ "run": "facts0272__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "According to doc.txt, AI and machine learning in the financial industry serve several purposes.",
+   "label": "supported",
+   "rationale": "The document explicitly says that different parts of the industry use AI and machine learning for various purposes."
+  },
+  {
+   "sentence": "Building on earlier quantitative analysis models, AI/ML has been adopted to solve discrete challenges such as maximizing profit and minimizing risk.",
+   "label": "supported",
+   "rationale": "The document explicitly connects AI/ML adoption to earlier quantitative analysis models and names both challenges."
+  },
+  {
+   "sentence": "Unlike older algorithms that automated human-coded rules, new AI models can \"learn\" by themselves and make inferences and recommendations not identified by modelers in advance.",
+   "label": "supported",
+   "rationale": "The document makes the same comparison and attributes all of the stated capabilities to new AI models."
+  },
+  {
+   "sentence": "This shift has also enabled the use of new data types—alternative data, unstructured data (such as images or social media posts), and unlabeled data—extending AI/ML to new financial services and products.",
+   "label": "supported",
+   "rationale": "The document lists all three data types, gives the same examples, and says that combining the data extends AI/ML uses to new offerings."
+  },
+  {
+   "sentence": "Specific purposes include: powering chatbots in customer service; identifying investment opportunities and executing trades; augmenting lending models or, more sparingly, making lending decisions; and identifying and preventing fraud.",
+   "label": "supported",
+   "rationale": "Every listed use appears in the document, including the qualification that AI/ML is used more sparingly to make lending decisions."
+  },
+  {
+   "sentence": "More broadly, financial service providers adopt AI/ML to save time and money and to promote accessibility, accuracy, and regulatory compliance.",
+   "label": "unsupported",
+   "rationale": "The document names these objectives in a forecast about likely continued adoption and promotion, rather than explicitly establishing them as motives for current adoption."
+  },
+  {
+   "sentence": "The extent of adoption varies by sector and firm, reflecting factors such as a firm's ability to fund internal development and regulatory requirements.",
+   "label": "supported",
+   "rationale": "The document describes varying levels of adoption and explicitly identifies internal development funding and regulatory requirements as factors."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

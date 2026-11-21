@@ -1,0 +1,211 @@
+{
+ "run": "facts0499__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt`, here's what the document says about VBAC (vaginal birth after cesarean):",
+   "label": "supported",
+   "rationale": "The only factual assertion in this introduction is the expansion of VBAC, which the document explicitly provides."
+  },
+  {
+   "sentence": "**Faster recovery and shorter hospital stay** (recovering from a C-section typically takes longer)",
+   "label": "supported",
+   "rationale": "The document lists faster recovery and a shorter hospital stay as benefits and says C-section recovery typically takes longer."
+  },
+  {
+   "sentence": "**No abdominal surgery**",
+   "label": "supported",
+   "rationale": "The document explicitly lists no abdominal surgery as a benefit of VBAC."
+  },
+  {
+   "sentence": "**Avoiding or lowering C-section risks** like heavy bleeding and infection",
+   "label": "supported",
+   "rationale": "The document names heavy bleeding and infection as C-section risks that VBAC can avoid or lower."
+  },
+  {
+   "sentence": "**Better lung preparation for your baby** — vaginal birth helps clear amniotic fluid from your baby's lungs as it passes through the birth canal, better preparing the baby to breathe oxygen after birth",
+   "label": "supported",
+   "rationale": "The document explicitly describes the fluid clearance and how it prepares the baby to breathe after birth."
+  },
+  {
+   "sentence": "**Immune system boost for your baby** as it travels through the birth canal",
+   "label": "supported",
+   "rationale": "The document explicitly attributes an immune system boost to the baby's passage through the birth canal during vaginal delivery."
+  },
+  {
+   "sentence": "**Less risk of complications from repeat surgeries**, such as scarring or injuries to nearby organs",
+   "label": "supported",
+   "rationale": "The document lists reduced risk of repeat-surgery complications and gives both examples."
+  },
+  {
+   "sentence": "**Personal preference** — some people simply want the experience of a vaginal birth",
+   "label": "supported",
+   "rationale": "The document explicitly says some people want the experience of vaginal birth."
+  },
+  {
+   "sentence": "**Uterine rupture** — because a C-section leaves a scar on the uterus, the pressure of labor could cause the uterus to open (rupture) along the scar.",
+   "label": "supported",
+   "rationale": "The document identifies labor pressure and the prior uterine scar as the mechanism for a possible rupture."
+  },
+  {
+   "sentence": "Although rare, this is a serious complication that can have life-threatening results.",
+   "label": "supported",
+   "rationale": "The document describes uterine rupture as rare, serious, and potentially life-threatening."
+  },
+  {
+   "sentence": "If you're at high risk for rupture, a provider will typically not attempt a VBAC.",
+   "label": "supported",
+   "rationale": "The document explicitly says providers typically do not attempt VBAC when rupture risk is high."
+  },
+  {
+   "sentence": "**Blood loss**",
+   "label": "supported",
+   "rationale": "The document lists blood loss as a risk of attempting VBAC."
+  },
+  {
+   "sentence": "**Infection**",
+   "label": "supported",
+   "rationale": "The document lists infection as a risk of attempting VBAC."
+  },
+  {
+   "sentence": "**Emergency C-section**, which is riskier than a planned C-section",
+   "label": "supported",
+   "rationale": "The document lists emergency C-section as a risk and explicitly compares it with a planned C-section."
+  },
+  {
+   "sentence": "The document notes the risk of uterine rupture with a transverse (sideways) uterine cut is about **0.9% (slightly less than 1 in 100)**.",
+   "label": "supported",
+   "rationale": "The document gives both figures for the transverse uterine incision it describes."
+  },
+  {
+   "sentence": "The type of incision matters: a **low transverse incision** has the lowest rupture risk, a **low vertical incision** has a higher risk, and a **high vertical (\"classical\") incision** in the upper uterus has the highest risk.",
+   "label": "supported",
+   "rationale": "The document gives the same risk ranking and identifies the high vertical incision as classical and located in the upper uterus."
+  },
+  {
+   "sentence": "Note that the belly scar's location/direction doesn't necessarily match the uterine scar's — your medical records should have this information, and your provider should review them.",
+   "label": "supported",
+   "rationale": "The document explains that the incisions can differ and recommends having the provider review the records for the uterine incision details."
+  },
+  {
+   "sentence": "**Up to 75%** of people who had **one** C-section went on to have a successful vaginal birth in their next pregnancy.",
+   "label": "supported",
+   "rationale": "The document reports the same success rate for the next pregnancy after one C-section."
+  },
+  {
+   "sentence": "The chance drops to **about 50%** if you've had **two or more** prior C-section deliveries.",
+   "label": "supported",
+   "rationale": "The document reports about a 50% chance of successful VBAC after two or more prior C-sections."
+  },
+  {
+   "sentence": "Previous C-section deliveries (one or two) with **low transverse incisions**",
+   "label": "supported",
+   "rationale": "The document lists one or two prior C-sections with low transverse incisions as a factor that may improve the chance of success."
+  },
+  {
+   "sentence": "A **prior vaginal birth**",
+   "label": "supported",
+   "rationale": "The document lists prior vaginal birth as a factor that may improve the chance of success."
+  },
+  {
+   "sentence": "**No other uterine surgeries** (such as fibroid removal/myomectomy)",
+   "label": "supported",
+   "rationale": "The document lists having no other uterine surgeries as a favorable factor and gives myomectomy as an example of such surgery."
+  },
+  {
+   "sentence": "**No history of uterine rupture**",
+   "label": "supported",
+   "rationale": "The document explicitly lists no history of uterine rupture as a favorable factor."
+  },
+  {
+   "sentence": "**No medical condition** (like fibroids or problems with placenta location) that makes vaginal delivery risky",
+   "label": "supported",
+   "rationale": "The document lists the absence of conditions that make vaginal delivery risky and gives both examples."
+  },
+  {
+   "sentence": "**Going into labor on your own before your due date**",
+   "label": "supported",
+   "rationale": "The document identifies going into labor spontaneously before the due date as a favorable factor."
+  },
+  {
+   "sentence": "A **prior successful VBAC** without complications (like ruptured uterus) makes future successful vaginal deliveries more likely",
+   "label": "supported",
+   "rationale": "The document explicitly links a prior uncomplicated VBAC to a greater likelihood of successful future vaginal delivery."
+  },
+  {
+   "sentence": "Prior C-section due to **labor not progressing** (not dilating or effacing)",
+   "label": "supported",
+   "rationale": "The document lists a prior C-section for failure to progress as an unfavorable factor and explains it in terms of dilation and effacement."
+  },
+  {
+   "sentence": "**Older than 35**",
+   "label": "supported",
+   "rationale": "The document explicitly lists age over 35 as a factor that may lower the chance of success."
+  },
+  {
+   "sentence": "**Obesity or overweight**",
+   "label": "supported",
+   "rationale": "The document explicitly lists obesity or overweight as a factor that may lower the chance of success."
+  },
+  {
+   "sentence": "**Large fetus or multiples**",
+   "label": "supported",
+   "rationale": "The document explicitly lists both a large fetus and expecting multiples as unfavorable factors."
+  },
+  {
+   "sentence": "**Past your due date**",
+   "label": "supported",
+   "rationale": "The document explicitly lists being past the due date as a factor that may lower the chance of success."
+  },
+  {
+   "sentence": "**Short time between pregnancies** (a baby within the last 18 months)",
+   "label": "supported",
+   "rationale": "The document lists having had a baby within the last 18 months as an unfavorable factor and describes it as a short time between pregnancies."
+  },
+  {
+   "sentence": "**Preeclampsia** (providers may prefer a C-section)",
+   "label": "supported",
+   "rationale": "The document lists preeclampsia as an unfavorable factor and says providers may prefer a C-section."
+  },
+  {
+   "sentence": "The document recommends discussing early in your pregnancy and reviewing your delivery plan at prenatal visits, including:",
+   "label": "supported",
+   "rationale": "The document recommends discussing wishes and concerns early and reviewing the delivery plan at prenatal visits."
+  },
+  {
+   "sentence": "Your past pregnancies and deliveries, and the reason(s) you had a C-section",
+   "label": "supported",
+   "rationale": "The document lists both past pregnancies and deliveries and the reasons for previous C-sections as discussion topics."
+  },
+  {
+   "sentence": "The safety of VBAC vs. a repeat C-section for you and your baby, and reasons to consider or avoid either",
+   "label": "supported",
+   "rationale": "The document recommends discussing the safety of both options and the reasons for and against each."
+  },
+  {
+   "sentence": "A plan for **inducing labor (or not)**",
+   "label": "supported",
+   "rationale": "The document explicitly lists planning whether to induce labor as a discussion topic."
+  },
+  {
+   "sentence": "Whether the **healthcare facility can manage emergency deliveries**",
+   "label": "supported",
+   "rationale": "The document explicitly recommends discussing the facility's ability to manage emergency deliveries."
+  },
+  {
+   "sentence": "Your plan for more children",
+   "label": "supported",
+   "rationale": "The document explicitly lists plans for more children as a discussion topic."
+  },
+  {
+   "sentence": "Since your doctor has said it's an option, the document suggests making sure they review your medical records (especially the location/direction of your uterine incision and the reasons for your prior C-section) as part of that decision.",
+   "label": "unsupported",
+   "rationale": "The document recommends reviewing the records, including incision details and reasons for prior C-sections, but the premise about what this user's doctor said comes from the user query, not the document."
+  }
+ ],
+ "unsup": 1,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

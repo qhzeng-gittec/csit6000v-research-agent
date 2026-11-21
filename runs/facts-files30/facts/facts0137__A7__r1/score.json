@@ -1,0 +1,1 @@
+{"accurate": true, "eligible": true, "correct": true, "correct_loose": null, "format_ok": true, "sent_supported": 37, "sent_unsupported": 1, "sent_contradictory": 0, "sent_no_rad": 6, "sent_unsup_rate": 0.02631578947368421, "sent_bad": ["Here is a summary of EI based solely on `doc.txt`, organized into two sections."]}

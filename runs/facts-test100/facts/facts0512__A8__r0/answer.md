@@ -1,0 +1,10 @@
+
+
+Based only on `doc.txt`, the document does not state how the acquisition will actually affect the video game market as a whole; it describes the acquisition, the ongoing review, and the areas where effects are being examined.
+
+- The acquisition: "On January 18, 2022, Microsoft Corp. announced plans to acquire Activision Blizzard Inc., a video game company, for $68.7 billion." (doc.txt)
+- The review: "The Federal Trade Commission (FTC) is reviewing the acquisition... to determine whether its effect might be 'substantially to lessen competition'—a violation of Section 7 of the Clayton Act." (doc.txt) and "Competition authorities in other countries are reviewing Microsoft's proposed acquisition as well." (doc.txt) The companies "expect to complete the acquisition before June 30, 2023." (doc.txt)
+- Where effects are examined: "This report discusses Microsoft's proposed acquisition of Activision Blizzard, including some of the potential effects on existing product markets, labor markets, and on product markets that do not currently exist but may develop in the future." (doc.txt)
+- Relevant industry context the document provides: the industry "can be separated into three components: developers or gaming studios that create and design video games; publishers who market and monetize the video games; and distributors who provide the video games to consumers." (doc.txt) Also, "Consoles are typically sold at a loss; the manufacturers then profit from sales of games and subscription services. This can incentivize console producers to acquire developers and publishers and offer exclusive content." (doc.txt)
+
+The document does not itself state the acquisition's actual or predicted net effect on the video game market as a whole; it only notes that the FTC and other authorities are reviewing it for potential effects on existing product markets, labor markets, and future product markets.

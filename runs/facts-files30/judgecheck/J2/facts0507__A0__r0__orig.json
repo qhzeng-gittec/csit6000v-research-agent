@@ -1,0 +1,66 @@
+{
+ "run": "facts0507__A0__r0",
+ "arm": "A0",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "Based on `doc.txt`, the answer depends on the type of chewing gum:",
+   "label": "supported",
+   "rationale": "The document distinguishes the potential for decay from sugar-containing gum from the decreased caries incidence observed with sugar-free gum."
+  },
+  {
+   "sentence": "**Sugar-containing gum can cause tooth decay.**",
+   "label": "supported",
+   "rationale": "The document identifies sugar-containing gum as potentially cariogenic and explains how its fermentable carbohydrates can lead to caries."
+  },
+  {
+   "sentence": "The document explains that monosaccharides and disaccharides in sugar-containing gum are fermentable carbohydrates that oral bacteria (particularly *S. mutans* and *Lactobacillus* spp.) can metabolize, producing dental biofilm and acid that can lead to enamel demineralization and caries.",
+   "label": "supported",
+   "rationale": "The document identifies the carbohydrates and bacteria and explicitly describes the chain from bacterial metabolism to potential enamel demineralization and caries."
+  },
+  {
+   "sentence": "The gum's potential to cause decay depends on factors such as its physical consistency, how long it stays in the mouth, how often it is chewed, and the sequence of consumption (e.g., chewing it before eating foods that reduce acid production is less cariogenic than the reverse).",
+   "label": "supported",
+   "rationale": "The document lists all four factors and gives the same example about the order of consumption."
+  },
+  {
+   "sentence": "**Sugar-free gum does not cause decay and may help prevent it.**",
+   "label": "unsupported",
+   "rationale": "The trials support a possible preventive benefit, but the document calls the sweeteners noncariogenic and does not categorically rule out decay caused by every sugar-free gum."
+  },
+  {
+   "sentence": "The sweeteners used in sugar-free gum (such as xylitol, sorbitol, aspartame, sucralose, etc.) are noncariogenic because they are metabolized slowly or not at all by cariogenic plaque bacteria.",
+   "label": "supported",
+   "rationale": "The document lists all four examples and explicitly gives slow or absent bacterial metabolism as the reason the sweeteners are noncariogenic."
+  },
+  {
+   "sentence": "Clinical trials found decreased caries incidence in people who chewed sugar-free gum for 20 minutes after meals, and a 2021 systematic review and meta-analysis reported that xylitol-sweetened sugar-free gum significantly reduced the *S. mutans* load (effect size −0.42, 95% CI: −0.60 to −0.25).",
+   "label": "supported",
+   "rationale": "The document reports the trial findings, chewing duration, and review results, including the effect size and confidence interval."
+  },
+  {
+   "sentence": "**How chewing gum generally affects decay:** Chewing gum stimulates salivary flow (10–12 times the unstimulated rate for plain gum base, even more for sweetened/flavored gum).",
+   "label": "supported",
+   "rationale": "The document gives the same increase for unsweetened, unflavored gum base and reports a greater flow rate for sweetened and flavored gum."
+  },
+  {
+   "sentence": "Increased saliva helps dilute and neutralize acids produced by plaque bacteria, buffers acids, carries calcium and phosphate ions that contribute to enamel remineralization, and (if fluoride is present) helps form more caries-resistant fluorapatite.",
+   "label": "supported",
+   "rationale": "The document describes acid dilution and neutralization, buffering, and the roles of calcium, phosphate, and fluoride in enamel protection."
+  },
+  {
+   "sentence": "So the act of chewing itself is protective; it is the sugar content that makes gum cariogenic.",
+   "label": "unsupported",
+   "rationale": "The document says chewing stimulates saliva and that stimulated saliva may protect against caries. It identifies fermentable sugars as a source of cariogenicity, but does not establish that chewing itself is protective in all cases or that sugar content alone determines the outcome."
+  },
+  {
+   "sentence": "In short: according to the document, chewing gum does not inherently cause tooth decay—sugar-containing gum can, while sugar-free gum is noncariogenic and may actually reduce caries risk.",
+   "label": "unsupported",
+   "rationale": "The document supports the potential for decay from sugar-containing gum and the possible benefit of sugar-free gum, but explicitly calls the replacement sweeteners noncariogenic, not sugar-free gum as a whole."
+  }
+ ],
+ "unsup": 3,
+ "blame_file": 0,
+ "verbatim_only": 0
+}

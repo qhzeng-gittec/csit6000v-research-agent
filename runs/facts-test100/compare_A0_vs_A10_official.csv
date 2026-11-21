@@ -1,0 +1,6 @@
+bench,metric,a,b,items,mean_a,mean_b,diff_b_minus_a,ci95_lo,ci95_hi,items_b_higher,items_b_lower
+facts,correct,A0,A10,100,0.27,0.57,0.3,0.19,0.41,35,5
+facts,eligible,A0,A10,100,1.0,0.97,-0.03,-0.07,0.0,0,3
+facts,unsup_rate,A0,A10,100,0.17,0.072,-0.098,-0.129,-0.068,16,61
+facts,unsup_sents,A0,A10,100,2.16,0.78,-1.38,-1.76,-1.01,8,58
+facts,answer_chars,A0,A10,100,2452.37,2431.24,-21.13,-121.701,79.584,49,51

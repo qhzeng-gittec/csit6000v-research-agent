@@ -1,0 +1,41 @@
+{
+ "run": "facts0272__A8__r0",
+ "arm": "A8",
+ "note": "J2",
+ "kind": "orig",
+ "rows": [
+  {
+   "sentence": "The article describes AI's purpose in the financial industry as expanding on earlier quantitative analysis models to \"solve discrete challenges, such as maximizing profit and minimizing risk.\"",
+   "label": "supported",
+   "rationale": "The context explicitly links the adoption of AI in finance to earlier quantitative analysis models and identifies profit maximization and risk minimization as examples of the challenges it addresses."
+  },
+  {
+   "sentence": "Unlike older algorithms that automated human-coded rules, new AI models can \"learn\" by themselves and make inferences and recommendations not identified by modelers in advance.",
+   "label": "supported",
+   "rationale": "The context explicitly contrasts rule-based algorithms with newer models that can learn and produce inferences and recommendations not identified in advance."
+  },
+  {
+   "sentence": "This capability, fueled by advances in computer hardware, capacity, and data storage, has enabled the use of new data types — alternative data, unstructured data such as images or social media posts, and unlabeled information — extending AI's uses to new financial services or products.",
+   "label": "supported",
+   "rationale": "The context links advances in hardware, capacity, and storage to AI development, then explains that the shift to models that can learn enabled the listed data types and expanded financial applications."
+  },
+  {
+   "sentence": "Specific purposes include \"powering chatbots in customer service functions, identifying investment opportunities and/or executing trades, augmenting lending models or (more sparingly) making lending decisions, and identifying and preventing fraud.\"",
+   "label": "supported",
+   "rationale": "The context lists all of these uses, including the qualification that making lending decisions is less common."
+  },
+  {
+   "sentence": "Adoption varies by sector and firm, reflecting factors such as a firm's ability to fund internal development and regulatory requirements.",
+   "label": "supported",
+   "rationale": "The context states that adoption varies across the industry and names both funding for internal development and regulatory requirements as factors."
+  },
+  {
+   "sentence": "Service providers are \"likely to continue adopting and promoting AI/ML to save time and money and promote accessibility, accuracy, and regulatory compliance,\" even as regulators insist that regulated entities remain subject to the full range of laws and regulations.",
+   "label": "supported",
+   "rationale": "The context predicts continued adoption for the stated benefits and says regulators have indicated that existing laws and regulations apply regardless of the tools used."
+  }
+ ],
+ "unsup": 0,
+ "blame_file": 0,
+ "verbatim_only": 0
+}
