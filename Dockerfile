@@ -10,6 +10,7 @@ COPY agent ./agent
 COPY tests ./tests
 COPY scripts ./scripts
 COPY splits ./splits
+COPY web ./web
 RUN mkdir -p /app/runs && chown -R agent:agent /app
 
 USER agent

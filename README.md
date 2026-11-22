@@ -48,7 +48,8 @@ of the document inside the container.
 
 ```
 agent/            agent, verifier, benchmark runner (agent/bench.py), judge calibration (agent/judge_check.py)
-tests/            105 unit tests (no API key needed)
+tests/            109 unit tests (no API key needed)
+web/              local web interface: `python -m web.server` (Check 4)
 scripts/          fetch_benchmarks.py (downloads FACTS + FaithEval), run_stats.py (judge-free run summary)
 splits/           facts_dev30.txt, facts_test100.txt: the exact item ids used; demo1.txt: one item for the demo;
                   facts_tacc25.txt: the first 25 test ids, used for the thinking on/off comparison on TACC
@@ -84,8 +85,9 @@ python3 scripts/fetch_benchmarks.py          # ~27 MB from Hugging Face into dat
 ```bash
 docker compose run --rm --entrypoint python agent -m pytest -q tests
 ```
-Expected: `105 passed`. The tests cover the loop (including the empty-reply guard), tools, verifier,
-`edit_draft`, scoring logic, and that `splits/*.txt` equal the sampled splits.
+Expected: `109 passed`. The tests cover the loop (including the empty-reply guard), tools, verifier,
+`edit_draft`, scoring logic, the web interface with a scripted model, and that `splits/*.txt` equal the
+sampled splits.
 
 ### Check 2: one FACTS item end to end with the full system (~1 minute)
 ```bash
@@ -149,6 +151,34 @@ What the job does (`tacc/job.sh`):
 - The client waits until the service answers, runs `tacc/preflight.py` (one request must come back as a
   structured tool call) and then `agent.bench run` with the course Python environment. That environment
   has no pandas, so `agent.bench run` works without it; scoring is done on your own machine.
+
+### Check 4: the web interface on your own machine (no API key, about 1 minute)
+The interface shows on one screen what the system does: the agent's steps as they happen, the answer
+with every quote marked as found or not found by the verifier, and the document with the quoted passages
+highlighted. It runs on localhost only.
+```bash
+docker compose build                 # once; the image contains web/
+docker compose run --rm -p 8000:8000 --entrypoint python agent -m web.server --host 0.0.0.0
+```
+Then open http://127.0.0.1:8000. Without Docker: `pip install -r requirements.txt` and `python -m web.server`.
+
+Without a model key the page opens the runs saved under `runs/`. On the start page choose
+"Verifier at work". Expected, in this order: the tool calls (`Read lines 1 to 49 of doc.txt`), a red step
+"Verifier found 1 problem" that shows the quote which is not in the document, "Sent back to the model,
+revision round 1", "Edited the draft", a green step "Verifier passed", and then the answer under the line
+"All 3 quotes found word for word in the document". Click a green quote: the document on the right
+scrolls to the passage and highlights it. The buttons above the answer (Plain, Rules, Quotes, Full system)
+open the other configurations of the same question, and the menu in the sidebar switches between the
+OpenRouter runs and the TACC runs.
+
+To ask your own question, start the server with the settings of the agent model, attach a text or
+Markdown file and type a question:
+```bash
+export LLM_API_KEY=<your key> LLM_BASE_URL=https://openrouter.ai/api/v1 LLM_MODEL=qwen/qwen3.8-27b
+docker compose run --rm -p 8000:8000 --entrypoint python agent -m web.server --host 0.0.0.0
+```
+"Full system" answers with verified quotes; "Plain agent" is the same agent without quotes and without
+the verifier. Every question is saved under `runs/web/` and listed in the sidebar under "Your questions".
 
 # Detailed Instructions
 
