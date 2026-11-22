@@ -1,0 +1,17 @@
+{
+  "bench": "facts",
+  "id": "facts0605",
+  "arm": "A0",
+  "rep": 0,
+  "mode": "files",
+  "cite": "none",
+  "gate": true,
+  "model": "qwen3.8-27b",
+  "base_url": "http://127.0.0.1:30856/v1",
+  "temperature": 0.0,
+  "max_steps": 30,
+  "max_revisions": 2,
+  "status": "error",
+  "error": "BadRequestError: Error code: 400 - {'error': {'message': \"This model's maximum context length is 32768 tokens. However, you requested 8192 output tokens and your prompt contains at least 24577 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=24577)\", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}",
+  "wall_s": 56.49
+}

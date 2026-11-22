@@ -1,0 +1,1 @@
+{"accurate": true, "eligible": true, "eligibility_verdict": "self", "correct": true, "correct_loose": null, "format_ok": true, "sent_supported": 13, "sent_unsupported": 0, "sent_contradictory": 0, "sent_no_rad": 6, "sent_unsup_rate": 0.0, "sent_bad": [], "eligibility_baseline": "A0", "judge_note": "J2"}

@@ -48,14 +48,15 @@ of the document inside the container.
 
 ```
 agent/            agent, verifier, benchmark runner (agent/bench.py), judge calibration (agent/judge_check.py)
-tests/            104 unit tests (no API key needed)
+tests/            105 unit tests (no API key needed)
 scripts/          fetch_benchmarks.py (downloads FACTS + FaithEval), run_stats.py (judge-free run summary)
 splits/           facts_dev30.txt, facts_test100.txt: the exact item ids used; demo1.txt: one item for the demo;
-                  facts_tacc25.txt: the first 25 test ids, used for the runs on TACC
+                  facts_tacc25.txt: the first 25 test ids, used for the thinking on/off comparison on TACC
 tacc/             one job for the course cluster: starts the Qwen service, runs the agent, stops the service
 runs/             our runs: answers, traces, scores (facts-test100 = main results, facts-files30 = dev,
-                  tacc-facts25* and tacc-check = runs on TACC, openrouter-facts25 = the same 25 items of
-                  facts-test100, scored again with the judge used for the TACC runs)
+                  tacc-facts100 = the same 100 test items run on TACC, tacc-facts25* and tacc-check =
+                  earlier TACC runs). Score files without a judge name come from the main judge; files
+                  ending in `_haiku` come from the second judge, `claude-haiku-5-5`
 RESULTS_FACTS.md  all results, method, failure case, limitations
 ```
 
@@ -65,7 +66,8 @@ RESULTS_FACTS.md  all results, method, failure case, limitations
 - Linux or macOS with Docker and Docker Compose v2 (tested with Docker 27).
 - Python 3.9+ on the host, only for downloading the data (standard library only).
 - An OpenAI-compatible API key for the agent model. We used `qwen/qwen3.8-27b` on OpenRouter.
-- For scoring: an OpenAI-compatible key for the judge model (we used `gpt-6.2-sol`).
+- For scoring: an OpenAI-compatible key for the judge model (we used `gpt-6.2-sol`, and
+  `claude-haiku-5-5` as a second judge).
 - Without any key for the agent model: the course cluster TACC, where the agent uses the course's
   Qwen3.8-27B service (Check 3 below). This needs the `tcloud` SDK instead of Docker.
 
@@ -82,7 +84,7 @@ python3 scripts/fetch_benchmarks.py          # ~27 MB from Hugging Face into dat
 ```bash
 docker compose run --rm --entrypoint python agent -m pytest -q tests
 ```
-Expected: `104 passed`. The tests cover the loop (including the empty-reply guard), tools, verifier,
+Expected: `105 passed`. The tests cover the loop (including the empty-reply guard), tools, verifier,
 `edit_draft`, scoring logic, and that `splits/*.txt` equal the sampled splits.
 
 ### Check 2: one FACTS item end to end with the full system (~1 minute)
@@ -177,6 +179,10 @@ If your judge thinks before it answers, give it room with `JUDGE_MAX_TOKENS` (de
 value (also needed for `claude-haiku-5-5`). A judge output that is cut off or has no labels is reported as `score failed`
 and scored again on the next `score` run; it is never counted as accurate.
 
+To keep our scores and put yours next to them, do not delete anything and give your judge a name:
+`--judge mine` (for `score` and `compare`) writes `score_official_mine.json` per answer and
+`*_official_mine.csv` per experiment. Our second judge is stored this way, as `--judge haiku`.
+
 ### Option B: rerun the agent and score (~1 hour, about 5M input + 1M output tokens)
 ```bash
 export LLM_API_KEY=<key> LLM_BASE_URL=https://openrouter.ai/api/v1 LLM_MODEL=qwen/qwen3.8-27b
@@ -190,23 +196,32 @@ docker compose run --rm -e LLM_TIMEOUT_S=600 --entrypoint python agent \
 Runs resume: a finished run is skipped, a failed one is retried. Use a new `--exp` name for a fresh run.
 
 ### Option C: rerun on TACC with the course Qwen service (no agent API key)
-One job runs both arms of the headline comparison on the first 25 test items (50 runs, about 22 minutes
-including model start-up; the partition allows at most one hour per job):
+Both arms of the headline comparison on all 100 test items are 200 runs. A job may run for at most one
+hour, so we ran the items as two jobs of 50 that write into the same experiment:
 ```bash
-bash tacc/make_job.sh tacc-facts25-think splits/facts_tacc25.txt A0,A10 4
-cd build/tacc-facts25-think && tcloud submit
-tcloud download scholar-agent/results/tacc-facts25-think.tar.gz ./tacc-facts25-think.tar.gz
-tar -xzf tacc-facts25-think.tar.gz -C runs                      # in the repository root
-python3 scripts/run_stats.py runs/tacc-facts25-think            # judge-free numbers, table below
+head -50 splits/facts_test100.txt > splits/half_a.txt
+tail -50 splits/facts_test100.txt > splits/half_b.txt
+JOB_NAME=tacc-facts100-a bash tacc/make_job.sh tacc-facts100 splits/half_a.txt A0,A10 4
+JOB_NAME=tacc-facts100-b bash tacc/make_job.sh tacc-facts100 splits/half_b.txt A0,A10 4
+(cd build/tacc-facts100-a && tcloud submit); (cd build/tacc-facts100-b && tcloud submit)
+# when both jobs have finished:
+tcloud download scholar-agent/results/tacc-facts100.tar.gz ./tacc-facts100.tar.gz
+tar -xzf tacc-facts100.tar.gz -C runs                      # in the repository root
+python3 scripts/run_stats.py runs/tacc-facts100            # judge-free numbers, table below
 ```
-Runs are stored in your TACC user directory as they finish, so a job that hits the time limit can simply
-be submitted again and continues where it stopped. Scoring works as in Option A, on your own machine.
-We scored the TACC runs with `claude-haiku-5-5`:
+Our jobs took 31 and 59 minutes (model start-up 10 and 26 minutes, the agent runs 21 and 32 minutes).
+Each job packs the whole experiment folder when it ends, so the archive of the job that ends last holds
+all runs. Runs are stored in your TACC user directory as they finish, so a job that hits the time limit
+can simply be submitted again and continues where it stopped. Scoring works as in Option A, on your own
+machine. We scored the TACC runs with `claude-haiku-5-5` and stored the scores under the judge name
+`haiku`:
 ```bash
 export JUDGE_API_KEY=<key> JUDGE_BASE_URL=https://api.anthropic.com/v1/ JUDGE_MODEL=claude-haiku-5-5
 export JUDGE_TEMPERATURE= JUDGE_MAX_TOKENS=32000   # this judge rejects `temperature` and thinks first
 docker compose run --rm -e LLM_TIMEOUT_S=600 --entrypoint python agent \
-  -m agent.bench score --exp tacc-facts25-think --variant official --workers 8
+  -m agent.bench score --exp tacc-facts100 --variant official --judge haiku --workers 8
+docker compose run --rm --entrypoint python agent -m agent.bench compare --exp tacc-facts100 \
+  --variant official --judge haiku --a A0 --b A10 --metrics correct,unsup_rate,unsup_sents,answer_chars
 ```
 
 Settings on TACC (`tacc/make_job.sh`): the model thinks by default, as in our OpenRouter runs;
@@ -215,34 +230,37 @@ thinking off (`LLM_EMPTY_RETRY_BODY`), because the reasoning cap used on OpenRou
 To run with thinking off, as the course client does:
 `LLM_MAX_TOKENS=4096 LLM_EXTRA_BODY='{"chat_template_kwargs":{"enable_thinking":false}}' bash tacc/make_job.sh tacc-facts25 ...`.
 
-Our TACC runs are in `runs/tacc-facts25-think/` and `runs/tacc-facts25/`. Numbers that need no judge
-(`scripts/run_stats.py`), next to the OpenRouter runs of the same 25 items:
+Numbers that need no judge (`scripts/run_stats.py`), next to the OpenRouter runs of the same 100 items:
 
 | where the model ran | arm | runs that ended with an answer | model calls / run | answers revised | answers whose quotes all exist | output tokens / run | seconds / run |
 |---|---|---|---|---|---|---|---|
-| OpenRouter (from `runs/facts-test100`) | A0 | 25 / 25 | 3.0 | - | - | 1907 | 11.7 |
-| | A10 | 25 / 25 | 3.7 | 24% | 100% | 3162 | 18.6 |
-| TACC, thinking on (default) | A0 | 25 / 25 | 3.2 | - | - | 1987 | 48.3 |
-| | A10 | 24 / 25 (1 empty) | 4.1 | 24% | 100% | 3093 | 71.4 |
-| TACC, thinking off | A0 | 25 / 25 | 3.6 | - | - | 630 | 22.9 |
-| | A10 | 21 / 25 (3 out of steps, 1 unresolved) | 7.6 | 24% | 88% | 1029 | 38.3 |
+| OpenRouter (`runs/facts-test100`) | A0 | 100 / 100 | 3.0 | - | - | 1491 | 10.5 |
+| | A10 | 100 / 100 | 3.9 | 30% | 100% | 2591 | 17.8 |
+| TACC (`runs/tacc-facts100`) | A0 | 99 / 100 (1 context error) | 3.0 | - | - | 1301 | 34.1 |
+| | A10 | 98 / 100 (1 context error, 1 unresolved) | 4.3 | 31% | 99% (98 of 99) | 2845 | 69.1 |
 
-With thinking on, the system behaves on TACC as it does on OpenRouter: the same share of answers is sent
-back by the verifier and every quote in the final answers exists in the document. With thinking off the
-4-bit model is faster per call but gets stuck in repeated tool calls; see RESULTS_FACTS.md, Section 7.
-TACC serves about 28 to 43 output tokens per second per request (4 requests in parallel), OpenRouter about 165.
+The system behaves on TACC as it does on OpenRouter: the verifier sends back the same share of answers
+(31% and 30%), and after revision every quote exists in the document in 98 of 99 answers. The remaining
+answer is marked `unresolved`, so it is not presented as verified. Two items show limits: one document
+does not fit into the 32K context of the course service (an `error` run in both arms), and one document
+contains a character the model cannot type, so its quote never matched. Both are described in
+RESULTS_FACTS.md, Section 7. TACC serves about 40 output tokens per second per request (4 requests in
+parallel), OpenRouter about 145.
 
-Judge scores for the same three sets of answers (judge `claude-haiku-5-5`, 25 items, paired bootstrap CI):
+Judge scores, 100 items, paired bootstrap CI. The TACC answers and the OpenRouter answers were scored by
+the same judge, `claude-haiku-5-5`; the first row repeats the main result, which uses another judge:
 
-| answers from | correct, A0 | correct, A10 | A10 - A0 [95% CI] |
-|---|---|---|---|
-| OpenRouter | 0.48 | 0.80 | +0.32 [+0.16, +0.52] |
-| TACC, thinking on | 0.76 | 0.72 | -0.04 [-0.28, +0.20] |
-| TACC, thinking off | 0.76 | 0.84 | +0.08 [-0.08, +0.24] |
+| answers from | judge | correct, A0 | correct, A10 | A10 - A0 [95% CI] |
+|---|---|---|---|---|
+| OpenRouter | `gpt-6.2-sol` (main result) | 0.27 | 0.57 | +0.30 [+0.19, +0.41] |
+| OpenRouter | `claude-haiku-5-5` | 0.60 | 0.80 | +0.20 [+0.09, +0.30] |
+| TACC | `claude-haiku-5-5` | 0.64 | 0.80 | +0.16 [+0.06, +0.26] |
 
-A second judge confirms the gain on the OpenRouter answers. On TACC the plain agent already scores 0.76
-on these items, and 25 items cannot separate the two arms there; what carries over to TACC is the
-verifier's guarantee about quotes. Details and the open question in RESULTS_FACTS.md, Section 7.
+The gain of the full system over the plain agent is reproduced on TACC: A10 is better on 22 items and
+worse on 6, and the interval excludes zero. A second judge gives higher levels than the main judge but
+the same direction on the OpenRouter answers, so compare arms under one judge, not levels across judges.
+An earlier TACC run of only the first 25 items could not separate the arms (`runs/tacc-facts25-think`);
+RESULTS_FACTS.md, Section 7 shows why, and has the run with thinking off (`runs/tacc-facts25`).
 
 ### Comparisons (paired bootstrap CI)
 ```bash
@@ -262,8 +280,8 @@ done
 | revision counts | `meta.json` per run (`revisions`, `first_draft_issues`, `final_issues`) | Section 3 |
 | empty-answer fix | `trace.jsonl` notes `empty_reply`; tests in `tests/test_loop.py` | Section 4 |
 | judge noise floor (same answer judged twice) | `python -m agent.judge_check --exp facts-files30 --arms A0,A8 --notes J2` | Section 6 |
-| runs on TACC: status, revisions, quote validity, tokens, time | `python3 scripts/run_stats.py runs/tacc-facts25-think` (and `runs/tacc-facts25`) | Section 7 |
-| judge scores of the TACC runs and of the same items on OpenRouter | `summary_official.csv` and `compare_A0_vs_A10_official.csv` in `runs/tacc-facts25-think`, `runs/tacc-facts25`, `runs/openrouter-facts25` | Section 7 |
+| runs on TACC: status, revisions, quote validity, tokens, time | `python3 scripts/run_stats.py runs/tacc-facts100` (earlier 25-item runs: `runs/tacc-facts25-think`, `runs/tacc-facts25`) | Section 7 |
+| second judge (`claude-haiku-5-5`): TACC answers and the A0 and A10 answers of the main result | `summary_official_haiku.csv`, `compare_A0_vs_A10_official_haiku.csv` and `score_official_haiku.json` per answer, in `runs/tacc-facts100` and `runs/facts-test100` (also in the two 25-item TACC runs) | Section 7 |
 
 ### Dev split
 Every method choice was made on `splits/facts_dev30.txt` (30 items x 2 runs) before the test split
@@ -274,11 +292,12 @@ was run once. To rerun it: `--exp my-dev --ids splits/facts_dev30.txt --reps 2`.
   ordering A0 < A9 < A8, A10 and the gains of the rules and of the whole system should reproduce; the
   size of the two smaller steps (+0.08 quotes, +0.06 verifier) can change between reruns.
 - With a different judge model the absolute numbers move; compare arms, not levels.
-- One judge, 100 public items; not the official multi-judge FACTS score.
+- 100 public items and one judge for the four-arm table; a second judge scored the A0 and A10 answers
+  only. This is not the official multi-judge FACTS score.
 - The verifier proves that quotes are real; it cannot prove that a quote supports the sentence around
   it. That remaining gap is the main source of errors (RESULTS_FACTS.md, Section 5).
 - FaithEval loaders exist in `agent/bench.py` but FaithEval is not part of the reported evaluation.
-- TACC: 25 items and two arms only; the model there has 4-bit weights and a 32K context. A request whose
-  prompt plus `LLM_MAX_TOKENS` exceeds 32K is rejected by the service and recorded as an `error` run
-  (none occurred; the largest prompt was 14K tokens). With thinking off the model can loop on a repeated
-  tool call until the step limit (RESULTS_FACTS.md, Section 7).
+- TACC: two arms only (A0, A10), scored by the second judge. The model there has 4-bit weights and a
+  32K context. A request whose prompt plus `LLM_MAX_TOKENS` exceeds 32K is rejected by the service and
+  recorded as an `error` run; this happened for one of the 100 documents, in both arms. With thinking
+  off the model can loop on a repeated tool call until the step limit (RESULTS_FACTS.md, Section 7).

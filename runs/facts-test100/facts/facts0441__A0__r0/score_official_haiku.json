@@ -1,0 +1,1 @@
+{"accurate": false, "eligible": true, "eligibility_verdict": "self", "correct": false, "correct_loose": null, "format_ok": true, "sent_supported": 26, "sent_unsupported": 1, "sent_contradictory": 0, "sent_no_rad": 6, "sent_unsup_rate": 0.037037037037037035, "sent_bad": ["I've read the full text of `doc.txt` (118 lines)."], "eligibility_baseline": "A0", "judge_note": "J2"}

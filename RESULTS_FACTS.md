@@ -123,9 +123,10 @@ seconds, instead of being hidden in an unreferenced summary. The same errors in 
 quotes (A0) cannot be checked without rereading the whole document.
 
 ## 6. Limitations and expected variation
-- One judge model. Judging the same answers twice changes unsupported sentences per answer by
-  at most 0.1 and flips `accurate` on 4 of 58 dev answers (A0, A8), about 7%; expect about ±0.05 on
-  `correct` per arm.
+- One judge model for Sections 2 to 5; a second judge scored the A0 and A10 answers and agrees on the
+  direction, not on the level (Section 7). Judging the same answers twice with the main judge changes
+  unsupported sentences per answer by at most 0.1 and flips `accurate` on 4 of 58 dev answers (A0, A8),
+  about 7%; expect about ±0.05 on `correct` per arm.
 - Temperature 0, but provider-side sampling is not deterministic; a rerun of the agent gives
   different answers. The ordering A0 < A9 < A8, A10 and the whole-system gain should hold; the size of
   the two smaller steps (+0.08 for quotes, +0.06 for the verifier) can change between reruns.
@@ -137,47 +138,65 @@ quotes (A0) cannot be checked without rereading the whole document.
 
 The same agent was run on TACC against the course's model service: Qwen3.8-27B with 4-bit AWQ weights,
 served by vLLM 0.26 on two 24 GB GPUs, 32K context, 4 requests in parallel. One job starts the service,
-runs the agent and stops the service (`tacc/job.sh`). Items: the first 25 test ids
-(`splits/facts_tacc25.txt`); arms A0 and A10; one run per item and arm. The method was not changed for
-these runs; the two TACC settings below differ only in whether the model thinks before it answers.
+runs the agent and stops the service (`tacc/job.sh`). Items: the same 100 test items as Section 2
+(`splits/facts_test100.txt`); arms A0 and A10; one run per item and arm. A job may run for at most one
+hour, so the items were run as two jobs of 50 (jobs 30854 and 30856, `runs/tacc-facts100`). The method
+was not changed for these runs, and the model thinks before it answers, as on OpenRouter.
 
 | where the model ran | arm | runs that ended with an answer | model calls / run | answers revised | answers whose quotes all exist | output tokens / run | seconds / run |
 |---|---|---|---|---|---|---|---|
-| OpenRouter (Section 2, same 25 items) | A0 | 25 / 25 | 3.0 | - | - | 1907 | 11.7 |
-| | A10 | 25 / 25 | 3.7 | 24% | 100% | 3162 | 18.6 |
-| TACC, thinking on (job 30810) | A0 | 25 / 25 | 3.2 | - | - | 1987 | 48.3 |
-| | A10 | 24 / 25 (1 empty) | 4.1 | 24% | 100% | 3093 | 71.4 |
-| TACC, thinking off (job 30789) | A0 | 25 / 25 | 3.6 | - | - | 630 | 22.9 |
-| | A10 | 21 / 25 (3 out of steps, 1 unresolved) | 7.6 | 24% | 88% | 1029 | 38.3 |
+| OpenRouter (Section 2) | A0 | 100 / 100 | 3.0 | - | - | 1491 | 10.5 |
+| | A10 | 100 / 100 | 3.9 | 30% | 100% | 2591 | 17.8 |
+| TACC | A0 | 99 / 100 (1 context error) | 3.0 | - | - | 1301 | 34.1 |
+| | A10 | 98 / 100 (1 context error, 1 unresolved) | 4.3 | 31% | 99% (98 of 99) | 2845 | 69.1 |
 
-These numbers need no judge (`python3 scripts/run_stats.py runs/tacc-facts25-think`). With thinking on,
-the verifier path behaves on TACC as it does on OpenRouter: one answer in four is sent back, and after
-revision every quote in every final answer exists in the document.
+These numbers need no judge (`python3 scripts/run_stats.py runs/tacc-facts100`). The verifier path
+behaves on TACC as it does on OpenRouter: the first draft contains only real quotes in 69% of the answers
+(70% on OpenRouter), three answers in ten are sent back, and after revision every quote exists in the
+document in 98 of 99 answers. The one exception is failure case 4; its status says that it did not pass.
 
-**Judge scores.** Judge for this section: `claude-haiku-5-5` through Anthropic's OpenAI-compatible
-endpoint (`JUDGE_TEMPERATURE` empty, because the model rejects the parameter; `JUDGE_MAX_TOKENS=32000`),
-official protocol as in Section 1. Section 2 used another judge, so levels cannot be compared across the
-two sections; the OpenRouter answers of the same 25 items were scored again with this judge
-(`runs/openrouter-facts25`).
+**Judge scores.** Two judges were used. The main judge of Sections 2 to 5 is `gpt-6.2-sol`. The second
+judge is `claude-haiku-5-5` through Anthropic's OpenAI-compatible endpoint (`JUDGE_TEMPERATURE` empty,
+because the model rejects the parameter; `JUDGE_MAX_TOKENS=32000`), with the official protocol of
+Section 1. The second judge scored the TACC answers and, so that both sets of answers are scored by one
+judge, the A0 and A10 answers of Section 2 again. Its scores are stored next to the main judge's, in
+files ending in `_haiku` (`python -m agent.bench score ... --judge haiku`).
 
-| answers from | correct, A0 | correct, A10 | A10 - A0 [95% CI] | unsupported sentences / answer, A0 and A10 | A10 - A0 [95% CI] |
-|---|---|---|---|---|---|
-| OpenRouter (25 items of Section 2) | 0.48 | 0.80 | +0.32 [+0.16, +0.52] | 0.84 and 0.40 | -0.44 [-0.76, -0.08] |
-| TACC, thinking on | 0.76 | 0.72 | -0.04 [-0.28, +0.20] | 0.52 and 0.60 | +0.08 [-0.48, +0.76] |
-| TACC, thinking off | 0.76 | 0.84 | +0.08 [-0.08, +0.24] | 0.64 and 0.36 | -0.28 [-0.68, +0.12] |
+| answers from | judge | correct, A0 | correct, A10 | A10 - A0 [95% CI] | items where A10 is better / worse | unsupported sentences / answer, A0 and A10 | A10 - A0 [95% CI] |
+|---|---|---|---|---|---|---|---|
+| OpenRouter | `gpt-6.2-sol` (Section 2) | 0.27 | 0.57 | +0.30 [+0.19, +0.41] | 35 / 5 | 2.16 and 0.78 | -1.38 [-1.76, -1.01] |
+| OpenRouter | `claude-haiku-5-5` | 0.60 | 0.80 | +0.20 [+0.09, +0.30] | 27 / 7 | 0.96 and 0.38 | -0.58 [-0.92, -0.27] |
+| TACC | `claude-haiku-5-5` | 0.64 | 0.80 | **+0.16 [+0.06, +0.26]** | 22 / 6 | 0.88 and 0.26 | **-0.62 [-0.94, -0.33]** |
+
+The item with the context error (failure case 3) has no answer: it counts as incorrect in both arms and
+is left out of the unsupported-sentence columns of the TACC row (99 items).
 
 Reading the table:
-- The second judge confirms Section 2 on the OpenRouter answers: +0.32 with this judge, +0.20 with the
-  original judge on the same 25 items (0.32 and 0.52), +0.30 on all 100 items.
-- On TACC the gain in `correct` is not reproduced at this sample size. The plain agent already scores 0.76
-  there (6 of 25 answers contain an unsupported sentence, against 13 of 25 for the OpenRouter answers), so
-  less is left to gain, and with 25 items an interval of about 0.2 either way cannot separate the arms. The
-  A10 number with thinking on includes the empty answer of failure case 2, counted as incorrect.
-- We do not know why the plain agent makes fewer unsupported statements on TACC than through OpenRouter.
-  The weights (4-bit AWQ on TACC), the serving stack and the output limit differ, and 25 items are few; we
-  report the difference without attributing it.
-- What carries over to TACC is the property the verifier is responsible for: with thinking on, every
-  quote in every final A10 answer exists in the document.
+- **The gain is reproduced on TACC.** Under the same judge the full system adds +0.16 on TACC and +0.20
+  on OpenRouter, and both intervals exclude zero. A10 reaches 0.80 in both places. Both jobs show the same
+  step: 31 to 39 correct answers on the first 50 items, 33 to 41 on the last 50.
+- **Unsupported sentences fall to about a third** in both places (0.88 to 0.26 per answer on TACC), at
+  the same answer length (2377 and 2390 characters).
+- **The level depends on the judge, the direction does not.** On the same OpenRouter answers the second
+  judge labels fewer sentences unsupported (0.96 per A0 answer against 2.16), so `correct` is higher for
+  both arms and the difference is smaller (+0.20 against +0.30). Both judges put A10 above A0 with an
+  interval that excludes zero. Compare arms under one judge; do not compare levels across judges.
+- **Where A10 is worse on TACC (6 items).** Five answers have one or two unsupported sentences where the
+  plain answer has none. One answer is accurate but judged not eligible: the request sets a length of
+  380 to 400 words, and the answer, produced by the thinking-off retry of failure case 2, has 332.
+
+**Why 25 items were not enough.** Before this run we had run only the first 25 items
+(job 30810, `runs/tacc-facts25-think`) and measured -0.04 [-0.28, +0.20] for A10 - A0. The same 25 items
+inside the 100-item run give +0.12 [-0.04, +0.28]. Nothing was changed between the two runs. Temperature
+is 0, but requests are batched on the GPU and the text differs: only 7 of the 50 answers are identical
+between the two runs, and 8 of the 50 `correct` labels differ (3 for A0, 5 for A10). With 25 items one
+changed label moves an arm by 0.04, so a step of 0.16 cannot be told from noise; with 100 items it can.
+
+**Thinking off (first 25 items, job 30789, `runs/tacc-facts25`).** The course client switches thinking
+off. With that setting a run is faster (A0: 630 output tokens and 23 seconds per run, against 1987 and 48
+with thinking on, on the same 25 items), but only 21 of 25 A10 runs ended with an answer and 88% of the
+A10 answers had only real quotes. Judge scores: 0.76 and 0.84, +0.08 [-0.08, +0.24]. The four runs
+without an answer are failure case 1. Thinking stays on by default.
 
 **Failure case 1: repeated tool calls when thinking is off.** Three A10 runs used all 30 steps and one
 stayed `unresolved`. One run resent the same rejected `edit_draft` call 24 times (its `old` text was
@@ -186,8 +205,7 @@ text equalled `old` 23 times. One read the document with 28 `bash` calls and nev
 step limit and the two-round revision limit ended all of them, and their status
 (`budget_exhausted`, `unresolved`) shows that they did not pass, so no unverified quote is presented as
 verified. What it shows: the loop bounds the number of calls but does not notice that a call is
-identical to the previous one. None of this happened with thinking on, on TACC or on OpenRouter, so the
-method was left unchanged; a check for identical consecutive calls is the obvious next guard.
+identical to the previous one. A check for identical consecutive calls is the obvious next guard.
 
 **Failure case 2: an empty answer when thinking is on.** For "about 600 words" the model counted words in
 its reasoning until the 8,192-token output limit, three times in a row. This is the case of Section 4,
@@ -195,7 +213,27 @@ but the retry there limits reasoning with an OpenRouter option that vLLM does no
 retry changed nothing. The retry can now send provider-specific fields (`LLM_EMPTY_RETRY_BODY`); the TACC
 job uses it to switch thinking off for the retry only. Job 30823 reran the item with this setting
 (`runs/tacc-check`): the first reply was empty again after 8,192 tokens of reasoning, and the retry
-answered in 15 seconds.
+answered in 15 seconds. In the 100-item run the retry was needed in 6 of 200 runs, and all six ended
+with an answer; no run ended empty.
+
+**Failure case 3: a document that does not fit into the context.** One document (facts0605, 77,577
+characters) is read in pieces, and after ten reads the prompt reached 24,577 tokens. With 8,192 tokens
+reserved for the output this is one token more than the 32,768 the service accepts, so the service
+rejected the request, in both arms. The run is recorded as `error` and counts as incorrect. On OpenRouter,
+where the context is larger, the same item needed 10 to 12 model calls and was answered. What it shows:
+the agent does not track how much context is left; it relies on the provider's limit. A fix would drop
+or shorten old tool results before the limit is reached; we left the method unchanged and report the item.
+
+**Failure case 4: a character the model cannot type.** One document (facts0349) contains bullet
+characters from Unicode's private-use area (U+F0B7, left by a word processor). The A10 answer quoted a
+passage that runs across such a bullet. The model wrote the quote without the character, then with "•",
+then with another look-alike; none is verbatim, so the verifier rejected the quote three times. The
+verifier's hint named the difference, but the character has no printable form. Between the rounds the
+model issued 152 `bash` calls to inspect the bytes of that line. The run ended `unresolved` after
+28 model calls and 15 minutes, so the answer is not presented as verified. On OpenRouter the same item
+passed after two revisions: the model started its quote after the bullet. What it shows: verbatim
+matching is strict about characters a model cannot reproduce. The next step would be a hint that tells
+the model to shorten the quote so that it avoids such a character.
 
 **Judge robustness.** A judge that thinks before it answers can spend its whole output limit on reasoning
 and return an empty or cut-off list of labels. The scorer used to count an output without any unsupported

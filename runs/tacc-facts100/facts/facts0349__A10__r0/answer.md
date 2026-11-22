@@ -1,0 +1,11 @@
+
+
+Based on `doc.txt`, here is what the document states that applies to Uncle Joe's situation:
+
+**His 1945 service falls within the World War II period.** The document lists as a qualifying category: "Wartime Service. If you served any time during:  ﹗ World War II (September 16, 1940 to July 25, 1947)," (doc.txt).
+
+**The wartime requirement is 90 days of active duty.** The document states: "You must have served at least 90 days on active duty and been discharged or released under other than dishonorable conditions. If you served less than 90 days, you may be eligible if discharged because of a service-connected disability." (doc.txt)
+
+**The Selected Reserve category does not fit his 3 years.** For people who are not otherwise eligible, the document says: "Individuals who are not otherwise eligible and who have  completed at least 6 years in the Reserves or National Guard, or been discharged because of a  service-connected disability, and  ﹗ have been discharged with an honorable discharge, or  ﹗ have been placed on the retired list, or  ﹗ have been transferred to an element of the Ready reserve other than the  Selected Reserve, or  ﹗ continue to serve in the Selected Reserve are eligible for a GI loan." (doc.txt) Uncle Joe's three years of Guard and Reserve service is less than the "at least 6 years" the document requires for this category.
+
+**What the document does not address:** The document does not state whether active duty for training in the Guard and Reserves counts as the "active duty" needed to satisfy the 90-day wartime requirement, and it does not address his mental condition or the 1965 discovery of his actual service record. So the document does not directly answer whether his specific service qualifies; it only sets out the requirements above. The document does note that "VA determines your eligibility and, if you are qualified, a Certificate of Eligibility will be issued" (doc.txt), and that questions about whether service qualifies "should be referred to your VA Regional Loan Center" (doc.txt).

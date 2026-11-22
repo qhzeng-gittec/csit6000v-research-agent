@@ -1,0 +1,19 @@
+
+
+Based solely on the document in `doc.txt`, here's what we know about the upcoming Nintendo Switch 2:
+
+**Why 2025 instead of 2024?**
+
+Nintendo has not officially announced any follow-up to the current Switch, so everything here is rumor-based. The document explains that in February 2024, the Japanese publication Nikkei suggested the proposed Nintendo Switch 2 would launch in March 2025 at the earliest, contradicting previous reports that pointed to 2024. According to the article, the 2025 date was likely due to Nintendo stockpiling consoles to avoid scalping at launch. The piece notes that as any long-term Nintendo fan knows, procuring one of the company's new consoles can be tricky — those who tried remember how difficult it was to secure a Nintendo Switch at launch in 2017, when the console suffered from inflated pricing on the aftermarket due to crafty resellers.
+
+Adding to the intrigue, Nintendo won't be exhibiting at this year's Gamescom in Cologne, Germany, which raises questions about what to expect from Nintendo in the latter half of 2024. Meanwhile, Nintendo's president Shuntaro Furukawa confirmed in an interview with Nikkei that Nintendo will support the current-gen Switch until at least March 2025, which is consistent with a 2025 transition.
+
+**What will it look like?**
+
+There isn't a lot of confirmed information on the design. VGC reported that development kits for the potential new console are already with partner studios, and sources cited some returning features: the new Nintendo Switch could keep the portability of its predecessor and feature a cartridge slot for physical games. Interestingly, despite the current OLED model featuring a remarkable screen that "feels like the future of the console," a VGC report suggests the next-gen Switch may potentially feature an LCD screen instead. There's also a patent filed in May 2023 (published in September) suggesting a revamped Joy-Con controller that could help with the notorious Joy-Con drift issue, using a magnetic field for controls rather than the plastic circuit boards in the current generation. However, the document cautions that patents don't necessarily translate directly to future products, so there's no guarantee the Switch 2 will feature updated Joy-Cons.
+
+**Will you still be able to play your current games?**
+
+There's no official word on backwards compatibility yet. In a recent interview with Inverse, Nintendo of America president Doug Bowser declined to comment on the rumored console, but he discussed the Nintendo Account system that players' digital libraries are currently tied to. He said the Nintendo Account will allow Nintendo to communicate with players "if and when we make a transition to a new platform, to help ease that process or transition." This dedication to the Nintendo Account model could suggest that all of your favorite Nintendo Switch games may work on the next console whenever it lands — but the document explicitly says to take this with a pinch of salt, since there's precious little confirmed. It's also unclear whether your current accessories and controllers will be compatible with the new model.
+
+**A note on your OLED decision:** The document lists current pricing (Switch Lite $199.99, Switch $299.99, Switch OLED $349.99) and notes that inflation and internal specs will likely affect the Switch 2's price. Given that the next console may arrive as early as March 2025 and Nintendo is supporting the current Switch until at least that point, the document's overall advice is to wait for an official announcement before holding your breath — or, in your case, before committing to the OLED model.

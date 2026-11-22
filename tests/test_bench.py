@@ -211,3 +211,25 @@ def test_official_score_rejects_cut_off_or_empty_judge_output(monkeypatch):
             bench.score_facts_official(ex, "R", J(content, finish), "{{response}}", "{{response_a}}", None)
     # an empty answer is still scored here; score_one marks it incorrect afterwards
     assert bench.score_facts_official(ex, "", J("", "stop"), "{{response}}", "{{response_a}}", None)["accurate"]
+
+
+def test_named_judge_scores_are_kept_next_to_the_default_ones(tmp_path, monkeypatch):
+    import json
+    from agent import bench
+    from agent.llm import Reply
+    monkeypatch.setattr(bench, "JUDGE_NOTE", "J0")
+    run_dir = tmp_path / "facts" / "facts0001__A0__r0"
+    run_dir.mkdir(parents=True)
+    (run_dir / "meta.json").write_text(json.dumps({"arm": "A0", "status": "answered"}))
+    (run_dir / "example.json").write_text(json.dumps({"bench": "facts", "id": "facts0001", "question": "Q", "doc": "D"}))
+    (run_dir / "answer.md").write_text("An answer.")
+    (run_dir / "score_official.json").write_text(json.dumps({"kept": True}))
+
+    class J:
+        def chat(self, messages):
+            return Reply({"role": "assistant", "content": '{"sentence": "a", "label": "unsupported"}'}, {"finish_reason": "stop"}, 1)
+
+    row = bench.score_one(run_dir, J(), ("", "{{response}}", "{{response_a}}"), "official", "second")
+    assert row["correct"] is False
+    assert json.loads((run_dir / "score_official_second.json").read_text())["sent_unsupported"] == 1
+    assert json.loads((run_dir / "score_official.json").read_text()) == {"kept": True}

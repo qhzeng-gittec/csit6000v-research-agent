@@ -1,0 +1,15 @@
+
+
+Based on `doc.txt`, here is what the document says about each of your questions.
+
+**Why 2025 instead of 2024**
+
+The document states that "Nintendo's new console is most likely arriving in 2025" and that "the next Nintendo console will arrive sometime in 2025 rather than 2024." As for the reason, it reports that "In February 2024, the Japanese publication Nikkei suggested that the proposed Nintendo Switch 2 would launch in March 2025 at the earliest, contradicting previous reports," and that "Nikkei did add that the 2025 date was likely due to the company stockpiling consoles to avoid scalping at launch." The document adds that "procuring one of the company's new consoles can be tricky business," recalling how the 2017 Switch launch suffered "inflated pricing on the aftermarket due to crafty resellers." Nintendo's president Shuntaro Furukawa also "confirmed in an interview with Nikkei, and translated by VGC, that Nintendo will support the current-gen Switch until at least March 2025." The document further notes that Nintendo won't be exhibiting at this year's Gamescom, which "does raise the question of what we can expect from Nintendo in the latter half of 2024."
+
+**What it will look like**
+
+"There isn't a lot of information on how Nintendo's next-gen console will look." According to a VGC report, development kits for the potential new console are already with partner studios, and "the new Nintendo Switch could keep the portability of its predecessor and feature a cartridge slot for physical games." A patent filed in May 2023 and published in September "suggests a potential revamped Joy-Con controller that would hopefully help with the notorious Joy-Con drift issue," detailing "a magnetic field for controls rather than the plastic circuit boards seen in the current generation console," though "patents don't necessarily translate directly to future products." Notably, "according to a VGC report, the next-gen Nintendo Switch may potentially feature an LCD screen instead" of the OLED screen.
+
+**Will your current games still work**
+
+"In the absence of any official reveals, there isn't much to go on at this time." Nintendo of America president Doug Bowser "opted to deny commenting on anything related to the rumored console," but he did talk about the Nintendo Account system: "In the past, every device we transitioned to had a whole new account system. Creating the Nintendo Account will allow us to communicate with our players if and when we make a transition to a new platform, to help ease that process or transition." The document says this "could suggest that all of our favorite Nintendo Switch games may work on the company's next console whenever it lands," but cautions that "we'll have to take this information with a pinch of salt." It also notes that "it is unclear whether or not Nintendo Switch accessories will be compatible with the new model either. It's possible that all of your Nintendo Switch controllers will work with the new console, but we don't yet know."

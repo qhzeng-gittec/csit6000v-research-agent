@@ -1,0 +1,7 @@
+
+
+Based solely on the document in `doc.txt`, here is what it says about metformin:
+
+**What metformin is used for:** Metformin is used alone or with other medications, including insulin, to treat type 2 diabetes — a condition in which the body does not use insulin normally and therefore cannot control the amount of sugar in the blood. Metformin belongs to a class of drugs called biguanides. It helps control the amount of glucose (sugar) in the blood in three ways: it decreases the amount of glucose absorbed from food, decreases the amount of glucose made by the liver, and increases the body's response to insulin, a natural substance that controls blood glucose. The document specifically notes that metformin is *not* used to treat type 1 diabetes, a condition in which the body does not produce insulin at all.
+
+**Potential side effects:** The document states that metformin may cause changes in blood sugar, and patients should know the symptoms of both low and high blood sugar. Other side effects to report to a doctor if they are severe, do not go away, or come back include: diarrhea, nausea, stomach discomfort, gas, indigestion, constipation, lack of energy or weakness, change in sense of taste, and headache. Some side effects can be serious — chest pain is listed as a serious symptom, and if it occurs, the patient should call a doctor immediately or get emergency treatment. Patients are also advised to call their doctor if they have any unusual problems while taking the medication.

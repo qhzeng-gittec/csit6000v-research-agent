@@ -4,8 +4,9 @@
 #   bash tacc/make_job.sh <exp> <ids-file> <arms> [workers]
 #   cd build/<exp> && tcloud submit
 #
-# Optional environment: JOB_TIME (default and partition maximum 01:00:00), LLM_MAX_TOKENS (8192),
-# LLM_EXTRA_BODY (none), LLM_EMPTY_RETRY_BODY (thinking off), LLM_TIMEOUT_S (600).
+# Optional environment: JOB_NAME (job folder under build/, default <exp>; two jobs with different
+# JOB_NAME and the same <exp> fill one experiment), JOB_TIME (default and partition maximum 01:00:00),
+# LLM_MAX_TOKENS (8192), LLM_EXTRA_BODY (none), LLM_EMPTY_RETRY_BODY (thinking off), LLM_TIMEOUT_S (600).
 set -euo pipefail
 root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
 exp=${1:?experiment name, e.g. tacc-demo}
@@ -20,7 +21,7 @@ test -f "$root/$ids" || { echo "Missing split file: $ids" >&2; exit 1; }
 retry=${LLM_EMPTY_RETRY_BODY:-}
 [[ -n "$retry" ]] || retry='{"chat_template_kwargs":{"enable_thinking":false}}'
 
-job="$root/build/$exp"
+job="$root/build/${JOB_NAME:-$exp}"
 rm -rf -- "$job"
 mkdir -p "$job/data/benchmarks"
 cp -R "$root/agent" "$root/splits" "$job/"

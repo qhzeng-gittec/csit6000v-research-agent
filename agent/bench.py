@@ -168,6 +168,8 @@ def run_one(ex: Example, arm: str, rep: int, cfg: LLMConfig, out_root: Path, max
     run_dir.mkdir(parents=True, exist_ok=True)
     for stale in ("trace.jsonl", "score.json", "score_first.json", "score_official.json", "score_noquote.json"):
         (run_dir / stale).unlink(missing_ok=True)
+    for stale in run_dir.glob("score_official_*.json"):
+        stale.unlink()
     (run_dir / "example.json").write_text(json.dumps(asdict(ex), ensure_ascii=False), encoding="utf-8")
     corpus = run_dir / "corpus"
     corpus.mkdir(exist_ok=True)
@@ -481,6 +483,10 @@ def _score_text(ex: dict, text: str, judge: LLM | None, tpls, cache: Path) -> di
     return sc
 
 
+def _named(judge_name: str) -> str:
+    return f"_{judge_name}" if judge_name else ""
+
+
 def all_supported(sc: dict) -> bool | None:
     """FACTS: every graded sentence is supported."""
     if sc.get("sent_unsup_rate") is None:
@@ -492,7 +498,9 @@ def all_supported(sc: dict) -> bool | None:
 VARIANTS = {"": None, "noquote": strip_quotes, "official": None}
 
 
-def score_one(run_dir: Path, judge: LLM | None, tpls: tuple[str, str] | None, variant: str = "") -> dict:
+def score_one(run_dir: Path, judge: LLM | None, tpls: tuple[str, str] | None, variant: str = "",
+              judge_name: str = "") -> dict:
+    """judge_name: keep this judge's official scores in score_official_<name>.json, next to other judges'."""
     meta = json.loads((run_dir / "meta.json").read_text(encoding="utf-8"))
     ex = json.loads((run_dir / "example.json").read_text(encoding="utf-8"))
     raw = (run_dir / "answer.md").read_text(encoding="utf-8")
@@ -502,7 +510,7 @@ def score_one(run_dir: Path, judge: LLM | None, tpls: tuple[str, str] | None, va
     if meta["status"] == "error":
         sc = sc_first = {"correct": False, "correct_loose": None, "format_ok": False}
     elif variant == "official":
-        cache = run_dir / "score_official.json"
+        cache = run_dir / f"score_official{_named(judge_name)}.json"
         sc = json.loads(cache.read_text(encoding="utf-8")) if cache.exists() else None
         if sc is not None and sc.get("judge_note", "J0") != JUDGE_NOTE:
             sc = None  # scored with another judge note: redo
@@ -569,7 +577,7 @@ def cmd_score(a: argparse.Namespace) -> None:
         judge = LLM(_judge_cfg())
     def safe(d: Path):
         try:
-            return score_one(d, judge, tpls, a.variant)
+            return score_one(d, judge, tpls, a.variant, a.judge)
         except Exception as e:  # noqa: BLE001 - one slow judge call must not lose the whole batch
             print(f"score failed (rerun `score` to retry): {d.name}: {type(e).__name__}: {e}"[:300], flush=True)
             return None
@@ -579,7 +587,7 @@ def cmd_score(a: argparse.Namespace) -> None:
     if len(rows) < len(dirs):
         print(f"WARNING: {len(dirs) - len(rows)} runs not scored; summary covers {len(rows)} runs", flush=True)
     df = pd.DataFrame(rows)
-    sfx = f"_{a.variant}" if a.variant else ""
+    sfx = (f"_{a.variant}" if a.variant else "") + _named(a.judge)
     df.to_csv(out / f"scores{sfx}.csv", index=False)
     g = df.groupby(["bench", "arm"])
     summary = pd.DataFrame({
@@ -637,7 +645,7 @@ def paired(df: pd.DataFrame, bench: str, metric: str, a: str, b: str, boots: int
 
 def cmd_compare(a: argparse.Namespace) -> None:
     out = Path(a.out) / a.exp
-    sfx = f"_{a.variant}" if a.variant else ""
+    sfx = (f"_{a.variant}" if a.variant else "") + _named(a.judge)
     df = pd.read_csv(out / f"scores{sfx}.csv")
     rows = []
     for bench in sorted(df.bench.unique()):
@@ -722,6 +730,8 @@ def main() -> None:
     s.add_argument("--workers", type=int, default=4)
     s.add_argument("--arms", default="", help="comma list; score only these arms (default: all)")
     s.add_argument("--out", default="runs")
+    s.add_argument("--judge", default="", help="name for this judge: official scores go to score_official_<name>.json "
+                                              "and *_official_<name>.csv, so several judges can be kept side by side")
     s.add_argument("--variant", default="", choices=sorted(VARIANTS),
                    help="noquote: delete every verbatim quote from the answer before judging (dilution check)")
     s.set_defaults(fn=cmd_score)
@@ -732,6 +742,7 @@ def main() -> None:
     c.add_argument("--metrics", default="correct,unsup_rate,final_valid")
     c.add_argument("--out", default="runs")
     c.add_argument("--variant", default="", choices=sorted(VARIANTS))
+    c.add_argument("--judge", default="", help="compare the scores stored under this judge name")
     c.set_defaults(fn=cmd_compare)
     gt = sub.add_parser("gate", help="first draft vs final answer within the same runs")
     gt.add_argument("--exp", required=True)
