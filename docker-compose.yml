@@ -11,10 +11,14 @@ services:
       - JUDGE_API_KEY
       - JUDGE_BASE_URL
       - JUDGE_MODEL
+      - JUDGE_MAX_TOKENS
+      - JUDGE_TEMPERATURE
       - GROUND_API_KEY
       - GROUND_BASE_URL
       - GROUND_MODEL
       - LLM_MAX_TOKENS
+      - LLM_EXTRA_BODY
+      - LLM_EMPTY_RETRY_BODY
     volumes:
       - ./runs:/app/runs      # traces and answers land here
       - ./data:/app/data      # downloaded benchmarks

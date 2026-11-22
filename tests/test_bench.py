@@ -193,3 +193,21 @@ def test_split_files_reproduce_the_sampled_splits():
     test = [ex.id for ex in bench.pick_examples("facts", 100, 2, set(dev))]
     assert [ex.id for ex in bench.examples_by_id("facts", "splits/facts_dev30.txt")] == sorted(dev)
     assert [ex.id for ex in bench.examples_by_id("facts", "splits/facts_test100.txt")] == sorted(test)
+
+
+def test_official_score_rejects_cut_off_or_empty_judge_output(monkeypatch):
+    import pytest
+    from agent import bench
+    from agent.llm import Reply
+    monkeypatch.setattr(bench, "JUDGE_NOTE", "J0")
+
+    class J:
+        def __init__(self, content, finish): self.reply = Reply({"role": "assistant", "content": content}, {"finish_reason": finish}, 1)
+        def chat(self, messages): return self.reply
+
+    ex = {"question": "Q", "doc": "D"}
+    for content, finish in (("", "length"), ('{"sentence": "a", "label": "supported"}', "length"), ("no labels here", "stop")):
+        with pytest.raises(RuntimeError):
+            bench.score_facts_official(ex, "R", J(content, finish), "{{response}}", "{{response_a}}", None)
+    # an empty answer is still scored here; score_one marks it incorrect afterwards
+    assert bench.score_facts_official(ex, "", J("", "stop"), "{{response}}", "{{response_a}}", None)["accurate"]

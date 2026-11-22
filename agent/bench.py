@@ -25,6 +25,7 @@ Scoring:
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import random
@@ -37,10 +38,14 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 import numpy as np
-import pandas as pd
+
+try:
+    import pandas as pd
+except ImportError:  # the TACC course environment has no pandas; `run` on FACTS works without it
+    pd = None
 
 from .evidence import deliverable, stats as ev_stats, strip_quotes
-from .llm import LLM, LLMConfig
+from .llm import LLM, LLMConfig, optional_float
 from .loop import run_agent
 from .prompts import system_prompt
 from .tools import Tools
@@ -105,8 +110,11 @@ def load(bench: str, n: int, seed: int = 0, data: Path = DATA) -> list[Example]:
                                {"answerKey": str(df.answerKey[i])}, opts))
         return out
     if bench == "facts":
-        df = pd.read_csv(data / "facts_examples.csv")
-        return [Example(bench, f"facts{i:04d}", df.user_request[i], df.context_document[i]) for i in _pick(n, len(df), seed)]
+        csv.field_size_limit(10**9)  # documents are longer than the default field limit
+        with open(data / "facts_examples.csv", newline="", encoding="utf-8") as fh:
+            rows = list(csv.DictReader(fh))
+        return [Example(bench, f"facts{i:04d}", rows[i]["user_request"], rows[i]["context_document"])
+                for i in _pick(n, len(rows), seed)]
     raise ValueError(f"unknown bench {bench!r}; choose from {BENCHES}")
 
 
@@ -305,8 +313,12 @@ def _judge_cfg() -> LLMConfig:
     key = os.environ.get("JUDGE_API_KEY") or os.environ.get("DEEPSEEK_API_KEY")
     if not key:
         raise SystemExit("Set JUDGE_API_KEY (or DEEPSEEK_API_KEY) for the FACTS judge.")
+    # JUDGE_MAX_TOKENS: a thinking judge needs room for its reasoning AND one JSON line per sentence.
+    # JUDGE_TEMPERATURE: 0 by default; set it to an empty string for judges that reject the parameter.
     return LLMConfig(base_url=os.environ.get("JUDGE_BASE_URL", "https://api.deepseek.com"), api_key=key,
-                     model=os.environ.get("JUDGE_MODEL", "deepseek-flash"), temperature=0.0)
+                     model=os.environ.get("JUDGE_MODEL", "deepseek-flash"),
+                     temperature=optional_float(os.environ.get("JUDGE_TEMPERATURE", "0")),
+                     max_tokens=int(os.environ.get("JUDGE_MAX_TOKENS", "16384")))
 
 
 def _ground_cfg() -> LLMConfig:
@@ -440,8 +452,11 @@ def official_eligibility(ex: dict, answer: str, judge: LLM, tpl_elig: str, basel
 
 def score_facts_official(ex: dict, answer: str, judge: LLM, tpl_sent: str, tpl_elig: str, baseline: str | None) -> dict:
     """baseline=None: this IS the baseline response -> no eligibility call, counted eligible."""
-    sent = parse_sentence_labels(judge.chat([{"role": "user", "content": _fill_official(with_judge_note(tpl_sent, JUDGE_NOTES[JUDGE_NOTE]), ex, answer)}])
-                                 .message["content"])
+    reply = judge.chat([{"role": "user", "content": _fill_official(with_judge_note(tpl_sent, JUDGE_NOTES[JUDGE_NOTE]), ex, answer)}])
+    sent = parse_sentence_labels(reply.message["content"])
+    if answer.strip() and (reply.usage.get("finish_reason") == "length" or not any(sent[k] for k in SENT_LABELS)):
+        # a cut-off or empty judge output has no unsupported label and would count as accurate
+        raise RuntimeError("judge output was cut off or has no sentence labels; raise JUDGE_MAX_TOKENS")
     accurate = (sent["unsupported"] + sent["contradictory"]) == 0
     verdict, eligible = official_eligibility(ex, answer, judge, tpl_elig, baseline) if baseline is not None else ("self", True)
     return {"accurate": accurate, "eligible": eligible, "eligibility_verdict": verdict,

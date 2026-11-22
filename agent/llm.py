@@ -1,6 +1,7 @@
 """Thin OpenAI-compatible chat client. Model / endpoint come from env vars."""
 from __future__ import annotations
 
+import json
 import os
 import time
 from dataclasses import dataclass
@@ -8,15 +9,25 @@ from dataclasses import dataclass
 from openai import BadRequestError, OpenAI
 
 
+def optional_float(value: str) -> float | None:
+    """An empty setting means: leave the parameter out of the request."""
+    return float(value) if value.strip() else None
+
+
 @dataclass
 class LLMConfig:
     base_url: str
     api_key: str
     model: str
-    temperature: float = 0.0
+    temperature: float | None = 0.0  # None: do not send it (some models reject the parameter)
     # Cap per call (reasoning + answer). Small reasoning models can otherwise "think" until the
     # context limit (we saw 131k-token calls taking ~20 min with an empty answer).
     max_tokens: int = 16384
+    # Extra request fields sent with every call (LLM_EXTRA_BODY, JSON), e.g. vLLM `chat_template_kwargs`.
+    extra_body: dict | None = None
+    # Extra fields for the empty-reply retry (LLM_EMPTY_RETRY_BODY, JSON). Default: OpenRouter's reasoning cap.
+    # On vLLM the cap does not exist; use {"chat_template_kwargs": {"enable_thinking": false}} there.
+    retry_body: dict | None = None
 
     @classmethod
     def from_env(cls) -> "LLMConfig":
@@ -27,8 +38,10 @@ class LLMConfig:
             base_url=os.environ.get("LLM_BASE_URL", "https://api.deepseek.com"),
             api_key=key,
             model=os.environ.get("LLM_MODEL", "deepseek-flash"),
-            temperature=float(os.environ.get("LLM_TEMPERATURE", "0")),
+            temperature=optional_float(os.environ.get("LLM_TEMPERATURE", "0")),
             max_tokens=int(os.environ.get("LLM_MAX_TOKENS", "16384")),
+            extra_body=json.loads(os.environ.get("LLM_EXTRA_BODY") or "null"),
+            retry_body=json.loads(os.environ.get("LLM_EMPTY_RETRY_BODY") or "null"),
         )
 
 
@@ -70,19 +83,21 @@ class LLM:
              reasoning_budget: int | None = None) -> Reply:
         """reasoning_budget: cap on thinking tokens (OpenRouter `reasoning.max_tokens`); used only when
         retrying an empty reply. Providers that reject the field get the plain request."""
-        kwargs = dict(model=self.cfg.model, messages=messages, temperature=self.cfg.temperature,
-                      max_tokens=self.cfg.max_tokens)
+        kwargs = dict(model=self.cfg.model, messages=messages, max_tokens=self.cfg.max_tokens)
+        if self.cfg.temperature is not None:
+            kwargs["temperature"] = self.cfg.temperature
         if tools:
             kwargs["tools"] = tools
+        extra = self.cfg.extra_body or {}
         start = time.monotonic()
         if reasoning_budget:
+            retry = self.cfg.retry_body or {"reasoning": {"max_tokens": reasoning_budget}}
             try:
-                resp = self.client.chat.completions.create(
-                    **kwargs, extra_body={"reasoning": {"max_tokens": reasoning_budget}})
+                resp = self.client.chat.completions.create(**kwargs, extra_body={**extra, **retry})
             except BadRequestError:
-                resp = self.client.chat.completions.create(**kwargs)
+                resp = self.client.chat.completions.create(**kwargs, extra_body=extra or None)
         else:
-            resp = self.client.chat.completions.create(**kwargs)
+            resp = self.client.chat.completions.create(**kwargs, extra_body=extra or None)
         latency = int((time.monotonic() - start) * 1000)
         m = resp.choices[0].message
         message: dict = {"role": "assistant", "content": m.content or ""}
