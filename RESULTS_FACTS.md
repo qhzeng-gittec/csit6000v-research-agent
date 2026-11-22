@@ -91,8 +91,8 @@ not a false claim: the judge asks "is this supported?", the verifier asks "is th
 Seven test runs first ended with no answer at all. Trace: for a request such as "about 600 words" the
 model counted words one by one in its hidden reasoning until it used the full 16k output budget
 (`finish_reason=length`, empty content). This happens inside one model call, so step limits and
-repeated-call counters cannot see it. The loop now treats an empty reply like the original project's
-"said but did nothing" end check: it is sent back with a short nudge (at most 2 times) and the retry
+repeated-call counters cannot see it. The loop now treats an empty reply as a "said but did nothing"
+ending: it is sent back with a short nudge (at most 2 times) and the retry
 caps reasoning at 4,000 tokens; if it is still empty the run is recorded as `empty`, never as
 `answered`. All seven runs answer after the fix; the numbers above include them.
 

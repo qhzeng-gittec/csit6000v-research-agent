@@ -1,6 +1,6 @@
 """Grounding judge (arm C3): a small model flags statements in the draft the document does not support.
 
-Modelled on the original project's "draft evidence looks suspicious" check: the judge NOMINATES spans,
+A "draft evidence looks suspicious" check: the judge NOMINATES spans,
 the program only accepts spans that really occur in the draft (so the model can fix them with
 edit_draft), and any judge failure means "pass" (keep the draft) rather than a forced revision.
 Unlike verify.py this is a semantic check, so it can be wrong; it is bounded by max_revisions.

@@ -51,7 +51,7 @@ ARMS = {
     "B0": dict(mode="context", cite="none", gate=False),
     "C1": dict(mode="context", cite="quote", gate=False),
     "C2": dict(mode="context", cite="quote", gate=True),
-    # C2 + a small-model grounding judge that flags unsupported statements (original project's design)
+    # C2 + a small-model grounding judge that flags unsupported statements
     "C3": dict(mode="context", cite="quote", gate=True, ground=True),
     "A0": dict(mode="files", cite="none", gate=True),
     "A1": dict(mode="files", cite="line", gate=True),
@@ -467,7 +467,7 @@ def _score_text(ex: dict, text: str, judge: LLM | None, tpls, cache: Path) -> di
 
 
 def all_supported(sc: dict) -> bool | None:
-    """FACTS: every graded sentence is supported (the original project's second metric)."""
+    """FACTS: every graded sentence is supported."""
     if sc.get("sent_unsup_rate") is None:
         return None
     return sc["sent_unsup_rate"] == 0

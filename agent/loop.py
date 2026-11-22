@@ -17,7 +17,7 @@ from .verify import Corpus, Issue, count_citations, format_feedback, verify
 
 COLLAPSE_RATIO = 0.6
 # Empty reply (seen with thinking models: the whole output budget went to reasoning, finish_reason=length).
-# Like the original project's "said but did nothing" end check: send it back with a bounded nudge.
+# Treated as a "said but did nothing" ending: send it back with a bounded nudge.
 MAX_EMPTY_RETRIES = 2
 EMPTY_MSG = ("Your last reply contained no answer text: the whole output budget went into planning. Write your "
              "final answer now, directly, using only what you have already read. Do not count words or sentences; "
@@ -99,7 +99,7 @@ def run_agent(
 
     def result(answer: str, status: str, step: int) -> AgentResult:
         if revisions and first_draft and len(answer) < COLLAPSE_RATIO * len(first_draft[0]):
-            # collapse guard (from the original project): local fixes must not gut the answer
+            # collapse guard: local fixes must not gut the answer
             trace.log("collapse_reverted", kept_chars=len(first_draft[0]), rejected_chars=len(answer))
             answer, status = first_draft[0], "collapse_reverted"
         n = count_citations(answer, cite) if cite != "none" else None

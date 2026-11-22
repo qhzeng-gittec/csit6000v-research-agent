@@ -2,7 +2,7 @@
 
 A small tool-calling agent that answers questions about documents it must read itself, quotes the
 source word for word, and has every quote checked by a program before the answer is accepted.
-It is a simplified, self-contained version of the ScholarClaw research agent, built for CSIT6000V.
+It is a self-contained system built for the CSIT6000V course project.
 
 **Main result** (FACTS Grounding, 100 held-out items; details in [RESULTS_FACTS.md](RESULTS_FACTS.md)):
 
