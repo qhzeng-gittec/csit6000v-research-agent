@@ -197,14 +197,11 @@ job uses it to switch thinking off for the retry only. Job 30823 reran the item 
 (`runs/tacc-check`): the first reply was empty again after 8,192 tokens of reasoning, and the retry
 answered in 15 seconds.
 
-**Judge robustness.** Before the judge above we tried `deepseek-flash`, which thinks before it answers.
-With the default 16,384-token limit,
-6 of 50 judge outputs came back empty because the whole limit went into reasoning, and the scorer
-counted an output without any unsupported label as accurate. A cut-off or label-free judge output is now
-an error that is retried on the next `score` run, and the limit is configurable (`JUDGE_MAX_TOKENS`). The
-400 scores of Section 2 are not affected: none of them has zero labels. In a spot check with thinking
-switched off, the same judge labelled all 22 graded sentences of one answer as supported where the
-thinking judge found 11 unsupported; a judge of this kind is only usable with thinking on.
+**Judge robustness.** A judge that thinks before it answers can spend its whole output limit on reasoning
+and return an empty or cut-off list of labels. The scorer used to count an output without any unsupported
+label as accurate. Such an output is now an error that is retried on the next `score` run, and the limit is
+configurable (`JUDGE_MAX_TOKENS`). The 400 scores of Section 2 are not affected: none of them has zero
+labels.
 
 ## Protocol
 - **Dev split** (`splits/facts_dev30.txt`, sampled with seed 1): 30 items x 2 runs. All rules, arms and

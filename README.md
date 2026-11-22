@@ -172,9 +172,9 @@ find runs/facts-test100/facts -name score_official.json -delete
 docker compose run --rm -e LLM_TIMEOUT_S=600 --entrypoint python agent \
   -m agent.bench score --exp facts-test100 --variant official --workers 6
 ```
-If your judge thinks before it answers, give it room with `JUDGE_MAX_TOKENS` (default 16384; we needed
-65536 for `deepseek-flash`). If it rejects the `temperature` parameter, set `JUDGE_TEMPERATURE` to an empty
-value (needed for `claude-haiku-5-5`). A judge output that is cut off or has no labels is reported as `score failed`
+If your judge thinks before it answers, give it room with `JUDGE_MAX_TOKENS` (default 16384; we used
+32000 for `claude-haiku-5-5`). If it rejects the `temperature` parameter, set `JUDGE_TEMPERATURE` to an empty
+value (also needed for `claude-haiku-5-5`). A judge output that is cut off or has no labels is reported as `score failed`
 and scored again on the next `score` run; it is never counted as accurate.
 
 ### Option B: rerun the agent and score (~1 hour, about 5M input + 1M output tokens)
