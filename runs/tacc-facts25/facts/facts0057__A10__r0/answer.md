@@ -1,0 +1,9 @@
+Based on `doc.txt`, a person can give consent to the processing of their data in the following situations:
+
+1. **General processing**: "the data subject has given consent to the processing of his or her personal data for one or more specific purposes" (doc.txt).
+
+2. **Special categories of personal data**: "the data subject has given explicit consent to the processing of those personal data for one or more specified purposes, except where Union or Member State law provide that the prohibition referred to in paragraph 1 may not be lifted by the data subject" (doc.txt).
+
+3. **Children's data in relation to information society services**: "Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that consent is given or authorised by the holder of parental responsibility over the child" (doc.txt).
+
+The document also sets conditions for consent: the controller "shall be able to demonstrate that the data subject has consented to processing of his or her personal data" (doc.txt); if consent is given in a written declaration concerning other matters, "the request for consent shall be presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language" (doc.txt); the data subject "shall have the right to withdraw his or her consent at any time" and "It shall be as easy to withdraw as to give consent" (doc.txt); and when assessing whether consent is freely given, "utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract" (doc.txt).

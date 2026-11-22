@@ -1,0 +1,12 @@
+Based on `doc.txt` (a MadeForMums review of "8 of the best bedside cribs and cosleepers"), there isn't a single "best" overall pick — the article explicitly says its list "is not an ordered ranking from 1-10" and that each product "is best for a different situation or requirement." So the best co-sleeper for you depends on what matters most to you. Here's what the document recommends for each priority:
+
+- **Best for easy drop-down side:** Chicco Next2Me Magic, £189 – one-handed drop-side, 11 height levels, lockable rocking, 4 tilt options, wheels. Cons: tricky to assemble, hand-wash mattress cover.
+- **Best for removable bassinet:** SnuzPod 4 Bedside Crib, £199.95 – ComfortAir breathable system, firmer mattress than previous versions, fits beds up to 73cm mattress height, lift-off bassinet with rocking. Cons: can be difficult to put together.
+- **Best for smooth rocking:** Tutti Bambini CoZee Air, £225 – smooth rocking (standalone only), quick 30-second fold, storage shelf. Cons: higher price.
+- **Best for longevity:** Shnuggle Air, £180 – converts to a full-sized cot up to ~2 years with a conversion kit. Cons: heavy, not portable, noisy side catch, hand-wash only.
+- **Best for extra storage:** Maxi-Cosi Iora, £149 – large storage basket, easy to assemble, 18cm barrier when side is down. Cons: hand-wash cover, creasing fabric, mesh on one side only.
+- **Best for one-handed operation:** Joie Roomie GO, £180 – Gold award, MadeForMums Awards 2023; drop-down panels on both sides, tummy tilt, wheels, travel bag. Cons: no storage.
+- **Best value:** Red Kite Cozysleep, £84.99 – Silver award, 2023; tilt, storage shelf, wheels, travel bag, praised soft-but-firm mattress. Cons: mesh on one side only, wipeable-only cover.
+- **Best for 360° swivel:** Halo BassiNest Premiere Swivel Sleeper, £248.29 – standalone swivel crib that slides under the bed, built-in soothing centre (nightlight, vibrations, sounds). Cons: not a true bedside crib, very heavy, needs batteries, expensive.
+
+The document also notes key things to check before buying: whether the crib works with your bed type (e.g., divan beds need longer straps), your bed's height, a firm/flat/breathable mattress, and how easy the drop-down side is to operate one-handed. It adds that you don't have to buy a bedside crib at all — a regular cot is completely safe from birth — and that most bedside cribs only last up to 6 months.

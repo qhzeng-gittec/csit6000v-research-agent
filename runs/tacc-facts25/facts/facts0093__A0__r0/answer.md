@@ -1,0 +1,7 @@
+Based on `doc.txt`, satisfaction with customer service interactions declines around the holidays for two main reasons:
+
+1. **Volume strain (the primary measured cause):** The Zendesk Benchmark found a clear correlation between the drop in satisfaction and the number of tickets per agent — as tickets per agent increased, satisfaction decreased. The holiday season brings a sudden, temporary surge in sales transactions (retailers can bring in 20–40% of annual sales in the weeks before Christmas, with peak days like Black Friday and Cyber Monday), which strains every parameter that impacts a successful customer experience.
+
+2. **Customers are different and more difficult:** Beyond pure volume, holiday customers are often more unpleasant because of stress, make purchase decisions less thoughtfully (leading to more purchase regrets and returns), and have less experience with retail processes such as coupons and returns. As a result, agents must spend more time on education and dealing with misunderstandings — at a time when they are already busy and cannot take more time with each customer.
+
+In short, the "holiday dip" is driven by the combination of dramatically higher ticket volume per agent and a customer base that is more stressed, less informed, and more prone to returns and misunderstandings.

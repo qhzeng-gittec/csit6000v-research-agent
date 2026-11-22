@@ -1,0 +1,5 @@
+Based on the document, the best option for your situation is the **2024 Subaru Crosstrek**.
+
+The document states that the Crosstrek "comes standard with AWD," which addresses your need for safety in snowy Montana winters. It is also an "IIHS Top Safety Pick" and comes standard with "Subaru’s EyeSight Driver Assist Technology," including "forward collision warning with automatic emergency braking, lane-keeping assist, and adaptive cruise control." Regarding your daughter's preference for listening to music from her iPhone, the document notes that the Crosstrek's connectivity includes "Apple CarPlay" and "Bluetooth connectivity."
+
+While the 2024 Toyota Prius also offers an option to "add all-wheel drive (AWD)" for students "heading for the snow belt" and is an "IIHS Top Safety Pick+," the document does not explicitly list Apple CarPlay or Bluetooth connectivity for the Prius in the provided text. The Crosstrek is the only vehicle in the document that explicitly combines standard AWD, top-tier safety ratings, and confirmed Apple CarPlay/Bluetooth connectivity.

@@ -1,0 +1,19 @@
+Based on `doc.txt`, here is a summary of Ellana's background and her concerns:
+
+**Ellana's Background in Medicine**
+- Her name is Ellana Stinson, and she is a board-certified emergency medicine physician with 15 years of practice in emergency medicine.
+- From 2013 to 2020, she worked on staff as an emergency medicine physician at Carney Hospital, Good Samaritan, and the former Quincy Hospital, all part of the Steward Health System.
+- Over the past 11 years, she has also worked intermittently throughout the country at various facilities run by HCA, Envision, Tenant, Team Health, and CHS.
+- When she entered medicine, she deeply loved the work—caring for patients in their most vulnerable moments and working in "beautifully orchestrated chaos" filled her with pride.
+
+**Her Concerns About Changes in Emergency Medicine**
+- **Resource depletion:** At Steward facilities, resources were dwindled and pulled from each facility; many lost specialty services, and Quincy Hospital was reduced to "bare bones" before closure. The absence of blood products, respiratory therapy, and certain specialty services made her feel she could no longer provide safe or quality care.
+- **Private equity buyouts:** Over 30% of US hospitals have been bought by private equity firms, and at PE sites she worked at, the level of deprivation was sometimes worse.
+- **Staffing and safety problems:** Increased wait times, critical staff shortages, dangerous boarding levels, and critically dangerous patient-to-nurse ratios in the ED—up to 14-to-1 at times—were exacerbated by the pandemic, which increased the cost of care, infection rates, and mortality.
+- **Profit over patient care:** At PE-led places, medicine is no longer about patient safety and quality but about corporate decision-making with profit motives. Examples include forcing staff to see patients in the waiting room to make wait times appear reduced, and calling codes for sepsis and strokes to find ways to make profits.
+- **Unattainable metrics:** Increasingly daunting metrics required of physicians and staff were nearly unattainable and unsafe in many instances, yet expected.
+- **Surprise billing:** Many sites removed emergency physicians from in-network, resulting in higher bills for patients (surprise billing), which harms patients and increases financial burdens on people with no choice of where to go during emergencies—especially when the next closest facility can be an hour away.
+- **Impact on vulnerable populations:** Most facilities she worked in served vulnerable populations—mostly people of color, low-income, or with limited access to other facilities or primary care—forcing them to seek care only at PE-backed sites. Most buyouts target already-struggling hospitals with higher Medicaid and Medicare populations, worsening care access and quality in communities already harmed by historical injury, and exacerbating health disparities.
+- **Toll on physicians:** These practices felt unsafe to her and her colleagues (many emergency physicians of color), raising questions of medical-legal risk and the emotional toll on those who entered the profession to do no harm. Being on staff at a PE-backed facility also did not qualify physicians with student debt for loan forgiveness.
+- **Decline of the profession:** A profession once competitive when she began is now one of the least competitive fields to enter, as students witness its destruction. In 2023, 554 residency spots went unfilled, and more PE-backed hospitals opened residency programs not adequately equipped to properly train emergency medicine trainees.
+- She concludes that while they train to deal with hard situations, they are running out of options for continuing to provide safe and adequate care at PE-run facilities.

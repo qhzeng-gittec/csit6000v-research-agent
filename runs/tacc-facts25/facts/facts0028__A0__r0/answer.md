@@ -1,0 +1,12 @@
+Based on `doc.txt`, the Interim Final Rule changed the Head Start rules governing child safety (45 C.F.R. § 1302.47(b)(5)) in the following way:
+
+**What the rule was before:** Before November 30, 2021, the child safety rules required all staff and consultants to follow appropriate practices to keep children safe during all activities, including, at a minimum: (i) reporting of suspected or known child abuse and neglect in compliance with applicable federal, state, local, and tribal laws; (ii) safe sleep practices (firm mattresses or cots for children under 18 months, and no soft bedding materials or toys for children under 12 months); (iii) appropriate indoor and outdoor supervision of children at all times; (iv) only releasing children to an authorized adult; and (v) all standards of conduct described in § 1302.90(c).
+
+**What the Interim Final Rule added:** The Rule added a new paragraph (b)(5)(vi) requiring **masking** — using masks recommended by the CDC — for all individuals 2 years of age or older:
+- when there are two or more individuals in a vehicle owned, leased, or arranged by the Head Start program;
+- indoors in a setting when Head Start services are provided; and
+- for those not fully vaccinated, outdoors in crowded settings or during activities that involve sustained close contact with other people.
+
+**Exceptions:** Masking is not required (A) when a child or adult is eating or drinking; (B) when a child is napping; (C) when a person cannot wear or safely wear a mask because of a disability as defined by the Americans with Disabilities Act; or (D) when a child's health care provider advises an alternative face covering to accommodate the child's special health care needs.
+
+**Significance:** The document notes that this new paragraph requires masking, and that no such requirement existed in the prior version. It also notes that because the Office of Head Start stated that being outdoors with children "inherently includes sustained close contact for the purposes of caring for and supervising children," the mask mandate appears to also apply to parents who enter a Head Start facility (e.g., dropping off or picking up a child) and to parents who are outside with their children, since being outside with children inherently includes sustained close contact.

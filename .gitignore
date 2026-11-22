@@ -2,7 +2,12 @@
 runs/*
 !runs/facts-test100/
 !runs/facts-files30/
+!runs/tacc-facts25/
+!runs/tacc-facts25-think/
+!runs/tacc-check/
+!runs/openrouter-facts25/
 data/
+build/
 __pycache__/
 .pytest_cache/
 .env

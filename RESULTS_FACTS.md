@@ -133,6 +133,79 @@ quotes (A0) cannot be checked without rereading the whole document.
 - The writing rules were written after reading dev-split judge output; the test split guards against
   fitting those 30 items, not against fitting this judge's general preferences.
 
+## 7. Runs on the course cluster (TACC)
+
+The same agent was run on TACC against the course's model service: Qwen3.8-27B with 4-bit AWQ weights,
+served by vLLM 0.26 on two 24 GB GPUs, 32K context, 4 requests in parallel. One job starts the service,
+runs the agent and stops the service (`tacc/job.sh`). Items: the first 25 test ids
+(`splits/facts_tacc25.txt`); arms A0 and A10; one run per item and arm. The method was not changed for
+these runs; the two TACC settings below differ only in whether the model thinks before it answers.
+
+| where the model ran | arm | runs that ended with an answer | model calls / run | answers revised | answers whose quotes all exist | output tokens / run | seconds / run |
+|---|---|---|---|---|---|---|---|
+| OpenRouter (Section 2, same 25 items) | A0 | 25 / 25 | 3.0 | - | - | 1907 | 11.7 |
+| | A10 | 25 / 25 | 3.7 | 24% | 100% | 3162 | 18.6 |
+| TACC, thinking on (job 30810) | A0 | 25 / 25 | 3.2 | - | - | 1987 | 48.3 |
+| | A10 | 24 / 25 (1 empty) | 4.1 | 24% | 100% | 3093 | 71.4 |
+| TACC, thinking off (job 30789) | A0 | 25 / 25 | 3.6 | - | - | 630 | 22.9 |
+| | A10 | 21 / 25 (3 out of steps, 1 unresolved) | 7.6 | 24% | 88% | 1029 | 38.3 |
+
+These numbers need no judge (`python3 scripts/run_stats.py runs/tacc-facts25-think`). With thinking on,
+the verifier path behaves on TACC as it does on OpenRouter: one answer in four is sent back, and after
+revision every quote in every final answer exists in the document.
+
+**Judge scores.** Judge for this section: `claude-haiku-5-5` through Anthropic's OpenAI-compatible
+endpoint (`JUDGE_TEMPERATURE` empty, because the model rejects the parameter; `JUDGE_MAX_TOKENS=32000`),
+official protocol as in Section 1. Section 2 used another judge, so levels cannot be compared across the
+two sections; the OpenRouter answers of the same 25 items were scored again with this judge
+(`runs/openrouter-facts25`).
+
+| answers from | correct, A0 | correct, A10 | A10 - A0 [95% CI] | unsupported sentences / answer, A0 and A10 | A10 - A0 [95% CI] |
+|---|---|---|---|---|---|
+| OpenRouter (25 items of Section 2) | 0.48 | 0.80 | +0.32 [+0.16, +0.52] | 0.84 and 0.40 | -0.44 [-0.76, -0.08] |
+| TACC, thinking on | 0.76 | 0.72 | -0.04 [-0.28, +0.20] | 0.52 and 0.60 | +0.08 [-0.48, +0.76] |
+| TACC, thinking off | 0.76 | 0.84 | +0.08 [-0.08, +0.24] | 0.64 and 0.36 | -0.28 [-0.68, +0.12] |
+
+Reading the table:
+- The second judge confirms Section 2 on the OpenRouter answers: +0.32 with this judge, +0.20 with the
+  original judge on the same 25 items (0.32 and 0.52), +0.30 on all 100 items.
+- On TACC the gain in `correct` is not reproduced at this sample size. The plain agent already scores 0.76
+  there (6 of 25 answers contain an unsupported sentence, against 13 of 25 for the OpenRouter answers), so
+  less is left to gain, and with 25 items an interval of about 0.2 either way cannot separate the arms. The
+  A10 number with thinking on includes the empty answer of failure case 2, counted as incorrect.
+- We do not know why the plain agent makes fewer unsupported statements on TACC than through OpenRouter.
+  The weights (4-bit AWQ on TACC), the serving stack and the output limit differ, and 25 items are few; we
+  report the difference without attributing it.
+- What carries over to TACC is the property the verifier is responsible for: with thinking on, every
+  quote in every final A10 answer exists in the document.
+
+**Failure case 1: repeated tool calls when thinking is off.** Three A10 runs used all 30 steps and one
+stayed `unresolved`. One run resent the same rejected `edit_draft` call 24 times (its `old` text was
+398 characters; the limit is 300, and the error message says so). One issued an `edit_draft` whose `new`
+text equalled `old` 23 times. One read the document with 28 `bash` calls and never wrote a draft. The
+step limit and the two-round revision limit ended all of them, and their status
+(`budget_exhausted`, `unresolved`) shows that they did not pass, so no unverified quote is presented as
+verified. What it shows: the loop bounds the number of calls but does not notice that a call is
+identical to the previous one. None of this happened with thinking on, on TACC or on OpenRouter, so the
+method was left unchanged; a check for identical consecutive calls is the obvious next guard.
+
+**Failure case 2: an empty answer when thinking is on.** For "about 600 words" the model counted words in
+its reasoning until the 8,192-token output limit, three times in a row. This is the case of Section 4,
+but the retry there limits reasoning with an OpenRouter option that vLLM does not have, so on TACC the
+retry changed nothing. The retry can now send provider-specific fields (`LLM_EMPTY_RETRY_BODY`); the TACC
+job uses it to switch thinking off for the retry only. Job 30823 reran the item with this setting
+(`runs/tacc-check`): the first reply was empty again after 8,192 tokens of reasoning, and the retry
+answered in 15 seconds.
+
+**Judge robustness.** Before the judge above we tried `deepseek-flash`, which thinks before it answers.
+With the default 16,384-token limit,
+6 of 50 judge outputs came back empty because the whole limit went into reasoning, and the scorer
+counted an output without any unsupported label as accurate. A cut-off or label-free judge output is now
+an error that is retried on the next `score` run, and the limit is configurable (`JUDGE_MAX_TOKENS`). The
+400 scores of Section 2 are not affected: none of them has zero labels. In a spot check with thinking
+switched off, the same judge labelled all 22 graded sentences of one answer as supported where the
+thinking judge found 11 unsupported; a judge of this kind is only usable with thinking on.
+
 ## Protocol
 - **Dev split** (`splits/facts_dev30.txt`, sampled with seed 1): 30 items x 2 runs. All rules, arms and
   the judge setting were chosen here.

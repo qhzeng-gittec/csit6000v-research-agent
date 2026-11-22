@@ -1,0 +1,3 @@
+bench,arm,n_runs,acc,acc_loose,unsup_rate,all_sup,eligible,unsup_sents,chars,format_ok,errors,revised,cites,uncited,cite_valid_1st,cite_valid_final,tok_in,tok_out,cache_hit,wall_s
+facts,A0,25,0.48,,0.062,0.48,1.0,0.84,2603.0,1.0,0,0.0,,,,,6125.0,1907.0,0.4,11.7
+facts,A10,25,0.8,,0.031,0.8,1.0,0.4,2597.0,1.0,0,0.24,6.6,0.28,0.76,1.0,10958.0,3162.0,0.69,18.6

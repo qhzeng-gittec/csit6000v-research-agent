@@ -1,0 +1,24 @@
+{
+  "model": "qwen3.8-27b",
+  "base_url": "http://127.0.0.1:30823/v1",
+  "temperature": 0.0,
+  "benches": [
+    "facts"
+  ],
+  "n": 8,
+  "seed": 0,
+  "exclude": [],
+  "ids": "splits/tmp_check2.txt",
+  "reps": 1,
+  "arms": {
+    "A10": {
+      "mode": "files",
+      "cite": "quote",
+      "gate": true,
+      "style": "inline_strict_plus"
+    }
+  },
+  "max_steps": 30,
+  "max_revisions": 2,
+  "started": "2026-11-22 14:12:30"
+}

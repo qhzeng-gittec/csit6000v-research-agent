@@ -1,0 +1,17 @@
+
+
+Based on `doc.txt`, the two evaluations differ in their setting, components, and role in the process:
+
+**Sideline evaluation (NFL Sideline Concussion Assessment / "Sideline Survey")**
+- It is the immediate on-field assessment: "the player must be immediately removed to the sideline orstabilized on the field, as needed, the player's helmet must be taken away from him, and the player must undergo the entire NFL Sideline Concussion Assessment" (doc.txt).
+- Its minimum components include: "A review of the "No-Go" criteria listed above", "Inquiry regarding the history of the event, including before, during and after the suspected mechanism of injury", "All Maddocks' questions", "Complete Video Review of the injury", and "Focused Neurological Exam" (doc.txt).
+- It is "conducted inside the medical evaluation tent on the Sideline (or in the Locker Room if the Club medical staff elects to conduct it in the Locker Room)" and "performed using the tablet or other technology assigned by the NFL" (doc.txt).
+- It is a screening step: "If any elements of the sideline assessment are positive, inconclusive, or suspicious for the presence of a concussion, the player must be escorted to the locker room immediately for the complete NFL Locker Room Comprehensive Concussion Assessment" (doc.txt). If the physician concludes "the player did notsustain a concussion, then the playermay return to play" (doc.txt).
+
+**Locker room evaluation (NFL Locker Room Comprehensive Concussion Assessment / "Locker Room Exam")**
+- It is "the standardized acute evaluation tool that has been developed by the NFL's Head, Neck and Spine Committee to be used by Clubs' medical staffs and designated UNCs to evaluate potential concussions during practices and on game day" (doc.txt).
+- It is "based on the Standardized Concussion Assessment Tool (SCAT 5) published by the International Concussion in Sport Group (McCrory, et al., 2017), modified for use in the NFL" (doc.txt).
+- It serves a longer-term diagnostic and tracking role: it "can be used to aid in the diagnosis of concussion even if there is a delayed onset of symptoms," and its "ongoing use... in conjunction with the preseason baseline and post-injury testing provides detailed data regarding each athlete's injury and recovery course" (doc.txt).
+- It is the more complete exam: the Club physician "shall be responsible for determining whether the player is diagnosed as having a concussion" (doc.txt), and "The athlete may have a concussion despite being able to complete the NFL Locker Room Comprehensive Concussion Assessment "within normal limits" compared to baseline" (doc.txt). Its "neurocognitive assessment... is brief and does not replace a more comprehensive neurological evaluation or more formal neurocognitive testing," and the "modified Balance Error Scoring System (mBESS) is an important component" (doc.txt).
+
+In short, the sideline survey is the immediate, tablet-based on-field screen (No-Go criteria, history, Maddocks questions, video review, focused neurological exam) that either clears the player or sends him to the locker room, while the locker room exam is the standardized, SCAT 5-based comprehensive assessment used for diagnosis, baseline comparison, and tracking recovery.

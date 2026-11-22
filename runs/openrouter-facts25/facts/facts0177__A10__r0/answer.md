@@ -1,0 +1,17 @@
+Based on the document in `doc.txt`, here is what is known about the upcoming Nintendo Switch 2:
+
+**Why the release is being pushed to 2025:**
+
+The document states that "the next Nintendo console will arrive sometime in 2025 rather than 2024." In February 2024, the Japanese publication Nikkei suggested that the proposed Nintendo Switch 2 "would launch in March 2025 at the earliest, contradicting previous reports." The article explains that "Nikkei did add that the 2025 date was likely due to the company stockpiling consoles to avoid scalping at launch." The document draws a parallel to the original Switch launch in 2017, noting that "the console suffering from inflated pricing on the aftermarket due to crafty resellers." So the delay appears to be a strategic move to ensure adequate supply at launch rather than a technical issue.
+
+**What it will look like:**
+
+The document is fairly limited on this front, stating that "there isn't a lot of information on how Nintendo's next-gen console will look." However, a few details are mentioned. According to a VGC report, "the new Nintendo Switch could keep the portability of its predecessor and feature a cartridge slot for physical games." Interestingly, despite the current OLED model having "a remarkable screen," the document notes that "the next-gen Nintendo Switch may potentially feature an LCD screen instead." Additionally, a patent filed in May 2023 and published in September "suggests a potential revamped Joy-Con controller that would hopefully help with the notorious Joy-Con drift issue." The patent "details a magnetic field for controls rather than the plastic circuit boards seen in the current generation console." However, the document cautions that "patents don't necessarily translate directly to future products, so there's no guarantee on whether the Nintendo Switch 2 will feature updated Joy-Cons."
+
+**Will you still be able to play your current games?**
+
+The document does not provide a definitive answer. It notes that "in the absence of any official reveals, there isn't much to go on at this time." Nintendo of America president Doug Bowser "opted to deny commenting on anything related to the rumored console," but he did discuss the Nintendo Account system, saying it "will allow us to communicate with our players if and when we make a transition to a new platform, to help ease that process or transition." The document then speculates: "This dedication to the Nintendo Account model could suggest that all of our favorite Nintendo Switch games may work on the company's next console whenever it lands." However, it immediately adds that "we'll have to take this information with a pinch of salt and not get ahead of ourselves."
+
+Regarding accessories, the document states: "it is unclear whether or not Nintendo Switch accessories will be compatible with the new model either. It's possible that all of your Nintendo Switch controllers will work with the new console, but we don't yet know."
+
+In summary, the document makes clear that as of its last update (May 21, 2024), none of these details have been officially confirmed by Nintendo, and the article advises readers not to "hold your breath" until there is an official announcement.
