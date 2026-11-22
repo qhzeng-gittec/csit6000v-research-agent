@@ -2,7 +2,8 @@
 
 A small tool-calling agent that answers questions about documents it must read itself, quotes the
 source word for word, and has every quote checked by a program before the answer is accepted.
-It is a self-contained system built for the CSIT6000V course project.
+It is a self-contained system built for the CSIT6000V course project: it has a local web interface and
+runs on the course cluster (TACC) with the course's Qwen service.
 
 **Main result** (FACTS Grounding, 100 held-out items; details in [RESULTS_FACTS.md](RESULTS_FACTS.md)):
 
@@ -39,6 +40,8 @@ question ──► model ──tool call──► read / bash (read-only) ──
 | verifier | `agent/verify.py` | deterministic quote checks: exists, exact, seen in a tool result |
 | trace | `agent/trace.py` | every model call, tool call and verdict in `trace.jsonl` |
 | evaluation | `agent/bench.py` | runs arms on benchmark items, scores with the FACTS judge, paired bootstrap CIs |
+| web interface | `web/` | ask a question about a document, watch every step as it happens, check each quote against the source; opens saved runs without a key |
+| TACC job | `tacc/` | one job that starts the course Qwen service, runs the agent against it and stops the service |
 
 The agent can only read: `bash` accepts a fixed list of read-only commands (ls, grep, find, head,
 tail, wc, nl, cat, sed) without redirection or command substitution, and each run works on its own copy
@@ -63,7 +66,7 @@ RESULTS_FACTS.md  all results, method, failure case, limitations
 # Getting Started Instructions
 
 ### Prerequisites
-- Linux or macOS with Docker and Docker Compose v2 (tested with Docker 27).
+- Linux or macOS with Docker and Docker Compose v2 (tested with Docker 27 and 29).
 - Python 3.9+ on the host, only for downloading the data (standard library only).
 - An OpenAI-compatible API key for the agent model. We used `qwen/qwen3.8-27b` on OpenRouter.
 - For scoring: an OpenAI-compatible key for the judge model (we used `gpt-6.2-sol`, and
@@ -290,9 +293,9 @@ Details and three failure cases are in RESULTS_FACTS.md, Section 7.
 
 ### Comparisons (paired bootstrap CI)
 ```bash
-for p in "A0 A9" "A9 A8" "A8 A10" "A0 A10"; do set -- $p
+for pair in A0:A9 A9:A8 A8:A10 A0:A10; do
   docker compose run --rm --entrypoint python agent -m agent.bench compare --exp facts-test100 \
-    --variant official --a $1 --b $2 --metrics correct,unsup_rate,unsup_sents,answer_chars
+    --variant official --a ${pair%:*} --b ${pair#*:} --metrics correct,unsup_rate,unsup_sents,answer_chars
 done
 ```
 
@@ -323,6 +326,10 @@ was run once. To rerun it: `--exp my-dev --ids splits/facts_dev30.txt --reps 2`.
 - The verifier proves that quotes are real; it cannot prove that a quote supports the sentence around
   it. That remaining gap is the main source of errors (RESULTS_FACTS.md, Section 5).
 - FaithEval loaders exist in `agent/bench.py` but FaithEval is not part of the reported evaluation.
+- Every question is a separate run: the agent does not see earlier questions or answers.
+- The web interface asks new questions through an OpenAI-compatible endpoint such as OpenRouter. It was
+  not run against the TACC service, which can be reached only from inside its own job; TACC runs are
+  opened in the interface as saved runs.
 - TACC: two arms only (A0, A10), scored by the second judge. The model there has 4-bit weights and a
   32K context. A request whose prompt plus `LLM_MAX_TOKENS` exceeds 32K is rejected by the service and
   recorded as an `error` run; this happened for one of the 100 documents, in both arms
