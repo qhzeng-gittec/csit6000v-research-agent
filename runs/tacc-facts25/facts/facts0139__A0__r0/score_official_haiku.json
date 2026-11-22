@@ -1,1 +1,0 @@
-{"accurate": false, "eligible": true, "eligibility_verdict": "self", "correct": false, "correct_loose": null, "format_ok": true, "sent_supported": 7, "sent_unsupported": 1, "sent_contradictory": 0, "sent_no_rad": 3, "sent_unsup_rate": 0.125, "sent_bad": ["- Yes, you can become thirstier/dehydrated."], "eligibility_baseline": "A0", "judge_note": "J2"}

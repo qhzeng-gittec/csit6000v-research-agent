@@ -51,13 +51,12 @@ agent/            agent, verifier, benchmark runner (agent/bench.py), judge cali
 tests/            109 unit tests (no API key needed)
 web/              local web interface: `python -m web.server` (Check 4)
 scripts/          fetch_benchmarks.py (downloads FACTS + FaithEval), run_stats.py (judge-free run summary)
-splits/           facts_dev30.txt, facts_test100.txt: the exact item ids used; demo1.txt: one item for the demo;
-                  facts_tacc25.txt: the first 25 test ids, used for the thinking on/off comparison on TACC
+splits/           facts_dev30.txt, facts_test100.txt: the exact item ids used; demo1.txt: one item for the demo
 tacc/             one job for the course cluster: starts the Qwen service, runs the agent, stops the service
 runs/             our runs: answers, traces, scores (facts-test100 = main results, facts-files30 = dev,
-                  tacc-facts100 = the same 100 test items run on TACC, tacc-facts25* and tacc-check =
-                  earlier TACC runs). Score files without a judge name come from the main judge; files
-                  ending in `_haiku` come from the second judge, `claude-haiku-5-5`
+                  tacc-facts100 = the same 100 test items run on TACC). Score files without a judge name
+                  come from the main judge; files ending in `_haiku` come from the second judge,
+                  `claude-haiku-5-5`
 RESULTS_FACTS.md  all results, method, failure case, limitations
 ```
 
@@ -257,8 +256,6 @@ docker compose run --rm --entrypoint python agent -m agent.bench compare --exp t
 Settings on TACC (`tacc/make_job.sh`): the model thinks by default, as in our OpenRouter runs;
 `LLM_MAX_TOKENS=8192` leaves room for the prompt in the 32K context; the retry of an empty reply switches
 thinking off (`LLM_EMPTY_RETRY_BODY`), because the reasoning cap used on OpenRouter does not exist in vLLM.
-To run with thinking off, as the course client does:
-`LLM_MAX_TOKENS=4096 LLM_EXTRA_BODY='{"chat_template_kwargs":{"enable_thinking":false}}' bash tacc/make_job.sh tacc-facts25 ...`.
 
 Numbers that need no judge (`scripts/run_stats.py`), next to the OpenRouter runs of the same 100 items:
 
@@ -289,8 +286,7 @@ the same judge, `claude-haiku-5-5`; the first row repeats the main result, which
 The gain of the full system over the plain agent is reproduced on TACC: A10 is better on 22 items and
 worse on 6, and the interval excludes zero. A second judge gives higher levels than the main judge but
 the same direction on the OpenRouter answers, so compare arms under one judge, not levels across judges.
-An earlier TACC run of only the first 25 items could not separate the arms (`runs/tacc-facts25-think`);
-RESULTS_FACTS.md, Section 7 shows why, and has the run with thinking off (`runs/tacc-facts25`).
+Details and three failure cases are in RESULTS_FACTS.md, Section 7.
 
 ### Comparisons (paired bootstrap CI)
 ```bash
@@ -310,8 +306,8 @@ done
 | revision counts | `meta.json` per run (`revisions`, `first_draft_issues`, `final_issues`) | Section 3 |
 | empty-answer fix | `trace.jsonl` notes `empty_reply`; tests in `tests/test_loop.py` | Section 4 |
 | judge noise floor (same answer judged twice) | `python -m agent.judge_check --exp facts-files30 --arms A0,A8 --notes J2` | Section 6 |
-| runs on TACC: status, revisions, quote validity, tokens, time | `python3 scripts/run_stats.py runs/tacc-facts100` (earlier 25-item runs: `runs/tacc-facts25-think`, `runs/tacc-facts25`) | Section 7 |
-| second judge (`claude-haiku-5-5`): TACC answers and the A0 and A10 answers of the main result | `summary_official_haiku.csv`, `compare_A0_vs_A10_official_haiku.csv` and `score_official_haiku.json` per answer, in `runs/tacc-facts100` and `runs/facts-test100` (also in the two 25-item TACC runs) | Section 7 |
+| runs on TACC: status, revisions, quote validity, tokens, time | `python3 scripts/run_stats.py runs/tacc-facts100` | Section 7 |
+| second judge (`claude-haiku-5-5`): TACC answers and the A0 and A10 answers of the main result | `summary_official_haiku.csv`, `compare_A0_vs_A10_official_haiku.csv` and `score_official_haiku.json` per answer, in `runs/tacc-facts100` and `runs/facts-test100` | Section 7 |
 
 ### Dev split
 Every method choice was made on `splits/facts_dev30.txt` (30 items x 2 runs) before the test split
@@ -329,5 +325,5 @@ was run once. To rerun it: `--exp my-dev --ids splits/facts_dev30.txt --reps 2`.
 - FaithEval loaders exist in `agent/bench.py` but FaithEval is not part of the reported evaluation.
 - TACC: two arms only (A0, A10), scored by the second judge. The model there has 4-bit weights and a
   32K context. A request whose prompt plus `LLM_MAX_TOKENS` exceeds 32K is rejected by the service and
-  recorded as an `error` run; this happened for one of the 100 documents, in both arms. With thinking
-  off the model can loop on a repeated tool call until the step limit (RESULTS_FACTS.md, Section 7).
+  recorded as an `error` run; this happened for one of the 100 documents, in both arms
+  (RESULTS_FACTS.md, Section 7).

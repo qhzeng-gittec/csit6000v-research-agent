@@ -1,7 +1,0 @@
-
-
-According to `doc.txt`, a digital asset previously sold as a security would be reevaluated at the time of later offers or sales, with additional considerations as they relate to the "efforts of others." The document states:
-
-"In evaluating whether a digital asset previously sold as a security should be reevaluated at the time of later offers or sales, there would be additional considerations as they relate to the "efforts of others," including but not limited to: Whether or not the efforts of an AP, including any successor AP, continue to be important to the value of an investment in the digital asset. Whether the network on which the digital asset is to function operates in such a manner that purchasers would no longer reasonably expect an AP to carry out essential managerial or entrepreneurial efforts. Whether the efforts of an AP are no longer affecting the enterprise's success." (doc.txt)
-
-So the reevaluation turns on three additional factors: (1) whether the Active Participant's (or any successor AP's) efforts continue to be important to the value of the investment; (2) whether the network operates in a way that purchasers no longer reasonably expect an AP to carry out essential managerial or entrepreneurial efforts; and (3) whether the AP's efforts are no longer affecting the enterprise's success.

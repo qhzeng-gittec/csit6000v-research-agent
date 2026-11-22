@@ -153,7 +153,7 @@ was not changed for these runs, and the model thinks before it answers, as on Op
 These numbers need no judge (`python3 scripts/run_stats.py runs/tacc-facts100`). The verifier path
 behaves on TACC as it does on OpenRouter: the first draft contains only real quotes in 69% of the answers
 (70% on OpenRouter), three answers in ten are sent back, and after revision every quote exists in the
-document in 98 of 99 answers. The one exception is failure case 4; its status says that it did not pass.
+document in 98 of 99 answers. The one exception is failure case 3; its status says that it did not pass.
 
 **Judge scores.** Two judges were used. The main judge of Sections 2 to 5 is `gpt-6.2-sol`. The second
 judge is `claude-haiku-5-5` through Anthropic's OpenAI-compatible endpoint (`JUDGE_TEMPERATURE` empty,
@@ -168,7 +168,7 @@ files ending in `_haiku` (`python -m agent.bench score ... --judge haiku`).
 | OpenRouter | `claude-haiku-5-5` | 0.60 | 0.80 | +0.20 [+0.09, +0.30] | 27 / 7 | 0.96 and 0.38 | -0.58 [-0.92, -0.27] |
 | TACC | `claude-haiku-5-5` | 0.64 | 0.80 | **+0.16 [+0.06, +0.26]** | 22 / 6 | 0.88 and 0.26 | **-0.62 [-0.94, -0.33]** |
 
-The item with the context error (failure case 3) has no answer: it counts as incorrect in both arms and
+The item with the context error (failure case 2) has no answer: it counts as incorrect in both arms and
 is left out of the unsupported-sentence columns of the TACC row (99 items).
 
 Reading the table:
@@ -183,40 +183,21 @@ Reading the table:
   interval that excludes zero. Compare arms under one judge; do not compare levels across judges.
 - **Where A10 is worse on TACC (6 items).** Five answers have one or two unsupported sentences where the
   plain answer has none. One answer is accurate but judged not eligible: the request sets a length of
-  380 to 400 words, and the answer, produced by the thinking-off retry of failure case 2, has 332.
+  380 to 400 words, and the answer, produced by the thinking-off retry of failure case 1, has 332.
 
-**Why 25 items were not enough.** Before this run we had run only the first 25 items
-(job 30810, `runs/tacc-facts25-think`) and measured -0.04 [-0.28, +0.20] for A10 - A0. The same 25 items
-inside the 100-item run give +0.12 [-0.04, +0.28]. Nothing was changed between the two runs. Temperature
-is 0, but requests are batched on the GPU and the text differs: only 7 of the 50 answers are identical
-between the two runs, and 8 of the 50 `correct` labels differ (3 for A0, 5 for A10). With 25 items one
-changed label moves an arm by 0.04, so a step of 0.16 cannot be told from noise; with 100 items it can.
+**Failure case 1: an empty reply when the model thinks.** In 6 of the 200 runs the model spent its whole
+output limit on reasoning and returned no answer text. The six runs belong to four requests, and every
+one of them sets a length in words ("in 500 words", "about 600 words", "under 200 words", "380-400
+words"). This is the trigger of Section 4; the TACC trace does not store the reasoning, so we cannot show
+the word counting itself here. The retry of Section 4 limits reasoning with an OpenRouter option that
+vLLM does not have, so on TACC that retry would change nothing. The retry can now send provider-specific
+fields (`LLM_EMPTY_RETRY_BODY`); the TACC job uses it to switch thinking off for the retry only. All six
+runs ended with an answer, and no run ended empty. One of them (facts0638, A10): the first reply was
+empty after 8,192 output tokens and 187 seconds, and the retry answered in 13 seconds. The cost is
+visible in the same run: its answer has 332 words where 380 to 400 were requested, and the judge marked
+it as not eligible.
 
-**Thinking off (first 25 items, job 30789, `runs/tacc-facts25`).** The course client switches thinking
-off. With that setting a run is faster (A0: 630 output tokens and 23 seconds per run, against 1987 and 48
-with thinking on, on the same 25 items), but only 21 of 25 A10 runs ended with an answer and 88% of the
-A10 answers had only real quotes. Judge scores: 0.76 and 0.84, +0.08 [-0.08, +0.24]. The four runs
-without an answer are failure case 1. Thinking stays on by default.
-
-**Failure case 1: repeated tool calls when thinking is off.** Three A10 runs used all 30 steps and one
-stayed `unresolved`. One run resent the same rejected `edit_draft` call 24 times (its `old` text was
-398 characters; the limit is 300, and the error message says so). One issued an `edit_draft` whose `new`
-text equalled `old` 23 times. One read the document with 28 `bash` calls and never wrote a draft. The
-step limit and the two-round revision limit ended all of them, and their status
-(`budget_exhausted`, `unresolved`) shows that they did not pass, so no unverified quote is presented as
-verified. What it shows: the loop bounds the number of calls but does not notice that a call is
-identical to the previous one. A check for identical consecutive calls is the obvious next guard.
-
-**Failure case 2: an empty answer when thinking is on.** For "about 600 words" the model counted words in
-its reasoning until the 8,192-token output limit, three times in a row. This is the case of Section 4,
-but the retry there limits reasoning with an OpenRouter option that vLLM does not have, so on TACC the
-retry changed nothing. The retry can now send provider-specific fields (`LLM_EMPTY_RETRY_BODY`); the TACC
-job uses it to switch thinking off for the retry only. Job 30823 reran the item with this setting
-(`runs/tacc-check`): the first reply was empty again after 8,192 tokens of reasoning, and the retry
-answered in 15 seconds. In the 100-item run the retry was needed in 6 of 200 runs, and all six ended
-with an answer; no run ended empty.
-
-**Failure case 3: a document that does not fit into the context.** One document (facts0605, 77,577
+**Failure case 2: a document that does not fit into the context.** One document (facts0605, 77,577
 characters) is read in pieces, and after ten reads the prompt reached 24,577 tokens. With 8,192 tokens
 reserved for the output this is one token more than the 32,768 the service accepts, so the service
 rejected the request, in both arms. The run is recorded as `error` and counts as incorrect. On OpenRouter,
@@ -224,7 +205,7 @@ where the context is larger, the same item needed 10 to 12 model calls and was a
 the agent does not track how much context is left; it relies on the provider's limit. A fix would drop
 or shorten old tool results before the limit is reached; we left the method unchanged and report the item.
 
-**Failure case 4: a character the model cannot type.** One document (facts0349) contains bullet
+**Failure case 3: a character the model cannot type.** One document (facts0349) contains bullet
 characters from Unicode's private-use area (U+F0B7, left by a word processor). The A10 answer quoted a
 passage that runs across such a bullet. The model wrote the quote without the character, then with "•",
 then with another look-alike; none is verbatim, so the verifier rejected the quote three times. The

@@ -12,19 +12,13 @@ const EXPERIMENTS = {
   "facts-test100": "Test set · OpenRouter",
   "tacc-facts100": "Test set · course cluster",
   "facts-files30": "Development set",
-  "tacc-facts25-think": "Course cluster · first 25 items",
-  "tacc-facts25": "Course cluster · thinking off",
-  "tacc-check": "Course cluster · retry check",
 };
 // What each collection is, and the heading it sits under in the collection menu.
 const ABOUT = {
   "web": ["Asked in this app", ""],
   "facts-test100": ["Main results, four configurations each", "Reported results"],
   "tacc-facts100": ["Same questions, run on TACC", "Reported results"],
-  "facts-files30": ["Used to choose the method", "Other saved runs"],
-  "tacc-facts25-think": ["Earlier run of the first 25 test questions", "Other saved runs"],
-  "tacc-facts25": ["Same 25 questions, thinking switched off", "Other saved runs"],
-  "tacc-check": ["One question, checks the empty-reply retry", "Other saved runs"],
+  "facts-files30": ["Used to choose the method", "Method development"],
 };
 const ARMS = {A0: "Plain", A9: "Rules", A8: "Quotes", A10: "Full system"};
 const ARM_HELP = {A0: "Plain agent: no writing rules, no quotes, no verifier", A9: "Writing rules only",
