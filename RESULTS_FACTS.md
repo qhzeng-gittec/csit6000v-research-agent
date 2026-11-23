@@ -158,22 +158,28 @@ document in 98 of 99 answers. The one exception is failure case 3; its status sa
 **Judge scores.** Two judges were used. The main judge of Sections 2 to 5 is `gpt-6.2-sol`. The second
 judge is `claude-haiku-5-5` through Anthropic's OpenAI-compatible endpoint (`JUDGE_TEMPERATURE` empty,
 because the model rejects the parameter; `JUDGE_MAX_TOKENS=32000`), with the official protocol of
-Section 1. The second judge scored the TACC answers and, so that both sets of answers are scored by one
-judge, the A0 and A10 answers of Section 2 again. Its scores are stored next to the main judge's, in
-files ending in `_haiku` (`python -m agent.bench score ... --judge haiku`).
+Section 1. Both judges scored the TACC answers, and the second judge also scored the A0 and A10 answers
+of Section 2 again, so that each set of answers is scored by both judges. The second judge's scores are
+stored next to the main judge's, in files ending in `_haiku` (`python -m agent.bench score ... --judge
+haiku`); the main judge's scores of the TACC answers end in `_sol` (`--judge sol`,
+`JUDGE_MAX_TOKENS=32000`).
 
 | answers from | judge | correct, A0 | correct, A10 | A10 - A0 [95% CI] | items where A10 is better / worse | unsupported sentences / answer, A0 and A10 | A10 - A0 [95% CI] |
 |---|---|---|---|---|---|---|---|
 | OpenRouter | `gpt-6.2-sol` (Section 2) | 0.27 | 0.57 | +0.30 [+0.19, +0.41] | 35 / 5 | 2.16 and 0.78 | -1.38 [-1.76, -1.01] |
+| TACC | `gpt-6.2-sol` | 0.26 | 0.55 | **+0.29 [+0.18, +0.40]** | 34 / 5 | 2.00 and 0.75 | **-1.25 [-1.64, -0.88]** |
 | OpenRouter | `claude-haiku-5-5` | 0.60 | 0.80 | +0.20 [+0.09, +0.30] | 27 / 7 | 0.96 and 0.38 | -0.58 [-0.92, -0.27] |
 | TACC | `claude-haiku-5-5` | 0.64 | 0.80 | **+0.16 [+0.06, +0.26]** | 22 / 6 | 0.88 and 0.26 | **-0.62 [-0.94, -0.33]** |
 
 The item with the context error (failure case 2) has no answer: it counts as incorrect in both arms and
-is left out of the unsupported-sentence columns of the TACC row (99 items).
+is left out of the unsupported-sentence columns of the TACC rows (99 items).
 
 Reading the table:
-- **The gain is reproduced on TACC.** Under the same judge the full system adds +0.16 on TACC and +0.20
-  on OpenRouter, and both intervals exclude zero. A10 reaches 0.80 in both places. Both jobs show the same
+- **The gain is reproduced on TACC.** Under the main judge the TACC answers score as the OpenRouter
+  answers do: 0.26 and 0.55 against 0.27 and 0.57, a gain of +0.29 against +0.30, and unsupported
+  sentences fall from 2.00 to 0.75 per answer (2.16 to 0.78 on OpenRouter). Under the second judge the
+  full system adds +0.16 on TACC and +0.20 on OpenRouter. All four intervals exclude zero. Under the
+  second judge A10 reaches 0.80 in both places. Both jobs show the same
   step: 31 to 39 correct answers on the first 50 items, 33 to 41 on the last 50.
 - **Unsupported sentences fall to about a third** in both places (0.88 to 0.26 per answer on TACC), at
   the same answer length (2377 and 2390 characters).
@@ -181,7 +187,7 @@ Reading the table:
   judge labels fewer sentences unsupported (0.96 per A0 answer against 2.16), so `correct` is higher for
   both arms and the difference is smaller (+0.20 against +0.30). Both judges put A10 above A0 with an
   interval that excludes zero. Compare arms under one judge; do not compare levels across judges.
-- **Where A10 is worse on TACC (6 items).** Five answers have one or two unsupported sentences where the
+- **Where A10 is worse on TACC (6 items, second judge).** Five answers have one or two unsupported sentences where the
   plain answer has none. One answer is accurate but judged not eligible: the request sets a length of
   380 to 400 words, and the answer, produced by the thinking-off retry of failure case 1, has 332.
 

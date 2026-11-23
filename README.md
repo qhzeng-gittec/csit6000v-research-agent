@@ -59,7 +59,7 @@ tacc/             one job for the course cluster: starts the Qwen service, runs 
 runs/             our runs: answers, traces, scores (facts-test100 = main results, facts-files30 = dev,
                   tacc-facts100 = the same 100 test items run on TACC). Score files without a judge name
                   come from the main judge; files ending in `_haiku` come from the second judge,
-                  `claude-haiku-5-5`
+                  `claude-haiku-5-5`; in tacc-facts100 the main judge's files end in `_sol`
 RESULTS_FACTS.md  all results, method, failure case, limitations
 ```
 
@@ -245,8 +245,9 @@ Our jobs took 31 and 59 minutes (model start-up 10 and 26 minutes, the agent run
 Each job packs the whole experiment folder when it ends, so the archive of the job that ends last holds
 all runs. Runs are stored in your TACC user directory as they finish, so a job that hits the time limit
 can simply be submitted again and continues where it stopped. Scoring works as in Option A, on your own
-machine. We scored the TACC runs with `claude-haiku-5-5` and stored the scores under the judge name
-`haiku`:
+machine. We scored the TACC runs with both judges: the main judge `gpt-6.2-sol` (judge name `sol`, same
+settings as Option A with `JUDGE_MAX_TOKENS=32000`; use `--judge sol` in the commands below) and
+`claude-haiku-5-5` (judge name `haiku`):
 ```bash
 export JUDGE_API_KEY=<key> JUDGE_BASE_URL=https://api.anthropic.com/v1/ JUDGE_MODEL=claude-haiku-5-5
 export JUDGE_TEMPERATURE= JUDGE_MAX_TOKENS=32000   # this judge rejects `temperature` and thinks first
@@ -277,18 +278,20 @@ contains a character the model cannot type, so its quote never matched. Both are
 RESULTS_FACTS.md, Section 7. TACC serves about 40 output tokens per second per request (4 requests in
 parallel), OpenRouter about 145.
 
-Judge scores, 100 items, paired bootstrap CI. The TACC answers and the OpenRouter answers were scored by
-the same judge, `claude-haiku-5-5`; the first row repeats the main result, which uses another judge:
+Judge scores, 100 items, paired bootstrap CI. The TACC answers and the OpenRouter answers were each scored
+by both judges, so every row can be compared with the row of the same judge:
 
 | answers from | judge | correct, A0 | correct, A10 | A10 - A0 [95% CI] |
 |---|---|---|---|---|
 | OpenRouter | `gpt-6.2-sol` (main result) | 0.27 | 0.57 | +0.30 [+0.19, +0.41] |
+| TACC | `gpt-6.2-sol` | 0.26 | 0.55 | +0.29 [+0.18, +0.40] |
 | OpenRouter | `claude-haiku-5-5` | 0.60 | 0.80 | +0.20 [+0.09, +0.30] |
 | TACC | `claude-haiku-5-5` | 0.64 | 0.80 | +0.16 [+0.06, +0.26] |
 
-The gain of the full system over the plain agent is reproduced on TACC: A10 is better on 22 items and
-worse on 6, and the interval excludes zero. A second judge gives higher levels than the main judge but
-the same direction on the OpenRouter answers, so compare arms under one judge, not levels across judges.
+The gain of the full system over the plain agent is reproduced on TACC under both judges. Under the main
+judge the TACC numbers match the main result (+0.29 against +0.30; A10 better on 34 items and worse on 5);
+under the second judge A10 is better on 22 items and worse on 6. All intervals exclude zero. The second
+judge gives higher levels than the main judge but the same direction on the OpenRouter answers, so compare arms under one judge, not levels across judges.
 Details and three failure cases are in RESULTS_FACTS.md, Section 7.
 
 ### Comparisons (paired bootstrap CI)
@@ -310,6 +313,7 @@ done
 | empty-answer fix | `trace.jsonl` notes `empty_reply`; tests in `tests/test_loop.py` | Section 4 |
 | judge noise floor (same answer judged twice) | `python -m agent.judge_check --exp facts-files30 --arms A0,A8 --notes J2` | Section 6 |
 | runs on TACC: status, revisions, quote validity, tokens, time | `python3 scripts/run_stats.py runs/tacc-facts100` | Section 7 |
+| main judge on the TACC answers | `summary_official_sol.csv`, `compare_A0_vs_A10_official_sol.csv` and `score_official_sol.json` per answer, in `runs/tacc-facts100` | Section 7 |
 | second judge (`claude-haiku-5-5`): TACC answers and the A0 and A10 answers of the main result | `summary_official_haiku.csv`, `compare_A0_vs_A10_official_haiku.csv` and `score_official_haiku.json` per answer, in `runs/tacc-facts100` and `runs/facts-test100` | Section 7 |
 
 ### Dev split
@@ -330,7 +334,7 @@ was run once. To rerun it: `--exp my-dev --ids splits/facts_dev30.txt --reps 2`.
 - The web interface asks new questions through an OpenAI-compatible endpoint such as OpenRouter. It was
   not run against the TACC service, which can be reached only from inside its own job; TACC runs are
   opened in the interface as saved runs.
-- TACC: two arms only (A0, A10), scored by the second judge. The model there has 4-bit weights and a
+- TACC: two arms only (A0, A10), scored by both judges. The model there has 4-bit weights and a
   32K context. A request whose prompt plus `LLM_MAX_TOKENS` exceeds 32K is rejected by the service and
   recorded as an `error` run; this happened for one of the 100 documents, in both arms
   (RESULTS_FACTS.md, Section 7).
